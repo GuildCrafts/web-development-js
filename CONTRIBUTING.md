@@ -2,7 +2,7 @@
 
 ## Authoring Goals
 
-We store all goals as in a **goal library** as issues in a GitHub repository like this one. Authoring a new goal is accomplished by submitting a new issue.
+We store all goals in a **goal library** as issues in a GitHub repository like this one. Authoring a new goal is accomplished by submitting a new issue.
 
 If you would like to add to the **goal library** by writing your own goal, that is fantastic! The library is always growing and improving, and we need contributions from learners like you.
 
