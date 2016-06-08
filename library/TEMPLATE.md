@@ -15,4 +15,4 @@ Link: [{{ page.url }}]({{ page.url }})
 
 ## Description
 
-_What is this resource? Why is it useful?_
+_What is this resource? Why is it a useful addition to the library?_
