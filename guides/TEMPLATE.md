@@ -9,6 +9,6 @@ topics:
   - TOPIC_2
 ---
 
-# TITLE
+# {{ page.title }}
 
 _Guide content. Share your wisdom on a particular skill related to web development. Defend, supported, and cite references for your opinions.
