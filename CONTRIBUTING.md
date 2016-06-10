@@ -1,5 +1,23 @@
 # Contributing
 
+## Making Changes to the Repository
+
+Any member of Learners Guild (if you are reading this, that means you are most likely a member) can make changes to the files in this repository.
+
+The only caveat is that no changes can be made directly to the `master` branch: all changes must be made on a separate branch and then merged via a pull request.
+
+In other words, we follow [GitHub Flow][gh-flow-guide] and we require that any contributors do as well.
+
+Once you've submitted your pull request, ask for a review from a [Practitioner][team-practitioners]. You can do this by `@`-mentioning the team in a comment on the pull request:
+
+```
+@GuildCrafts/practitioners can you please review this pull request?
+```
+
+They may ask you to make additional changes before the pull request is accepted.
+
+Once you get approval from a Practitioner, they'll merge your pull request or give you permission to merge.
+
 ## Authoring Goals
 
 We store all goals in a **goal library** as issues in a GitHub repository like this one. Authoring a new goal is accomplished by submitting a new issue.
@@ -85,3 +103,5 @@ It is up to you to decide exactly how _specific_ to make your specifications. If
 If you've successfully completed all the steps so far, your goal is ready to be published! Press `Submit new issue` to add it to the library.
 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
+[gh-flow-guide]: https://guides.github.com/introduction/flow/
+[team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
