@@ -18,6 +18,8 @@ They may ask you to make additional changes before the pull request is accepted.
 
 Once you get approval from a Practitioner, they'll merge your pull request or give you permission to merge.
 
+_Note: all material added to this repository is subject to the shared [LICENSE](license), regardless of author. Links or other references to other external materials must be properly cited according to their license._
+
 ## Authoring Goals
 
 We store all goals in a **goal library** as issues in a GitHub repository like this one. Authoring a new goal is accomplished by submitting a new issue.
@@ -105,3 +107,4 @@ If you've successfully completed all the steps so far, your goal is ready to be 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
 [gh-flow-guide]: https://guides.github.com/introduction/flow/
 [team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
+[license]: ./LICENSE
