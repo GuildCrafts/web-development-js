@@ -8,15 +8,15 @@ The only caveat is that no changes can be made directly to the `master` branch: 
 
 In other words, we follow [GitHub Flow][gh-flow-guide] and we require that any contributors do as well.
 
-Once you've submitted your pull request, ask for a review from a [Practitioner][team-practitioners]. You can do this by `@`-mentioning the team in a comment on the pull request:
+Once you've submitted your pull request, ask for a review from a [Moderator][team-moderators]. You can do this by `@`-mentioning the team in a comment on the pull request:
 
 ```
-@GuildCrafts/practitioners can you please review this pull request?
+@GuildCrafts/moderators can you please review this pull request?
 ```
 
 They may ask you to make additional changes before the pull request is accepted.
 
-Once you get approval from a Practitioner, they'll merge your pull request or give you permission to merge.
+Once you get approval from a Moderator, they'll merge your pull request or give you permission to merge.
 
 _Note: all material added to this repository is subject to the shared [LICENSE](license), regardless of author. Links or other references to other external materials must be properly cited according to their license._
 
