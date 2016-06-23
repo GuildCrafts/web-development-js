@@ -33,6 +33,7 @@ The process is not hard, although to ensure consistent quality please follow the
 - [ ] Has a terse and clear title
 - [ ] Includes description, context, and well-written specifications
 - [ ] Tagged with the `draft` label
+- [ ] Tagged with right `team-size-*` label
 - [ ] Assigned to appropriate milestone for difficulty level
 - [ ] Submitted for review to Moderators
 
@@ -108,7 +109,13 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they will work as specs.
 
-#### Step 5: Determine Difficulty Level
+#### Step 5: Determine Team Size & Difficulty Level
+
+All goals have a "recommended team size". Some goals are more appropriate for small teams of 3, others for a large team of 5 or 6.
+
+Consider the scope of your goal, and add an appropriate `team-size-*` label.
+
+Once you've done this, evaluate the difficulty.
 
 To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked using milestones.
 
