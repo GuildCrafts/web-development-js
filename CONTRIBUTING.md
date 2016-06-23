@@ -33,7 +33,7 @@ The process is not hard, although to ensure consistent quality please follow the
 - [ ] Has a terse and clear title
 - [ ] Includes description, context, and well-written specifications
 - [ ] Tagged with the `draft` label
-- [ ] Assigned to appropriate milestone
+- [ ] Assigned to appropriate milestone for difficulty level
 - [ ] Submitted for review to Moderators
 
 ### How to Write a Goal
@@ -110,6 +110,12 @@ It is up to you to decide exactly how _specific_ to make your specifications. If
 
 #### Step 5: Determine Difficulty Level
 
+To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked using milestones.
+
+Before submitting your goal, add it to the appropriate [milestone][milestones] for the difficulty level of the goal. Read the milestone description to learn more about what it means, and use other goals to compare against yours to determine difficulty level.
+
+Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [Practitioner][team-practitioners].
+
 #### Step 6: Submit for Review
 
 All new goals start out as a _draft_ that needs to be approved by a Moderator (i.e. a member of the @GuildCrafts/moderators team).
@@ -118,7 +124,7 @@ To start the review process, complete these steps:
 
 - [ ] Tag the issue with the `draft` label.
 - [ ] Create the issue by pushing the `Submit new issue` button.
-- [ ] In a comment, ask for a review from a [Moderator][team-moderators].   
+- [ ] In a comment, ask for a review from a [Moderator][team-moderators].
 
 Example comment: `@GuildCrafts/moderators please review this goal`.
 
@@ -135,3 +141,4 @@ Remove the `draft` label to add it to the library.
 [team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
 [team-moderators]: https://github.com/orgs/GuildCrafts/teams/moderators
 [license]: ./LICENSE
+[milestones]: https://github.com/GuildCrafts/web-development-js/milestones
