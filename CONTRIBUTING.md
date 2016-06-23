@@ -28,6 +28,14 @@ If you would like to add to the **goal library** by writing your own goal, that 
 
 The process is not hard, although to ensure consistent quality please follow the guide below.
 
+### Goal Checklist
+
+- [ ] Has a terse and clear title
+- [ ] Includes description, context, and well-written specifications
+- [ ] Tagged with the `draft` label
+- [ ] Assigned to appropriate milestone
+- [ ] Submitted for review to Moderators
+
 ### How to Write a Goal
 
 Follow the steps below to create a high-quality learning goal.
@@ -100,11 +108,30 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they will work as specs.
 
-#### Step 5: Publish!
+#### Step 5: Determine Difficulty Level
 
-If you've successfully completed all the steps so far, your goal is ready to be published! Press `Submit new issue` to add it to the library.
+#### Step 6: Submit for Review
+
+All new goals start out as a _draft_ that needs to be approved by a Moderator (i.e. a member of the @GuildCrafts/moderators team).
+
+To start the review process, complete these steps:
+
+- [ ] Tag the issue with the `draft` label.
+- [ ] Create the issue by pushing the `Submit new issue` button.
+- [ ] In a comment, ask for a review from a [Moderator][team-moderators].   
+
+Example comment: `@GuildCrafts/moderators please review this goal`.
+
+#### Step 7: Publish
+
+Once a Moderator has approved your goal, they will let you know and give you permission to publish.
+
+Congratulations, your goal is ready to be published!
+
+Remove the `draft` label to add it to the library.
 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
 [gh-flow-guide]: https://guides.github.com/introduction/flow/
 [team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
+[team-moderators]: https://github.com/orgs/GuildCrafts/teams/moderators
 [license]: ./LICENSE
