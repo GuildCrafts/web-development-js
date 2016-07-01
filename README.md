@@ -36,4 +36,4 @@ You can also create new goals! Before you do so, please review the instructions 
 
 [guide-template]: ./guides/TEMPLATE.md
 [library-template]: ./library/TEMPLATE.md
-[repo-issues]: /issues
+[repo-issues]: https://github.com/GuildCrafts/web-development-js/issues/
