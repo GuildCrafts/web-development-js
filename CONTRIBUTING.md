@@ -28,14 +28,13 @@ If you would like to add to the **goal library** by writing your own goal, that 
 
 The process is not hard, although to ensure consistent quality please follow the guide below.
 
-### Goal Checklist
+### Goal Quality Checklist
 
 - [ ] Has a terse and clear title
 - [ ] Includes description, context, and well-written specifications
-- [ ] Tagged with the `draft` label
 - [ ] Tagged with right `team-size-*` label
 - [ ] Assigned to appropriate milestone for difficulty level
-- [ ] Submitted for review to Moderators
+- [ ] Reviewed and approved by at least one other learner
 
 ### How to Write a Goal
 
@@ -92,7 +91,7 @@ When writing this section, ask yourself why the goal is helpful for others. How 
 
 Read some existing goals to get inspiration for what to write here.
 
-#### Step 4: List specifications
+#### Step 4: List Specifications
 
 The specifications tell learners what is needed for the goal to be considered complete. They _specify_ features of the final product beyond what is implied by the title and description.
 
@@ -125,21 +124,21 @@ Ranking the difficulty level of goal is not a straight-forward task. Do your bes
 
 #### Step 6: Submit for Review
 
-All new goals start out as a _draft_ that needs to be approved by a Moderator (i.e. a member of the @GuildCrafts/moderators team).
+All new goals start out as a _draft_. In order to be published, at least one other learner must review the goal to ensure that it meets the quality standards (see checklist above).
 
 To start the review process, complete these steps:
 
 - [ ] Tag the issue with the `draft` label.
 - [ ] Create the issue by pushing the `Submit new issue` button.
-- [ ] In a comment, ask for a review from a [Moderator][team-moderators].
+- [ ] In a comment, ask for a review from another learner.
 
-Example comment: `@GuildCrafts/moderators please review this goal`.
+Example comment: `@tannerwelsh please review my goal`.
 
-#### Step 7: Publish
+#### Step 7: Get Approval and Publish
 
-Once a Moderator has approved your goal, they will let you know and give you permission to publish.
+The reviewer then reads the draft goal, checks that it meets all the criteria, and offers constructive feedback and/or suggested changes.
 
-Congratulations, your goal is ready to be published!
+Once they feel that it is ready, they can respond with a `LGTM` (Looks Good To Me) comment or some other obvious sign of approval. This is your signal to publish the goal!
 
 Remove the `draft` label to add it to the library.
 
