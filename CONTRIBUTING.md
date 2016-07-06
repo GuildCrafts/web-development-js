@@ -8,15 +8,15 @@ The only caveat is that no changes can be made directly to the `master` branch: 
 
 In other words, we follow [GitHub Flow][gh-flow-guide] and we require that any contributors do as well.
 
-Once you've submitted your pull request, ask for a review from a [Practitioner][team-practitioners]. You can do this by `@`-mentioning the team in a comment on the pull request:
+Once you've submitted your pull request, ask for a review from a [Moderator][team-moderators]. You can do this by `@`-mentioning the team in a comment on the pull request:
 
 ```
-@GuildCrafts/practitioners can you please review this pull request?
+@GuildCrafts/moderators can you please review this pull request?
 ```
 
 They may ask you to make additional changes before the pull request is accepted.
 
-Once you get approval from a Practitioner, they'll merge your pull request or give you permission to merge.
+Once you get approval from a Moderator, they'll merge your pull request or give you permission to merge.
 
 _Note: all material added to this repository is subject to the shared [LICENSE](license), regardless of author. Links or other references to other external materials must be properly cited according to their license._
 
@@ -27,6 +27,14 @@ We store all goals in a **goal library** as issues in a GitHub repository like t
 If you would like to add to the **goal library** by writing your own goal, that is fantastic! The library is always growing and improving, and we need contributions from learners like you.
 
 The process is not hard, although to ensure consistent quality please follow the guide below.
+
+### Goal Quality Checklist
+
+- [ ] Has a terse and clear title
+- [ ] Includes description, context, and well-written specifications
+- [ ] Tagged with right `team-size-*` label
+- [ ] Assigned to appropriate milestone for difficulty level
+- [ ] Reviewed and approved by at least one other learner
 
 ### How to Write a Goal
 
@@ -83,7 +91,7 @@ When writing this section, ask yourself why the goal is helpful for others. How 
 
 Read some existing goals to get inspiration for what to write here.
 
-#### Step 4: List specifications
+#### Step 4: List Specifications
 
 The specifications tell learners what is needed for the goal to be considered complete. They _specify_ features of the final product beyond what is implied by the title and description.
 
@@ -100,11 +108,43 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they will work as specs.
 
-#### Step 5: Publish!
+#### Step 5: Determine Team Size & Difficulty Level
 
-If you've successfully completed all the steps so far, your goal is ready to be published! Press `Submit new issue` to add it to the library.
+All goals have a "recommended team size". Some goals are more appropriate for small teams of 3, others for a large team of 5 or 6.
+
+Consider the scope of your goal, and add an appropriate `team-size-*` label.
+
+Once you've done this, evaluate the difficulty.
+
+To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked using milestones.
+
+Before submitting your goal, add it to the appropriate [milestone][milestones] for the difficulty level of the goal. Read the milestone description to learn more about what it means, and use other goals to compare against yours to determine difficulty level.
+
+Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [Practitioner][team-practitioners].
+
+#### Step 6: Submit for Review
+
+All new goals start out as a _draft_. In order to be published, at least one other learner must review the goal to ensure that it meets the quality standards (see checklist above).
+
+To start the review process, complete these steps:
+
+- [ ] Tag the issue with the `draft` label.
+- [ ] Create the issue by pushing the `Submit new issue` button.
+- [ ] In a comment, ask for a review from another learner.
+
+Example comment: `@tannerwelsh please review my goal`.
+
+#### Step 7: Get Approval and Publish
+
+The reviewer then reads the draft goal, checks that it meets all the criteria, and offers constructive feedback and/or suggested changes.
+
+Once they feel that it is ready, they can respond with a `LGTM` (Looks Good To Me) comment or some other obvious sign of approval. This is your signal to publish the goal!
+
+Remove the `draft` label to add it to the library.
 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
 [gh-flow-guide]: https://guides.github.com/introduction/flow/
 [team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
+[team-moderators]: https://github.com/orgs/GuildCrafts/teams/moderators
 [license]: ./LICENSE
+[milestones]: https://github.com/GuildCrafts/web-development-js/milestones
