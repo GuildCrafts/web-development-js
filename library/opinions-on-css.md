@@ -6,6 +6,7 @@ submitted_by:
   github_username: jrob8577
 topics:
   - CSS
+  - Style Guides
 ---
 
 # {{ page.title }}
@@ -14,5 +15,6 @@ Link: [{{ page.url }}]({{ page.url }})
 
 ## Description
 
-A starting point for a CSS style guide, and to provide some suggestions for
-structuring CSS.
+An (opinionated) starting point for a CSS style guide, and to provide some suggestions for structuring CSS.
+
+Note that there are _lots_ of style guides out there, and there is no One Right Way. This is just one good example.
