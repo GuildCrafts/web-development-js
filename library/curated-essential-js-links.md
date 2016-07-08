@@ -28,5 +28,4 @@ Link: [{{ page.url }}]({{ page.url }})
 
 ## Description
 
-Excellent curated collection of links on all things JavaScript, curated by a
-developer whose goal is to [fight poverty with code](https://medium.com/end-homelessness/fighting-poverty-with-code-d1ed3ebd982d#.jberd6m65).
+Excellent curated collection of links on all things JavaScript, curated by a developer whose goal is to [fight poverty with code](https://medium.com/end-homelessness/fighting-poverty-with-code-d1ed3ebd982d#.jberd6m65).
