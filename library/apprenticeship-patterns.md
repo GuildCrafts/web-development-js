@@ -3,7 +3,7 @@ title: Apprenticeship Patterns
 url: http://chimera.labs.oreilly.com/books/1234000001813/index.html
 submitted_by:
   name: Tanner Welsh
-  github_username: tannerwelsh
+  github_username: @tannerwelsh
 topics:
   - Learning
   - Apprenticeship
