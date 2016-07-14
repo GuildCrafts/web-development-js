@@ -1,9 +1,10 @@
 ---
 title: TITLE
 date: DATE
-author:
-  name: AUTHOR_NAME
-  github_username: AUTHOR_GITHUB_USERNAME
+authors:
+  - 
+    name: AUTHOR_NAME
+    github_username: AUTHOR_GITHUB_USERNAME
 topics:
   - TOPIC_1
   - TOPIC_2
