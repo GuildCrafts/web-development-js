@@ -8,17 +8,25 @@ _Why is this goal important? How is it useful? What questions will it raise?_
 
 ## Specifications
 
-_List of specifications (specs) for the completed goal. These are declarative sentences (statements) describing some quality or behavior of the final product._
+_List of specifications (specs) for the completed goal. These are declarative sentences (statements) describing a feature of the final product._
 
-- [ ] Spec One.
-- [ ] Spec Two.
-- [ ] Spec Three.
+- [ ] Spec one.
+- [ ] Spec two.
+- [ ] Spec three.
 
 ### Required
 
 _Do not remove these specs - they are required for all goals_.
 
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+## Quality Rubric
+
+_What are some appropriate quality objectives for this goal? These are statements about the internal characteristics of the product that demonstrate fine design and craftspersonship, not its external features._
+
+- Quality rubric one: point value
+- Quality rubric two: point value
+- Quality rubric three: point value
 
 ---
 

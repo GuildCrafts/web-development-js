@@ -104,11 +104,27 @@ For example:
 - "JS source code is written using ECMAScript 2015"
 - "Users can search for links by title with an HTTP GET request"
 
-Each of these describes a _feature_ of the product, and each can be converted to a yes/no question, e.g. "Can links have one or more tags?".
+Each of these describes a _feature_ of the product, and each can be converted to a binary **yes/no** question, e.g. "Can links have one or more tags?".
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they will work as specs.
 
-#### Step 5: Determine Team Size & Difficulty Level
+#### Step 5: Suggest a Quality Rubric
+
+Beyond the specifications for _features_ of the final product, you should suggest some criteria for what constitutes a _good quality_ product.
+
+The quality rubric doesn't describe the external characteristics of the product, but the caliber of its construction. Unlike specifications, which describe features that either do or don't hold true (they are binary), a quality rubric exists on a gradient: you assign a maximum point value to each criteria so that reviewers can determine how many points to award.
+
+For example, a chair from IKEA and a chair built by a master carpenter could both have the same specifications: dimensions, shape, etc. But the _quality_ of the carpenter's chair would be much higher, reflecting the care and professionalism that went into its design and construction.
+
+This would be a good, basic rubric for most any piece of software:
+
+- Codebase has 100% test coverage: 50pts
+- Variables, functions, and classes/modules are clearly named: 100pts
+- `README` and `CONTRIBUTING` files are well written: 50pts
+
+Feel free to use this as a starting point, and come up with your own criteria as well.
+
+#### Step 6: Determine Team Size & Difficulty Level
 
 All goals have a "recommended team size". Some goals are more appropriate for small teams of 3, others for a large team of 5 or 6.
 
@@ -122,7 +138,7 @@ Before submitting your goal, add it to the appropriate [milestone][milestones] f
 
 Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [Practitioner][team-practitioners].
 
-#### Step 6: Submit for Review
+#### Step 7: Submit for Review
 
 All new goals start out as a _draft_. In order to be published, at least one other learner must review the goal to ensure that it meets the quality standards (see checklist above).
 
@@ -134,7 +150,7 @@ To start the review process, complete these steps:
 
 Example comment: `@tannerwelsh please review my goal`.
 
-#### Step 7: Get Approval and Publish
+#### Step 8: Get Approval and Publish
 
 The reviewer then reads the draft goal, checks that it meets all the criteria, and offers constructive feedback and/or suggested changes.
 
