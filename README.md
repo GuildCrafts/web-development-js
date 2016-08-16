@@ -28,7 +28,7 @@ You can add library items just like you would add a guide (but with the [library
 
 ### Goals
 
-We store all goals in a as issues in a GitHub repository like this one.
+Goals are stored as issues in a GitHub repository like this one.
 
 You can review the list of goals by going to the [issues page of this repository][repo-issues].
 
