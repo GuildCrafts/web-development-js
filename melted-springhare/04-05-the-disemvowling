@@ -1,0 +1,19 @@
+### 5: The Disemvowling
+
+Disemvoweling means removing the vowels (a, e, i, o, u) from text.
+
+**Input:**
+
+A string that contains several words to disemvowel. It will consist of all lowercase letters without punctuation. The only non a-z character you should handle is spaces.
+
+**Output:**
+
+The disemvowled text with spaces removed.
+
+### Strategy
+
+isVowel = ['a','e','i','o','u']
+function to delete something from a set
+find out efficient way to check whole list for vowels
+
+###Code

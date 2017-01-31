@@ -1,3 +1,44 @@
+# Benchmark 
+
+(The original Benchmark Goal is [here](https://github.com/GuildCrafts/web-development-js/issues/144).
+
+##  Goals, Outline, and Process-Oriented Quality Metrics
+
+- (Ongoing) Edit this list for quality - it's functioning as a to-do list right now
+
+- Monday: Set up file system
+
+- Monday: Set up file system that facilitates a smooth workflow and demonstrates order of priority of problems
+
+- Monday: Prioritize problems
+
+- Monday: Write some pseudocode
+
+- Monday or Tuesday: Outline benchmark days
+
+- Monday or Tuesday: Determine which problem-solving strategies make sense (ex. test-driven development?) 
+
+- Tuesday: Set up development environment and work flow that allows me to see if the code works
+
+- Tuesday: Add removed problems to end of list
+
+- Monday, Tuesday, Wednesday, Thursday: Write out problem solving strategies / pseudo-code for each problem
+
+- Wednesday or Thursday: Improve file structure
+
+- Friday: Finish additional problems
+
+- Friday: Improve markdown
+
+- Friday: Re-read additional documentation about web-development-js and contributing 
+
+
+
+## Stretch Goals
+- Write a publicly accesible blog post about the difference between what I knew at the beginning of the week verses what I know at the end.
+- Contribute to LG repo
+
+
 ## Description
 Benchmark goals are projects that are designed to be done solo. 
 
@@ -19,6 +60,7 @@ For the project review, make sure to schedule a 1:1 30 minute meeting the follow
 
 ## Specifications
 
+## Problems
 
 ### 1: Guess The Number
 
@@ -199,10 +241,7 @@ In the above example, `(7)` would be the proper stripping of parentheses.
 
 ---
 
-
----
-
-### 13: Braille - Stretch Goal
+### 13: Braille
 
 Your goal is to read in a string of Braille characters (definition [here](https://en.wikipedia.org/wiki/English_Braille#Alphabet)) and translate the word to standard English letters (you can ignore any special characters, including spaces).
 
