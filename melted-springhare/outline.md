@@ -12,13 +12,13 @@
 
 - [x] Monday: Outline benchmark days
 
-- [] Monday or Tuesday: Determine which problem-solving strategies make sense (ex. test-driven development?) 
+- [X] Monday or Tuesday: Determine which problem-solving strategies make sense (ex. test-driven development?) 
  
 - [] Revise project outline
 
 - [] Tuesday: Set up development environment and work flow that allows me to see if the code works
 
-- [] Tuesday: Add removed problems to end of list
+- [X] Tuesday: Add removed problems to end of list
 
 - [] Monday, Tuesday, Wednesday, Thursday: Write out problem solving strategies / pseudo-code for each problem
 
