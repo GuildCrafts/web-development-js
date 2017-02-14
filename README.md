@@ -18,6 +18,16 @@ You can create new goals! Before you do so, please review the instructions in [C
 
 If you don't have time to author a new goal, but you still think it should be a part of the goal library, please **make a goal suggestion** by submitting a [new issue][repo-issues]. Read the [Suggesting Goals](CONTRIBUTING.md#suggesting-goals) section of the [CONTRIBUTING.md](CONTRIBUTING.md) file to learn more.
 
+### Playlists
+
+Playlists are possible paths to becoming a full-stack JavaScript web developer. They are collections of learning contracts organized by other learners to provide meaningful courses of learning.
+
+All playlists are stored in the [playlists](./playlists) directory.
+
+This directory is a collection of trails intended to help travelers in making their own. There are as many paths as there are people aspiring to become one. Ultimately, every aspiring developer must learn to navigate the terrain on their own terms and create their own path if they are to become life long learners.
+
+To author your own playlist, submit a pull request your playlists added to the [playlists](./playlists) directory. To make suggestions/updates to an existing playlist, submit a pull request, and tag the playlist's owner.
+
 ### Guides
 
 [Guides](./guides) are a place to share wisdom on a particular skill related to web development.
