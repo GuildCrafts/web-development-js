@@ -9,11 +9,15 @@ issueNumber: 120
 
 ## Description
 
-Rules of the game described here - http://www.setgame.com/sites/default/files/instructions/SET%20INSTRUCTIONS%20-%20ENGLISH.pdf
+Set is a wonderfully simple and yet challenging pattern-matching card game. If you haven't played the real-life version, go find it and play it! It's a lot of fun.
+
+In this goal, you will build a playable version of Set as a static web site (i.e. no server-side logic). You'll have to implement the game logic using JavaScript and the [React.js](https://facebook.github.io/react/) library.
+
+The official rules of the game are described in full in [this document](http://www.setgame.com/sites/default/files/instructions/SET%20INSTRUCTIONS%20-%20ENGLISH.pdf). Use it as your reference for both the game logic and the card design.
 
 ## Context
 
-Set is a game with a small set of rules. This game can be implemented in any technology, although it is a perfect candidate for [React.js](https://facebook.github.io/react/) because of the real-time nature of the game play.
+Set is a game with a small set of rules. This game can be implemented in any technology, although it is a perfect candidate for React because of the real-time nature of the game play.
 
 This goal will challenge your ability to take a _formal, defined system_ from the real world and replicate it in code. You will start with all of the logic of the system (the rules of the game) and most of the UI already designed (use the card graphics). Your work will be mainly in deciding how to replicate that formal logic and user interface using JavaScript, HTML, and CSS.
 
