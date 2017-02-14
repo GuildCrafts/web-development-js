@@ -1,3 +1,12 @@
+---
+authors:
+  - GITHUB_HANDLE
+issueNumber: ISSUE_NO
+teamSize: TEAM_SIZE
+---
+
+# GOAL_TITLE
+
 ## Description
 
 _Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
