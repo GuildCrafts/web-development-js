@@ -2,9 +2,22 @@
 
 There are many ways to contribute to this repository and the goal library it contains. Use the links below for guidance and reference.
 
+- [Suggesting Goals](#suggesting-goals)
 - [Authoring Goals](#authoring-goals)
 - [Reviewing Goals](#reviewing-goals)
 - [Making Changes to the Repository](#making-changes-to-the-repository)
+
+## Suggesting Goals
+
+If you have an idea for a goal, but do not have time or energy to go through the full authoring process, we'd still like to hear your suggestion.
+
+To suggest a goal, please take the following steps:
+
+1. Create a new issue and use the GOAL SUGGESTION template contained within (it should come up automatically, but if not you can find it in the [issue template][issue-template]).
+1. Write as much as you can about your goal idea. What will the goal produce? Why is it relevant?
+1. Mark your goal issue as `draft` and add it to the "Ideas & Suggestions" column of the [Goal Library](https://github.com/GuildCrafts/web-development-js/projects/1) project.
+
+There's no guarantee that all suggestions will be turned into goals, but the [goal librarians][team-librarians] will do their best to create and maintain a rich and diverse set of relevant, well-written goals.
 
 ## Authoring Goals
 
