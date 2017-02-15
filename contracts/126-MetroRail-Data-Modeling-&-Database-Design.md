@@ -7,13 +7,11 @@ teamSize: 2
 
 # MetroRail: Data Modeling & Database Design
 
-[Description](#description) | [Context](#context) | [Specifications](#specifications) | [Quality Rubric](#quality-rubric)
-
 ## Description
 
 Build the data model and database for a city transit system.
 
-Fork the [metrorail](https://github.com/GuildCrafts/metrorail) starter repo to start your project.
+Fork the [metrorail][metrorail-repo] starter repo to start your project.
 
 This particular city has a simple transit system: just one circular train line with 12 stations and 4 trains.
 
@@ -187,3 +185,4 @@ Pick a _different_ database from the one you used (some ideas: CouchDB, Mongo, N
 - Every pull request has been reviewed by at least one other person. [25 points]
 
 [mit-license]: https://opensource.org/licenses/MIT
+[metrorail-repo]: https://github.com/GuildCrafts/metrorail

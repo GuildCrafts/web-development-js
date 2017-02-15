@@ -9,8 +9,6 @@ issueNumber: 124
 
 ## Description
 
-_Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
-
 Implement a Markdown parser using three different programming paradigms: **object-oriented**, **functional**, and **imperative**.
 
 Fork the [multiple-paradigms][multiple-paradigms] repository and use the fork as your project artifact.
@@ -44,17 +42,11 @@ $ npm run parse:oo hello.md
 
 ## Context
 
-_Why is this goal important? How is it useful? What questions will it raise?_
-
 Knowing how, when, and where to apply a particular _programming paradigms_ to a a piece of code is a key skill of any self-respecting software developer.
 
 Being fluent in different paradigms will help you to think about and understand software architecture, and to make better design choices. It is also a crucial tool for communicating effectively with other developers.
 
 ## Specifications
-
-_List of specifications (specs) for the completed goal. These are declarative sentences (statements) describing a feature of the final product._
-
-**This is a core goal. The specifications are non-negotiable. To complete this goal, you must complete all specs listed below.**
 
 - [ ] Artifact produced is a fork of the [multiple-paradigms][multiple-paradigms] repo.
 - [ ] Can run all tests with `npm test`.
