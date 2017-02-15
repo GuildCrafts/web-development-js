@@ -120,7 +120,7 @@ Then, choose the appropriate goal type from the list below and tag it with the c
 - `apprentice`: a real-world, maintained project, but without any user base or production environment. No need to manage a deployed app. Example: "Trossello"
 - `prototype`: maintained projects with at least an "alpha-level" production environment and some user base. Will involve some dev ops. Example: "Goalie"
 - `production`: professional-grade projects with a live product and active users. Example: "Work on Newbie"
-- `core`: focused on building the key skills of a web developer. Specs are non-negotiable. If you don't know what to focus on, pick a core goal. Example: "Multiple Paradigms"
+- `core`: focused on building the key skills of a web developer.If you don't know what to focus on, pick a core goal. Example: "Multiple Paradigms"
 - `benchmark`: projects that are designed to be done solo. Example: "Calculator Benchmark"
 
 Once you've done this, evaluate the difficulty.
