@@ -9,7 +9,7 @@ teamSize: 2
 
 ## Description
 
-Build an HTTP API for the data model/store from the [MetroRail: Data Modeling & Database Design](https://github.com/GuildCrafts/web-development-js/issues/126) goal. You need a working implementation of that goal before you can do this one.
+Build an HTTP API for the data model/store from the [MetroRail: Data Modeling & Database Design][metrorail-data-model] goal. You need a working implementation of that goal before you can do this one.
 
 When complete, you'll have a web API for interacting with the fictional transit system. You'll be able to send HTTP requests, with a username and token provided for authentication, and receive a JSON response.
 
@@ -137,3 +137,4 @@ Build an alternate API using [GraphQL](http://graphql.org/) and serve it at the 
 
 
 [mit-license]: https://opensource.org/licenses/MIT
+[metrorail-data-model]: ./126-MetroRail-Data_Modeling.md

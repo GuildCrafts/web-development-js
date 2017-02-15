@@ -61,7 +61,7 @@ To help you get started with some seed data, here is a list of the train station
 12. Museum Isle
 ```
 
-When you complete this goal, consider doing the next iteration: [MetroRail: Web API Design, Building, and Documentation](https://github.com/GuildCrafts/web-development-js/issues/127).
+When you complete this goal, consider doing the next iteration: [MetroRail: Web API Design, Building, and Documentation][metrorail-web-api].
 
 ## Context
 
@@ -186,3 +186,4 @@ Pick a _different_ database from the one you used (some ideas: CouchDB, Mongo, N
 
 [mit-license]: https://opensource.org/licenses/MIT
 [metrorail-repo]: https://github.com/GuildCrafts/metrorail
+[metrorail-web-api]: ./127-MetroRail-Web_API.md
