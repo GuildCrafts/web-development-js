@@ -25,8 +25,6 @@ In addition, many job interview processes will include some algorithmic problem-
 
 ## Specifications
 
-**This is a core goal. The specifications are non-negotiable. To complete this goal, you must complete all specs listed below.**
-
 - [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
