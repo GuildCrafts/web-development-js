@@ -2,11 +2,21 @@
 
 This repository stores information useful for learning the craft of web development.
 
-It is a reference for key resources, a place to share best practices, and a store for learning goals and project templates.
+It is home to our goal library, a reference for key resources, and a place to share best practices.
 
 This is a shared resource, and it is collaboratively developed by all learners. To learn how to contribute, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
+
+### Goals and Contracts
+
+This repo is the home to our Goal Library.
+
+Goals are stored as [issues][repo-issues], and all goals have an associated learning contract in the [contracts](./contracts) directory.
+
+You can create new goals! Before you do so, please review the instructions in [CONTRIBUTING.md](CONTRIBUTING.md), especially the [Authoring Goals](CONTRIBUTING.md#authoring-goals) section. Use the [contract template][contract-template] to author your new contract.
+
+If you don't have time to author a new goal, but you still think it should be a part of the goal library, please **make a goal suggestion** by submitting a [new issue][repo-issues]. Read the [Suggesting Goals](CONTRIBUTING.md#suggesting-goals) section of the [CONTRIBUTING.md](CONTRIBUTING.md) file to learn more.
 
 ### Guides
 
@@ -26,14 +36,7 @@ For example, you might find links in here to great instructional videos, open-so
 
 You can add library items just like you would add a guide (but with the [library template][library-template]), with the added caveat that the resource you add must have appropriate licensing for sharing within this service. Private and/or paid resources like Udemy courses or paywall-blocked tutorials are not allowed for legal reasons.
 
-### Goals
-
-Goals are stored as issues in a GitHub repository like this one.
-
-You can review the list of goals by going to the [issues page of this repository][repo-issues].
-
-You can also create new goals! Before you do so, please review the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
-
+[contract-template]: ./contracts/_TEMPLATE.md
 [guide-template]: ./guides/TEMPLATE.md
 [library-template]: ./library/TEMPLATE.md
 [repo-issues]: https://github.com/GuildCrafts/web-development-js/issues/

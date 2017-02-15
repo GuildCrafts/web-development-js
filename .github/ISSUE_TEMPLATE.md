@@ -1,38 +1,23 @@
-## Description
-
-_Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
-
-## Context
-
-_Why is this goal important? How is it useful? What questions will it raise?_
-
-## Specifications
-
-_List of specifications (specs) for the completed goal. These are declarative sentences (statements) describing a feature of the final product._
-
-- [ ] Spec one.
-- [ ] Spec two.
-- [ ] Spec three.
-
-### Required
-
-_Do not remove these specs - they are required for all goals_.
-
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-## Quality Rubric
-
-_What are some appropriate quality objectives for this goal? These are statements about the internal characteristics of the product that demonstrate fine design and craftspersonship, not its external features._
-
-- Quality rubric one: point value
-- Quality rubric two: point value
-- Quality rubric three: point value
+_If you would like to **suggest** a goal, delete everything but the GOAL SUGGESTION section and complete it. If you'd like to **author** a goal, delete everything but the GOAL AUTHORING section and complete it._
 
 ---
 
-<!-- LICENSE -->
+**GOAL SUGGESTION**
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+_Be as specific as you can in your suggestion: what should the goal output be, which technologies would be used, why is the goal important._
 
-[mit-license]: https://opensource.org/licenses/MIT
+_Add your issue to the "Ideas & Suggestions" column of the [Goal Library](https://github.com/GuildCrafts/web-development-js/projects/1) project to have it considered for the library._
+
+---
+
+**GOAL AUTHORING**
+
+_Write brief overview of the goal, maybe with a nice image or funny gif._
+
+Read the [learning contract][contract] to understand what the goal entails.
+
+<!-- Optional: you don't have to use a goal repo. -->
+When you start your project, fork the [goal repository][repository].
+
+[contract]: YOUR_LEARNING_CONTRACT_URL
+[repository]: YOUR_GOAL_REPO_URL
