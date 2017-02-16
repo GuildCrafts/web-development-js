@@ -7,6 +7,18 @@ issueNumber: 140
 
 # Work on Newbie
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications with Node.js and npm
+- Can write feature-complete, fully tested, quality code
+- Can debug programs in both client- and server-side environments
+- Can track and manage work using GitHub project management tools
+- Have worked with teams to deploy web apps
+- Are familiar with collaborating on a living codebase
+- Are interested in building features for a production app
+
 ## Description
 
 Build a tool to onboard new Learners Guild members and help them and their mentors co-ordinate tasks that need to get done.

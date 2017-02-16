@@ -7,6 +7,19 @@ issueNumber: 125
 
 # Mock Interview Trials
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications
+- Can contribute effectively on a team of web developers
+- Can write feature-complete, quality code
+- Can discuss and explain software using correct and precise technical terms
+- Have solved logic puzzles while verbalizing your thought process
+- Have used a whiteboard to diagram software systems
+- Are familiar with typical software engineering interview questions
+- Are interested in practicing being interviewed
+
 ## Description
 
 Practice your interviewing skills with mock interview trials.

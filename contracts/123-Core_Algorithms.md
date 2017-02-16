@@ -7,6 +7,16 @@ teamSize: 2
 
 # Core Algorithms
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can write programs and tests using Node.js and npm
+- Can use problem decomposition to split difficult problems into smaller parts
+- Have used pseudocode as an intermediary step in writing a program
+- Are interested in common computer science algorithms
+- Are interested in critical thinking and problem solving
+
 ## Description
 
 Write tests and implementations for algorithms commonly used in job interviews.

@@ -7,6 +7,18 @@ teamSize: 2
 
 # MetroRail: Data Modeling & Database Design
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build apps using Node.js and npm
+- Can create a relational database
+- Can perform basic operations on a relational database
+- Can interact with a relational database from JavaScript
+- Are familiar with ORM (Object-Relational Mapping)
+- Are interested in database schema design
+- Are interested in program interface design
+
 ## Description
 
 Build the data model and database for a city transit system.
