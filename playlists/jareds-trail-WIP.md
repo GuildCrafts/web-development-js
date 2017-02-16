@@ -64,5 +64,3 @@ This trail is intended to lead you to working on Real World Software Projects (O
 ## Week 11  - Team Size 1
 
 - Shereefs OO JS Goal
-- MISSING:
-- ??
