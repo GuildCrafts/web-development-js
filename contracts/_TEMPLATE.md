@@ -46,4 +46,8 @@ _What are some appropriate quality objectives for this goal? These are statement
 - Quality rubric two: point value
 - Quality rubric three: point value
 
+## Resources
+
+_Include any resources (articles, books, tutorials, tools, videos, etc.) that are helpful for learners working on this goal._
+
 [mit-license]: https://opensource.org/licenses/MIT
