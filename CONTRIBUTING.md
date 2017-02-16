@@ -39,7 +39,7 @@ The process is not difficult, although to ensure consistent quality please follo
   - [ ] is tagged with right `team-size-*` label
   - [ ] is assigned to appropriate milestone for difficulty level
 - [ ] Learning contract...
-  - [ ] includes complete description, context, specifications, and quality criteria
+  - [ ] includes complete challenge rating, description, context, specifications, and quality criteria
   - [ ] is relevant (focused closely on work similar to that of a professional JS web developer)
   - [ ] is reviewed and approved by a [librarian][team-librarians]
 - [ ] Base repository for goal (optional)...
@@ -198,6 +198,30 @@ This would be a good, basic rubric for most any piece of software:
 - `README` and `CONTRIBUTING` files are well written: 50pts
 
 Feel free to use this as a starting point, and come up with your own criteria as well.
+
+##### 3.5: Include a Challenge Rating
+
+One of the most important questions a learner considering a goal will have is "will this goal put me into my ZPD?" In other words, will the goal be too difficult or too easy?
+
+The Challenge Rating is a place to specify a select list of skills, knowledge, and interests that a learner should have when starting this goal.
+
+It is a list of items that complete the sentence:
+
+> This goal will likely be within your ZPD if you...
+
+A good rule of thumb is to specify a few "can"s, "familiar"s, and "interested in"s. Declare some skills that are necessary for the goal, some things that a learner should know or at least _know of_ to get started, and some interests that will drive their learning forward and push them into their ZPD.
+
+For example, the [Core Data Structures][core-data-structures] goal includes the following in its Challenge Rating:
+
+```
+This goal will likely be within your ZPD if you...
+
+- Can write programs and tests using Node.js and npm
+- Can use problem decomposition to split difficult problems into smaller parts
+- Are familiar with the interfaces of core JavaScript objects: Object, Array, String, etc.
+- Are interested in common data structures
+- Are interested in critical thinking and problem solving
+```
 
 #### Step 4: Submit for Review
 
