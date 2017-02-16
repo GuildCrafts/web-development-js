@@ -7,6 +7,18 @@ issueNumber: 76
 
 # Work on Trossello
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications with Node.js and npm
+- Can write feature-complete, fully tested, quality code
+- Can debug programs in both client- and server-side environments
+- Have worked with teams to deploy web apps
+- Are familiar with the GitHub project management tools
+- Are interested in open-source web development
+- Are interested in collaborating on a living codebase
+
 ## Description
 
 Build an open-source clone of [Trello](https://trello.com/).

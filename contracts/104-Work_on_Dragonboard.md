@@ -7,6 +7,18 @@ issueNumber: 104
 
 # Work on Dragonboard
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications with Node.js and npm
+- Can write feature-complete, fully tested, quality code
+- Can debug programs in both client- and server-side environments
+- Have worked with teams to deploy web apps
+- Are familiar with the GitHub project management tools
+- Are interested in open-source web development
+- Are interested in collaborating on a living codebase
+
 ## Description
 
 Work on an open-source clone of [geckoboard](https://www.geckoboard.com/).

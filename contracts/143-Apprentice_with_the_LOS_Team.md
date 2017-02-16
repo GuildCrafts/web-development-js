@@ -7,6 +7,21 @@ issueNumber: 143
 
 # Apprentice with the LOS Team
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications with Node.js and npm
+- Can write feature-complete, fully tested, quality code
+- Can debug programs in both client- and server-side environments
+- Can track and manage work using a project management tool
+- Can collaborate effectively on a living codebase
+- Can build, deploy, and maintain a web app with real users
+- Are familiar with a variety of libraries and frameworks
+- Are familiar with several databases and their tradeoffs
+- Are interested in contributing to a large, real-world web application
+- Are interested in using professional project management processes and tools
+
 ## Description
 
 Join the LOS team to build the software that we use every day at Learners Guild.

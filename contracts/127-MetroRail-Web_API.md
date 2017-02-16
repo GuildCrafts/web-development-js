@@ -7,6 +7,17 @@ teamSize: 2
 
 # MetroRail: Web API Design, Building, and Documentation
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Have completed the [prerequisite challenge][metrorail-data-model]
+- Can build a web app using Node.js and npm
+- Can read and write JSON documents
+- Are familiar with HTTP verbs
+- Are interested in RESTful design
+- Are interested in web APIs
+
 ## Description
 
 Build an HTTP API for the data model/store from the [MetroRail: Data Modeling & Database Design][metrorail-data-model] goal. You need a working implementation of that goal before you can do this one.

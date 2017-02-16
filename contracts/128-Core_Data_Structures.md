@@ -7,6 +7,16 @@ teamSize: 2
 
 # Core Data Structures
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can write programs and tests using Node.js and npm
+- Can use problem decomposition to split difficult problems into smaller parts
+- Are familiar with the interfaces of core JavaScript objects: Object, Array, String, etc.
+- Are interested in common data structures
+- Are interested in critical thinking and problem solving
+
 ## Description
 
 Write tests and implementations for common data structures.
