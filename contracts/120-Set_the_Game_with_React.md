@@ -84,11 +84,4 @@ As a stretch goal, implement multiplayer Set. More than one player can play at o
 - Every pull request has a description summarizing the changes made. [25 points]
 - Every pull request has been reviewed by at least one other person. [25 points]
 
----
-
-
-
-
-
-
 [mit-license]: https://opensource.org/licenses/MIT
