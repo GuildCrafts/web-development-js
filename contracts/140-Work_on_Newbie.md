@@ -9,7 +9,7 @@ issueNumber: 140
 
 ## Description
 
-Built a tool to onboard new Learners Guild members and help them and their mentors co-ordinate tasks that need to get done.
+Build a tool to onboard new Learners Guild members and help them and their mentors co-ordinate tasks that need to get done.
 
 Newbie is an ongoing project with a live app. You will be working in a [living codebase](https://github.com/GuildCrafts/newbie/commits/master) on [real issues](https://github.com/GuildCrafts/newbie/issues) with [other developers](https://github.com/GuildCrafts/newbie/graphs/contributors).
 
