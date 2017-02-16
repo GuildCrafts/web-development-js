@@ -5,7 +5,7 @@ teamSize: 2
 issueNumber: 143
 ---
 
-# Apprentice on the LOS team
+# Apprentice with the LOS Team
 
 ## Description
 
