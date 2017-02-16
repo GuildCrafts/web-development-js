@@ -7,6 +7,15 @@ teamSize: TEAM_SIZE
 
 # GOAL_TITLE
 
+## Challenge Rating
+
+_Include a list of skills/knowledge/interests that someone choosing this goal should have._
+
+This goal will likely be within your ZPD if you...
+
+- Item one
+- Item two
+
 ## Description
 
 _Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
