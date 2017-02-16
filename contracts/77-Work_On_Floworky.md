@@ -5,32 +5,29 @@ teamSize: 2
 issueNumber: 77
 ---
 
-# Work On Floworky
+# Work on Floworky
 
-# **Floworky**
+## Description
 
-An open source clone of workflowy. Interested in contributing? Take a look at the project page and issues page for outstanding issues.
-# **Contributing to Floworky**
+Build an open source clone of [workflowy](https://workflowy.com/).
 
-Please read the contribution guidelines.
-# **Technical Stack**
+Floworky is an ongoing project with a live app. You will be working in a [living codebase](https://github.com/GuildCrafts/floworky/commits/master) on [real issues](https://github.com/GuildCrafts/floworky/issues) with [other developers](https://github.com/GuildCrafts/floworky/graphs/contributors).
 
-**Back End**
+When you join Floworky, you will select or be assigned issues to work on for the week. Be ready to jump in and contribute!
 
-Node.js
-Express.js (Documentation)
-Passport (Documentation)
-passport-local
-Database
+Repo: https://github.com/GuildCrafts/floworky/
+<br>Contibuting: https://github.com/GuildCrafts/floworky/blob/master/CONTRIBUTING.md
 
-Postgres
-Sequelize (Documentation)
-pg-promise (Used indirectly via Sequelize)
-Front End
+## Context
 
-Pug
+Working on this codebase will expose you to some of the patterns and activities of a real software development team.
 
+You'll be expected to commit clean, functional, well-written code on time. Every change will be reviewed. Be ready to adapt to changing circumstances and new challenges.
 
+## Specifications
 
+Specifications and requirements will come from the issues tracked in the [repo project](https://github.com/GuildCrafts/floworky/projects/2).
 
+## Quality Rubric
 
+See quality rubric in the project's [CONTRIBUTING](https://github.com/GuildCrafts/floworky/blob/master/CONTRIBUTING.md) file.
