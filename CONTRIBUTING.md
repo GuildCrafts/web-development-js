@@ -249,7 +249,7 @@ The team of [librarians][team-librarians] is responsible for maintaining the goa
 
 Goal librarians ensure that all goals are **complete** and **relevant**. They also check to make sure that goals are organized with the right labels and level.
 
-To be **complete**, the goal must have all the elements listed in the [Goal Quality Checklist][goal-quality-checklist].
+To be **complete**, the goal must have all the elements listed in the [Goal Quality Checklist](#goal-quality-checklist).
 
 To be **relevant**, the goal should emulate a task that most professional JavaScript web developers could expect to do as part of their job or ongoing skill development.
 
