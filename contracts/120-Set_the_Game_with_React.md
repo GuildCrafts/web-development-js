@@ -7,6 +7,17 @@ issueNumber: 120
 
 # Set (the Game) with React
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can write programs and tests using Node.js and npm
+- Can use nested conditionals to validate data
+- Have used React.js to implement simple apps
+- Are familiar with pattern-matching card games
+- Are familiar with the concept of "separation of concerns" in application design
+- Are interested in advancing your React.js skills
+
 ## Description
 
 Set is a wonderfully simple and yet challenging pattern-matching card game. If you haven't played the real-life version, go find it and play it! It's a lot of fun.

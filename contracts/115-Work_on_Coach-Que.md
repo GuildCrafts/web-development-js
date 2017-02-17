@@ -7,6 +7,20 @@ issueNumber: 115
 
 # Work on Coach-Que : Schedule Time & Incorporate Feedback
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build full-stack web applications with Node.js and npm
+- Can write feature-complete, fully tested, quality code
+- Can debug programs in both client- and server-side environments
+- Can track and manage work using GitHub project management tools
+- Have worked with teams to deploy web apps
+- Are familiar with collaborating on a living codebase
+- Are interested in building features for a production app
+
+## Description
+
 Build a tool for learners to schedule time with coaches at Learners Guild.
 
 The tool will also help learners and coaches to give feedback on the time spent together.
