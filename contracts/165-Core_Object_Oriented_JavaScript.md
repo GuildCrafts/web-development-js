@@ -15,7 +15,7 @@ This goal will likely be within your ZPD if you...
 - Can read and write JavaScript control structures, basic functions, and data types
 - Are interested in JavaScript scopes and closures
 - Are interested in the `this` keyword in JavaScript
-- Are interested in prototype delegation
+- Are interested in prototype delegation and inheritance
 - Are interested in code reuse
 
 ## Description
