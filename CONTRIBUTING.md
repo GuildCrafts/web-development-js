@@ -2,10 +2,28 @@
 
 There are many ways to contribute to this repository and the goal library it contains. Use the links below for guidance and reference.
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
 - [Suggesting Goals](#suggesting-goals)
 - [Authoring Goals](#authoring-goals)
+	- [Goal Quality Checklist](#goal-quality-checklist)
+	- [Step 0 (optional): Create a Goal Repository in GuildCrafts](#step-0-optional-create-a-goal-repository-in-guildcrafts)
+	- [Step 1: Pick a Title](#step-1-pick-a-title)
+	- [Step 2: Create the Goal Issue](#step-2-create-the-goal-issue)
+		- [2.1: Write a Brief Overview of the Goal](#21-write-a-brief-overview-of-the-goal)
+		- [2.2: Determine Team Size, Goal Type, & Difficulty Level](#22-determine-team-size-goal-type-difficulty-level)
+	- [Step 3: Write your Learning Contract](#step-3-write-your-learning-contract)
+		- [3.1: Write a Description](#31-write-a-description)
+		- [3.2: Provide Context](#32-provide-context)
+		- [3.3: List Specifications](#33-list-specifications)
+		- [3.4: Define a Quality Rubric](#34-define-a-quality-rubric)
+		- [3.5: Include a Challenge Rating](#35-include-a-challenge-rating)
+	- [Step 4: Submit for Review](#step-4-submit-for-review)
+	- [Step 5: Improve Goal and Publish](#step-5-improve-goal-and-publish)
 - [Reviewing Goals](#reviewing-goals)
 - [Making Changes to the Repository](#making-changes-to-the-repository)
+
+<!-- /TOC -->
 
 ## Suggesting Goals
 
@@ -15,7 +33,7 @@ To suggest a goal, please take the following steps:
 
 1. Create a new issue and use the GOAL SUGGESTION template contained within (it should come up automatically, but if not you can find it in the [issue template][issue-template]).
 1. Write as much as you can about your goal idea. What will the goal produce? Why is it relevant?
-1. Mark your goal issue as `draft` and add it to the "Ideas & Suggestions" column of the [Goal Library](https://github.com/GuildCrafts/web-development-js/projects/1) project.
+1. Mark your goal issue as `draft` and add it to the "Ideas & Suggestions" column of the [Goal Library][proj-goal-lib] project.
 
 There's no guarantee that all suggestions will be turned into goals, but the [goal librarians][team-librarians] will do their best to create and maintain a rich and diverse set of relevant, well-written goals.
 
@@ -46,11 +64,9 @@ The process is not difficult, although to ensure consistent quality please follo
   - [ ] exists and is referenced from learning contract
   - [ ] includes starter code
 
-### How to Write a Goal
-
 Follow the steps below to create a high-quality learning goal.
 
-#### Step 0 (optional): Create a Goal Repository in GuildCrafts
+### Step 0 (optional): Create a Goal Repository in GuildCrafts
 
 You may want to provide a base repository that learners can fork when they start their project. These repositories should include (at minimum):
 
@@ -61,7 +77,7 @@ In addition, some goal repositories may include starter code, or sample data, or
 
 If you want include a base repo for your goal, [create a new repo][new-repo] in the [GuildCrafts][org-guildcrafts] organization. Look at the [template-goal-repo][template-goal-repo] for an example of what a basic goal repo would look like.
 
-#### Step 1: Pick a Title
+### Step 1: Pick a Title
 
 Choose a terse and clear title for the goal. Use this in both the **goal issue** and the **learning contract**. It should summarize _what is being built as a part of this goal_.
 
@@ -86,7 +102,7 @@ Here are some examples of _bad_ titles:
 - "Figure out how to use WebGL" -> describes the process, not the product
 - "Enterprise-level accounting software for Windows 98 using Java and C# and Prolog" -> not super relevant to the craft of web development
 
-#### Step 2: Create the Goal Issue
+### Step 2: Create the Goal Issue
 
 Go to `Issues`, and click on the `New issue` button.
 
@@ -96,7 +112,7 @@ The title will be blank, but the description should come pre-populated with the 
 
 You may need to come back and update the link to your **learning contract** once you've created it.
 
-##### 2.1: Write a Brief Overview of the Goal
+#### 2.1: Write a Brief Overview of the Goal
 
 In 2-5 sentences, describe what the goal is and what learners who work on the goal will produce.
 
@@ -107,7 +123,7 @@ It helps to be clear and specific in this overview. Answer the key questions tha
 - Which tools/technologies are involved?
 - Why is this important and relevant to my learning?
 
-##### 2.2: Determine Team Size, Goal Type, & Difficulty Level
+#### 2.2: Determine Team Size, Goal Type, & Difficulty Level
 
 All goals have a "recommended team size". Some goals are more appropriate for small teams of 2, others for a large team of 5 or 6. Some goals can even be "solo" goals (i.e. team size of 1).
 
@@ -131,7 +147,7 @@ Before submitting your goal, add it to the appropriate [milestone][milestones] f
 
 Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [practitioner][team-practitioners] or [librarian][team-librarians].
 
-#### Step 3: Write your Learning Contract
+### Step 3: Write your Learning Contract
 
 The most important part of your goal is the learning contract, which stored in the [contracts][contracts] directory. This is how learners know _how to complete the goal_ with great specificity and clarity.
 
@@ -145,7 +161,7 @@ To add your learning contract to the `contracts/` directory, use [GitHub flow][g
 
 The following steps 3.* go into more detail on how to write each section of the learning contract.
 
-##### 3.1: Write a Description
+#### 3.1: Write a Description
 
 The description includes whatever detail is needed for learners to understand what the goal is about.
 
@@ -158,7 +174,7 @@ You may also want to include things like:
 - An example interface (textual or graphical) showing how the final product might look and/or be used
 - Link to template or starter repo
 
-##### 3.2: Provide Context
+#### 3.2: Provide Context
 
 The context section helps orient learners to the _why_ by providing insight into your reason for writing this goal.
 
@@ -166,7 +182,7 @@ When writing this section, ask yourself why the goal is helpful for others. How 
 
 Read some existing goals to get inspiration for what to write here.
 
-##### 3.3: List Specifications
+#### 3.3: List Specifications
 
 The specifications tell learners what is needed for the goal to be considered complete. They _specify_ features of the final product beyond what is implied by the title and description.
 
@@ -183,7 +199,7 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they work as specs.
 
-##### 3.4: Define a Quality Rubric
+#### 3.4: Define a Quality Rubric
 
 Beyond the specifications for _features_ of the final product, you should identify criteria for what constitutes a _good quality_ artifact for the goal.
 
@@ -199,7 +215,7 @@ This would be a good, basic rubric for most any piece of software:
 
 Feel free to use this as a starting point, and come up with your own criteria as well.
 
-##### 3.5: Include a Challenge Rating
+#### 3.5: Include a Challenge Rating
 
 One of the most important questions a learner considering a goal will have is "will this goal put me into my ZPD?" In other words, will the goal be too difficult or too easy?
 
@@ -223,7 +239,7 @@ This goal will likely be within your ZPD if you...
 - Are interested in critical thinking and problem solving
 ```
 
-#### Step 4: Submit for Review
+### Step 4: Submit for Review
 
 All new goals start out as a _draft_. In order to be published, a [librarian][team-librarians] must review the goal first (see section on [Reviewing Goals](#reviewing-goals)).
 
@@ -236,7 +252,7 @@ To start the review process, complete these steps:
 
 Example comment: `@GuildCrafts/librarians please review my goal`.
 
-#### Step 5: Improve Goal and Publish
+### Step 5: Improve Goal and Publish
 
 Work with the librarians to improve the goal. They may offer suggestions or submit a pull request with some changes your repository.
 
@@ -284,6 +300,7 @@ _Note: all material added to this repository is subject to the shared [LICENSE](
 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
 [issues]: https://github.com/GuildCrafts/web-development-js/issues
+[proj-goal-lib]: https://github.com/GuildCrafts/web-development-js/projects/1
 [contracts]: ./contracts/
 [contract-template]: ./contracts/_TEMPLATE.md
 [gh-flow-guide]: https://guides.github.com/introduction/flow/
