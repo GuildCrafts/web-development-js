@@ -64,7 +64,7 @@ The process is not difficult, although to ensure consistent quality please follo
   - [ ] exists and is referenced from learning contract
   - [ ] includes starter code
 
-Follow the steps below to create a high-quality learning goal.
+Follow the steps below to create a high-quality learning goal. We also recommend that you read the wiki page [Anatomy of a Good Learning Goal](https://github.com/GuildCrafts/web-development-js/wiki/Anatomy-of-a-Good-Learning-Goal) if you are new to the process.
 
 ### Step 0 (optional): Create a Goal Repository in GuildCrafts
 
@@ -89,18 +89,9 @@ Try to use one of the following grammatical structures in your title:
 <product title> <product type> v<version number>
 ```
 
-Here are some examples of _good_ titles:
+For example:
 
-- "Question and answer web app"
-- "Web UI for shared resource library"
-- "Chat command-line tool with Node.js"
-- "Find the error game v2"
-
-Here are some examples of _bad_ titles:
-
-- "Social media site" -> too ambiguous
-- "Figure out how to use WebGL" -> describes the process, not the product
-- "Enterprise-level accounting software for Windows 98 using Java and C# and Prolog" -> not super relevant to the craft of web development
+> Chat command-line tool with Node.js
 
 ### Step 2: Create the Goal Issue
 
@@ -120,8 +111,6 @@ It helps to be clear and specific in this overview. Answer the key questions tha
 
 - What will I be working on? What is the expected output?
 - Where can I find the learning contract and goal repo (if any)?
-- Which tools/technologies are involved?
-- Why is this important and relevant to my learning?
 
 #### 2.2: Determine Team Size, Goal Type, & Difficulty Level
 
@@ -136,8 +125,7 @@ Then, choose the appropriate goal type from the list below and tag it with the c
 - `apprentice`: a real-world, maintained project, but without any user base or production environment. No need to manage a deployed app. Example: "Trossello"
 - `prototype`: maintained projects with at least an "alpha-level" production environment and some user base. Will involve some dev ops. Example: "Goalie"
 - `production`: professional-grade projects with a live product and active users. Example: "Work on Newbie"
-- `core`: focused on building the key skills of a web developer.If you don't know what to focus on, pick a core goal. Example: "Multiple Paradigms"
-- `benchmark`: projects that are designed to be done solo. Example: "Calculator Benchmark"
+- `core`: focused on building the key skills of a web developer. If you don't know what to focus on, pick a core goal. Example: "Multiple Paradigms"
 
 Once you've done this, evaluate the difficulty.
 
@@ -263,18 +251,20 @@ Once you get an OK from a librarian, you can publish the goal! Remove the `draft
 
 The team of [librarians][team-librarians] is responsible for maintaining the goal library. They are responsible for reviewing goals and helping goal authors to create high-quality goals.
 
-Goal librarians ensure that all goals are **complete** and **relevant**. They also check to make sure that goals are organized with the right labels and level.
+Goal librarians ensure that all goals are well-written. What does "well-written" mean? Good question. Read the wiki page [Anatomy of a Good Learning Goal](https://github.com/GuildCrafts/web-development-js/wiki/Anatomy-of-a-Good-Learning-Goal) to understand what makes a good goal.
 
-To be **complete**, the goal must have all the elements listed in the [Goal Quality Checklist](#goal-quality-checklist).
+The reason we review goals is to make sure that they are well structured to guide learners towards the most valuable learning activities, and help them avoid distractions.
 
-To be **relevant**, the goal should emulate a task that most professional JavaScript web developers could expect to do as part of their job or ongoing skill development.
+To review a goal, use the [Goal Library project][proj-goal-lib] and follow this process:
 
-It should not involve a project that a JS web developer would not do, or focus on skills that are tangential to their craft.
-
-The reason for this is to make sure that goals are well structured to guide learners towards the most valuable learning activities, and help them avoid distractions.
-
-Note that just because a task is interesting does not mean that it is not a distraction. A goal that requires learners to do a lot of UI design, or project management, or content creation is _irrelevant_ because it centers attention on skills that are non-critical for the craft of JS web development.
-
+1. Add the goal issue to the "Review" column (if it isn't already there)
+1. Assign yourself to the goal issue
+1. Find the pull request associated with the goal (it should be linked)
+1. Review the pull request
+  - Give feedback (positive & critical)
+  - Offer suggestions
+  - Clarify what would be needed for the goal to be published
+1. When the goal is ready, merge the pull request and move the goal issue to the "Published"
 
 ## Making Changes to the Repository
 
