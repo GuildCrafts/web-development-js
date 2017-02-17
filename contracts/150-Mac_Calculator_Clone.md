@@ -1,19 +1,34 @@
 ---
 authors:
   - @deadlyicon
-teamSize: 1
 issueNumber: 150
+teamSize: 1
 ---
 
-# Calculator Benchmark
+# Mac Calculator Clone
 
-# Calculator Benchmark
+## Challenge Rating
 
-Benchmarks goals are projects that are designed to be done solo.
+This goal will likely be within your ZPD if you...
 
-The specs of a benchmark goal are designed to cover a wide range of basic concepts and get progressively more complex.
+- Can build a full-stack web app using Node.js and npm
+- Can use HTML & CSS to design a UI from a mockup
+- Are interested in self-assessing your web developer skills
 
-**Use a Benchmark goal to**:
+## Description
+
+Replicate the builtin Mac calculator as a web app.
+
+The specs for this goal are far too numerous to complete within a week. Do not expect to get everything done but try to get as much done as you can. They are designed to cover a wide range of basic concepts and get progressively more complex.
+
+This goal has [5 linear stages][readme]. You must complete the specs of each stage before progressing onto the next. **The number of stages you complete will be the basis of your self assessment**, so keep track of how far you get, and aim to get farther next time.
+
+Fork the the [mac-calculator-clone repository][mac-calculator-clone] and use the fork as your project artifact.
+
+## Context
+
+**Use a this goal to**:
+
 - Take a break from pairing
 - Get a sense of what you can accomplish by yourself
 - Work on flexing problem solving skills
@@ -32,23 +47,17 @@ The specs of a benchmark goal are designed to cover a wide range of basic concep
 - Get frequent code reviews
 - Never copy and paste code from the Internet. Always type it out.
 
-Benchmark goals do not affect your stats.
+## Specifications
 
-## Retrospectives, Reviews, Stats, and Team Size
+The specs are broken down in the following 5 stages. Make sure to complete all the items in each stages's `Specs` section.
 
-Even though Benchmark Goals are solo goals, the project formation algorithm will add you to it in teams of two. Once that's done, the moderator will split up the team into two single-person projects. There will be no retrospectives for these projects.
-
-For the project review, make sure to schedule a 1:1 30 minute meeting the following week with a SEP. They will go over the code with you in real time, and give you an in person completeness/quality review.
-
-
-## Specs
-
-The specs for this goal are far too numerous to complete within a week. Do not expect to get everything done but try to get as much done as you can.
-
-This goal has 5 linear stages. You must complete the specs of each stage before progressing onto the next. The number of stages you complete will be the result of your self assessment, so keep track of how far you get, and aim to get farther next time.
+- [Stage 1](#stage-1)
+- [Stage 2](#stage-2)
+- [Stage 3](#stage-3)
+- [Stage 4](#stage-4)
+- [Stage 5](#stage-5)
 
 **IMPORTANT:** When you complete a stage, before moving onto the next stage, tag the commit that completes stage N as `stage-N-complete` using [`git tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging). *Don't forget to push with `--tags`*.
-
 
 ### Stage 1
 
@@ -69,6 +78,7 @@ In stage 1 you will only be using `HTML` and `CSS` to build a clone of the OS X 
 - CSS transitions
 - Chrome Developer Tools Element tab
 
+##### During this phase you should…
 
 - Use [normalize.css](https://necolas.github.io/normalize.css/)
 - NOT use any other css frameworks or libraries
@@ -84,13 +94,12 @@ In stage 1 you will only be using `HTML` and `CSS` to build a clone of the OS X 
 - [ ] All text is in the [Roboto](https://fonts.google.com/specimen/Roboto) web font
 - [ ] Your `HTML` and `CSS` follows this [style guide](https://google.github.io/styleguide/htmlcssguide.xml)
 - [ ] The calculator is positioned in the center of the page, both vertically and horizontally
-- [ ] The calculator is a fixed size. It does not change in size when the page resizes. 
+- [ ] The calculator is a fixed size. It does not change in size when the page resizes.
 - [ ] If the window is too small for the calculator, the page scrolls, both vertically and horizontally
 - [ ] Each button has a CSS transition to slightly darken the background color on hover over 100ms
 - [ ] Each button has a CSS transition to slightly darken the background color on click over 100ms
+- [ ] All class names re: the calculator are name-spaced under `.calculator-…`
 - [ ] Your stylesheet contains little to no duplicate style declarations
-
-
 
 ### Stage 2
 
@@ -110,7 +119,7 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
 - Manipulating the DOM using the DOM API
 - Avoiding using the DOM for state
 
-
+##### During this phase you should…
 
 - NOT use `jQuery` or any other `JavaScript` libraries or frameworks
 
@@ -126,14 +135,11 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
 - [ ] The mathematical operations for your calculator are each their own function, and are defined outside of any DOM event handler
 - [ ] When the length of the number displayed exceeds the width available, the font-size deterministically drops
 
-
 ### Stage 3
 
 In stage 3 you are going to add a second calculator to the page. Both calculators will be exactly the same but work independently. This will likely require you to refactor some of the JavaScript you wrote in stage 2.
 
-
 ![two-calculators-in-browser](https://cloud.githubusercontent.com/assets/8385/22572109/72df42ba-e957-11e6-8c9e-c9efd39045c1.png)
-
 
 ##### In this stage you will be using at least the following skills:
 
@@ -142,6 +148,7 @@ In stage 3 you are going to add a second calculator to the page. Both calculator
 - Componentization
 - Composition
 
+##### During this phase you should…
 
 - duplicate the HTML for the calculator
 - NOT try and render a calculator from `JavaScript`
@@ -158,11 +165,9 @@ In stage 3 you are going to add a second calculator to the page. Both calculator
 - [ ] The focused calculator is `opacity: 1`
 - [ ] The not-focused calculator is `opacity: 0.5`
 
-
 ### Stage 4
 
 In stage 4 you are going to move the work of your calculator to the server. This might seem silly but its a good way to practice moving logic from the browser to the server without the logic itself being too complex.
-
 
 ##### In this stage you will be using at least the following skills:
 
@@ -174,12 +179,12 @@ In stage 4 you are going to move the work of your calculator to the server. This
 - rendering JSON from express
 - Following the RESTful routes convention
 
+##### During this phase you should…
 
 - initialize a node `package.json`
 - use `express`
 - use a JSON body parser
 - NOT use any other node packages
-
 
 ##### Specs
 
@@ -189,10 +194,7 @@ In stage 4 you are going to move the work of your calculator to the server. This
 - [ ] Each operation request responds with `JSON`
 - [ ] When the calculator is waiting for an operation request response, it ignores all input
 
-
-
 ### Stage 5
-
 
 In stage 5 you are going to add persistence to your express server. We're going to be persisting the history of the users calculations. We're also going back to just having one calculator on the page.
 
@@ -203,7 +205,7 @@ In stage 5 you are going to add persistence to your express server. We're going 
 - SQL schema design
 - writing SQL queries
 
-
+##### During this phase you should…
 
 - use the `pg`, `pg-promise`, and/or `knex` packages
 - NOT use any other node packages
@@ -222,3 +224,30 @@ In stage 5 you are going to add persistence to your express server. We're going 
 - [ ] reloading the page restores the calculator history
 - [ ] the server stores up to 100 calculation results
 - [ ] all mathematical operations have their own function, defined outside of any express router handlers.
+
+### Required
+
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+## Quality Rubric
+
+**Well formatted code**
+- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
+- Running the linter on all source code files generates no linting errors. [50 points]
+
+**Clear and useful README**
+- Repository includes a README file with installation and setup instructions. [25 points]
+- Repository includes a README file with usage instructions and at least one example use case. [25 points]
+
+**Proper dependency management**
+- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [25 points]
+- All features are added via pull requests. [25 points]
+- Every pull request has a description summarizing the changes made. [25 points]
+- Every pull request has been reviewed by at least one other person. [25 points]
+
+[mit-license]: https://opensource.org/licenses/MIT
+[mac-calculator-clone]: https://github.com/GuildCrafts/mac-calculator-clone
+[readme]: https://github.com/GuildCrafts/mac-calculator-clone/blob/master/README.md
