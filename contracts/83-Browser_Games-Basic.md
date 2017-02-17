@@ -23,7 +23,7 @@ Build simple graphical games for the browser.
 
 Fork the the [browser-games repository][browser-games] and use the fork as your project artifact.
 
-Implement the [Basic Graphical Games][basic-games] from the list in the [games.md][games-list] file.
+Implement the games **Tic-Tac-Toe** and **Simon** from the list in the [games.md][games-list] file.
 
 You will be using FreeCodeCamp challenges as guides and tutorials for building these games.
 
@@ -36,7 +36,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 ## Specifications
 
 - [ ] Artifact produced is a fork of the [browser-games][browser-games] repo.
-- [ ] For each game in the [games list][games-list], there exists:
+- [ ] For **both** of the games Tic-Tac-Toe and Simon, there exists:
   - [ ] A playable, complete version of the game at `public/GAME_NAME.html` (e.g. `public/ticTacToe.html`)
   - [ ] A link to the game page from `public/index.html`
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
