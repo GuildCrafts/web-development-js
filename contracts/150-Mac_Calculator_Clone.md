@@ -5,7 +5,7 @@ issueNumber: 150
 teamSize: 1
 ---
 
-# Calculator Benchmark
+# Mac Calculator Clone 
 
 Benchmarks goals are projects that are designed to be done solo.
 

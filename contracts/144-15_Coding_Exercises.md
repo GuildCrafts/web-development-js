@@ -5,7 +5,7 @@ issueNumber: 144
 teamSize: 1
 ---
 
-# Benchmark Goal: 15 Coding Exercises
+# 15 Coding Exercises
 
 ## Description
 Benchmark goals are projects that are designed to be done solo.
