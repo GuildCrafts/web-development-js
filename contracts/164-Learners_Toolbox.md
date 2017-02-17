@@ -1,7 +1,7 @@
 ---
 authors:
   - @thamaranth
-teamSize: 
+teamSize: 2
 issueNumber: 164
 ---
 
@@ -21,12 +21,18 @@ The guild is in need of a single place where learner's can find resources, tutor
 * Users should be able to search for resources
 * Any links should pop up in separate windows or tabs
 * UI should be intuitive and easy to navigate
-* Users should be able to submit resources
-* Homepage should include a link to a list of commonly used JS functions/implementations
-* Resources should be gathered from current learners
+* Users should be able to submit resources (i.e link, description, tags, and associated goals)
+* Homepage should include a list of highest rated JS resources
+* Ability to vote on quality of resource (learners could upvote/downvote entries)
+* Ability to comment on resources
+* Ability to add one or more goal links to the resource
+* Ability to upvote/downvote goal links
+* Ability to tag resources with a technology/skill
+* Ability to upvote/downvote tags
+* Ability to search for resources by keyword, tag, or goal
+
 
 ### Required
-- [ ] The app contains a thorough list of resources from the guild.
 - [ ] All resources include links.
 - [ ] App is hosted live on heroku or a similar service.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
@@ -39,9 +45,9 @@ The guild is in need of a single place where learner's can find resources, tutor
 
 ---
 
+<!-- LICENSE -->
 
-
-
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 [mit-license]: https://opensource.org/licenses/MIT
