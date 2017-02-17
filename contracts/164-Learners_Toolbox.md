@@ -17,20 +17,19 @@ The guild is in need of a single place where learner's can find resources, tutor
 
 ## Specifications
 
-* Utilize IDM service for authentication
-* Users should be able to search for resources
-* Any links should pop up in separate windows or tabs
-* UI should be intuitive and easy to navigate
-* Users should be able to submit resources (i.e link, description, tags, and associated goals)
-* Homepage should include a list of highest rated JS resources
-* Ability to vote on quality of resource (learners could upvote/downvote entries)
-* Ability to comment on resources
-* Ability to add one or more goal links to the resource
-* Ability to upvote/downvote goal links
-* Ability to tag resources with a technology/skill
-* Ability to upvote/downvote tags
-* Ability to search for resources by keyword, tag, or goal
-
+- [ ] Utilize IDM service for authentication
+- [ ] Users should be able to search for resources
+- [ ] Any links should pop up in separate windows or tabs
+- [ ] UI should be intuitive and easy to navigate
+- [ ] Users should be able to submit resources (i.e link, description, tags, and associated goals)
+- [ ] Homepage should include a list of highest rated JS resources
+- [ ] Ability to vote on quality of resource (learners could upvote/downvote entries)
+- [ ] Ability to comment on resources
+- [ ] Ability to add one or more goal links to the resource
+- [ ] Ability to upvote/downvote goal links
+- [ ] Ability to tag resources with a technology/skill
+- [ ] Ability to upvote/downvote tags
+- [ ] Ability to search for resources by keyword, tag, or goal
 
 ### Required
 - [ ] All resources include links.
@@ -42,12 +41,5 @@ The guild is in need of a single place where learner's can find resources, tutor
 - Code is well written and clean: 25 points
 - UI is well designed and intuitive to navigate: 50 points
 - No unnecessary comments: 25 points
-
----
-
-<!-- LICENSE -->
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 [mit-license]: https://opensource.org/licenses/MIT
