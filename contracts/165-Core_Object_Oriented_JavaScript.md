@@ -30,7 +30,11 @@ In the [README.md][core-oojs-readme] you'll find that this goal is broken down i
 
 ## Context
 
+While JavaScript is not a strictly object-oriented language, it does have lots of interesting object-oriented features.
 
+Becoming a fluent JS developer means having an intimate knowledge with the particularities of the JS object model, with things like `this` and constructor functions and prototypes... It's a different way of structuring code from the classical model.
+
+Choose this goal if you've wondered how objects work in JavaScript and are looking to immerse yourself in an intensive and highly structured study.
 
 ## Specifications
 
