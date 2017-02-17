@@ -47,6 +47,7 @@ Write tests using the `assert` module in Node.js or whatever testing library you
 
 ## Specifications
 
+- [ ] Artifact produced is a fork of the [coding-exercises-js][coding-exercises-js] repo.
 - [ ] Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
   - [ ] 1. Guess The Number
   - [ ] 2. Scrab-Bag
