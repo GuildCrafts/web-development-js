@@ -22,7 +22,7 @@ This goal makes heavy use of external resources: the [JavaScript Basics](https:/
 
 Fork the the [core-vanilla-javascript repository][core-vjs] and use the fork as your project artifact.
 
-In the [README.md][core-vjs-readme] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace, or faster to get the most out of it.
+In the [solo_study.md][core-vjs-readme] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace, or faster to get the most out of it.
 
 ## Context
 
@@ -52,4 +52,4 @@ Choose this goal if you're just getting started with the basics of javascript an
 - Commit messages are concise and descriptive. [20 points]
 
 [core-vjs]: https://github.com/GuildCrafts/core-object-oriented-javascript
-[core-vjs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/README.md
+[core-vjs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/solo_study.md
