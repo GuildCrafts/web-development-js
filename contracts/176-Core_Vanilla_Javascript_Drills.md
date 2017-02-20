@@ -17,7 +17,7 @@ This goal will likely be within your ZPD if you...
 ## Description
 
 A day-by-day structured set of challenges to be completed in team.
-Last 2 days is a final project that demands/develops all your javascript foundation skills.
+Last 2 days is a final project that demands/develops all your javascript foundation skills and stretches problem solving skills.
 
 Fork the the [core-vanilla-javascript repository][core-vjs] and use the fork as your project artifact.
 
