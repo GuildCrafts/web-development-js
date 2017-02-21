@@ -11,8 +11,12 @@ teamSize: 1
 
 This goal will likely be within your ZPD if you...
 
-- Are just beginning to write correct JavaScript and understand its syntax
-- Are just getting started reading and writing JavaScript control structures, basic functions, and data types
+- Can open, edit, and save files with a text editor
+- Can use a web browser to search, explore, and consume content from the Internet
+- Are familiar with the concept of programs as instructions for a computer
+- Are beginning to write correct JavaScript and understand its syntax
+- Are getting started reading and writing JavaScript control structures, basic functions, and data types
+- Are interested in strengthening your knowledge of and fluency with JavaScript
 
 ## Description
 
