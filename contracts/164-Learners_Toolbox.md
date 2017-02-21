@@ -18,18 +18,16 @@ The guild is in need of a single place where learner's can find resources, tutor
 ## Specifications
 
 - [ ] Utilize IDM service for authentication
-- [ ] Users should be able to search for resources
-- [ ] Any links should pop up in separate windows or tabs
-- [ ] UI should be intuitive and easy to navigate
-- [ ] Users should be able to submit resources (i.e link, description, tags, and associated goals)
-- [ ] Homepage should include a list of highest rated JS resources
-- [ ] Ability to vote on quality of resource (learners could upvote/downvote entries)
-- [ ] Ability to comment on resources
-- [ ] Ability to add one or more goal links to the resource
-- [ ] Ability to upvote/downvote goal links
-- [ ] Ability to tag resources with a technology/skill
-- [ ] Ability to upvote/downvote tags
-- [ ] Ability to search for resources by keyword, tag, or goal
+- [ ] Any links pop up in separate windows or tabs
+- [ ] Users can submit resources (i.e link, description, tags, and associated goals)
+- [ ] Homepage includes a list of highest rated JS resources
+- [ ] Users can vote on quality of resource (learners could upvote/downvote entries)
+- [ ] Users can comment on resources
+- [ ] Users can add one or more goal links to the resource
+- [ ] Users can upvote/downvote goal links
+- [ ] Users can tag resources with a technology/skill
+- [ ] Users can upvote/downvote tags
+- [ ] Users can search for resources by keyword, tag, or goal
 
 ### Required
 - [ ] All resources include links.
