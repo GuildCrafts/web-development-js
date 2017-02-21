@@ -1,66 +1,151 @@
-# Jared's Trail WIP
+# Jared's Trail
 
-This trail is intended to lead you to working on Real World Software Projects (OSS projects).
+## Core Vanilla Javascript [Solo Study]
 
-## Week 1 - Javascript Basics - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/174
 
-- Basic programming
-  - Recursion
-  - Basic OO??
-- Basic Algorithms
-- Basic Data structures
-- Basic JavaScript
-  - OO JS?
-- Extremely simple Testing `assert`
+- Core: Requirements
+- Core: Testing
+- Core: Problem Decomposition
+- Core: Vanilla Javascript
 
-## Week 2 - Team Size 2
 
-- Javascript challenges 
+## Core Vanilla Javascript [Team Drills & Practice]
 
-## Week 3 - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/176
 
-- Basic HTML & CSS - Team size 1
+- Core: Requirements
+- Core: Testing
+- Intermediate: Problem Decomposition
+- Core: Vanilla Javascript
 
-## Week 4 - Team Size 2
 
-- HTML & CSS challenges
+## Multiple Paradigms
 
-## Week 5 - Programming Environment / Essential Toolbox Goal - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/124
 
-- Basic UNIX / Shell 
-  - Environment Variables
-- Basic Git
-- Basic Node
-- Basic problem solving
-- Basic research
+- Core: Functional Programming
 
-## Week 6 - Basic Web App Architecture - Team Size 1
 
-- Basic HTTP
-- What an AJAX request is
-- Frontend/Backend
-- How pieces fit together
-- API vs non-API routes
+## Core Algorithms [Sorting, Searching, Graphing, Geometry]
 
-## Week 7 - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/159
 
-- Basic Relational Database Design / Usage
-  - SQL Skills
-- Design drills
-- SQL drills
+- Core: Algorithms
+- Core: Testing/TDD
 
-## Week 8 - Team Size 2
 
-- Something practicing HTTP and SQL (booktstore no frameworks)
+## Core Data Structures [Basic]
 
-## Week 9 - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/156
 
-- Testing
+- Core: Data Structures
+- Core: Testing/TDD
 
-## Week 10 - Team Size 2
 
-- Testing challenges
+## Core Algorithms
 
-## Week 11  - Team Size 1
+https://github.com/GuildCrafts/web-development-js/issues/123
 
-- Shereefs OO JS Goal
+- Intermediate: Algorithms
+- Core: Testing/TDD
+- Core: Regular Expressions
+
+
+## Core Data Structures
+
+https://github.com/GuildCrafts/web-development-js/issues/128
+
+- Intermediate: Problem Decomposition
+- Intermediate: Data Structures
+- Core: Testing/TDD
+- Core: Functional Programming
+- Core: Object Oriented Programming
+
+## Set (the Game) with React
+
+https://github.com/GuildCrafts/web-development-js/issues/120
+
+- Intermediate: HTML & CSS
+- Core: React
+- Core: JS in the Browser
+
+
+
+## Core Algorithms [Classic, Numeric, and Set]
+
+https://github.com/GuildCrafts/web-development-js/issues/158
+
+- Intermediate: Algorithms
+- Core: Testing/TDD
+
+
+
+## Core Data Structures [Advanced]
+
+https://github.com/GuildCrafts/web-development-js/issues/157
+
+
+- Intermediate: Data Structures
+- Core: Testing/TDD
+
+
+## 15 Coding Exercises
+
+https://github.com/GuildCrafts/web-development-js/issues/144
+
+
+- Intermediate: Javascript Tools
+- Intermediate: Problem Decomposition
+- Core: Algorithms
+- Core: Regular Expressions
+
+
+## Mac Calculator Clone
+
+https://github.com/GuildCrafts/web-development-js/issues/150
+
+- Intermediate: Vailla JavaScript
+- Intermediate: HTML & CSS
+- Intermediate: JS in the Browser
+- Intermediate: Web Application Architecture
+
+
+## MetroRail: Web API Design, Building, and Documentation
+
+https://github.com/GuildCrafts/web-development-js/issues/127
+
+- Intermediate: Database
+- Intermediate: API
+
+
+## MetroRail: Data Modeling & Database Design
+
+https://github.com/GuildCrafts/web-development-js/issues/126
+
+- Intermediate: Database
+
+
+## Browser Games: Simon & Tic-Tac-Toe
+
+https://github.com/GuildCrafts/web-development-js/issues/83
+
+- Intermediate: Source Control
+- Intermediate: JS in the Browser
+- Intermediate: HTML & CSS
+
+
+## Core Object Oriented Javascript
+
+https://github.com/GuildCrafts/web-development-js/issues/165
+
+- Advanced: Vanilla JavaScript
+- Intermediate: Object Oriented Programming
+
+
+## Mock Interview Trials
+
+https://github.com/GuildCrafts/web-development-js/issues/125
+
+
+- Core: Interviewing
