@@ -21,10 +21,14 @@ This goal will likely be within your ZPD if you...
 
 ## Specifications
 
+
 - [ ] Complete all eight user stories in the [Epic 1: New Role: Approvers].
 
-**Every user story should be in it's own clean pull requested, with unit and integration tests included.**
-
+- [ ] Practice an Agile approach to developing this epic:
+  - All user stories should be added as issues to github and tracked there
+  - Start a project in github, add all user stories to it, and drag on issue at a time from the `backlog` to `in progress`
+  - Every user story should be in it's own clean pull request, with unit and integration tests included
+  - Practice a daily standup with your pair: "what we worked on yesterday, what we are accomplishing today, what's blocking"
 
 ### Stretch
 
