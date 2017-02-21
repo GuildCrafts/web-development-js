@@ -2,6 +2,8 @@
 
 The following list of Goals represents the order I recommend you progress through the first 17 of your 40 weeks here. These goals target specific skill groups. Mayke sure you're tracking your proficency in these skill groups. If you feel you've mastered a skill group move on to goals that keep you in your ZPD. 
 
+__Note:__ This trail will not get you everywhere you need to go on the landscape of Software Development but it should get you started. The Map is evolving, the goal library is evolving, and so this trial will change over time. __Please__ do not dogmatically follow this trail and do not be afrade to venturing off on your own.
+
 ## Core Vanilla Javascript [Solo Study]
 
 https://github.com/GuildCrafts/web-development-js/issues/174
