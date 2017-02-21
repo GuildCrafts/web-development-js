@@ -26,15 +26,13 @@ This goal makes heavy use of external resources: the [JavaScript Basics](https:/
 
 Fork the the [core-vanilla-javascript repository][core-vjs] and use the fork as your project artifact.
 
-In the [solo_study.md][core-vjs-solo] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace, or faster to get the most out of it.
+In the [solo_study.md][core-vjs-solo] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace or faster to get the most out of it.
 
 ## Context
 
-Before getting started building web applications, it's important to get a grounding into the basics of programming and javascript.
+Before getting started building web applications, it's important to get a grounding into the basics of programming and JavaScript. Becoming a full stack web developer means that you need to be comfortable with the core language first, before using it in the web stack.
 
-Becoming a full stack web developer means that you need to be comfortable with the core language first, before using it in the web stack.
-
-Choose this goal if you're just getting started with the basics of javascript and programming and want to gain a solid foothold and are looking to immerse yourself in an intensive and highly structured study.
+Choose this goal if you're just getting started with the basics of JavaScript and programming and want to gain a solid foothold. This will be an immersive, intensive, and highly structured study.
 
 ## Specifications
 
