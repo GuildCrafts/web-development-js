@@ -54,5 +54,5 @@ _Note: Make sure to check off your progress and push your repo to GitHub at leas
 - Descriptive, well-named functions, variables, files, CSS classes, etc. [40 points]
 - Commit messages are concise and descriptive. [20 points]
 
-[core-vjs]: https://github.com/GuildCrafts/core-object-oriented-javascript
+[core-vjs]: https://github.com/GuildCrafts/core-vanilla-javascript
 [core-vjs-team]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/team_practice.md
