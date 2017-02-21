@@ -5,7 +5,7 @@ issueNumber: 174
 teamSize: 1
 ---
 
-# Core Vanilla Javascript
+# Core Vanilla Javascript [Solo]
 
 ## Challenge Rating
 
