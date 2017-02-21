@@ -5,7 +5,7 @@ issueNumber: 176
 teamSize: 2
 ---
 
-# Core Vanilla Javascript
+# Core Vanilla Javascript [Team Drills & Practice]
 
 ## Challenge Rating
 
