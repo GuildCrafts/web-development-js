@@ -40,7 +40,7 @@ Becoming a full stack web developer means that you need to be comfortable with w
 ### Day 3: Install Postgres on your laptop & do the basic postgres tutorial using `psql` client
 - [ ] Install Homebrew by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545)
 - [ ] Install Postgres by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545#install-postgres)
-- [ ] Learn the `psql` command line tool by working through this tutorial [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545#use-psql-command-line-tool-to-execute-queries)
+- [ ] Learn the `psql` command line tool by working through this tutorial
   - [ ] complete the tutorial for `createdb` [here](https://www.tutorialspoint.com/postgresql/postgresql_create_database.htm)
   - [ ] complete the tutorial for selecting the database [here](https://www.tutorialspoint.com/postgresql/postgresql_select_database.htm)
   - [ ] complete the tutorial for dropping the database [here](https://www.tutorialspoint.com/postgresql/postgresql_drop_database.htm)
