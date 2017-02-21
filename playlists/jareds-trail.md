@@ -1,5 +1,7 @@
 # Jared's Trail
 
+The following list of Goals represents the order I recommend you progress through the first 17 of your 40 weeks here. These goals target specific skill groups. Mayke sure you're tracking your proficency in these skill groups. If you feel you've mastered a skill group move on to goals that keep you in your ZPD. 
+
 ## Core Vanilla Javascript [Solo Study]
 
 https://github.com/GuildCrafts/web-development-js/issues/174
