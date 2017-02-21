@@ -1,8 +1,8 @@
 ---
 authors:
   - @shereefb
-issueNumber: 174
-teamSize: 1
+issueNumber: 176
+teamSize: 2
 ---
 
 # Core Vanilla Javascript
