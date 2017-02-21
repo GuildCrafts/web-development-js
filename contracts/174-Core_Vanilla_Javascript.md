@@ -51,5 +51,5 @@ Choose this goal if you're just getting started with the basics of javascript an
 - Descriptive, well-named functions, variables, files, CSS classes, etc. [40 points]
 - Commit messages are concise and descriptive. [20 points]
 
-[core-vjs]: https://github.com/GuildCrafts/core-object-oriented-javascript
-[core-vjs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/solo_study.md
+[core-vjs]: https://github.com/GuildCrafts/core-vanilla-javascript
+[core-vjs-readme]: https://github.com/GuildCrafts/core-vanilla-javascript/blob/master/solo_study.md
