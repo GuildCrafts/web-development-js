@@ -1,8 +1,14 @@
 ---
 authors:
-  - GITHUB_HANDLE
-issueNumber: ISSUE_NO
+- GITHUB_HANDLE
 teamSize: TEAM_SIZE
+issueNumber: ISSUE_NO
+title: GOAL_TITLE
+createdAt: 'yyyy-mm-ddThh:mm:ssZ'
+labels:
+- LABELS
+level: LEVEL
+published: BOOL
 ---
 
 # GOAL_TITLE
