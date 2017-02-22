@@ -1,0 +1,22 @@
+---
+section: Programming
+group: Functional Programming
+levels:
+- level: 0
+  description: Immutability, .map and .reduce
+  goals:
+  - 124
+  - 128
+  skills: []
+- level: 1
+  description: Composition with higher-order function decorators, currying
+  goals: []
+  skills: []
+- level: 2
+  description: Generators/co-routines, memoization, lazy evaluation
+  goals: []
+  skills: []
+- level: 3
+  description: Understands deeply tradeoff/philosophy of functional programming
+  goals: []
+  skills: []

@@ -1,0 +1,61 @@
+---
+section: Backend
+group: Database
+levels:
+- level: 0
+  description: "Good relational Design, postgres & SQL basics, normalization,
+    ACID. Can write basic read/write queries. "
+  goals: []
+  skills:
+  - install postgres via homebrew
+  - start and stop postgres via `brew services`
+  - create a delete psotgres databases
+  - use the `psql` REPL to connect to postgres at a specific database
+  - "`describe` a database and a table in the `psql` console"
+  - create a table with multiple columns of different types
+  - design a schema with two tables that have a 1-1 relationship
+  - design a schema with two tables that have a 1-N relationship
+  - design a schema with two tables that have an N-N relationship
+  - >-
+    write select queries that use the following features: `*, FROM, WHERE,
+    ORDER`
+  - write a 1-1 relationship query`
+  - write a 1-N relationship query`
+  - write a N-N relationship query`
+  - explain `normalization` and `demoralization`
+  - >-
+    design a schema for a given data set and list of questions that need answering
+  - >-
+    understand ACID principles at a high level, and explain why they are useful
+- level: 1
+  description: "ORM or patterns, migrations, can write more complex queries
+    (joins, subqueries, etc.). Able to design good and normalized database
+    schemas keeping in mind the queries that'll have to be run. "
+  goals:
+  - 126
+  - 127
+  skills: []
+- level: 2
+  description: "document vs relational, uses transactions, basic knowledge
+    of multiple techs (mongo, postgresql, elasticsearch, etc.). Proficient
+    in use of views, stored procedures, triggers and user defined types. Knows
+    difference between clustered and non-clustered indexes. "
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    In-depth knowledge of multiple techs (mongo, postgresql, elasticsearch,
+    etc.). db mgmt and devops. db internals.
+  goals: []
+  skills:
+  - basic database administration
+  - performance optimization
+  - index optimization
+  - worked with large in-production databases
+  - hot standby + automatic backups + rollbacks + ZDT deployments
+  - write advanced select queries
+  - able to replace cursor usage with relational sql
+  - understands how data is stored internally
+  - understands how indexes are stored internally
+  - understands how databases can be mirrored, replicated etc
+  - understands how the two phase commit works.

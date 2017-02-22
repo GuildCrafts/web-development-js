@@ -1,0 +1,25 @@
+---
+section: Backend
+group: Continuous Deployment
+levels:
+- level: 0
+  description: build a script that compiles the code for production
+  goals: []
+  skills: []
+- level: 1
+  description: Code is automatically built and tested through a CI server
+  goals: []
+  skills: []
+- level: 2
+  description: >-
+    Configuration AND environment (Docker) is managed, functional AND nonfunctional
+    (capacity) tests are automatically run
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    N-tier archicture deployments are orchestrated (ansible, kubernetes) into
+    a cloud-based environment, push-button deployment and other tools from
+    an admin page
+  goals: []
+  skills: []
