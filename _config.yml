@@ -1,14 +1,15 @@
-title: Web Development JS
+title: JS Web Developer Craft Repo
 email: info@learnersguild.org
 description: >
-  This repository stores information useful for learning the craft
-  of web development.
-baseurl: ""
-url: ""
+  Useful information and guidance for learning the craft
+  of web development with JavaScript.
+baseurl: "/"
+url: "http://jsdev.learnersguild.org"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
+show_downloads: false
 source: client
 destination: public
 collections:
