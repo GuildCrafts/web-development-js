@@ -13,6 +13,8 @@ API_VERSION = 'v1'
 ROOT_PATH = File.expand_path('../../', __FILE__)
 API_PATH = File.join(ROOT_PATH, '_api', API_VERSION)
 
+INDEX_FILE = 'index.json'
+
 GOALS_API_PATH = File.join(API_PATH, 'goals')
 SKILLS_API_PATH = File.join(API_PATH, 'skills')
 
@@ -21,7 +23,8 @@ def build_goals_api
   goals = Goal.load_all(goal_files)
 
   $logger.info "Writing goals index..."
-  File.write(GOALS_API_PATH + '.json', { goals: goals.map(&:metadata) }.to_json)
+  goals_index_path = File.join(GOALS_API_PATH, INDEX_FILE)
+  File.write(goals_index_path, { goals: goals.map(&:metadata) }.to_json)
 
   goals.each do |goal|
     filename = "#{goal['issueNumber']}.json"
@@ -36,31 +39,36 @@ def build_skills_api
   skills_files = Dir[ File.join(ROOT_PATH, 'skills', '**', '*.yml')]
 
   groups = SkillGroup.load_all(skills_files)
+  groups_by_section = Hash[groups.group_by { |g| g['section'] }]
 
-  groups
-    .group_by { |g| g['section'] }
-    .each do |section|
-      section_name = slugify(section[0])
-      section_dir = File.join(SKILLS_API_PATH, section_name)
-      section_groups = section[1]
+  sections = groups_by_section.map do |section, section_groups|
+    section_name = slugify(section)
+    section_dir = File.join(SKILLS_API_PATH, section_name)
 
-      section_data = {
-        'section' => section[0],
-        'groups' => section_groups.map(&:metadata)
-      }
+    section_data = {
+      'section' => section,
+      'groups' => section_groups.map(&:metadata)
+    }
 
-      $logger.info "Writing section index #{section_name}..."
-      File.write(section_dir + '.json', section_data.to_json)
-      FileUtils.mkdir_p(section_dir)
+    $logger.info "Writing section index #{section_name}..."
+    section_index_path = File.join(section_dir, INDEX_FILE)
+    FileUtils.mkdir_p(section_dir)
+    File.write(section_index_path, section_data.to_json)
 
-      section_groups.each do |group|
-        filename = slugify(group['group']) + '.json'
-        filepath = File.join(section_dir, filename)
+    section_groups.each do |group|
+      filename = slugify(group['group']) + '.json'
+      filepath = File.join(section_dir, filename)
 
-        $logger.info "Writing group #{group['group']}..."
-        File.write(filepath, group.to_json)
-      end
+      $logger.info "Writing group #{group['group']}..."
+      File.write(filepath, group.to_json)
     end
+
+    section_data
+  end
+
+  $logger.info "Writing skills index..."
+  skills_index_path = File.join(SKILLS_API_PATH, INDEX_FILE)
+  File.write(skills_index_path, {sections: sections}.to_json)
 end
 
 if $PROGRAM_NAME == __FILE__
