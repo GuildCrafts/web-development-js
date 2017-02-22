@@ -3,12 +3,13 @@
 require 'json'
 require 'logger'
 require 'fileutils'
-require 'front_matter_parser'
+
+require_relative '../lib/goal'
 
 API_VERSION = 'v1'
 
 ROOT_PATH = File.expand_path('../../', __FILE__)
-SOURCE_FILES = File.join(ROOT_PATH, 'contracts', '*.md')
+GOAL_FILES = Dir[ File.join(ROOT_PATH, 'contracts', '*.md') ]
 API_PATH = File.join(ROOT_PATH, '_api')
 GOALS_API_PATH = File.join(API_PATH, API_VERSION, 'goals')
 
@@ -19,27 +20,16 @@ $logger.info("Rebuilding API files...")
 FileUtils.remove_dir(API_PATH)
 FileUtils.mkdir_p(GOALS_API_PATH)
 
-GOALS = Dir[ SOURCE_FILES ].map do |file|
-  next if file =~ /TEMPLATE/
+# Build Goals API
+GOALS = Goal.load_all(GOAL_FILES)
 
-  parsed = FrontMatterParser.parse_file(file)
-
-  goal = parsed.front_matter
-  goal['content'] = parsed.content
-  goal
-end.reject(&:nil?)
-
-$logger.info "Writing goals.json..."
-
-goal_index_path = GOALS_API_PATH + '.json'
-goals_without_content = GOALS.map { |g| g.dup.tap { |g| g.delete('content') } }
-File.write(goal_index_path, { goals: goals_without_content }.to_json)
+$logger.info "Writing goals index..."
+File.write(GOALS_API_PATH + '.json', { goals: GOALS.map(&:metadata) }.to_json)
 
 GOALS.each do |goal|
   filename = "#{goal['issueNumber']}.json"
   filepath = File.join(GOALS_API_PATH, filename)
 
-  $logger.info "Creating goal #{filename}..."
-
+  $logger.info "Creating goal #{goal}..."
   File.write(filepath, goal.to_json)
 end
