@@ -32,7 +32,8 @@ end.reject(&:nil?)
 $logger.info "Writing goals.json..."
 
 goal_index_path = GOALS_API_PATH + '.json'
-File.write(goal_index_path, { goals: GOALS }.to_json)
+goals_without_content = GOALS.map { |g| g.dup.tap { |g| g.delete('content') } }
+File.write(goal_index_path, { goals: goals_without_content }.to_json)
 
 GOALS.each do |goal|
   filename = "#{goal['issueNumber']}.json"
