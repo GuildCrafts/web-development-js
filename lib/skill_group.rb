@@ -16,6 +16,7 @@ class SkillGroup
 
     {
       'group' => data['group'],
+      'path' => data['path'],
       'levels' => levels
     }
   end
