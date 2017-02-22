@@ -1,6 +1,6 @@
 ---
 authors:
-  - @lisabronwyn
+  - "@lisabronwyn"
 teamSize: 2
 issueNumber: 97
 ---

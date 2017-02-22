@@ -1,6 +1,6 @@
 ---
 authors:
-  - @yaseenagag
+  - "@yaseenagag"
 teamSize: 2
 issueNumber: 48
 ---

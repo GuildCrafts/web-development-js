@@ -1,6 +1,6 @@
 ---
 authors:
-  - @tannerwelsh
+  - "@tannerwelsh"
 issueNumber: 128
 teamSize: 2
 ---

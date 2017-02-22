@@ -1,6 +1,6 @@
 ---
 authors:
-  - @deadlyicon
+  - "@deadlyicon"
 teamSize: 2
 issueNumber: 71
 ---

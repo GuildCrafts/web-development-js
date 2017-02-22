@@ -1,6 +1,6 @@
 ---
 authors:
-  - @rachel-ftw
+  - "@rachel-ftw"
 teamSize: 2
 issueNumber: 64
 ---

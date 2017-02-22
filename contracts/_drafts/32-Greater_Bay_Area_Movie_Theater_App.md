@@ -1,6 +1,6 @@
 ---
 authors:
-  - @pllearns
+  - "@pllearns"
 teamSize: 2
 issueNumber: 32
 ---

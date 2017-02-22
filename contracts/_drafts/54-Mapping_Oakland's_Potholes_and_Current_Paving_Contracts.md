@@ -1,6 +1,6 @@
 ---
 authors:
-  - @nicosesma
+  - "@nicosesma"
 teamSize: 2
 issueNumber: 54
 ---

@@ -1,6 +1,6 @@
 ---
 authors:
-  - @arayi
+  - "@arayi"
 teamSize: 2
 issueNumber: 116
 ---

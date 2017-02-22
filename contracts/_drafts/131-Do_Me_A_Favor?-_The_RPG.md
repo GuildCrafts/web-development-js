@@ -1,6 +1,6 @@
 ---
 authors:
-  - @FrankieFabuloso
+  - "@FrankieFabuloso"
 teamSize: 
 issueNumber: 131
 ---
