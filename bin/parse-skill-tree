@@ -46,7 +46,7 @@ skills.each do |section|
     end
 
   groups.each do |group|
-    filename = group['group'].gsub(' ', '_') + '.yaml'
+    filename = group['group'].gsub(' ', '_') + '.yml'
     filepath = File.join(section_path, filename)
 
     $logger.info ">  Creating skill group #{group['group']}..."
