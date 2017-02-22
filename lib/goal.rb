@@ -25,7 +25,7 @@ class Goal
       .reject { |f| f =~ /template/i }
       .map do |file|
         parsed = FrontMatterParser.parse_file(file)
-        Goal.new(metadata: parsed.front_matter, content: parsed.content)
+        self.new(metadata: parsed.front_matter, content: parsed.content)
       end
   end
 end
