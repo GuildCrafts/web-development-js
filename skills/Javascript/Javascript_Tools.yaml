@@ -1,0 +1,24 @@
+---
+section: Javascript
+group: Javascript Tools
+levels:
+- level: 0
+  description: ''
+  goals: []
+  skills: []
+- level: 1
+  description: Console, elements tabs of devtools, sparsely configured editor
+  goals: []
+  skills: []
+- level: 2
+  description: >-
+    ternjs, eslint, nyc, well-configured editor, can use node in debug mode,
+    network and sources tabs in devtools, devtools plugins
+  goals:
+  - 144
+  skills: []
+- level: 3
+  description: devtools profiling, device simulation, and network throttling;
+    IRHydra2
+  goals: []
+  skills: []

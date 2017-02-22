@@ -1,0 +1,35 @@
+---
+section: Programming
+group: Testing
+levels:
+- level: 0
+  description: Unit testing, enzyme, sinon, tape/mocha
+  goals:
+  - 123
+  - 128
+  - 156
+  - 157
+  - 158
+  - 159
+  - 174
+  - 176
+  skills: []
+- level: 1
+  description: >-
+    Separates unit and integration tests, checks code coverage, understands
+    TDD-guided design
+  goals: []
+  skills: []
+- level: 2
+  description: >-
+    Always writes tests first, Functional testing (selenium), Understands
+    benefits of TDD
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    Uses static analysis tools like cyclomatic complexity and afferent/efferent
+    coupling checks, patterns (GoF and Fowler), nonfunctional testing (capacity
+    testing)
+  goals: []
+  skills: []

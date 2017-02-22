@@ -1,0 +1,32 @@
+---
+section: Programming
+group: Algorithms
+levels:
+- level: 0
+  description: >-
+    Basic sorting, searching and data structure traversal and retrieval algorithms
+  goals:
+  - 144
+  - 159
+  skills: []
+- level: 1
+  description: >-
+    Big O notation. Tree, Graph, Pathfinding, simple greedy and divide and
+    conquer algorithms. More nuanced algorithms (pathfinding, tree-traversal)
+  goals:
+  - 123
+  - 158
+  skills: []
+- level: 2
+  description: >-
+    Able to recognize and code dynamic programming solutions, good knowledge
+    of graph algorithms, good knowledge of numerical computation algorithms,
+    able to identify NP problems etc.
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    Concrete mathematical evaluation of tradeoffs between algorithms and data
+    structures.
+  goals: []
+  skills: []

@@ -1,0 +1,30 @@
+---
+section: Code Quality
+group: Defensive Coding and Error Handling
+levels:
+- level: 0
+  description: >-
+    Checks all arguments and asserts critical assumptions in code. Basic error
+    handling around code that can throw exceptions/generate errors
+  goals: []
+  skills: []
+- level: 1
+  description: >-
+    Makes sure to check return values and check for exceptions around code
+    that can fail. Ensures that error/exceptions leave program in good state,
+    resources, connections and memory is all cleaned up properly.
+  goals: []
+  skills: []
+- level: 2
+  description: >-
+    Codes to detect possible exception before, maintain consistent exception
+    handling strategy in all layers of code, come up with guidelines on exception
+    handling for entire system.
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    Has own library to help with defensive coding, writes unit tests that
+    simulate faults
+  goals: []
+  skills: []
