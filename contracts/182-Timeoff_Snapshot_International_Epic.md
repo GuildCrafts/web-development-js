@@ -24,7 +24,7 @@ This goal will likely be within your ZPD if you...
 ## Specifications
 
 
-- [ ] Complete all user stories in the [Epic 3: International Support].
+- [ ] Complete all user stories in the [Epic 3: International Support][repo].
 
 - [ ] Practice an Agile approach to developing this epic:
   - All user stories should be added as issues to github and tracked there
@@ -34,7 +34,7 @@ This goal will likely be within your ZPD if you...
 
 ### Stretch
 
-- [ ] Complete all five user stories in the [Epic 4]
+- [ ] Complete all five user stories in the [Epic 4: Date Formats][repo]
 
 ## Quality Rubric
 
@@ -52,3 +52,5 @@ This goal will likely be within your ZPD if you...
 - Code Organization: [20 points]
   - Methods are grouped logically or by accessibility. Basic separation of code into logical folders
   - Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose
+
+  [repo]:https://github.com/GuildCrafts/timeoff.management/blob/master/user_stories.md
