@@ -11,10 +11,10 @@ teamSize: 1
 
 This goal will likely be within your ZPD if you...
 
-- Are familiar with SQL syntax, and able to read & write queries
+- Are familiar with using the terminal
 - Are familiar with object oriented programming in Javascript
 - Are interested in learning about Javascript Promises
-- Are interested in using SQL to build a practical application
+- Are interested in writing creating functions which use Promises
 
 ## Description
 
