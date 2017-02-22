@@ -12,12 +12,12 @@ theme: minima
 destination: public
 exclude:
   - .github
-  - .bin
   - Gemfile
   - Gemfile.lock
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - bin
   - library
   - playlists
   - guides
