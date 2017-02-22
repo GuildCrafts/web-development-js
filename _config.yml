@@ -1,0 +1,22 @@
+title: Web Development JS
+email: info@learnersguild.org
+description: >
+  This repository stores information useful for learning the craft
+  of web development.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+destination: public
+exclude:
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - library
+  - playlists
+  - guides
