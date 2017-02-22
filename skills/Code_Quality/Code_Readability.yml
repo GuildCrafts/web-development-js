@@ -1,6 +1,7 @@
 ---
 section: Code Quality
 group: Code Readability
+path: code-quality/code-readability
 levels:
 - level: 0
   description: ''

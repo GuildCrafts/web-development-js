@@ -1,6 +1,7 @@
 ---
 section: More
 group: Dev Ops
+path: more/dev-ops
 levels:
 - level: 0
   description: Simple deployment

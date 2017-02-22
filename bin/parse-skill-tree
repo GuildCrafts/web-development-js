@@ -5,6 +5,8 @@ require 'yaml'
 require 'logger'
 require 'fileutils'
 
+require_relative '../lib/utils'
+
 SKILL_TREE = ARGV.first
 
 ROOT_PATH = File.expand_path('../../', __FILE__)
@@ -15,9 +17,9 @@ $logger = Logger.new(STDOUT)
 skills = JSON.parse(File.read(SKILL_TREE))
 
 skills.each do |section|
-  section_name = section['section']
+  section_name = correct_spellings(section['section'])
 
-  section_dir = section_name.gsub(' ', '_')
+  section_dir = fileize(section_name)
   section_path = File.join(SKILLS_PATH, section_dir)
 
   $logger.info "Creating skills section #{section_name}..."
@@ -29,6 +31,7 @@ skills.each do |section|
     .map do |group|
       raise "Incorrect level count for #{group['group']}" if group['subgroups'].count != 4
 
+      group_name = correct_spellings(group['group'])
       levels = group['subgroups']
         .sort_by { |s| s['level'].to_i }
         .map.with_index do |level, index|
@@ -40,13 +43,14 @@ skills.each do |section|
 
       {
         'section' => section_name,
-        'group' => group['group'],
+        'group' => group_name,
+        'path' => slugify("#{section_name}/#{group_name}"),
         'levels' => levels
       }
     end
 
   groups.each do |group|
-    filename = group['group'].gsub(' ', '_') + '.yml'
+    filename = fileize(correct_spellings(group['group'])) + '.yml'
     filepath = File.join(section_path, filename)
 
     $logger.info ">  Creating skill group #{group['group']}..."

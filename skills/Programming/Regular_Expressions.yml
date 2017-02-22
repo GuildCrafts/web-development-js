@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Regular Expressions
+path: programming/regular-expressions
 levels:
 - level: 0
   description: Basic Regular Expressions

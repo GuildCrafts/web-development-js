@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Testing
+path: programming/testing
 levels:
 - level: 0
   description: Unit testing, enzyme, sinon, tape/mocha

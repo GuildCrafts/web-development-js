@@ -1,6 +1,7 @@
 ---
 section: Backend
 group: Continuous Deployment
+path: backend/continuous-deployment
 levels:
 - level: 0
   description: build a script that compiles the code for production
