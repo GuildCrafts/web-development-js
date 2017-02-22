@@ -35,7 +35,7 @@ Javascript is an asynchronous programming language, and if you want want to avoi
 - [ ] All exercises in the artifact are completed
 
 ### Stretch
-
+- [ ] Read Google's Javascript [Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) to Promises
 
 ## Quality Rubric
 
