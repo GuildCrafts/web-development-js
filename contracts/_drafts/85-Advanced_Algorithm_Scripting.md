@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@shereefb"
+- "@shereefb"
 teamSize: 1
 issueNumber: 85
+title: Advanced Algorithm Scripting
+createdAt: '2016-10-05T21:35:37Z'
+labels:
+- foundational
+published: false
+level: NONE
 ---
 
 # Advanced Algorithm Scripting

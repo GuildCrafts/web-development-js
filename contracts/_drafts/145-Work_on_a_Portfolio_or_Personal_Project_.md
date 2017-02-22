@@ -1,8 +1,13 @@
 ---
 authors:
-  - "@alfonsotech"
+- "@alfonsotech"
 teamSize: 2
 issueNumber: 145
+title: 'Work on a Portfolio or Personal Project '
+createdAt: '2017-01-30T17:13:56Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # Work on a Portfolio or Personal Project 

@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@pllearns"
+- "@pllearns"
 teamSize: 2
 issueNumber: 21
+title: Scramble Word Game with HTML/CSS/JS
+createdAt: '2016-07-13T16:05:20Z'
+labels:
+- practice
+published: false
+level: NONE
 ---
 
 # Scramble Word Game with HTML/CSS/JS

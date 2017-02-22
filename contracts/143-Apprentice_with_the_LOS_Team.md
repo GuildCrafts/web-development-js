@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@bundacia"
+- "@bundacia"
 teamSize: 2
 issueNumber: 143
+title: Apprentice on the LOS team
+createdAt: '2017-01-27T21:43:35Z'
+labels:
+- production
+level: '4'
+published: true
 ---
 
 # Apprentice with the LOS Team

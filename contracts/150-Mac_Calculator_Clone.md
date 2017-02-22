@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@deadlyicon"
+- "@deadlyicon"
 issueNumber: 150
 teamSize: 1
+title: Mac Calculator Clone
+createdAt: '2017-02-02T22:55:41Z'
+labels:
+- practice
+level: '2'
+published: true
 ---
 
 # Mac Calculator Clone

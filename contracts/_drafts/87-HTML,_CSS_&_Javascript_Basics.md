@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@shereefb"
+- "@shereefb"
 teamSize: 1
 issueNumber: 87
+title: HTML, CSS & Javascript Basics
+createdAt: '2016-10-05T21:36:40Z'
+labels:
+- foundational
+published: false
+level: NONE
 ---
 
 # HTML, CSS & Javascript Basics

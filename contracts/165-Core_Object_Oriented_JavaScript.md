@@ -1,8 +1,15 @@
 ---
 authors:
-  - "@shereefb"
+- "@shereefb"
 issueNumber: 165
 teamSize: 1
+title: Core Object Oriented Javascript - Solo Study
+createdAt: '2017-02-15T04:17:19Z'
+labels:
+- core
+- foundational
+level: '1'
+published: true
 ---
 
 # Core Object Oriented Javascript

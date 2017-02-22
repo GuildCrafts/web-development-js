@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@jrob8577"
+- "@jrob8577"
 teamSize: 2
 issueNumber: 104
+title: Work on Dragonboard
+createdAt: '2016-10-28T22:35:46Z'
+labels:
+- apprentice
+level: '2'
+published: true
 ---
 
 # Work on Dragonboard

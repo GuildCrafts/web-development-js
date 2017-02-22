@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@punitrathore"
+- "@punitrathore"
 teamSize: 2
 issueNumber: 120
+title: Set (the Game) with React
+createdAt: '2016-12-20T04:23:21Z'
+labels:
+- practice
+level: '1'
+published: true
 ---
 
 # Set (the Game) with React

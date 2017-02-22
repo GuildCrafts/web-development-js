@@ -1,8 +1,16 @@
 ---
 authors:
-  - "@shereefb"
+- "@shereefb"
 issueNumber: 174
 teamSize: 1
+title: Core Vanilla Javascript [Solo Study]
+createdAt: '2017-02-20T19:20:20Z'
+labels:
+- core
+- foundational
+- practice
+level: '1'
+published: true
 ---
 
 # Core Vanilla Javascript [Solo Study]

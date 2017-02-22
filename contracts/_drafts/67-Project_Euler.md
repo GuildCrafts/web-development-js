@@ -1,8 +1,13 @@
 ---
 authors:
-  - "@Farhad33"
+- "@Farhad33"
 teamSize: 2
 issueNumber: 67
+title: Project Euler
+createdAt: '2016-08-12T22:56:28Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # Project Euler
