@@ -18,11 +18,13 @@ This goal will likely be within your ZPD if you...
 
 - Have built simple CRUD apps with node.js and are ready to tackle a bigger challenge involving a more complex codebase
 - Have some familiarity with testing web apps
+- Have some familiarity with relational database design
+- Have already worked on a previous Epic on this codebase
 
 ## Specifications
 
 
-- [ ] Complete all eight user stories in the [Epic 1: New Role: Approvers].
+- [ ] Complete all user stories in the [Epic 3: International Support].
 
 - [ ] Practice an Agile approach to developing this epic:
   - All user stories should be added as issues to github and tracked there
@@ -32,7 +34,7 @@ This goal will likely be within your ZPD if you...
 
 ### Stretch
 
-- [ ] Complete all five user stories in the [Epic 1: New Role: Backend User]
+- [ ] Complete all five user stories in the [Epic 4]
 
 ## Quality Rubric
 
@@ -50,6 +52,3 @@ This goal will likely be within your ZPD if you...
 - Code Organization: [20 points]
   - Methods are grouped logically or by accessibility. Basic separation of code into logical folders
   - Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose
-
-[core-vjs]: https://github.com/GuildCrafts/core-object-oriented-javascript
-[core-vjs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/team_practice.md
