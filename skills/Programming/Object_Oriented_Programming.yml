@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Object Oriented Programming
+path: programming/object-oriented-programming
 levels:
 - level: 0
   description: Objects. Scope. Public/private methods and properties

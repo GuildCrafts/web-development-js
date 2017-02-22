@@ -1,6 +1,7 @@
 ---
 section: JavaScript
 group: Debugging JavaScript
+path: javascript/debugging-javascript
 levels:
 - level: 0
   description: Simple backtracing, logging, and error throwing

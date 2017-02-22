@@ -1,6 +1,7 @@
 ---
 section: Frontend
 group: React
+path: frontend/react
 levels:
 - level: 0
   description: write JSX, knows the lifecycle events

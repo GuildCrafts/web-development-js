@@ -1,6 +1,7 @@
 ---
 section: Code Quality
 group: Defensive Coding and Error Handling
+path: code-quality/defensive-coding-and-error-handling
 levels:
 - level: 0
   description: >-

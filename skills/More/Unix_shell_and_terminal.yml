@@ -1,6 +1,7 @@
 ---
 section: More
 group: Unix, shell, and terminal
+path: more/unix-shell-and-terminal
 levels:
 - level: 0
   description: ''

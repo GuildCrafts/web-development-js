@@ -1,6 +1,7 @@
 ---
 section: Code Quality
 group: Code Construction
+path: code-quality/code-construction
 levels:
 - level: 0
   description: >-

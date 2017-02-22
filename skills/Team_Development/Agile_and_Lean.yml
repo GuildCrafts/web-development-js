@@ -1,6 +1,7 @@
 ---
 section: Team Development
 group: Agile and Lean
+path: team-development/agile-and-lean
 levels:
 - level: 0
   description: Daily standup, track progress in ticket tracker

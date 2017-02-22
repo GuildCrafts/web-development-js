@@ -1,6 +1,7 @@
 ---
 section: JavaScript
 group: Performance
+path: javascript/performance
 levels:
 - level: 0
   description: knows what garbage collection is, knows _when_ to optimize

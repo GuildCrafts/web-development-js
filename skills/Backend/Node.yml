@@ -1,6 +1,7 @@
 ---
 section: Backend
 group: Node
+path: backend/node
 levels:
 - level: 0
   description: Basic npm, Basic HTTP server (kow/express), aware of basic

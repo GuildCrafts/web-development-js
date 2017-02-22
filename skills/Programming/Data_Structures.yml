@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Data Structures
+path: programming/data-structures
 levels:
 - level: 0
   description: 'Basic ADTs (array vs hash vs stack vs queue), '

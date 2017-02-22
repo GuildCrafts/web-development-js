@@ -1,6 +1,7 @@
 ---
 section: Frontend
 group: Webpack
+path: frontend/webpack
 levels:
 - level: 0
   description: ''

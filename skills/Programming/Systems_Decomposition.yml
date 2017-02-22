@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Systems Decomposition
+path: programming/systems-decomposition
 levels:
 - level: 0
   description: Able to think/build within the level of a single file/class

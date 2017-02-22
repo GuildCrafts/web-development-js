@@ -6,6 +6,7 @@ require 'fileutils'
 
 require_relative '../lib/goal'
 require_relative '../lib/skill_group'
+require_relative '../lib/utils'
 
 API_VERSION = 'v1'
 
@@ -14,10 +15,6 @@ API_PATH = File.join(ROOT_PATH, '_api', API_VERSION)
 
 GOALS_API_PATH = File.join(API_PATH, 'goals')
 SKILLS_API_PATH = File.join(API_PATH, 'skills')
-
-def slugify(str)
-  str.gsub(/[ :&]+/, '-').downcase
-end
 
 def build_goals_api
   goal_files = Dir[ File.join(ROOT_PATH, 'contracts', '*.md') ]

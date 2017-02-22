@@ -1,6 +1,7 @@
 ---
 section: Programming
 group: Functional Programming
+path: programming/functional-programming
 levels:
 - level: 0
   description: Immutability, .map and .reduce

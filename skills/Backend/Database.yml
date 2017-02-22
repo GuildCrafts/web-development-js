@@ -1,6 +1,7 @@
 ---
 section: Backend
 group: Database
+path: backend/database
 levels:
 - level: 0
   description: "Good relational Design, postgres & SQL basics, normalization,
