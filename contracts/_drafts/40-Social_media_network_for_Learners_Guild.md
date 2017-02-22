@@ -1,6 +1,6 @@
 ---
 authors:
-  - @phoniks
+  - "@phoniks"
 teamSize: 2
 issueNumber: 40
 ---

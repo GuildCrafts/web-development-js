@@ -1,6 +1,6 @@
 ---
 authors:
-  - @nodatall
+  - "@nodatall"
 teamSize: 2
 issueNumber: 90
 ---

@@ -1,6 +1,6 @@
 ---
 authors:
-  - @deonna
+  - "@deonna"
 issueNumber: 144
 teamSize: 1
 ---

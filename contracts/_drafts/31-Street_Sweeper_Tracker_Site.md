@@ -1,6 +1,6 @@
 ---
 authors:
-  - @harmanlearns
+  - "@harmanlearns"
 teamSize: 2
 issueNumber: 31
 ---

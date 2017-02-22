@@ -1,6 +1,6 @@
 ---
 authors:
-  - @Moniarchy
+  - "@Moniarchy"
 teamSize: 2
 issueNumber: 43
 ---

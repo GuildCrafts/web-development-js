@@ -1,6 +1,6 @@
 ---
 authors:
-  - @alfonsotech
+  - "@alfonsotech"
 teamSize: 2
 issueNumber: 117
 ---

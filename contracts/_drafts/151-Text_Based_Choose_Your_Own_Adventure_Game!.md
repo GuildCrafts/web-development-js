@@ -1,6 +1,6 @@
 ---
 authors:
-  - @lizzkats
+  - "@lizzkats"
 teamSize: 2
 issueNumber: 151
 ---

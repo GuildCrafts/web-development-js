@@ -1,6 +1,6 @@
 ---
 authors:
-  - @jrob8577
+  - "@jrob8577"
 teamSize: 
 issueNumber: 135
 ---
