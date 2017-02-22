@@ -22,7 +22,7 @@ This goal will likely be within your ZPD if you...
 ## Specifications
 
 
-- [ ] Complete all eight user stories in the [Epic 1: New Role: Approvers].
+- [ ] Complete all eight user stories in the [Epic 1: New Role: Approvers][repo]
 
 - [ ] Practice an Agile approach to developing this epic:
   - All user stories should be added as issues to github and tracked there
@@ -32,7 +32,7 @@ This goal will likely be within your ZPD if you...
 
 ### Stretch
 
-- [ ] Complete all five user stories in the [Epic 1: New Role: Backend User]
+- [ ] Complete all five user stories in the [Epic 2: New Role: Backend User][repo]
 
 ## Quality Rubric
 
@@ -51,5 +51,4 @@ This goal will likely be within your ZPD if you...
   - Methods are grouped logically or by accessibility. Basic separation of code into logical folders
   - Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose
 
-[core-vjs]: https://github.com/GuildCrafts/core-object-oriented-javascript
-[core-vjs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/team_practice.md
+  [repo]:https://github.com/GuildCrafts/timeoff.management/blob/master/user_stories.md
