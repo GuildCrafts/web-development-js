@@ -9,19 +9,8 @@ url: ""
 # Build settings
 markdown: kramdown
 theme: minima
+source: client
 destination: public
-exclude:
-  - .github
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - bin
-  - library
-  - playlists
-  - guides
-  - skills
 collections:
   api:
     output: true
