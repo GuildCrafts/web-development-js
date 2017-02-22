@@ -21,6 +21,7 @@ exclude:
   - library
   - playlists
   - guides
+  - skills
 collections:
   api:
     output: true
