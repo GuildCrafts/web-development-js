@@ -12,6 +12,7 @@ theme: minima
 destination: public
 exclude:
   - .github
+  - .bin
   - Gemfile
   - Gemfile.lock
   - README.md
@@ -20,3 +21,6 @@ exclude:
   - library
   - playlists
   - guides
+collections:
+  api:
+    output: true
