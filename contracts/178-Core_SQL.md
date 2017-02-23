@@ -21,6 +21,8 @@ A day-by-day structured deep dive into the basics of SQL. Complete lessons, and 
 
 This goal makes heavy use of external resources: the [Introduction to SQL](https://www.khanacademy.org/computing/computer-programming/sql) course on [Khan Academy](https://www.khanacademy.com/), [Tutorial's Point](https://www.tutorialspoint.com/postgresql), [SQL Zoo](http://sqlzoo.net) and [SQL Bolt](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 
+Fork the [sql-exercises][sql-exercises] repo, and use the fork as your artifact. Complete all the exercises in that goal, without looking at solutions on the internet.
+
 ## Context
 
 In order to build web applications, it's important to get a solid grounding into the basics of SQL. Proficiency in SQL is a core skill needed to build the backend.
@@ -40,7 +42,7 @@ Becoming a full stack web developer means that you need to be comfortable with w
 ### Day 3: Install Postgres on your laptop & do the basic postgres tutorial using `psql` client
 - [ ] Install Homebrew by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545)
 - [ ] Install Postgres by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545#install-postgres)
-- [ ] Learn the `psql` command line tool by working through the following tutorial
+- [ ] Learn the `psql` command line tool by working through the following tutorials
   - [ ] complete the tutorial for `createdb` [here](https://www.tutorialspoint.com/postgresql/postgresql_create_database.htm)
   - [ ] complete the tutorial for selecting the database [here](https://www.tutorialspoint.com/postgresql/postgresql_select_database.htm)
   - [ ] complete the tutorial for dropping the database [here](https://www.tutorialspoint.com/postgresql/postgresql_drop_database.htm)
@@ -59,13 +61,15 @@ Becoming a full stack web developer means that you need to be comfortable with w
   - [ ] complete the tutorial for the `order by` clause [here](https://www.tutorialspoint.com/postgresql/postgresql_order_by.htm)
   - [ ] complete the tutorial for the `group by` clause [here](https://www.tutorialspoint.com/postgresql/postgresql_group_by.htm)
 
-### Day 3: Review of SQL queries
+### Day 4: Mini Project + Exercises
+- [ ] Complete all the exercises in the [sql-exercises][sql-exercises] repo.
+
+### Day 5: Exercises on SQL Bolt
 - [ ] Complete the [SQL Bolt tutorial](https://sqlbolt.com/)
 
-### Day 5: Quizzes
-- [ ] Complete the [Codeacademy course on SQL](https://www.codecademy.com/learn/learn-sql)
-
 ### Stretch
+- [ ] Complete the [Codeacademy course on SQL](https://www.codecademy.com/learn/learn-sql)
 - [ ] Complete the [SQL Zoo quizzes](http://sqlzoo.net/wiki/Tutorial_Quizzes)
 
 
+[sql-exercises]:https://github.com/GuildCrafts/sql-exercises
