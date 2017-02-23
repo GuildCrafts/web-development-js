@@ -30,7 +30,7 @@ You will also need to fork the two repos which contain the exercises you need to
 
 Javascript is an asynchronous programming language, and if you want want to avoid [callback hell](http://callbackhell.com/) you will have to learn to use Promises.
 
-Promises provide a simpler alternative for executing, composing, and managing asynchronous operations when compared to traditional callback-based approaches. They also allow you to handle asynchronous errors using approaches that are similar to synchronous try/catch.
+Promises provide a simpler alternative for executing, composing, and managing asynchronous operations when compared to traditional callback-based approaches. They also allow you to handle asynchronous errors using approaches that are similar to synchronous `try/catch`.
 
 ## Specifications
 
@@ -88,4 +88,4 @@ https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example
 
 [promise-it-wont-hurt-solutions]: https://github.com/GuildCrafts/promise-it-wont-hurt-solutions
 [promises-course]: https://www.udacity.com/course/javascript-promises--ud898
-[pg-promise-exercises]: https://www. github.com/GuildCrafts/pg-promise-exercises
+[pg-promise-exercises]: https://github.com/GuildCrafts/pg-promise-exercises
