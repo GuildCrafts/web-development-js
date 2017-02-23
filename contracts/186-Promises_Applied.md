@@ -32,7 +32,7 @@ Javascript is an asynchronous programming language, and if you want want to avoi
 
 ## Specifications
 
-### Day 1 & Day 2
+### Day 1 & 2
 - [ ] Complete the [Promises Course][promises-course] on Udacity
 
 ### Day 3 & 4
@@ -67,7 +67,7 @@ Javascript is an asynchronous programming language, and if you want want to avoi
 
 
 ### Stretch
-- [ ] Read Google's Javascript [Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) to Promises
+- [ ] Read Google's [Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) to Promises
 
 ## Quality Rubric
 
