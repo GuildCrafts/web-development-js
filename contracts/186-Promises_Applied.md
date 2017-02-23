@@ -11,7 +11,7 @@ teamSize: 1
 
 This goal will likely be within your ZPD if you...
 
-- Are familiar with SQL (the core-sql goal is a prerequisite)
+- Are familiar with SQL (the core-sql [goal](https://github.com/GuildCrafts/web-development-js/issues/178) is a prerequisite)
 - Are familiar with object oriented programming in Javascript
 - Are interested in learning about Javascript Promises
 - Are interested in writing creating functions which use Promises
@@ -23,12 +23,14 @@ A theoritical and practical approach to understanding Javascript Promises.
 
 This goal makes heavy use of external resources: the [Promises Course][promises-course] course on [Udacity](https://www.udacity.com/).
 
-You will also need to fork the the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] repo and use the fork as your project artifact.
+You will also need to fork the two repos which contain the exercises you need to complete. You can find them [here][promise-it-wont-hurt-solutions] and [here][pg-promise-exercises].
 
 
 ## Context
 
-Javascript is an asynchronous programming language, and if you want want to avoid [callback hell](http://callbackhell.com/)  you will have to learn to use Promises.
+Javascript is an asynchronous programming language, and if you want want to avoid [callback hell](http://callbackhell.com/) you will have to learn to use Promises.
+
+Promises provide a simpler alternative for executing, composing, and managing asynchronous operations when compared to traditional callback-based approaches. They also allow you to handle asynchronous errors using approaches that are similar to synchronous try/catch.
 
 ## Specifications
 
@@ -86,4 +88,4 @@ https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example
 
 [promise-it-wont-hurt-solutions]: https://github.com/GuildCrafts/promise-it-wont-hurt-solutions
 [promises-course]: https://www.udacity.com/course/javascript-promises--ud898
-
+[pg-promise-exercises]: https://www. github.com/GuildCrafts/pg-promise-exercises
