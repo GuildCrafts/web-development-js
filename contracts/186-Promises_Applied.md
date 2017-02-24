@@ -65,8 +65,6 @@ Promises provide a simpler alternative for executing, composing, and managing as
   - [ ] Exercise 5
   - [ ] Exercise 6
   - [ ] Exercise 7
-- [ ] Write assert functions for all the exercises
-
 
 ### Stretch
 - [ ] Read Google's [Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) to Promises
