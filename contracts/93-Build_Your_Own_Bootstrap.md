@@ -92,10 +92,15 @@ Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) 
 
 ## Quality Rubric
 
-_What are some appropriate quality objectives for this goal? These are statements about the internal characteristics of the product that demonstrate fine design and craftspersonship, not its external features._
-- Quality rubric one: Code is readable and intuitive 25 points
-- Quality rubric two: Code is DRY 25 points
-- Quality rubric three: Functions handle specific and small tasks for each UI element
+**Good code style**
+- HTML and CSS files are well formatted with proper spacing and indentation. [50 points]
+- Descriptive, well-named functions, variables, files, CSS classes, etc. [50 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [25 points]
+- All features are added via pull requests. [25 points]
+- Every pull request has a description summarizing the changes made. [25 points]
+- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 
