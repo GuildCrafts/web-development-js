@@ -21,7 +21,9 @@ A day-by-day structured deep dive into the basics of SQL. Complete lessons, and 
 
 This goal makes heavy use of external resources: the [Introduction to SQL](https://www.khanacademy.org/computing/computer-programming/sql) course on [Khan Academy](https://www.khanacademy.com/), [Tutorial's Point](https://www.tutorialspoint.com/postgresql), [SQL Zoo](http://sqlzoo.net) and [SQL Bolt](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 
-Fork the [sql-exercises][sql-exercises] repo, and use the fork as your artifact. Complete all the exercises in that goal, without looking at solutions on the internet.
+For the first few days, you'll be working on existing courses and completing tutorials. Then you'll use your skills to complete a set of SQL exercises and submit your queries as your artifact.
+
+Fork the [sql-exercises][sql-exercises] repo, and use the fork as your artifact. Complete all the exercises without looking at solutions on the internet.
 
 ## Context
 
@@ -39,7 +41,7 @@ Becoming a full stack web developer means that you need to be comfortable with w
 - [ ] Complete the [Relational Queries course](https://www.khanacademy.org/computing/computer-programming/sql#relational-queries-in-sql)
 - [ ] Complete the [Modifying databases with SQL course](https://www.khanacademy.org/computing/computer-programming/sql#modifying-databases-with-sql)
 
-### Day 3: Install Postgres on your laptop & do the basic postgres tutorial using `psql` client
+### Day 3: Install Postgres and Complete Tutorials with psql
 - [ ] Install Homebrew by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545)
 - [ ] Install Postgres by following instructions listed [here](https://gist.github.com/punitrathore/ca32542fddd0d8b625aab610c35e4545#install-postgres)
 - [ ] Learn the `psql` command line tool by working through the following tutorials
@@ -61,7 +63,7 @@ Becoming a full stack web developer means that you need to be comfortable with w
   - [ ] complete the tutorial for the `order by` clause [here](https://www.tutorialspoint.com/postgresql/postgresql_order_by.htm)
   - [ ] complete the tutorial for the `group by` clause [here](https://www.tutorialspoint.com/postgresql/postgresql_group_by.htm)
 
-### Day 4: Mini Project + Exercises
+### Day 4: Mini Project & Exercises
 - [ ] Complete all the exercises in the [sql-exercises][sql-exercises] repo.
 
 ### Day 5: Exercises on SQL Bolt
