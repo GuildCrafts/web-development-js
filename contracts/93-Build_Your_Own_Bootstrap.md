@@ -7,15 +7,25 @@ issueNumber: 93
 
 # Build Your Own Bootstrap
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build basic web sites with HTML & CSS
+- Are familiar with HTML/CSS frameworks like Bootstrap
+- Are interested in strengthening your HTML & CSS skills
+- Are interested in how HTML/CSS frameworks actually work
+- Are interested in user interface (UI) design
+
 ## Description
-- Tired of bootstrap templates 👎  that are so overused it makes the entire world wide web look the same?  
+- Tired of bootstrap templates 👎 that are so overused it makes the entire world wide web look the same?  
 -  Passionate about front end development?
-- Ever dreamt of designing web elements like carousels, navbars, jumbotrons, and grids based on your design aesthetic? 
+- Ever dreamt of designing web elements like carousels, navbars, jumbotrons, and grids based on your design aesthetic?
 - Have you already built your own web elements in your previous LG projects?
 
-Then this is the project for you! 
+Then this is the project for you!
 
-You will build your own web elements for the front end and publish that code so it can be npm installed or downloaded and later used by anyone to build their own site. Here is an example of a Bootstrap type site that was built by 4 college kids! [http://materializecss.com/about.html](url) 
+You will build your own web elements for the front end and publish that code so it can be npm installed or downloaded and later used by anyone to build their own site. Here is an example of a Bootstrap type site that was built by 4 college kids! [http://materializecss.com/about.html](url)
 ## Context
 
 This goal will help you solidify your understanding of front end elements. You will get to know Javascript, CSS, and HTML inside and out. You will get a better understanding of design and user experience. Tap into your creative side on the front end.
@@ -37,8 +47,3 @@ _What are some appropriate quality objectives for this goal? These are statement
 - Quality rubric three: Functions handle specific and small tasks for each UI element
 
 ---
-
-
-
-
-
