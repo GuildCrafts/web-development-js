@@ -64,7 +64,20 @@ Becoming a full stack web developer means that you need to be comfortable with w
   - [ ] complete the tutorial for the `group by` clause [here](https://www.tutorialspoint.com/postgresql/postgresql_group_by.htm)
 
 ### Day 4: Mini Project & Exercises
-- [ ] Complete all the exercises in the [sql-exercises][sql-exercises] repo.
+- [ ] Exercises 1-13 in the [sql-exercises][sql-exercises] repo are complete and written to the appropriate file:
+  - [ ] `sql/01-create-table-student.sql`
+  - [ ] `sql/02-create-table-friend.sql`
+  - [ ] `sql/03-create-table-like.sql`
+  - [ ] `sql/04-load-table-learner.sql`
+  - [ ] `sql/05-load-table-friend.sql`
+  - [ ] `sql/06-load-table-like.sql`
+  - [ ] `sql/07-query-friends-gabriel.sql`
+  - [ ] `sql/08-query-likes-grade-two-or-more.sql`
+  - [ ] `sql/09-mutual-likes.sql`
+  - [ ] `sql/10-not-liked.sql`
+  - [ ] `sql/11-liked-but-does-not-like.sql`
+  - [ ] `sql/12-find-friends-in-common.sql`
+  - [ ] `sql/13-popular-students.sql`
 
 ### Day 5: Exercises on SQL Bolt
 - [ ] Complete the [SQL Bolt tutorial](https://sqlbolt.com/)
@@ -73,5 +86,15 @@ Becoming a full stack web developer means that you need to be comfortable with w
 - [ ] Complete the [Codeacademy course on SQL](https://www.codecademy.com/learn/learn-sql)
 - [ ] Complete the [SQL Zoo quizzes](http://sqlzoo.net/wiki/Tutorial_Quizzes)
 
+### Quality Rubric
+
+**Well formatted code**
+- All the SQL keywords are capitalized [25 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [25 points]
+- All features are added via pull requests. [25 points]
+- Every pull request has a description summarizing the changes made. [25 points]
+- Every pull request has been reviewed by at least one other person. [25 points]
 
 [sql-exercises]:https://github.com/GuildCrafts/sql-exercises
