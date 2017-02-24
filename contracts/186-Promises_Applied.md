@@ -23,7 +23,9 @@ A theoritical and practical approach to understanding JavaScript Promises.
 
 This goal makes heavy use of external resources: the [Promises Course][promises-course] course on [Udacity](https://www.udacity.com/).
 
-You will also need to fork the two repos which contain the exercises you need to complete. You can find them [here][promise-it-wont-hurt-solutions] and [here][pg-promise-exercises].
+For the first two days you will be working on existing courses and completing tutorials. Then you'll use your skills to complete a set of exercises, and submit your solutions as your artifacts.
+
+Fork the two repos [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] and [pg-promise-exercises][pg-promise-exercises] which contain the exercises you need to complete, and make them your artifacts.
 
 
 ## Context
@@ -38,26 +40,24 @@ Promises provide a simpler alternative for executing, composing, and managing as
 - [ ] Complete the [Promises Course][promises-course] on Udacity
 
 ### Day 3 & 4
-- [ ] Fork the project [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions].
-- [ ] Complete all exercises listed in the README.md
-  - [ ] Warmup exercise
-  - [ ] Fullfill a promise
-  - [ ] Reject a promise
-  - [ ] To reject or not to reject
-  - [ ] Always asynchronous
-  - [ ] Shortcuts
-  - [ ] Promise after promise
-  - [ ] Values and promises
-  - [ ] Throw an error
-  - [ ] An important rule
-  - [ ] Multiple promises
-  - [ ] Fetch JSON
-  - [ ] Do some work
+- [ ] Exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] are complete and written to the appropriate file:
+  - [ ] `src/01-warmup.js`
+  - [ ] `src/02-fullfill-a-promise.js`
+  - [ ] `src/03-reject-a-promise.js`
+  - [ ] `src/04-to-reject-or-not-to-reject.js`
+  - [ ] `src/05-always-asynchronous.js`
+  - [ ] `src/06-shortcuts.js`
+  - [ ] `src/07-promise-after-promise.js`
+  - [ ] `src/08-values-and-promises.js`
+  - [ ] `src/09-throw-an-error.js`
+  - [ ] `src/10-an-important-file.js`
+  - [ ] `src/11-multiple-promises.js`
+  - [ ] `src/12-fetch-json.js`
+  - [ ] `src/13-do-some-work.js`
 
 ### Day 5
-- [ ] Fork the [pg promise exercises][pg-promise-exercises] repo.
 - [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
-- [ ] Complete all exercises listed in the `exercises.js` file
+- [ ] Exercises 1-7 in the [pg promise exercises][pg-promise-exercises] are complete
   - [ ] Exercise 1
   - [ ] Exercise 2
   - [ ] Exercise 3
