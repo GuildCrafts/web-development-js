@@ -5,7 +5,7 @@ teamSize: 2
 issueNumber: 37
 ---
 
-# Common JS Utility Functions - Lodash
+# Common JS Utility Functions - Underscore
 
 ## Challenge Rubric
 
@@ -14,7 +14,7 @@ This goal will likely be within your ZPD if you...
 - Can write JavaScript programs for Node.js
 - Can use problem decomposition to split difficult problems into smaller parts
 - Have used pseudocode as an intermediary step in writing a program
-- Are familiar with common JavaScript packages/libraries like Lodash or Underscore
+- Are familiar with common JavaScript packages/libraries like Underscore or Lodash
 - Are interested in testing and test-driven-development (TDD)
 - Are interested in understanding how many of the most common utility functions actually work
 - Are interested in understanding how developers write high-level code for others to use
@@ -23,32 +23,34 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Create a library of commonly used JavaScript utility functions by reverse engineering the popular [Lodash][lodash] library.
+Create a library of commonly used JavaScript utility functions by reverse engineering the popular [Underscore][underscore] library.
 
-Use the documentation to build a smaller clone of the [Lodash API][lodash-docs] (current version: 4.17.4) with ES2015. Publish the code as a package to NPM (stretch).
+Use the documentation to build a smaller clone of the [Underscore API][underscore] (current version: 1.8.3) with ES2015. Publish the code as a package to NPM (stretch).
 
 In addition to implementing the functions themselves, write tests for each of the functions. Luckily for you, _most of the work of writing tests has already been done for you_. Use the descriptions and examples from the documentation to make your tests.
 
-For example, a test for the [`_.chunk()`](https://lodash.com/docs/4.17.4#chunk) Array method could look like this (using the Node.js builtin `assert` library):
+For example, a test for the [`_.sortBy()`](http://underscorejs.org/#sortBy) Collection method could look like this (using the Node.js builtin `assert` library):
 
 ```javascript
 const assert = require('assert')
-const _ = require('array.js')
+const _ = require('collections.js')
 
 assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 2),
-  [['a', 'b'], ['c', 'd']],
-  "Creates an array of elements split into groups the length of size."
+  _.sortBy([1, 2, 3, 4, 5, 6], (num) => Math.sin(num)),
+  [5, 4, 6, 3, 1, 2],
+  "Returns a (stably) sorted copy of list, ranked in ascending order by the results of running each value through iteratee."
 )
 
+const stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}];
+
 assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 3),
-  [['a', 'b', 'c'], ['d']],
-  "If array can't be split evenly, the final chunk will be the remaining elements."
+  _.sortBy(stooges, 'name'),
+  [{name: 'curly', age: 60}, {name: 'larry', age: 50}, {name: 'moe', age: 40}],
+  "Iteratee may also be the string name of the property to sort by (eg. length)"
 )
 ```
 
-Note that the code and messages were shamelessly copied directly from the [Lodash docs][lodash-docs].
+Note that the code and messages were shamelessly copied directly from the [Underscore docs][underscore].
 
 ## Context
 
@@ -61,12 +63,12 @@ The questions that this project will raise are:
 - How do we write packages that are easy to understand and simple to use out of the box?
 - How to publish a package to NPM? (part of stretch goal)
 
-This goal is the sister goal of [Common JS Utility Functions - Underscore](202-Common_JS_Utility_Functions-Underscore.md).
+This goal is the sister goal of [Common JS Utility Functions - Lodash](37-Common_JS_Utility_Functions-Lodash.md).
 
 ## Specifications
 
-- [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Lodash library.
-- [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
+- [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Underscore library.
+- [ ] Functions are organized into files with the same names as the function groups from Underscore (e.g. "Collections", "Functions", "Objects").
 - [ ] All code is written with ES2015.
 - [ ] Includes a README that describes each method and provides an example of use.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
@@ -101,12 +103,11 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ## Resources
 
-- [Lodash site][lodash]
+- [Underscore site][underscore]
 - [JS Doc][jsdoc]
 - [Documentation generator][npm-documentation]
 
-[lodash]: https://lodash.com/
-[lodash-docs]: https://lodash.com/docs/4.17.4
+[underscore]: http://underscorejs.org/
 [github-pages]: https://pages.github.com/
 [jsdoc]: http://usejsdoc.org/
 [npm]: https://www.npmjs.com/
