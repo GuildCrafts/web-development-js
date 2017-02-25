@@ -5,15 +5,18 @@ teamSize: 2
 issueNumber: 37
 ---
 
-# NPM Module for Common JS Utility Functions
+# Common JS Utility Functions [Lodash]
 
 ## Description
 
-Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
+Create a library of commonly used JavaScript utility functions by reverse engineering the popular [Lodash][lodash] library.
+
+Use the documentation to build a clone of the [Lodash API][lodash-docs] (current version: 4.17.4) with ES2015. Publish the code as a package to NPM.
+
 ## Context
 
 This goal is important for:
-- learning JavaScript 
+- learning JavaScript
 - understanding how developer write higher-level code for others to use
 - understanding ES2015
 
@@ -22,15 +25,21 @@ This code will be used by other developers to make their jobs easier.
 The questions that this project will raise are:
 - how do we write packages that are easy to understand and simple to use out of the box?
 - how to publish a package to NPM?
+
 ## Specifications
+
 ### Required
+
 - [ ] Includes a list of commonly used methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use. 
+- [ ] Includes a README that describes each method and provides an example of use.
 - [ ] Package is published with NPM.
 - [ ] Includes tests for all methods described.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
-### Optional
-- [ ] Showcases methods in a simple website app.
+
+### Stretch
+
+- [ ] All source code has inline documentation using [JSDoc][jsdoc] format.
+- [ ] Documentation is published a simple [GitHub Pages][github-pages] site (hint: use a builder like the [documentation package][npm-documentation]).
 
 ---
 
@@ -53,8 +62,14 @@ The questions that this project will raise are:
 - Every pull request has a description summarizing the changes made. [25 points]
 - Every pull request has been reviewed by at least one other person. [25 points]
 
+## Resources
 
+- [Lodash site][lodash]
+- [JS Doc][jsdoc]
+- [Documentation generator][npm-documentation]
 
-
-
-
+[lodash]: https://lodash.com/
+[lodash]: https://lodash.com/docs/4.17.4
+[github-pages]: https://pages.github.com/
+[jsdoc]: http://usejsdoc.org/
+[npm-documentation]: https://www.npmjs.com/package/documentation
