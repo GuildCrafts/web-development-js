@@ -39,6 +39,100 @@ This Goal is broken up in to N stages.
 0. Copy this file into `README.md`
 0. Make your first commit and push it up to Github
 
+-----
+
+### Stage 1
+
+In stage 1 were going to create a set of static files and then serve them with an super simple HTTP server called `serve`.
+
+First install `serve`. Like this:
+
+```sh
+npm install -g serve
+```
+
+Next create the following files:
+
+```
+./public/assets/style.css
+./public/assets/team.jpg
+./public/assets/logo.png
+./public/team.html
+./public/about/index.html
+./public/about/positions.html
+```
+
+You're welcome to use any images of any type but to make things easier here are two good ones:
+
+- [team.jpg](https://www.natcom.org/uploadedImages/CommunicationCurrents_Articles/Volume_7/Oetzel_McDermott_pic_2.jpg)
+- [logo.png](http://www.hut90.com/retool/assets/img/Logo_Humble_Bundle.png)
+
+_Pro Tip: try using `curl IMAGE_URL > ./public/assets/team.jpg`_
+
+Start the server by running this command
+
+```sh
+serve .
+```
+
+Now when you visit http://localhost:3000/ in your browser you should see a list of all of the files you just created within `./public`
+
+These are the three pages you need to build:
+
+- http://localhost:3000/team.html
+- http://localhost:3000/about
+- http://localhost:3000/about/positions.html
+
+See the specs below for what you need to do.
+
+#### Specs
+
+  - when you visit http://localhost:3000/team.html you see…
+    - [ ] the words "Our Team" in red with a dark drop shadow
+    - [ ] the logo image
+    - [ ] the team image
+  - when you visit http://localhost:3000/about you see…
+    - [ ] the words "About Page" in red with a dark drop shadow
+    - [ ] the logo image
+  - when you visit http://localhost:3000/about/positions.html you see…
+    - [ ] the words "About Position" in red with a dark drop shadow
+    - [ ] the logo image
+
+
+### Stage 2
+
+In stage two we're going to move away from `serve` and build a simple express server that does the same thing. It will serve any static files within `./public'
+
+create your `package.json` file by running `npm init -y`
+
+install `express` with the command `npm install --save express`
+
+create the file `./app.js`
+
+In this file you need to create and express server that serves static assets from the `./public` directory.
+
+Google around if you need help setting this up. Try googling  "Serving static files in Express". You should be able to do this in 6-10 lines tops.
+
+
+#### Specs
+
+You can move on to Stage 3 when…
+
+- [ ] running `npm start` starts your express server
+- [ ] your express server starts on port 3000
+- [ ] when your express server starts, it prints "http://localhost:3000"
+- [ ] all of the specs from Stage 1 are still met
+
+
+### Stage 3
+
+
+
+
+
+-----
+
+
 ### Stage 1
 
 Setup a simple file server
@@ -53,15 +147,24 @@ Setup a simple file server
   <html>
   <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+
     <nav class="page-nav">
+      <a href="/" class="page-logo">
+        <img src="logo.png" />
+        <span>My Site</span>
+      </a>
     </nav>
+
     <div class="about-page">
       <h1>About</h1>
-      <img src="/panda.jpg" class="panda-img" />
+      <p>
+        This would normally say stuffs about my site.
+      </p>
     </div>
+
   </body>
   </html>
   ```
@@ -76,15 +179,31 @@ Setup a simple file server
     width: 100%;
   }
 
+  h1 {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .page-nav {
+    background: black;
+    color: white;
+  }
+
+  .page-nav .page-logo img {
+    height: 50px;
+    vertical-align: middle;
+  }
+
+  .page-nav .page-logo,
+  .page-nav .page-logo:active,
+  .page-nav .page-logo:visited {
+    color: white;
+    text-decoration: none;
+  }
+
   .about-page {
     padding: 1em;
     text-align: center
-  }
-
-  .about-page .panda-img{
-    max-width: 90vw;
-    max-height: 90vh;
-    border: 10px solid black;
   }
   ```
 
@@ -92,12 +211,11 @@ Setup a simple file server
 0. run `serve ./public`
 0. goto http://localhost:3000/about.html in a browser
 
-At this point you should
+At this point you should see:
 
-- [ ] see a picture of a panda
-- [ ] the panda picture has a think black border
-- [ ] the panda picture is centered horizontally
-- [ ] the panda picture is never larger than the window
+- [ ] a black navbar at the top of the page
+- [ ] a red logo in the nav bar
+- [ ] the word "About" in red with a black drop shadow
 
 
 __Congratz!__ You've just made some static assets and served them using a simple HTTP server.
@@ -105,25 +223,16 @@ __Congratz!__ You've just made some static assets and served them using a simple
 
 ### Stage 2
 
-In stage two were going to exploring relative vs absolute paths when linking to assets.
+In stage two were going to explore relative vs absolute paths when linking to assets. To do this we'll need another page.
 
 0. make the directory `./public/blog`
-0. create `./public/blog/my-first-blog-post.html` with the following content
+0. create `./public/blog/my-first-blog-post.html` with same exact content as the `./public/about.html` page except replace the entire `<div class="about-page">` div with the following html
 
   ```html
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
-  </head>
-  <body>
-    <div class="blog-page">
-      <h1>My First Blog Post</h1>
-      <p>…is short and sweet</p>
-    </div>
-  </body>
-  </html>
+  <div class="blog-page">
+    <h1>My First Blog Post</h1>
+    <p>…is short and sweet</p>
+  </div>
   ```
 0. add the following css to your `style.css` file
 
@@ -136,12 +245,39 @@ In stage two were going to exploring relative vs absolute paths when linking to 
     background-color: lightgrey;
     padding: 1em 2em;
   }
-
-  .blog-page h1 {
-    color: blue;
-  }
   ```
 0. goto http://localhost:3000/blog/my-first-blog-post.html in a browser
+
+
+At this point you should see
+
+- a broken image and an ugly link where the navbar should be
+- "My First Blog Post" in black instead of red with a dropshadow
+
+This is because of how we're linking to our assets. In both of our `html` files we're using relative urls instead of absolute urls.
+
+Speficically here:
+
+```html
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+and here:
+
+```html
+<img src="logo.png" />
+```
+
+The problem is `"style.css"` and `"logo.png"` are relative urls. You can tell because they do not start with a `/`.
+
+This works on the `/about.html` page because the relative url `"style.css"` resolves to the absolute path `"/style.css"` which is the correct path to the that file.
+
+This breaks on the `/blog/my-first-blog-post.html` page because the relative url `"style.css"` resolves to the absolute path `"/blog/style.css"` which is NOT the correct path to the that file.
+
+So how do we fix this? We change our urls from relative paths to absolute paths.
+
+0. Go into both `./public/about.html` and `./public/blog/my-first-blog-post.html` and convert any relative paths to absolute paths.
+0. Reload http://localhost:3000/blog/my-first-blog-post.html in a browser
 
 
 ### Stage 2
