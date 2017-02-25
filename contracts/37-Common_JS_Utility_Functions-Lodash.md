@@ -7,6 +7,20 @@ issueNumber: 37
 
 # Common JS Utility Functions [Lodash]
 
+## Challenge Rubric
+
+This goal will likely be within your ZPD if you...
+
+- Can write JavaScript programs for Node.js
+- Can use problem decomposition to split difficult problems into smaller parts
+- Have used pseudocode as an intermediary step in writing a program
+- Are familiar with common JavaScript packages/libraries like Lodash or jQuery
+- Are interested in testing and test-driven-development (TDD)
+- Are interested in understanding how many of the most common utility functions actually work
+- Are interested in understanding how developers write high-level code for others to use
+- Are interested in reading and interpreting technical documentation
+- Are interested in writing ES2015
+
 ## Description
 
 Create a library of commonly used JavaScript utility functions by reverse engineering the popular [Lodash][lodash] library.
@@ -38,16 +52,14 @@ Note that the code and messages were shamelessly copied directly from the [Lodas
 
 ## Context
 
-This goal is important for:
-- learning JavaScript
-- understanding how developer write higher-level code for others to use
-- understanding ES2015
+This project will take you into the realm of real a JavaScript library used by thousands (maybe millions) of developers across the world. You'll have to think like an open-source software developer and learn the benefits and constraints of such a role.
 
-This code will be used by other developers to make their jobs easier.
+In addition, your code may be used by other developers to make their jobs easier. Hopefully this project helps you better understand how to contribute to the open source community so that you can be an active member throughout your career.
 
 The questions that this project will raise are:
-- how do we write packages that are easy to understand and simple to use out of the box?
-- how to publish a package to NPM?
+- What happens "under the hood" of the most common utility functions?
+- How do we write packages that are easy to understand and simple to use out of the box?
+- How to publish a package to NPM? (part of stretch goal)
 
 ## Specifications
 
