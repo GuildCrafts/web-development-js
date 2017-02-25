@@ -41,6 +41,7 @@ Choose this goal if you're just getting started with the basics of JavaScript an
 - [ ] All exercises and lessons in the `solo_study.md` file are completed and checked off.
 - [ ] Final project is complete and in the proper directory of the artifact.
 
+**Note: It's important to checkoff each reading/video/exercise in the README.md of your forked repo, and commit the change, and push to github at least twice a day**
 
 ### Stretch
 
