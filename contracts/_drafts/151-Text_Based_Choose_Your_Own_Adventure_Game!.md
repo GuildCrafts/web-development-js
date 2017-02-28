@@ -1,8 +1,13 @@
 ---
 authors:
-  - @lizzkats
+- "@lizzkats"
 teamSize: 2
 issueNumber: 151
+title: Text Based Choose Your Own Adventure Game!
+createdAt: '2017-02-06T17:29:21Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # Text Based Choose Your Own Adventure Game!

@@ -1,37 +1,14 @@
 ---
 authors:
-  - @Jusdev89
+- "@Jusdev89"
 teamSize: 2
 issueNumber: 37
----
-
-# NPM Module for Common JS Utility Functions
-
-## Description
-
-Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
-## Context
-
-This goal is important for:
-- learning JavaScript 
-- understanding how developer write higher-level code for others to use
-- understanding ES2015
-
-This code will be used by other developers to make their jobs easier.
-
-The questions that this project will raise are:
-- how do we write packages that are easy to understand and simple to use out of the box?
-- how to publish a package to NPM?
-## Specifications
-### Required
-- [ ] Includes a list of commonly used methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use. 
-- [ ] Package is published with NPM.
-- [ ] Includes tests for all methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
-### Optional
-- [ ] Showcases methods in a simple website app.
-
+title: NPM Module for Common JS Utility Functions
+createdAt: '2016-07-15T23:34:34Z'
+labels:
+- practice
+published: false
+level: NONE
 ---
 
 ## Quality Rubric

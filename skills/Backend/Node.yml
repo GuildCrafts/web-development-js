@@ -1,0 +1,24 @@
+---
+section: Backend
+group: Node
+path: backend/node
+levels:
+- level: 0
+  description: Basic npm, Basic HTTP server (kow/express), aware of basic
+    API methods
+  goals: []
+  skills: []
+- level: 1
+  description: >-
+    Difference between sync and async functions, middleware, basic authentication,
+    basic security
+  goals: []
+  skills: []
+- level: 2
+  description: Integrations with other services, SSO, SSR
+  goals: []
+  skills: []
+- level: 3
+  description: compilation/es6/async functions, security audits
+  goals: []
+  skills: []

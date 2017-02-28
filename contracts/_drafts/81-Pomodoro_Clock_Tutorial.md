@@ -1,8 +1,14 @@
 ---
 authors:
-  - @shereefb
+- "@shereefb"
 teamSize: 1
 issueNumber: 81
+title: Pomodoro Clock Tutorial
+createdAt: '2016-10-05T21:33:05Z'
+labels:
+- foundational
+published: false
+level: NONE
 ---
 
 # Pomodoro Clock Tutorial

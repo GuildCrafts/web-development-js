@@ -1,0 +1,49 @@
+---
+section: Frontend
+group: UI and UX Design
+path: frontend/ui-and-ux-design
+levels:
+- level: 0
+  description: ''
+  goals: []
+  skills: []
+- level: 1
+  description: 'Basic UI/UX: Elements, color, layout wireframing, and typography'
+  goals: []
+  skills:
+  - >-
+    Identify and describe common UI elements (navigation, headers, containers,
+    tabs, modals, etc.)
+  - Explain and apply layout in a UI design
+  - Explain and apply color usage in a UI design
+  - Explain and apply typography in a UI design
+  - Wireframe an app on paper or a whiteboard
+  - Use common symbols, shapes, and graphics in a wireframe
+- level: 2
+  description: >-
+    Intermediate UI/UX: whitespace, responsive design, color theory, grids,
+    and visual heirarchy/weight.
+  goals: []
+  skills:
+  - Use a grid for UI design
+  - Use Sketch to design a web UI
+  - Explain and apply visual hierarchy in a UI design
+  - Explain and apply visual weight in a UI design
+  - Explain and apply whitespace in a UI design
+  - Explain and apply color theory in a UI design
+  - Design a web page with functional UI at 2 screen widths
+  - Design a web page with functional UI at 3 screen widths
+- level: 3
+  description: 'Advanced UI/UX: accessibility, more responsive & visual design'
+  goals: []
+  skills:
+  - Identify and explain common visual design principles
+  - Create a mood board for a project
+  - Create style tiles for a project
+  - Explain and apply accessibility in a UI design
+  - List and explain core principles of responsive design
+  - Describe and apply a mobile-first design approach
+  - Design a web page with functional UI at 4+ screen widths
+  - Apply UX/UI design principles to web applications
+  - Wireframe an app using wireframe software
+  - Demonstrate user flow in a wireframe

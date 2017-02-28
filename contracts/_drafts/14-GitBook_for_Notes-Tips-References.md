@@ -1,8 +1,13 @@
 ---
 authors:
-  - @deadlyicon
+- "@deadlyicon"
 teamSize: 2
 issueNumber: 14
+title: GitBook for Notes/Tips/References
+createdAt: '2016-07-07T19:10:52Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # GitBook for Notes/Tips/References

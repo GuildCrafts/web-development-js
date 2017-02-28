@@ -1,0 +1,32 @@
+---
+section: JavaScript
+group: ES6
+path: javascript/es6
+levels:
+- level: 0
+  description: ''
+  goals: []
+  skills: []
+- level: 1
+  description: >-
+    ES6 transpilation to ES5, memorized browser/node compatability, more in-depth
+    quirks (like the difference between arrow functions and named functions,
+    how .prototype might trip you up)
+  goals: []
+  skills:
+  - >-
+    write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc
+- level: 2
+  description: >-
+    Control-flow: generators, async/await, knows how `class` transpiles to
+    ES5 and when to use it vs functions, know popular .babelrc configs and
+    when to use babel-register babel-node and babel-polyfill, aware of browser/node
+    compatability, knowledge of upcoming features
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    Contributes to babel or a babel plugin, contributes to discussions on
+    the future of ES6
+  goals: []
+  skills: []

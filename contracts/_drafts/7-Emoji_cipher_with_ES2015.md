@@ -1,8 +1,14 @@
 ---
 authors:
-  - @tannerwelsh
+- "@tannerwelsh"
 teamSize: 2
 issueNumber: 7
+title: Emoji cipher with ES2015
+createdAt: '2016-06-17T22:45:12Z'
+labels:
+- practice
+published: false
+level: NONE
 ---
 
 # Emoji cipher with ES2015

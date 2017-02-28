@@ -1,8 +1,13 @@
 ---
 authors:
-  - @deadlyicon
+- "@deadlyicon"
 teamSize: 2
 issueNumber: 105
+title: 'WIP: Git Level Up'
+createdAt: '2016-11-01T19:39:44Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # WIP: Git Level Up

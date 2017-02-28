@@ -1,8 +1,14 @@
 ---
 authors:
-  - @shereefb
+- "@shereefb"
 teamSize: 1
 issueNumber: 83
+title: 'Browser Games: Simon & Tic-Tac-Toe'
+createdAt: '2016-10-05T21:34:11Z'
+labels:
+- foundational
+level: '1'
+published: true
 ---
 
 # Browser Games [Basic]

@@ -1,8 +1,14 @@
 ---
 authors:
-  - @phoniks
+- "@phoniks"
 teamSize: 2
 issueNumber: 68
+title: Blackjack Game for the Node.js Console
+createdAt: '2016-08-12T23:12:15Z'
+labels:
+- practice
+published: false
+level: NONE
 ---
 
 # Blackjack Game for the Node.js Console

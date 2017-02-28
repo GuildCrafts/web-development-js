@@ -1,8 +1,13 @@
 ---
 authors:
-  - @jrob8577
+- "@jrob8577"
 teamSize: 
 issueNumber: 135
+title: Coaching
+createdAt: '2017-01-17T16:58:53Z'
+labels: []
+published: true
+level: NONE
 ---
 
 # Coaching

@@ -1,8 +1,15 @@
 ---
 authors:
-  - @shereefb
+- "@shereefb"
 issueNumber: 176
 teamSize: 2
+title: Core Vanilla Javascript [Team Drills & Practice]
+createdAt: '2017-02-20T23:03:19Z'
+labels:
+- core
+- practice
+level: '1'
+published: true
 ---
 
 # Core Vanilla Javascript [Team Drills & Practice]

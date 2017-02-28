@@ -1,0 +1,29 @@
+---
+section: Programming
+group: Requirements
+path: programming/requirements
+levels:
+- level: 0
+  description: Takes the given requirements and codes to spec
+  goals:
+  - 174
+  - 176
+  skills: []
+- level: 1
+  description: >-
+    Clarifies spec. through questions regarding missed cases and ambigious
+    requirements
+  goals: []
+  skills: []
+- level: 2
+  description: >-
+    Understand complete picture and come up with entire areas that need to
+    be speced
+  goals: []
+  skills: []
+- level: 3
+  description: >-
+    Able to suggest better alternatives and flows to given requirements based
+    on experience
+  goals: []
+  skills: []

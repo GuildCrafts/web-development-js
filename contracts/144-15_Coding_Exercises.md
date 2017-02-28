@@ -1,8 +1,14 @@
 ---
 authors:
-  - @deonna
+- "@deonna"
 issueNumber: 144
 teamSize: 1
+title: 15 Coding Exercises
+createdAt: '2017-01-29T19:23:24Z'
+labels:
+- foundational
+level: '1'
+published: true
 ---
 
 # 15 Coding Exercises

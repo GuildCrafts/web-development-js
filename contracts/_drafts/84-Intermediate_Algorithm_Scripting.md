@@ -1,8 +1,14 @@
 ---
 authors:
-  - @shereefb
+- "@shereefb"
 teamSize: 1
 issueNumber: 84
+title: Intermediate Algorithm Scripting
+createdAt: '2016-10-05T21:35:15Z'
+labels:
+- foundational
+published: false
+level: NONE
 ---
 
 # Intermediate Algorithm Scripting

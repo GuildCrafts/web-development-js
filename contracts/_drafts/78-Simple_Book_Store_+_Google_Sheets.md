@@ -1,8 +1,13 @@
 ---
 authors:
-  - @deadlyicon
+- "@deadlyicon"
 teamSize: 2
 issueNumber: 78
+title: Simple Book Store + Google Sheets
+createdAt: '2016-10-02T20:18:03Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # Simple Book Store + Google Sheets

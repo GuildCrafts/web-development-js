@@ -1,0 +1,26 @@
+---
+section: JavaScript
+group: Performance
+path: javascript/performance
+levels:
+- level: 0
+  description: knows what garbage collection is, knows _when_ to optimize
+  goals: []
+  skills: []
+- level: 1
+  description: >-
+    inspect heap to isolate memory leaks, CPU profile to find cpu-intensive
+    functions
+  goals: []
+  skills: []
+- level: 2
+  description: >
+    improve node performance by examining generated assembly, has written
+    transpiler or transpiling plugins
+  goals: []
+  skills: []
+- level: 3
+  description: Has optimized V8 performance by analyzing generated assembly
+    (IRHydra2)
+  goals: []
+  skills: []

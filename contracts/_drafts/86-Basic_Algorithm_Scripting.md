@@ -1,8 +1,14 @@
 ---
 authors:
-  - @shereefb
+- "@shereefb"
 teamSize: 1
 issueNumber: 86
+title: Basic Algorithm Scripting
+createdAt: '2016-10-05T21:36:09Z'
+labels:
+- foundational
+published: false
+level: NONE
 ---
 
 # Basic Algorithm Scripting

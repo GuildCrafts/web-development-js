@@ -1,8 +1,13 @@
 ---
 authors:
-  - @nodatall
+- "@nodatall"
 teamSize: 2
 issueNumber: 90
+title: To Do List (Backend only)
+createdAt: '2016-10-07T20:35:57Z'
+labels: []
+published: false
+level: NONE
 ---
 
 # To Do List (Backend only)

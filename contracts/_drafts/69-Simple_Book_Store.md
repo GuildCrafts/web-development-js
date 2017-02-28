@@ -1,8 +1,14 @@
 ---
 authors:
-  - @jrob8577
+- "@jrob8577"
 teamSize: 2
 issueNumber: 69
+title: Simple Book Store
+createdAt: '2016-08-12T23:16:31Z'
+labels:
+- practice
+published: false
+level: NONE
 ---
 
 # Simple Book Store
