@@ -32,6 +32,10 @@ Most learners have used [Postgres][postgres] for their database and  [pg-promise
 
 If you are already experienced with this project, you may want to choose a different database such as MongoDB.
 
+You may design your own UI, but it's probably better to copy someone else's design. After all, there _are_ a few other to-do list apps out there ;). Here's one example using Google's [Material Design][material-design] that you could mimic:
+
+![screen shot 2017-02-28 at 11 33 00 am](https://cloud.githubusercontent.com/assets/709100/23414837/3f8c7046-fdab-11e6-8631-8dfb80662e24.png)
+
 ## Context
 
 One of the main skills we seek to learn here at Learners Guild is the creation of full-stack web applications. This project is an excellent opportunity to see how all your various foundational skills will come together into a complete, functioning website.
@@ -93,5 +97,7 @@ When working on this goal, you'll encounter questions like:
 
 [npm-express]: https://www.npmjs.com/package/express
 [npm-babel]: https://www.npmjs.com/package/babel
-[npm-pg-promise]: https://www.npmjs.com/package/pg-promise[postgres]: https://www.postgresql.org/
+[npm-pg-promise]: https://www.npmjs.com/package/pg-promise
+[postgres]: https://www.postgresql.org/
+[material-design]: https://material.io/
 [mit-license]: https://opensource.org/licenses/MIT
