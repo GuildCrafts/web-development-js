@@ -56,3 +56,4 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 [browser-games]: https://github.com/GuildCrafts/browser-games
 [games-list]: https://github.com/GuildCrafts/browser-games/blob/master/games.md
 [basic-games]: https://github.com/GuildCrafts/browser-games/blob/master/games.md#basic-graphical-games
+[mit-license]: https://opensource.org/licenses/MIT
