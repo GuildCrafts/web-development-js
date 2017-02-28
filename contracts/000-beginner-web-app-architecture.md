@@ -14,7 +14,7 @@ This goal will likely be within your ZPD if you...
 - know beginner vanilla JavaScript
 - feel comfortable with callbacks
 - do not know how a web server works
-- do not know what "rendering a template" means
+- do not know what "rendering a view" means
 - do not feel comfortable in express
 
 
@@ -28,9 +28,9 @@ This goal was also designed so you can spice things up if you need some extra ki
 
 - Stage 1: just serving static assets
 - Stage 2: configuring express to serve static assets
-- Stage 3: serving dynamically rendered templates
+- Stage 3: serving dynamically rendered views
 - Stage 4: using layouts and partials
-- Stage 5: renering data in a template
+- Stage 5: renering data in a view
 - Stage 6: using forms to submit data to the server
 - Stage 7: tracking your visitors using cookies
 
@@ -157,10 +157,13 @@ You can move on to Stage 3 when…
   - [ ] all of the specs from Stage 1 are still met
 
 
+
+
+
+
 ### Stage 3
 
-
-In Stage 3 we're going to move our pages from static files into `express` routes and `ejs` templates
+In Stage 3 we're going to move our pages from static files into `express` routes and `ejs` views
 
 #### Learning Objectives
 
@@ -168,13 +171,12 @@ As you're completing Stage 3 make sure you're learning…
 
 - how to define or register an `express` route
 - how to respond to an HTTP request within `express`
-- how to render a template in `express`
+- how to render a view in `express`
+- what to google when using two node libraries together
 
 #### Walkthrough
 
 Install ejs `npm install --save ejs`
-
-Create a `./views` directory
 
 Move the following files like so
 
@@ -194,6 +196,10 @@ Make sure you've removed the following files:
 
 Create three `express` routes. One for each of our three pages.
 
+Your three routes are goint to be `get` requests
+
+Each route need to render the corresponding view
+
 #### Specs
 
 You can move on to Stage 4 when…
@@ -202,14 +208,31 @@ You can move on to Stage 4 when…
 
 #### Resources
 
+- google "node express ejs"
+
+
+
+
+
 
 ### Stage 4
+
+In Stage 4 were going to learn how to use layouts and partials to share html across multiple pages
 
 #### Learning Objectives
 
 As you're completing Stage 4 make sure you're learning…
 
 - the `ejs` syntax
+- that views are just functions that generate a string
+
+Create the following files:
+
+```
+./views/_layout.ejs
+./views/_nav.ejs
+```
+
 
 
 
