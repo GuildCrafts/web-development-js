@@ -11,6 +11,8 @@ issueNumber: 133
 
 - Can write JavaScript programs for Node.js
 - Can navigate technical API documentation
+- Know the difference between methods and properties
+- Know what a data type is
 - Are familiar with the anatomy of a function/method
 - Are familiar with the difference between function/method definition and function/method invocation
 - Are interested in reading and interpreting technical documentation
@@ -57,11 +59,25 @@ Have fun!
 
 ## Specifications
 
-- [ ] Artifact contains 2 sets of well-written, thorough and complete documentation
-- [ ] Artifact contains 2 libraries that fulfill the interface and functionality outlined in the corresponding documentation
-- [ ] Source code is written with ES6
-- [ ] Source library is properly attributed according to its license
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
+- [ ] Artifact contains 2 sets of well-written, thorough and complete documentation.
+  - [ ] Each documentation set lists all public modules/classes and their methods/functions for the library.
+  - [ ] Properties (if any) are organized by their module/class.
+  - [ ] Property entries specify the name and data type of the property, its default value (if any), and a brief description of what it is for.
+  - [ ] Methods/functions are organized by their module/class.
+  - [ ] Each method/function entry specifies the method/function name, a brief description of what it does, its parameters and their data types, which parameters are required and which are optional, and what the return data type is.
+- [ ] Artifact contains 2 libraries that fulfill the interface and functionality outlined in the corresponding documentation.
+  - [ ] Test suite can be run with the command `npm test`.
+  - [ ] Every public method/function is tested.
+  - [ ] All tests are passing.
+- [ ] Source code is written with ES6.
+- [ ] Source library is properly attributed according to its license.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+## Stretch
+
+- [ ] Each method/function entry in the documentation includes an example of use.
+- [ ] Documentation is written inline with [JSDoc][jsdoc] format.
+- [ ] Documentation can be built into a static website with the command `npm run docs` (hint: use a builder like the [documentation package][npm-documentation]).
 
 ## Quality Rubric
 
@@ -83,3 +99,5 @@ Have fun!
 - Every pull request has been reviewed by at least one other person. [25 points]
 
 [mit-license]: https://opensource.org/licenses/MIT
+[jsdoc]: http://usejsdoc.org/
+[npm-documentation]: https://www.npmjs.com/package/documentation
