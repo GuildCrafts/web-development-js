@@ -9,30 +9,27 @@ issueNumber: 110
 
 ## Description
 
-This goal provides an introduction to functional programming concepts using JavaScript and gives you the opportunity to practice these concepts with a series of reinforcement exercises from the [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) and a handful of automated challenges on [CodeWars](https://www.codewars.com/kata/latest/my-languages?tags=Functional+Programming).
+This goal provides an introduction to functional programming concepts using JavaScript and gives you the opportunity to practice these concepts with a series of reinforcement exercises from the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] and a handful of automated challenges on [CodeWars][codewars-chals].
 
 ## Context
 
-Functional programming patterns are becoming increasingly popular in the web development community. Using these patterns results in code that is more adaptable and flexible, less buggy, and more scalable. 
+Functional programming patterns are becoming increasingly popular in the web development community. Using these patterns results in code that is more adaptable and flexible, less buggy, and more scalable.
 
-The article [The Two Pillars of JavaScript : Pt 2: Functional Programmig
-How to Stop Micromanaging Everything](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.p9gfmzfel) goes into many of the reasons why you might want to consider learning how to write JavaScript as a functional programmer would.
+The article [The Two Pillars of JavaScript — Pt 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.p9gfmzfel) goes into many of the reasons why you might want to consider learning how to write JavaScript as a functional programmer would.
 
 ## Specifications
 
-- [ ] Read the [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) through Chapter 8: Tupperware
+- [ ] Read the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] through Chapter 8: Tupperware
 - [ ] Complete the exercises in the Mostly Adequate Guide (note: there aren't exercises after each chapter - just the ones on Ch 4: Currying, Ch: 5: Coding by Composing, and Ch: 8 Tupperware).
-- [ ] Practice these concepts by completing at least [5 Functional Programming exercises](https://www.codewars.com/kata/latest/my-languages?tags=Functional+Programming) on 
--OR-
-
-- [ ] Refactor a previous project to use functional programming patterns (strongly recommended to review the Mostly Adequate Guide before starting) 
-
-CodeWars (just a heads up: you're required to answer a couple of super basic JS questions to sign up for CodeWars). BONUS: Do more if you get through 5 exercises by the end of the cycle.
-
- 
-### Required
-
+- [ ] Practice these concepts by completing at least [5 Functional Programming exercises][codewars-chals] on
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+A just a heads up on CodeWars: you're required to answer a couple of super basic JS questions to sign up for CodeWars, and you need to be signed up for the links to work.
+
+### Stretch
+
+- [ ] Complete an additional 5 exercises from [CodeWars][codewars-chals]
+- [ ] Refactor a previous project to use functional programming patterns (strongly recommended to review the Mostly Adequate Guide before starting)
 
 ## Quality Rubric
 
@@ -41,25 +38,21 @@ CodeWars (just a heads up: you're required to answer a couple of super basic JS 
 
 ## Resources
 
-[So You Want to Be a Functional Programmer](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536)
+Articles, guides, and courses
 
-[Eloquent JavaScript Chapter 6: Functional Programming](http://eloquentjavascript.net/1st_edition/chapter6.html)
+- [So You Want to Be a Functional Programmer](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536)
+- [Eloquent JavaScript Chapter 6: Functional Programming](http://eloquentjavascript.net/1st_edition/chapter6.html)
+- [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+- [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) (advanced)
+- [Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
 
-[Ramda](http://ramdajs.com/docs/) - similar to lodash, but for functional programming
+Tools and libraries
 
-[Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
-
-[Category Theory for Programmers (advanced)](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
-
-[Ramda REPL (read-evaluate-print-loop)](http://ramdajs.com/repl/)
-
-[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
-
----
-
-
-
+- [Ramda](http://ramdajs.com/docs/) - similar to lodash, but for functional programming
+- [Ramda REPL](http://ramdajs.com/repl/) (read-evaluate-print-loop)
 
 
 
 [mit-license]: https://opensource.org/licenses/MIT
+[mostly-adequate-guide]: https://drboolean.gitbooks.io/mostly-adequate-guide/content/
+[codewars-chals]: https://www.codewars.com/kata/search/javascript?q=&tags=Functional+Programming&beta=false
