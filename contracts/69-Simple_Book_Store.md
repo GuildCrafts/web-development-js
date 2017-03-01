@@ -19,7 +19,17 @@ issueNumber: 69
 
 ## Description
 
-Create a simple content management system that allows users to add, delete, or update books.  Books entered in the system can be viewed in a listing, or searched for using basic searches (title, author, genre).
+You've been tasked with building a web app for a local bookstore to help them manage their inventory.
+
+Create a simple content management system that allows users to view, add, delete, and update books. Books entered in the system can be viewed in a list, as a single entry on its own page, or searched for using basic searches (by title, author, or genre).
+
+To implement this system, you'll need to use (among other things)...
+
+- a _web application framework_ (we recommend [Express][])
+- a _database_ (we recommend [PostgreSQL][])
+- a tool for server-side _HTML templating_ (we recommend [Pug][])
+
+Don't sweat the UI design too much. If you want to add some quick and easy styles so that it doesn't look _too_ terrible, use a library like [Bootstrap][] or [Pure.css][pure-css].
 
 ## Context
 
@@ -53,8 +63,8 @@ In this goal, you'll be applying the CRUD pattern to the real-world system of a 
   - [ ] `PUT` or `PATCH` requests are only used for _update_ actions
   - [ ] `DELETE` requests are only used for _delete_ actions
 - [ ] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
-- [ ] Web server can be started with `npm start`
-- [ ] Test suite can be run with `npm test`
+- [ ] Web server can be started with the command `npm start`
+- [ ] Test suite can be run with the command `npm test`
 - [ ] All code submissions are peer reviewed via GitHub PR by at least one other member of the team
 - [ ] Master is always in a stable state (tests passing, site functions)
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
@@ -76,8 +86,11 @@ In this goal, you'll be applying the CRUD pattern to the real-world system of a 
 - [Express][] as a lightweight web server framework
 - [PostgreSQL][] for data persistence
 - [Pug][] or [EJS][] for server-side templating
+- [Bootstrap][] or [Pure.css][pure-css] for styling the UI
 
 [express]: http://expressjs.com/
 [postgresql]: https://www.postgresql.org/
 [pug]: https://pugjs.org/
 [ejs]: http://www.embeddedjs.com/
+[bootstrap]: http://getbootstrap.com/
+[pure-css]: https://purecss.io/
