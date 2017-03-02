@@ -1,6 +1,6 @@
 ---
 authors:
-  - @punitrathore
+  - "@punitrathore"
 issueNumber: 178
 teamSize: 1
 ---

@@ -1,6 +1,6 @@
 ---
 authors:
-  - @shereefb
+  - "@shereefb"
 issueNumber: 182
 teamSize: 2
 ---
