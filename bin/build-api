@@ -17,7 +17,6 @@ API_PATH = File.join(BUILD_PATH, '_api', API_VERSION)
 INDEX_FILE = 'index.json'
 
 GOALS_API_PATH = File.join(API_PATH, 'goals')
-SKILLS_API_PATH = File.join(API_PATH, 'skills')
 
 def build_goals_api
   goal_files = Dir[ File.join(ROOT_PATH, 'contracts', '*.md') ]
@@ -36,54 +35,12 @@ def build_goals_api
   end
 end
 
-def build_skills_api
-  skills_files = Dir[ File.join(ROOT_PATH, 'skills', '**', '*.yml')]
+$logger = Logger.new(STDOUT)
 
-  groups = SkillGroup.load_all(skills_files)
-  groups_by_section = Hash[groups.group_by { |g| g['section'] }]
+$logger.info("Rebuilding API files...")
 
-  sections = groups_by_section.map do |section, section_groups|
-    section_name = slugify(section)
-    section_dir = File.join(SKILLS_API_PATH, section_name)
+FileUtils.remove_dir(API_PATH)
+FileUtils.mkdir_p(GOALS_API_PATH)
 
-    section_data = {
-      'section' => section,
-      'groups' => section_groups.map(&:metadata)
-    }
-
-    $logger.info "Writing section index #{section_name}..."
-    section_index_path = File.join(section_dir, INDEX_FILE)
-    FileUtils.mkdir_p(section_dir)
-    File.write(section_index_path, section_data.to_json)
-
-    section_groups.each do |group|
-      filename = slugify(group['group']) + '.json'
-      filepath = File.join(section_dir, filename)
-
-      $logger.info "Writing group #{group['group']}..."
-      File.write(filepath, group.to_json)
-    end
-
-    section_data
-  end
-
-  $logger.info "Writing skills index..."
-  skills_index_path = File.join(SKILLS_API_PATH, INDEX_FILE)
-  File.write(skills_index_path, {sections: sections}.to_json)
-end
-
-if $PROGRAM_NAME == __FILE__
-  $logger = Logger.new(STDOUT)
-
-  $logger.info("Rebuilding API files...")
-
-  FileUtils.remove_dir(API_PATH)
-  FileUtils.mkdir_p(GOALS_API_PATH)
-  FileUtils.mkdir_p(SKILLS_API_PATH)
-
-  $logger.info "Building #{GOALS_API_PATH}..."
-  GOALS = build_goals_api
-
-  $logger.info "Building #{SKILLS_API_PATH}..."
-  SKILLS = build_skills_api
-end
+$logger.info "Building #{GOALS_API_PATH}..."
+GOALS = build_goals_api
