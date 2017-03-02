@@ -7,19 +7,16 @@ require 'fileutils'
 require_relative '../lib/goal'
 require_relative '../lib/utils'
 
-API_VERSION = 'v1'
-
 ROOT_PATH = File.expand_path('../../', __FILE__)
-BUILD_PATH = File.join(ROOT_PATH, 'client')
-API_PATH = File.join(BUILD_PATH, '_api', API_VERSION)
+API_PATH = File.join(ROOT_PATH, '_api')
 
 INDEX_FILE = 'index.json'
 
+SOURCE_GOALS = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
 GOALS_API_PATH = File.join(API_PATH, 'goals')
 
 def build_goals_api
-  goal_files = Dir[ File.join(ROOT_PATH, 'contracts', '*.md') ]
-  goals = Goal.load_all(goal_files)
+  goals = Goal.load_all(SOURCE_GOALS)
 
   $logger.info "Writing goals index..."
   goals_index_path = File.join(GOALS_API_PATH, INDEX_FILE)

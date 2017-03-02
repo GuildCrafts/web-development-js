@@ -8,10 +8,32 @@ url: "http://jsdev.learnersguild.org"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 theme: jekyll-theme-minimal
 show_downloads: false
-source: client
-destination: public
+destination: _site
+exclude:
+  - bin
+  - lib
+  - guides
+  - library
+  - playlists
 collections:
+  goals:
+    output: true
   api:
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: "JS Web Developer Craft Repo"
+  -
+    scope:
+      path: ""
+      type: goals
+    values:
+      layout: default
