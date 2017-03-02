@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@deadlyicon"
+- "@deadlyicon"
 teamSize: 2
 issueNumber: 76
+title: Work on Trossello
+createdAt: '2016-09-22T20:38:28Z'
+labels:
+- apprentice
+published: true
+level: '2'
 ---
 
 # Work on Trossello

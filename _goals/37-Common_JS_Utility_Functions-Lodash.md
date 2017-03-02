@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@Jusdev89"
+- "@Jusdev89"
 teamSize: 2
 issueNumber: 37
+title: Common JS Utility Functions [Lodash]
+createdAt: '2016-07-15T23:34:34Z'
+labels:
+- practice
+published: true
+level: '1'
 ---
 
 # Common JS Utility Functions - Lodash

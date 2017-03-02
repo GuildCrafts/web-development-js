@@ -35,7 +35,7 @@ $logger = Logger.new(STDOUT)
 
 $logger.info("Rebuilding API files...")
 
-FileUtils.remove_dir(API_PATH)
+FileUtils.remove_dir(GOALS_API_PATH)
 FileUtils.mkdir_p(GOALS_API_PATH)
 
 $logger.info "Building #{GOALS_API_PATH}..."

@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@punitrathore"
+- "@punitrathore"
 teamSize: 2
 issueNumber: 115
+title: 'Coach-Que : Schedule Time & Incorporate Feedback'
+createdAt: '2016-12-05T00:16:17Z'
+labels:
+- prototype
+published: true
+level: '3'
 ---
 
 # Work on Coach-Que : Schedule Time & Incorporate Feedback

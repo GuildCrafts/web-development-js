@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@Moniarchy"
+- "@Moniarchy"
 teamSize: 2
 issueNumber: 77
+title: Work On Floworky
+createdAt: '2016-09-30T23:32:19Z'
+labels:
+- apprentice
+published: true
+level: '2'
 ---
 
 # Work on Floworky

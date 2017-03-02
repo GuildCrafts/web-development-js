@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@tannerwelsh"
+- "@tannerwelsh"
 issueNumber: 123
 teamSize: 2
+title: Core Algorithms
+createdAt: '2016-12-29T16:52:48Z'
+labels:
+- core
+published: true
+level: '1'
 ---
 
 # Core Algorithms

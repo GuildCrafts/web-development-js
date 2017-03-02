@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@tannerwelsh"
+- "@tannerwelsh"
 issueNumber: 126
 teamSize: 2
+title: 'MetroRail: Data Modeling & Database Design'
+createdAt: '2016-12-30T22:40:21Z'
+labels:
+- practice
+published: true
+level: '2'
 ---
 
 # MetroRail: Data Modeling & Database Design

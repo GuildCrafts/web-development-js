@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@tannerwelsh"
+- "@tannerwelsh"
 teamSize: 4
 issueNumber: 125
+title: Mock Interview Trials
+createdAt: '2016-12-29T17:10:18Z'
+labels:
+- core
+published: false
+level: NONE
 ---
 
 # Mock Interview Trials

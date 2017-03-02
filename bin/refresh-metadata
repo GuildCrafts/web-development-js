@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require 'github_api'
+require 'front_matter_parser'
+
+TOKEN = ENV['GITHUB_TOKEN']
+REPO = 'web-development-js'
+USER = 'GuildCrafts'
+ISSUES = Github::Client::Issues.new oauth_token: TOKEN
+
+ROOT_PATH = File.expand_path('../../', __FILE__)
+SOURCE_FILES = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
+
+def get_issue_data(issue_no)
+  issue = ISSUES.get USER, REPO, issue_no
+
+  labels = issue.labels.map(&:name).reject { |l| l =~ /team-size-\d/ }
+  level = issue.milestone && issue.milestone.title.match(/\d/)[0]
+
+  published = !labels.include?('draft')
+  labels.reject! { |l| l == 'draft' }
+
+  {
+    'title' => issue.title,
+    'createdAt' => issue.created_at,
+    'labels' => labels,
+    'published' => published,
+    'level' => level || 'NONE'
+  }
+end
+
+SOURCE_FILES.each do |file|
+  next if file =~ /TEMPLATE/i || file.nil?
+
+  puts "Updating metadata for #{file}..."
+  puts
+
+  parsed = FrontMatterParser.parse_file(file)
+
+  front_matter = parsed.front_matter
+  body = File.read(file).match(/---\n\n(.+)/m)[1] # cut out front matter
+
+  issue_no = front_matter['issueNumber']
+
+  front_matter.merge! get_issue_data(issue_no)
+
+  new_contents = front_matter.to_yaml + "---\n\n" + body
+  File.write(file, new_contents)
+end

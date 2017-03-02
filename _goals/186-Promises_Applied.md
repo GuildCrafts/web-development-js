@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@punitrathore"
+- "@punitrathore"
 issueNumber: 186
 teamSize: 1
+title: Promises Applied
+createdAt: '2017-02-21T23:53:30Z'
+labels:
+- foundational
+published: true
+level: '1'
 ---
 
 # Promises Applied

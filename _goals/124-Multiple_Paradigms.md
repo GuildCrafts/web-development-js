@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@tannerwelsh"
+- "@tannerwelsh"
 teamSize: 2
 issueNumber: 124
+title: Multiple Paradigms
+createdAt: '2016-12-29T17:00:54Z'
+labels:
+- core
+published: true
+level: '3'
 ---
 
 # Multiple Paradigms

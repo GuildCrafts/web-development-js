@@ -1,8 +1,14 @@
 ---
 authors:
-  - "@punitrathore"
+- "@punitrathore"
 issueNumber: 178
 teamSize: 1
+title: Core SQL [Solo Study]
+createdAt: '2017-02-21T01:39:41Z'
+labels:
+- foundational
+published: true
+level: '1'
 ---
 
 # Core SQL

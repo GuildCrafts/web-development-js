@@ -5,3 +5,4 @@ ruby RUBY_VERSION
 gem 'github-pages', group: :jekyll_plugins
 
 gem 'front_matter_parser'
+gem 'github_api'
