@@ -5,7 +5,6 @@ require 'logger'
 require 'fileutils'
 
 require_relative '../lib/goal'
-require_relative '../lib/skill_group'
 require_relative '../lib/utils'
 
 API_VERSION = 'v1'
