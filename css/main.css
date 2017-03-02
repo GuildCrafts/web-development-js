@@ -1,0 +1,33 @@
+.custom-goal-page .mdl-card__actions {
+  display: flex;
+  padding: 8px 16px;
+  box-sizing:border-box;
+  align-items: center;
+}
+
+.custom-goal-page .mdl-card__supporting-text {
+  padding-top: 8px;
+  width: initial;
+}
+
+.custom-goal-content h1 {
+  display: none;
+}
+
+.custom-goal-content h2 {
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: solid 1px #333;
+}
+
+.custom-goal-content h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.custom-goal-content h4, h5, h6 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}

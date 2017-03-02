@@ -11,20 +11,20 @@
         <th class="mdl-data-table__cell--non-numeric">Title</th>
         <th class="mdl-data-table__cell--non-numeric">Labels</th>
         <th>Team Size</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
       {% for goal in include.goals %}
       <tr>
         <td>{{goal.issueNumber}}</td>
-        <td class="mdl-data-table__cell--non-numeric">
-          <a href="{{ goal.url }}">{{ goal.title }}</a>
-        </td>
+        <td class="mdl-data-table__cell--non-numeric">{{ goal.title }}</td>
         <td class="mdl-data-table__cell--non-numeric">
           {% for label in goal.labels %}
           <span class="mdl-chip"><span class="mdl-chip__text">{{ label }}</span></span>
           {% endfor %}
         <td>{{ goal.teamSize }}</td>
+        <td><a href="{{goal.url}}"><i class="material-icons">open_in_new</i></a></td>
       </tr>
       {% endfor %}
     </tbody>

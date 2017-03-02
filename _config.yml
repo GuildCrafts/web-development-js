@@ -1,4 +1,4 @@
-title: JS Web Developer Craft Repo
+title: JS Web Developer Goals
 email: info@learnersguild.org
 description: >
   Useful information and guidance for learning the craft
@@ -41,4 +41,4 @@ defaults:
       path: ""
       type: goals
     values:
-      layout: default
+      layout: goal

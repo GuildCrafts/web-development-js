@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="custom-goal-page mdl-cell mdl-card mdl-shadow--2dp mdl-cell--12-col mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+    <div class="mdl-layout-spacer"></div>
+
+    <div id="level_no" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{ page.level }}">grade</div>
+    <div class="mdl-tooltip" data-mdl-for="level_no">Level</div>
+
+    <div id="team_size" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{ page.teamSize }}">people</div>
+    <div class="mdl-tooltip" data-mdl-for="team_size">Team Size</div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <span>Goal #{{page.issueNumber}}</span>
+    <div class="mdl-layout-spacer"></div>
+    {% for author in page.authors %}
+      {% assign raw_handle = author | remove: "@" %}
+      <span id="author-{{raw_handle}}" class="mdl-chip mdl-chip--contact">
+        <img class="mdl-chip__contact" src="https://avatars.githubusercontent.com/{{ raw_handle }}?size=32">
+        <span class="mdl-chip__text">{{ author }}</span>
+      </span>
+      <div class="mdl-tooltip" data-mdl-for="author-{{raw_handle}}">Goal Author</div>
+    {% endfor %}
+  </div>
+  <div class="custom-goal-content mdl-card__supporting-text mdl-card--border">
+    {{ content }}
+  </div>
+</div>
