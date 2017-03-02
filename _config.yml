@@ -11,7 +11,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-theme: jekyll-theme-minimal
 show_downloads: false
 destination: _site
 exclude:
@@ -20,6 +19,12 @@ exclude:
   - guides
   - library
   - playlists
+  - CNAME
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
 collections:
   goals:
     output: true

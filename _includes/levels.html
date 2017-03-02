@@ -1,0 +1,18 @@
+{% assign goals_by_level = site.goals | group_by:'level' | sort:'name' %}
+{% assign level_nos = goals_by_level | map:'name' %}
+
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+    {% for level_no in level_nos %}
+      {% if level_no == '1' %}
+        <a href="#level-{{level_no}}" class="mdl-tabs__tab is-active">Level {{level_no}}</a>
+      {% else %}
+        <a href="#level-{{level_no}}" class="mdl-tabs__tab">Level {{level_no}}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% for level in goals_by_level %}
+    {% include level_panel.html level_no=level.name goals=level.items %}
+  {% endfor %}
+</div>
