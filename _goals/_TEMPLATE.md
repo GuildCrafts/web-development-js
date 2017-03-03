@@ -9,6 +9,7 @@ labels:
 - LABELS
 level: LEVEL
 published: BOOL
+redirect_from: PATH
 ---
 
 # GOAL_TITLE
