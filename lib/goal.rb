@@ -1,6 +1,8 @@
-require 'front_matter_parser'
+require 'yaml'
 
 class Goal
+  GOAL_SECTIONS_MATCHER = /^---((?:\s^.+$)+)\s^---\n+((?:\s*^.+$)+)/
+
   attr_reader :metadata, :content
 
   def initialize(opts)
@@ -16,16 +18,29 @@ class Goal
     metadata.merge({ content: content }).to_json
   end
 
+  def to_markdown
+    [
+      YAML.dump(metadata),
+      "---\n\n",
+      content,
+      "\n"
+    ].join('')
+  end
+
   def [](key)
     metadata[key]
+  end
+
+  def self.load(file)
+    front_matter, content = File.read(file).match(GOAL_SECTIONS_MATCHER)[1,2]
+    self.new(metadata: YAML.load(front_matter), content: content)
   end
 
   def self.load_all(files)
     files
       .reject { |f| f =~ /template/i }
       .map do |file|
-        parsed = FrontMatterParser.parse_file(file)
-        self.new(metadata: parsed.front_matter, content: parsed.content)
+        self.load(file)
       end
   end
 end

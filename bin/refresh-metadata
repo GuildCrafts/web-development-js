@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'github_api'
-require 'front_matter_parser'
+
+require_relative '../lib/goal'
 
 TOKEN = ENV['GITHUB_TOKEN']
 REPO = 'web-development-js'
@@ -35,15 +36,9 @@ SOURCE_FILES.each do |file|
   puts "Updating metadata for #{file}..."
   puts
 
-  parsed = FrontMatterParser.parse_file(file)
+  goal = Goal.load(file)
+  issue_no = goal['issueNumber']
+  goal.metadata.merge! get_issue_data(issue_no)
 
-  front_matter = parsed.front_matter
-  body = File.read(file).match(/---\n\n(.+)/m)[1] # cut out front matter
-
-  issue_no = front_matter['issueNumber']
-
-  front_matter.merge! get_issue_data(issue_no)
-
-  new_contents = front_matter.to_yaml + "---\n\n" + body
-  File.write(file, new_contents)
+  File.write(file, goal.to_markdown)
 end

@@ -5,7 +5,6 @@ require 'logger'
 require 'fileutils'
 
 require_relative '../lib/goal'
-require_relative '../lib/utils'
 
 ROOT_PATH = File.expand_path('../../', __FILE__)
 API_PATH = File.join(ROOT_PATH, '_api')
