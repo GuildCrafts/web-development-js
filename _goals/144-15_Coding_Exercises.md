@@ -9,6 +9,7 @@ labels:
 - foundational
 published: true
 level: '1'
+redirect_from: "/goals/144"
 ---
 
 # 15 Coding Exercises

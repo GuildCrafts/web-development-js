@@ -9,6 +9,7 @@ labels:
 - core
 published: false
 level: NONE
+redirect_from: "/goals/125"
 ---
 
 # Mock Interview Trials

@@ -26,7 +26,8 @@ def get_issue_data(issue_no)
     'createdAt' => issue.created_at,
     'labels' => labels,
     'published' => published,
-    'level' => level || 'NONE'
+    'level' => level || 'NONE',
+    'redirect_from' => "/goals/#{issue_no}"
   }
 end
 

@@ -9,6 +9,7 @@ labels:
 - practice
 published: true
 level: '2'
+redirect_from: "/goals/127"
 ---
 
 # MetroRail: Web API Design, Building, and Documentation

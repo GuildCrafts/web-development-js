@@ -8,6 +8,7 @@ createdAt: '2017-02-21T23:15:56Z'
 labels: []
 published: true
 level: '2'
+redirect_from: "/goals/182"
 ---
 
 # Timeoff Snapshot [International Epic]

@@ -9,6 +9,7 @@ labels:
 - apprentice
 published: true
 level: '3'
+redirect_from: "/goals/130"
 ---
 
 # Work on Prrr

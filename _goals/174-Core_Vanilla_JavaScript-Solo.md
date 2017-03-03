@@ -11,6 +11,7 @@ labels:
 - practice
 published: true
 level: '1'
+redirect_from: "/goals/174"
 ---
 
 # Core Vanilla Javascript [Solo Study]

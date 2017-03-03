@@ -9,6 +9,7 @@ labels:
 - practice
 published: true
 level: '1'
+redirect_from: "/goals/69"
 ---
 
 # Simple Book Store

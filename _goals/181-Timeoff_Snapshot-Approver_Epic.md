@@ -8,6 +8,7 @@ createdAt: '2017-02-21T22:26:48Z'
 labels: []
 published: true
 level: '2'
+redirect_from: "/goals/181"
 ---
 
 # Timeoff Snapshot [Approver Epic]

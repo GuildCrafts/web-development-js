@@ -9,6 +9,7 @@ labels:
 - prototype
 published: true
 level: '3'
+redirect_from: "/goals/115"
 ---
 
 # Work on Coach-Que : Schedule Time & Incorporate Feedback

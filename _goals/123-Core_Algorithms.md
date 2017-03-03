@@ -9,6 +9,7 @@ labels:
 - core
 published: true
 level: '1'
+redirect_from: "/goals/123"
 ---
 
 # Core Algorithms

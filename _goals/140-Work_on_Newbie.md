@@ -9,6 +9,7 @@ labels:
 - production
 published: true
 level: '3'
+redirect_from: "/goals/140"
 ---
 
 # Work on Newbie

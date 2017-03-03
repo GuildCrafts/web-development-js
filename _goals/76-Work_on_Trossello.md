@@ -9,6 +9,7 @@ labels:
 - apprentice
 published: true
 level: '2'
+redirect_from: "/goals/76"
 ---
 
 # Work on Trossello

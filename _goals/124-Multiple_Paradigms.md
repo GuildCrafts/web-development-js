@@ -9,6 +9,7 @@ labels:
 - core
 published: true
 level: '3'
+redirect_from: "/goals/124"
 ---
 
 # Multiple Paradigms

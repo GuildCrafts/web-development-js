@@ -10,6 +10,7 @@ labels:
 - practice
 published: true
 level: '1'
+redirect_from: "/goals/176"
 ---
 
 # Core Vanilla Javascript [Team Drills & Practice]

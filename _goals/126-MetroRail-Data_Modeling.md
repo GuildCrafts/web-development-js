@@ -9,6 +9,7 @@ labels:
 - practice
 published: true
 level: '2'
+redirect_from: "/goals/126"
 ---
 
 # MetroRail: Data Modeling & Database Design
