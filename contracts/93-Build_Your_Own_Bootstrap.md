@@ -104,11 +104,29 @@ Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) 
 
 ## Resources
 
+Courses & tutorials
+
+- Frontend Masters: [Intro to Web Development tutorial](https://frontendmasters.com/courses/web-development/)
+- Code School: [Frontend Formations tutorial](https://www.codeschool.com/courses/front-end-formations)
+- Code School: [Cracking the Case with Flexbox](https://www.codeschool.com/courses/cracking-the-case-with-flexbox)
+- CSS Tricks: [HTML & Flexbox](https://css-tricks.com/video-screencasts/148-laying-things-html-flexbox-dee-gill/)
+
+Games
+
+[Flexbox Defense](http://www.flexboxdefense.com/)
+[Flexbox Froggy](http://flexboxfroggy.com/)
+[CSS Diner](https://flukeout.github.io/)
+
+Guides
+
 - [Shay Howe: Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - [MDN: How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
 - [MDN: CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 - [MDN: Styling Text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text)
 - [MDN: Styling Boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes)
+
+Tools
+
 - [Google Fonts][google-fonts]
 - [Adobe Color CC][adobe-color]
 
