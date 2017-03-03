@@ -7,9 +7,29 @@ issueNumber: 110
 
 # Functional Programming: Concepts and Exercises
 
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can write programs and tests using Node.js and npm
+- Can use callbacks in JavaScript functions
+- Know what the terms "parameter", "argument", "data type", "function call", "return value" mean
+- Are familiar with the concept of programming paradigms
+- Are familiar with the difference between function definition and invocation
+- Are interested in functional programming concepts
+- Are interested in common functional patterns like composition, currying, and writing pure functions
+
 ## Description
 
-This goal provides an introduction to functional programming concepts using JavaScript and gives you the opportunity to practice these concepts with a series of reinforcement exercises from the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] and a handful of automated challenges on [CodeWars][codewars-chals].
+This goal provides an introduction to functional programming concepts using JavaScript.
+
+You'll practice these concepts with a series of reinforcement exercises from the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] and a handful of automated challenges on [CodeWars][codewars-chals].
+
+Fork the [fp-exercises][fp-exercises] repo, and use the fork as your artifact.
+
+This repo has the exercises and tests for the Mostly Adequate Guide already there so you can get started right away. When you work on the CodeWars katas, just copy your solution into the `code-wars` folder of the repo so that your code can be reviewed and so that you can reference it in the future.
+
+If this goal is too advanced for you, a good pre-requisite goal is @Jusdev89's [Common JS Utility Functions - Lodash](./37-Common_JS_Utility_Functions-Lodash.md).
 
 ## Context
 
@@ -52,7 +72,7 @@ Tools and libraries
 - [Ramda REPL](http://ramdajs.com/repl/) (read-evaluate-print-loop)
 
 
-
 [mit-license]: https://opensource.org/licenses/MIT
+[fp-exercises]: https://github.com/GuildCrafts/functional-programming-exercises
 [mostly-adequate-guide]: https://drboolean.gitbooks.io/mostly-adequate-guide/content/
 [codewars-chals]: https://www.codewars.com/kata/search/javascript?q=&tags=Functional+Programming&beta=false
