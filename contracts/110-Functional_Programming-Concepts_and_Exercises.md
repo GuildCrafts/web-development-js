@@ -40,23 +40,36 @@ The article [The Two Pillars of JavaScript — Pt 2: Functional Programming]
 ## Specifications
 
 - [ ] Read the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] through Chapter 8: Tupperware
-- [ ] Complete the exercises in the Mostly Adequate Guide (note: there aren't exercises after each chapter - just the ones on Ch 4: Currying, Ch: 5: Coding by Composing, and Ch: 8 Tupperware).
-- [ ] Practice these concepts by completing at least [5 Functional Programming exercises][codewars-chals] on
+- [ ] Exercises from the Mostly Adequate Guide are completed and included in the artifact repo
+  - [ ] [Chapter 4 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html#exercises) completed and all tests are passing
+  - [ ] [Chapter 5 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch5.html#exercises) completed and all tests are passing
+  - [ ] [Chapter 8 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#exercises) completed and all tests are passing
+- [ ] [5 Functional Programming katas][codewars-chals] from CodeWars are completed and added to the `code-wars` folder of your artifact repo
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 A just a heads up on CodeWars: you're required to answer a couple of super basic JS questions to sign up for CodeWars, and you need to be signed up for the links to work.
 
 ### Stretch
 
-- [ ] Complete an additional 5 exercises from [CodeWars][codewars-chals]
+- [ ] Additional 5 katas from [CodeWars][codewars-chals] are completed and added to your artifact repo
 - [ ] Refactor a previous project to use functional programming patterns (strongly recommended to review the Mostly Adequate Guide before starting)
+  - [ ] Add links to your refactoring PRs in a `refactoring.md` file in your artifact repo
 
 ## Quality Rubric
 
-- All exercises in the Mostly Awesome Guide are completed and pushed to GitHub: 25 pts
-- At least 5 exercises on CodeWars are completed: 25 pts
+**Clean code and commit messages**
+- Code is well formatted with proper spacing and indentation. [30 points]
+- Descriptive, well-named functions, variables, files, etc. [40 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [10 points]
+- All features are added via pull requests. [10 points]
+- Every pull request has a description summarizing the changes made. [10 points]
 
 ## Resources
+
+- [Mostly Adequate Guide ][mostly-adequate-guide] book
+- [CodeWars functional programming in JS katas][codewars-chals]
 
 Articles, guides, and courses
 
