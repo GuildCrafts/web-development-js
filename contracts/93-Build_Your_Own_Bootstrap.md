@@ -113,9 +113,9 @@ Courses & tutorials
 
 Games
 
-[Flexbox Defense](http://www.flexboxdefense.com/)
-[Flexbox Froggy](http://flexboxfroggy.com/)
-[CSS Diner](https://flukeout.github.io/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
+- [Flexbox Froggy](http://flexboxfroggy.com/)
+- [CSS Diner](https://flukeout.github.io/)
 
 Guides
 
