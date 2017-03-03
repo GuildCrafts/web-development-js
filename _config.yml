@@ -6,6 +6,9 @@ description: >
 baseurl: "/"
 url: "http://jsdev.learnersguild.org"
 
+gems:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 kramdown:
