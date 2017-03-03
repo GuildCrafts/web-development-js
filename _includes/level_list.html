@@ -1,0 +1,13 @@
+{% if include.level_no == page.level %}
+<div class="mdl-tabs__panel is-active" id="level-{{include.level_no}}">
+{% else %}
+<div class="mdl-tabs__panel" id="level-{{include.level_no}}">
+{% endif %}
+
+  <nav class="mdl-navigation">
+    {% for goal in include.goals %}
+    <a class="mdl-navigation__link" href="{{ goal.url }}">{{goal.title}} <small>#{{ goal.issueNumber}}</small></a>
+    {% endfor %}
+  </nav>
+
+</div>

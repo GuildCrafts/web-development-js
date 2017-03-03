@@ -1,0 +1,31 @@
+<div class="custom-goal-tabbed-list mdl-layout__drawer">
+  <header>
+    <a href="/">
+      <img src="https://brand.learnersguild.org/android-chrome-48x48.png" title="Learners Guild" alt="Learners Guild">
+    </a>
+  </header>
+
+  {% assign goals_by_level = site.goals | sort:'title' | group_by:'level' | sort:'name' %}
+  {% assign level_nos = goals_by_level | map:'name' %}
+
+  <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+    <div class="mdl-tabs__tab-bar">
+      {% for level_no in level_nos %}
+        {% if level_no == page.level %}
+          <a href="#level-{{level_no}}" class="mdl-layout__tab mdl-tabs__tab is-active">
+            <i class="material-icons">filter_{{level_no}}</i>
+          </a>
+        {% else %}
+          <a href="#level-{{level_no}}" class="mdl-layout__tab mdl-tabs__tab">
+            <i class="material-icons">filter_{{level_no}}</i>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% for level in goals_by_level %}
+      {% include level_list.html level_no=level.name goals=level.items %}
+    {% endfor %}
+
+  </div>
+</div>

@@ -1,0 +1,65 @@
+.custom-page {
+  margin-left: 32px;
+}
+
+.custom-goal-tabbed-list {
+  header {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .mdl-tabs__tab {
+    padding: 0px 18px;
+  }
+
+  .mdl-navigation .mdl-navigation__link {
+    padding: 8px 16px;
+  }
+}
+
+.custom-goal-page {
+  .mdl-card__actions {
+    display: flex;
+    padding: 8px 16px;
+    box-sizing:border-box;
+    align-items: center;
+  }
+
+  .mdl-card__supporting-text {
+    padding-top: 8px;
+    width: initial;
+  }
+
+  #level_no {
+    margin-right: 10px;
+  }
+}
+
+.custom-hide-h1 h1 {
+  display: none;
+}
+
+.custom-content {
+  h1 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: solid 1px #333;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  h4, h5, h6 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+}

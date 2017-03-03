@@ -8,12 +8,12 @@ url: "http://jsdev.learnersguild.org"
 
 gems:
   - jekyll-redirect-from
+  - rouge
+  - jemoji
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+highlighter: rouge
 show_downloads: false
 destination: _site
 exclude:
@@ -22,7 +22,6 @@ exclude:
   - guides
   - library
   - playlists
-  - CNAME
   - CONTRIBUTING.md
   - Gemfile
   - Gemfile.lock
@@ -39,6 +38,7 @@ defaults:
       path: ""
     values:
       title: "JS Web Developer Craft Repo"
+      level: '1'
   -
     scope:
       path: ""
