@@ -36,14 +36,14 @@ const assert = require('assert')
 const _ = require('array.js')
 
 assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 2),
-  [['a', 'b'], ['c', 'd']],
+  _.chunk(['a', 'b', 'c', 'd'], 2),
+  [['a', 'b'], ['c', 'd']],
   "Creates an array of elements split into groups the length of size."
 )
 
 assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 3),
-  [['a', 'b', 'c'], ['d']],
+  _.chunk(['a', 'b', 'c', 'd'], 3),
+  [['a', 'b', 'c'], ['d']],
   "If array can't be split evenly, the final chunk will be the remaining elements."
 )
 ```
