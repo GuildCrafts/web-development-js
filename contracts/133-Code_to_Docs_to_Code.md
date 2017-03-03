@@ -9,6 +9,8 @@ issueNumber: 133
 
 ## Challenge Rubric
 
+This goal will likely be within your ZPD if you...
+
 - Can write JavaScript programs for Node.js
 - Can navigate technical API documentation
 - Know the difference between methods and properties

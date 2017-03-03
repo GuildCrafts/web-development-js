@@ -9,6 +9,8 @@ issueNumber: 69
 
 ## Challenge Rubric
 
+This goal will likely be within your ZPD if you...
+
 - Can build basic websites with HTML & CSS
 - Can add behavior to a website with JavaScript
 - Are familiar with SQL and relational databases like [PostgreSQL][]
