@@ -5,7 +5,7 @@ teamSize: 2
 issueNumber: 98
 ---
 
-# Pizza Restaurant: Relational DB Schema with CRUD API
+# Pizza Restaurant: RDB Schema with CRUD API
 
 ## Description
 
@@ -20,7 +20,7 @@ Your job is also to provide a basic API that provides the ability to CRUD the da
 
 This project will give you experience in designing a robust schema that represents a complex, real-world system as well as an introduction to how to update your DB without having to worry too much about complex join operations.
 
-The suggested prerequisite knowledge for this goal: #96 + having a relative level comfort with implementing CRUD operations. 
+The suggested prerequisite knowledge for this goal: #96 + having a relative level comfort with implementing CRUD operations.
 ## Specifications
 
 Before diving in, it is **strongly recommended** to review the video and code from @tannerwelsh's remote cognitive apprenticeship session: [Relational DB schema design for a bookstore](https://github.com/GuildCrafts/cog-app/tree/master/sessions/02-bookstore-db-schema-20161026).
@@ -37,9 +37,9 @@ Piccadilly wants its system to:
 
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
 
-Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of. 
+Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of.
 
-Also feel free to alter the spec according to what your team is realistically able to accomplish during the course of a week. 
+Also feel free to alter the spec according to what your team is realistically able to accomplish during the course of a week.
 
 [Get creative](https://www.youtube.com/watch?v=9C_HReR_McQ)!
 ### Required
@@ -60,8 +60,3 @@ Also feel free to alter the spec according to what your team is realistically ab
 [Designing a RESTful API With Node and Postgres](http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/#.WAqKX5MrKRt)
 
 ---
-
-
-
-
-
