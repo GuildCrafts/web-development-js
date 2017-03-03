@@ -5,7 +5,19 @@ teamSize: 2
 issueNumber: 96
 ---
 
-# Exercises: Foundational Relational Database Knowledge
+# Foundational Relational Database Exercises
+
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can use problem decomposition to split difficult problems into smaller parts
+- Have done basic algebra
+- Have used spreadsheet software like Excel or Google Sheets
+- Are familiar with the concept of a database
+- Are interested in schema design for relational databases
+- Are interested in how relational databases are structured
+- Are interested in learning about writing SQL queries
 
 ## Description
 
@@ -24,12 +36,12 @@ To solidify your conceptual knowledge of databases, visit [HackerRank](https://w
 Work on a subset of "Easy" and "Medium" level problems in different domains, including:
 - Relational Algebra
 - Database Normalization
-- SQL query construction  
+- SQL query construction
 
 Run your responses against the automated test suites provided by LeetCode and HackerRank while using SQL reference materials to construct your answers.
 ## Context
 
-Foundational knowledge for working with relational databases is important if you are creating or maintaining web applications with persistent storage. Sometimes to overhead of learning how to use a new SQL client or a library (for example, the [Sequelize](http://docs.sequelizejs.com/en/v3/) [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [pg-promise](https://github.com/vitaly-t/pg-promise), or the [KnexJS](http://knexjs.org/) query builder) detracts from learning these foundational concepts. 
+Foundational knowledge for working with relational databases is important if you are creating or maintaining web applications with persistent storage. Sometimes to overhead of learning how to use a new SQL client or a library (for example, the [Sequelize](http://docs.sequelizejs.com/en/v3/) [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [pg-promise](https://github.com/vitaly-t/pg-promise), or the [KnexJS](http://knexjs.org/) query builder) detracts from learning these foundational concepts.
 
 This project provides the opportunity to focus on this core knowledge so working with SQL clients and ORMs will be easier in a 'real-world' environment.
 
@@ -69,8 +81,3 @@ The exercises to reinforce conceptual knowledge emphasize the importance of know
 [What are 1NF, 2NF and 3NF in database design?](http://stackoverflow.com/questions/723998/what-are-1nf-2nf-and-3nf-in-database-design/724032#724032)
 
 ---
-
-
-
-
-
