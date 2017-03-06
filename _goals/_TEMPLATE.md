@@ -1,15 +1,15 @@
 ---
 authors:
-- GITHUB_HANDLE
+- "@GITHUB_HANDLE"
 teamSize: TEAM_SIZE
 issueNumber: ISSUE_NO
 title: GOAL_TITLE
 createdAt: 'yyyy-mm-ddThh:mm:ssZ'
 labels:
 - LABELS
-level: LEVEL
+level: 'LEVEL'
 published: BOOL
-redirect_from: PATH
+redirect_from: 'PATH'
 ---
 
 # GOAL_TITLE
