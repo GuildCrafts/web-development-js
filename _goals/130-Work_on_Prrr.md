@@ -8,7 +8,7 @@ createdAt: '2017-01-03T19:03:43Z'
 labels:
 - apprentice
 published: true
-level: '3'
+level: '2'
 redirect_from: "/goals/130"
 ---
 

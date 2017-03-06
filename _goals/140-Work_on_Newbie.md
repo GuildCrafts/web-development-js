@@ -8,7 +8,7 @@ createdAt: '2017-01-23T14:25:06Z'
 labels:
 - production
 published: true
-level: '3'
+level: '2'
 redirect_from: "/goals/140"
 ---
 

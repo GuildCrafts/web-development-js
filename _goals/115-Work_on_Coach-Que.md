@@ -8,7 +8,7 @@ createdAt: '2016-12-05T00:16:17Z'
 labels:
 - prototype
 published: true
-level: '3'
+level: '2'
 redirect_from: "/goals/115"
 ---
 
