@@ -1,8 +1,15 @@
 ---
 authors:
-  - "@deonna"
+- "@deonna"
 teamSize: 2
 issueNumber: 110
+title: 'Functional Programming: Concepts and Exercises'
+createdAt: '2016-11-28T19:52:44Z'
+labels:
+- foundational
+published: true
+level: '1'
+redirect_from: "/goals/110"
 ---
 
 # Functional Programming: Concepts and Exercises

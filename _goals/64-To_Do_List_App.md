@@ -1,9 +1,16 @@
 ---
 authors:
-  - "@rachel"-ftw
-  - "@mantinone"
+- "@rachel-ftw"
+- "@mantinone"
 teamSize: 2
 issueNumber: 64
+title: To Do List App
+createdAt: '2016-08-06T00:52:33Z'
+labels:
+- practice
+published: true
+level: '1'
+redirect_from: "/goals/64"
 ---
 
 # To Do List
