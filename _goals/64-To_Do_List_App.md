@@ -1,7 +1,7 @@
 ---
 authors:
-  - @rachel-ftw
-  - @mantinone
+  - "@rachel"-ftw
+  - "@mantinone"
 teamSize: 2
 issueNumber: 64
 ---
