@@ -16,6 +16,14 @@ layout: default
 
   <div class="mdl-card__actions mdl-card--border">
     <span>Goal #{{page.issueNumber}}</span>
+    &nbsp;
+
+    {% for label in page.labels %}
+      <span class="mdl-chip">
+        <span class="mdl-chip__text">{{ label }}</span>
+      </span>
+    {% endfor %}
+
     <div class="mdl-layout-spacer"></div>
     {% for author in page.authors %}
       {% assign raw_handle = author | remove: "@" %}
