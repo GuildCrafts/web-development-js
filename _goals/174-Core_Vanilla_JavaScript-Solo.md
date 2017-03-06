@@ -31,7 +31,7 @@ This goal will likely be within your ZPD if you...
 
 A day-by-day structured deep dive into the basics of JavaScript. Read articles, watch videos, complete lessons and exercises.
 
-This goal makes heavy use of external resources: the [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804) course on [Udacity](https://www.udacity.com/), books like [Eloquent JavaScript](http://eloquentjavascript.net), and various video tutorials.
+This goal makes heavy use of external resources: the [JavaScript Basics](https://teamtreehouse.com/library/javascript-basics) course on [Treehouse](https://teamtreehouse.com/), books like [Eloquent JavaScript](http://eloquentjavascript.net), and various video tutorials.
 
 Fork the the [core-vanilla-javascript repository][core-vjs] and use the fork as your project artifact.
 
