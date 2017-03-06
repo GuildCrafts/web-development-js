@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'logger'
+require 'fileutils'
+
+require_relative '../lib/goal'
+
+ROOT_PATH = File.expand_path('../../', __FILE__)
+API_PATH = File.join(ROOT_PATH, '_api')
+
+INDEX_FILE = 'index.json'
+
+SOURCE_GOALS = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
+GOALS_API_PATH = File.join(API_PATH, 'goals')
+
+def build_goals_api
+  goals = Goal.load_all(SOURCE_GOALS)
+
+  $logger.info "Writing goals index..."
+  goals_index_path = File.join(GOALS_API_PATH, INDEX_FILE)
+  File.write(goals_index_path, { goals: goals.map(&:metadata) }.to_json)
+
+  goals.each do |goal|
+    filename = "#{goal['issueNumber']}.json"
+    filepath = File.join(GOALS_API_PATH, filename)
+
+    $logger.info "Creating goal #{goal}..."
+    File.write(filepath, goal.to_json)
+  end
+end
+
+$logger = Logger.new(STDOUT)
+
+$logger.info("Rebuilding API files...")
+
+FileUtils.remove_dir(GOALS_API_PATH)
+FileUtils.mkdir_p(GOALS_API_PATH)
+
+$logger.info "Building #{GOALS_API_PATH}..."
+GOALS = build_goals_api

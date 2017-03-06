@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+require 'github_api'
+
+require_relative '../lib/goal'
+
+TOKEN = ENV['GITHUB_TOKEN']
+REPO = 'web-development-js'
+USER = 'GuildCrafts'
+ISSUES = Github::Client::Issues.new oauth_token: TOKEN
+
+ROOT_PATH = File.expand_path('../../', __FILE__)
+SOURCE_FILES = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
+
+def get_issue_data(issue_no)
+  issue = ISSUES.get USER, REPO, issue_no
+
+  labels = issue.labels.map(&:name).reject { |l| l =~ /team-size-\d/ }
+  level = issue.milestone && issue.milestone.title.match(/\d/)[0]
+
+  published = !labels.include?('draft')
+  labels.reject! { |l| l == 'draft' }
+
+  {
+    'title' => issue.title,
+    'createdAt' => issue.created_at,
+    'labels' => labels,
+    'published' => published,
+    'level' => level || 'NONE',
+    'redirect_from' => "/goals/#{issue_no}"
+  }
+end
+
+SOURCE_FILES.each do |file|
+  next if file =~ /TEMPLATE/i || file.nil?
+
+  puts "Updating metadata for #{file}..."
+  puts
+
+  goal = Goal.load(file)
+  issue_no = goal['issueNumber']
+  goal.metadata.merge! get_issue_data(issue_no)
+
+  File.write(file, goal.to_markdown)
+end

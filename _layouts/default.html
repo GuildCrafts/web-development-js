@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+      {% include header.html %}
+
+      {% include levels_sidebar.html %}
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="mdl-grid">
+
+            {{ content }}
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
