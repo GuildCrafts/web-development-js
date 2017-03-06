@@ -1,7 +1,7 @@
 ---
 authors:
   - @alfonsotech
-teamSize: 2
+teamSize: 1
 issueNumber: 111
 ---
 
@@ -9,7 +9,7 @@ issueNumber: 111
 
 ## Description
 
-A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually. 
+A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
 
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of [MeetEdgar](https://meetedgar.com/), a social media management tool.
 
@@ -46,10 +46,11 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 
 - UI: Attractive, intuitive user experience: 20 points.
 - Code is readable and well organized: 20 points.
-- Minimally, app should successfully access the Twitter API to retrieve tweet history (20 points); 
-            -store tweets in a database (20 points); 
-           - and allow user to retweet this content back out (20 points):
-            Total 60 points. 
+- Minimally, app should successfully access the Twitter API to
+  - retrieve tweet history (20 points);
+  - store tweets in a database (20 points);
+  - and allow user to retweet this content back out (20 points):
+            Total 60 points.
 
 ---
 
