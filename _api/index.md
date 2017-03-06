@@ -1,6 +1,6 @@
 ---
 title: API Docs
-layout: default
+layout: page
 ---
 
 ## API Docs
