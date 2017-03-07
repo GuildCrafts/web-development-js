@@ -8,7 +8,7 @@ createdAt: '2016-12-20T04:23:21Z'
 labels:
 - practice
 published: true
-level: '1'
+level: '2'
 redirect_from: "/goals/120"
 ---
 
