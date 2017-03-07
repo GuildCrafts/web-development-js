@@ -4,7 +4,7 @@ layout: page
 
 # Goal Library for Learners Guild
 
-Browse the goals on the left, organized by their level.
+Browse the goals in the menu, organized by their level.
 
 ---
 
