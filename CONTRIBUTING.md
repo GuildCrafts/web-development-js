@@ -7,19 +7,21 @@ There are many ways to contribute to this repository and the goal library it con
 - [Suggesting Goals](#suggesting-goals)
 - [Authoring Goals](#authoring-goals)
 	- [Goal Quality Checklist](#goal-quality-checklist)
-	- [Step 0 (optional): Create a Goal Repository in GuildCrafts](#step-0-optional-create-a-goal-repository-in-guildcrafts)
-	- [Step 1: Pick a Title](#step-1-pick-a-title)
-	- [Step 2: Create the Goal Issue](#step-2-create-the-goal-issue)
-		- [2.1: Write a Brief Overview of the Goal](#21-write-a-brief-overview-of-the-goal)
-		- [2.2: Determine Team Size, Goal Type, & Difficulty Level](#22-determine-team-size-goal-type-difficulty-level)
-	- [Step 3: Write your Learning Contract](#step-3-write-your-learning-contract)
-		- [3.1: Write a Description](#31-write-a-description)
-		- [3.2: Provide Context](#32-provide-context)
-		- [3.3: List Specifications](#33-list-specifications)
-		- [3.4: Define a Quality Rubric](#34-define-a-quality-rubric)
-		- [3.5: Include a Challenge Rating](#35-include-a-challenge-rating)
-	- [Step 4: Submit for Review](#step-4-submit-for-review)
-	- [Step 5: Improve Goal and Publish](#step-5-improve-goal-and-publish)
+	- [Step 0 (optional): Create a Scaffold Repository in GuildCrafts](#step-0-optional-create-a-scaffold-repository-in-guildcrafts)
+	- [Step 1: Track your Work in the Goal Library Project](#step-1-track-your-work-in-the-goal-library-project)
+	- [Step 2: Pick a Title](#step-2-pick-a-title)
+	- [Step 3: Create a New Goal File](#step-3-create-a-new-goal-file)
+	- [Step 4: Set your Goal Metadata](#step-4-set-your-goal-metadata)
+		- [Team Size](#team-size)
+		- [Labels](#labels)
+		- [Level](#level)
+	- [Step 5: Write a Description](#step-5-write-a-description)
+	- [Step 6: Provide Context](#step-6-provide-context)
+	- [Step 7: List Specifications](#step-7-list-specifications)
+	- [Step 8: Define a Quality Rubric](#step-8-define-a-quality-rubric)
+	- [Step 9: Include a Challenge Rating](#step-9-include-a-challenge-rating)
+	- [Step 10: Submit for Review](#step-10-submit-for-review)
+	- [Step 11: Improve Goal and Publish](#step-11-improve-goal-and-publish)
 - [Reviewing Goals](#reviewing-goals)
 - [Making Changes to the Repository](#making-changes-to-the-repository)
 
@@ -39,12 +41,9 @@ There's no guarantee that all suggestions will be turned into goals, but the [go
 
 ## Authoring Goals
 
-Goals are stored in our **goal library**. To author a new goal for the library, you need to complete the two main components of a goal:
+Goals are stored in our **goal library** as files in the [_goals/][goals] directory. To author a new goal for the library, you need to write a full goal with description, context, specs, quality rubric, etc.
 
-- The issue (stored in [issues][issues]) with a brief overview of the goal and a link to...
-- The learning contract (stored in [contracts][contracts] directory) with full description, context, specs, quality rubric, etc.
-
-In addition, goals may have a _base repository_ with some starter code or other resources for projects to use. This makes it easy to start a new project from this goal: just fork the repo. As an example, take a look at the [Core Data Structures][core-data-structures] goal and its associated repo.
+In addition, goals may have a _scaffold repository_ with some starter code or other resources for projects to use. This makes it easy to start a new project from this goal: just fork the repo. As an example, take a look at the [Core Data Structures][core-data-structures] goal and its associated repo.
 
 If you would like to add to the **goal library** by writing your own goal, that is fantastic! The library is always growing and improving, and we need contributions from learners like you.
 
@@ -52,32 +51,39 @@ The process is not difficult, although to ensure consistent quality please follo
 
 ### Goal Quality Checklist
 
-- [ ] Goal issue...
-  - [ ] has a good title and overview
-  - [ ] is tagged with right `team-size-*` label
-  - [ ] is assigned to appropriate milestone for difficulty level
-- [ ] Learning contract...
-  - [ ] includes complete challenge rating, description, context, specifications, and quality criteria
-  - [ ] is relevant (focused closely on work similar to that of a professional JS web developer)
-  - [ ] is reviewed and approved by a [librarian][team-librarians]
-- [ ] Base repository for goal (optional)...
-  - [ ] exists and is referenced from learning contract
+This checklist is used to assess the quality of a new goal.
+
+- [ ] Has a good title
+- [ ] Has all front matter / metadata (i.e. `teamSize`, `level`, `authors`)
+- [ ] Includes complete challenge rating, description, context, specifications, and quality criteria
+- [ ] Is relevant (focused closely on work similar to that of a professional JS web developer)
+- [ ] Is reviewed and approved by a [librarian][team-librarians]
+- [ ] Scaffold repository for goal (optional)...
+  - [ ] exists and is referenced from goal
   - [ ] includes starter code
 
 Follow the steps below to create a high-quality learning goal. We also recommend that you read the wiki page [Anatomy of a Good Learning Goal](https://github.com/GuildCrafts/web-development-js/wiki/Anatomy-of-a-Good-Learning-Goal) if you are new to the process.
 
-### Step 0 (optional): Create a Goal Repository in GuildCrafts
+### Step 0 (optional): Create a Scaffold Repository in GuildCrafts
 
 You may want to provide a base repository that learners can fork when they start their project. These repositories should include (at minimum):
 
 - A `README.md` with basic introductory information about the goal
 - A `LICENSE` file with the appropriate license
 
-In addition, some goal repositories may include starter code, or sample data, or a manifest file (like `package.json`) that defines some key dependencies for the goal.
+In addition, some scaffold repositories may include starter code, or sample data, or a manifest file (like `package.json`) that defines some key dependencies for the goal.
 
-If you want include a base repo for your goal, [create a new repo][new-repo] in the [GuildCrafts][org-guildcrafts] organization. Look at the [template-goal-repo][template-goal-repo] for an example of what a basic goal repo would look like.
+If you want include a base repo for your goal, [create a new repo][new-repo] in the [GuildCrafts][org-guildcrafts] organization. Look at the [template-goal-repo][template-goal-repo] for an example of what a basic scaffold repo would look like.
 
-### Step 1: Pick a Title
+### Step 1: Track your Work in the Goal Library Project
+
+To better collaborate with other goal authors, assign yourself to the issue corresponding to the goal that you're working on. This issue should either be in the "Ideas & Suggestion" or "Backlog" columns of the [Goal Library project][proj-goal-lib].
+
+As you work on your goal, move it across the project board to the appropriate column.
+
+_If you are starting from scratch (not picking a goal from the backlog or suggestions), then first create an issue for your goal and add it to one of these columns._
+
+### Step 2: Pick a Title
 
 Choose a terse and clear title for the goal. Use this in both the **goal issue** and the **learning contract**. It should summarize _what is being built as a part of this goal_.
 
@@ -93,32 +99,33 @@ For example:
 
 > Chat command-line tool with Node.js
 
-### Step 2: Create the Goal Issue
+### Step 3: Create a New Goal File
 
-Go to `Issues`, and click on the `New issue` button.
+The goal file serves as a contract for learners to know _how to complete the goal_ with great specificity and clarity.
 
-This will open the "new issue" form, which lets you add a title and description for your issue.
+To add your learning contract to the `_goals/` directory, use [GitHub flow][gh-flow-guide] (create a branch, commit changes, open pull request).
 
-The title will be blank, but the description should come pre-populated with the default [issue template][issue-template]. Use the formatting provided by the template.
+1. Create a new branch from `master`.
+1. Make a new file with the format `GOAL_NUMBER-GOAL_TITLE.md` (see other files in `_goals/` for examples).
+1. Copy the contents of the [goal template][goal-template] into your goal file.
+1. Fill out each section of the goal file.
+1. Open a pull request and ask for review from a [goal librarian][team-librarians] (Step 4).
 
-You may need to come back and update the link to your **learning contract** once you've created it.
+### Step 4: Set your Goal Metadata
 
-#### 2.1: Write a Brief Overview of the Goal
+At the top of the goal file is the "front matter", or goal metadata.
 
-In 2-5 sentences, describe what the goal is and what learners who work on the goal will produce.
+Fill this out, making sure to add values for each property of the metadata. Use other published goals as a reference to see what the expected format is. Extra details about some of the properties are supplied below.
 
-It helps to be clear and specific in this overview. Answer the key questions that a learner considering this goal would want to know:
-
-- What will I be working on? What is the expected output?
-- Where can I find the learning contract and goal repo (if any)?
-
-#### 2.2: Determine Team Size, Goal Type, & Difficulty Level
+#### Team Size
 
 All goals have a "recommended team size". Some goals are more appropriate for small teams of 2, others for a large team of 5 or 6. Some goals can even be "solo" goals (i.e. team size of 1).
 
-Consider the scope of your goal, and add an appropriate `team-size-*` label.
+Consider the scope of your goal, and pick an appropriate `teamSize` label.
 
-Then, choose the appropriate goal type from the list below and tag it with the corresponding label.
+#### Labels
+
+Choose the appropriate goal type from the list below and tag it with the corresponding label(s).
 
 - `foundational`: no "product" produced. Purely for focusing on fundamental skill building. Example: "Relational DB design"
 - `practice`: one-off, toy projects. For exploring and learning in a sandboxed environment, but with a defined (albeit contrived) "product". Example: "Bookstore App"
@@ -127,29 +134,20 @@ Then, choose the appropriate goal type from the list below and tag it with the c
 - `production`: professional-grade projects with a live product and active users. Example: "Work on Newbie"
 - `core`: focused on building the key skills of a web developer. If you don't know what to focus on, pick a core goal. Example: "Multiple Paradigms"
 
-Once you've done this, evaluate the difficulty.
+#### Level
 
-To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked using milestones.
+To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked by level.
 
-Before submitting your goal, add it to the appropriate [milestone][milestones] for the difficulty level of the goal. Read the milestone description to learn more about what it means, and use other goals to compare against yours to determine difficulty level.
+| Level | Description |
+|:------|:------------|
+| 1 | Goals requiring basic application logic and requiring a small set of libraries and technologies. Limited in scope. Using only one environment (development). |
+| 2 | Goals with non-trivial application logic using frameworks or advanced DSLs. Often employing multiple libraries and technologies. May have additional testing environment configuration needs in addition to development. |
+| 3 | Goals involving complex systems with many moving pieces. Projects will be deployed and/or maintained. Specs may be unpredictable; learners will have to adapt to changing circumstances. |
+| 4 | Goals presenting a near-exact simulation of working on a professional software team. Requirements will be unpredictable; multiple environments will have to be managed; live products will have to be maintained; third-party services and tools will be required. |
 
 Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [practitioner][team-practitioners] or [librarian][team-librarians].
 
-### Step 3: Write your Learning Contract
-
-The most important part of your goal is the learning contract, which stored in the [contracts][contracts] directory. This is how learners know _how to complete the goal_ with great specificity and clarity.
-
-To add your learning contract to the `contracts/` directory, use [GitHub flow][gh-flow-guide] (create a branch, commit changes, open pull request).
-
-1. Create a new branch from `master`.
-1. Make a new file with the format `GOAL_NUMBER-GOAL_TITLE.md` (see other files in `contracts/` for examples).
-1. Copy the contents of the [contract template][contract-template] into your contract file.
-1. Fill out each section of the contract file.
-1. Open a pull request and ask for review from a [goal librarian][team-librarians] (Step 4).
-
-The following steps 3.* go into more detail on how to write each section of the learning contract.
-
-#### 3.1: Write a Description
+### Step 5: Write a Description
 
 The description includes whatever detail is needed for learners to understand what the goal is about.
 
@@ -162,7 +160,7 @@ You may also want to include things like:
 - An example interface (textual or graphical) showing how the final product might look and/or be used
 - Link to template or starter repo
 
-#### 3.2: Provide Context
+### Step 6: Provide Context
 
 The context section helps orient learners to the _why_ by providing insight into your reason for writing this goal.
 
@@ -170,7 +168,7 @@ When writing this section, ask yourself why the goal is helpful for others. How 
 
 Read some existing goals to get inspiration for what to write here.
 
-#### 3.3: List Specifications
+### Step 7: List Specifications
 
 The specifications tell learners what is needed for the goal to be considered complete. They _specify_ features of the final product beyond what is implied by the title and description.
 
@@ -187,7 +185,7 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they work as specs.
 
-#### 3.4: Define a Quality Rubric
+### Step 8: Define a Quality Rubric
 
 Beyond the specifications for _features_ of the final product, you should identify criteria for what constitutes a _good quality_ artifact for the goal.
 
@@ -203,7 +201,7 @@ This would be a good, basic rubric for most any piece of software:
 
 Feel free to use this as a starting point, and come up with your own criteria as well.
 
-#### 3.5: Include a Challenge Rating
+### Step 9: Include a Challenge Rating
 
 One of the most important questions a learner considering a goal will have is "will this goal put me into my ZPD?" In other words, will the goal be too difficult or too easy?
 
@@ -227,25 +225,23 @@ This goal will likely be within your ZPD if you...
 - Are interested in critical thinking and problem solving
 ```
 
-### Step 4: Submit for Review
+### Step 10: Submit for Review
 
 All new goals start out as a _draft_. In order to be published, a [librarian][team-librarians] must review the goal first (see section on [Reviewing Goals](#reviewing-goals)).
 
 To start the review process, complete these steps:
 
-- [ ] Tag the issue with the `draft` label.
 - [ ] Open a pull request with your new learning contract.
   - [ ] Reference the goal issue in your pull request.
 - [ ] In a comment on the pull request, ask for a review from a librarian.
 
 Example comment: `@GuildCrafts/librarians please review my goal`.
 
-### Step 5: Improve Goal and Publish
+### Step 11: Improve Goal and Publish
 
 Work with the librarians to improve the goal. They may offer suggestions or submit a pull request with some changes your repository.
 
-Once you get an OK from a librarian, you can publish the goal! Remove the `draft` label to add it to the library.
-
+Once you get an OK from a librarian, you can publish the goal! Merge it into master.
 
 ## Reviewing Goals
 
@@ -284,21 +280,20 @@ They may ask you to make additional changes before the pull request is accepted.
 
 Once you get approval from a moderator, they'll merge your pull request or give you permission to merge.
 
-_Note: all material added to this repository is subject to the shared [LICENSE](license), regardless of author. Links or other references to other external materials must be properly cited according to their license._
+_Note: all material added to this repository is subject to the shared [LICENSE][license], regardless of author. Links or other references to other external materials must be properly cited according to their license._
 
 <!-- LINKS -->
 
 [issue-template]: ./.github/ISSUE_TEMPLATE.md
 [issues]: https://github.com/GuildCrafts/web-development-js/issues
 [proj-goal-lib]: https://github.com/GuildCrafts/web-development-js/projects/1
-[contracts]: ./contracts/
-[contract-template]: ./contracts/_TEMPLATE.md
+[goals]: ./_goals/
+[goal-template]: ./_goals/_TEMPLATE.md
 [gh-flow-guide]: https://guides.github.com/introduction/flow/
 [team-practitioners]: https://github.com/orgs/GuildCrafts/teams/practitioners
 [team-moderators]: https://github.com/orgs/GuildCrafts/teams/moderators
 [team-librarians]: https://github.com/orgs/GuildCrafts/teams/librarians
 [license]: ./LICENSE
-[milestones]: https://github.com/GuildCrafts/web-development-js/milestones
 [new-repo]: https://github.com/organizations/GuildCrafts/repositories/new
 [org-guildcrafts]: https://github.com/GuildCrafts
 [template-goal-repo]: https://github.com/GuildCrafts/template-goal-repo
