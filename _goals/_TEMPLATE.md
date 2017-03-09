@@ -38,11 +38,6 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] Spec one.
 - [ ] Spec two.
 - [ ] Spec three.
-
-### Required
-
-_Do not remove these specs - they are required for all goals_.
-
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Quality Rubric
