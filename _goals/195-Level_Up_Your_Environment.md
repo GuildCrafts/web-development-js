@@ -18,8 +18,11 @@ redirect_from: '/goals/195'
 
 This goal will likely be within your ZPD if you...
 
-- Item one
-- Item two
+- Can use a terminal & shell to interact with and navigate the filesystem
+- Can use Google to find relevant learning resources
+- Are familiar with package managers like npm
+- Are interested in improving and configuring your development environment
+- Are interested in getting involved with the software development community
 
 ## Description
 
@@ -101,7 +104,15 @@ If you don't have an idea for a package that you'd like to build, you could find
 
 ## Context
 
-_Why is this goal important? How is it useful? What questions will it raise?_
+This goal is a mash-up of two things that are not directly related, but they do share a focus on situating yourself in your environment.
+
+Like most industries, the social environment of web and software development is complex. Sometimes, it can be intimidating to know how to engage with other developers to make connections, create a network, and find mentorship or support. Also, the tech industry in the US has plenty of problems with systematic discrimination in the form of racism, sexism, classism, ablism, cissexism, and others.
+
+Figuring out how to find and build a supportive, nurturing, and safe community within the industry is important for all web developers at the start of their career. This goal is intended to help you better orient and understand the larger community and to find out how and where to make your place within it.
+
+The other, more technical part of this goal is focused on your code environment (not so social :). As a web developer, your computer is primary workspace. The tools you use every day: the editors, terminal programs, and packages make up your development environment, shaping how you work and what you are able to do.
+
+It is important to know how to configure this environment and continuously modify and upgrade it so that your workspace works _for_ you. Just like carpenters have to keep their shop clean and their tools organized in order to work most effectively, web developers must do the same with their space and tools.
 
 ## Specifications
 
@@ -122,9 +133,8 @@ _Why is this goal important? How is it useful? What questions will it raise?_
 
 ## Quality Rubric
 
-- Quality rubric one [point value]
-- Quality rubric two [point value]
-- Quality rubric three [point value]
+- Code in dotfiles repo is well formatted and readable [50 points]
+- All text files are well organized and easily readable even in their raw format. [50 points]
 
 ## Resources
 
