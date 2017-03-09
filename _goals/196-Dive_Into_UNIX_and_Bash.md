@@ -1,7 +1,7 @@
 ---
 authors:
 - "@tannerwelsh"
-teamSize: 1
+teamSize: 2
 issueNumber: 196
 title: Dive Into UNIX and Bash
 createdAt: '2017-03-09T11:00:00Z'
@@ -34,7 +34,7 @@ This goal will take you through two free online books/tutorials and associated e
 - Michael Hartl's book ["Learn Enough Command Line to be Dangerous"][hartl-command-line]
 - Ryan Chadwick's Tutorial on [Bash Scripting][ryans-tutorial-bash-scripting]
 
-There are lots of exercises and activities in each of the books for you to work with. You only have to choose 20 from each to complete the goal. Choose the ones that most interest you, or are closest to your ZPD. Some may be too easy, others too difficult.
+There are lots of exercises and activities in each of the books for you to work with. You only have to choose 20 from each book/tutorial to complete the goal. **Choose the ones that most interest you and are closest to your ZPD**. Some may be too easy, others too difficult.
 
 If you're really keen, consider doing the stretch specs.
 
@@ -42,7 +42,21 @@ _Note: while the "Learn Enough Command Line" book is free to read online, you ha
 
 ## Context
 
-_Why is this goal important? How is it useful? What questions will it raise?_
+The *nix family of operating systems (that is, anything in the UNIX or Linux families, like Mac OS X or Ubuntu) are the [most popular in the world of web development](http://stackoverflow.com/insights/survey/2016#technology-desktop-operating-system). Whether you are looking to be able to use and navigate your own local system or a remote server, knowing the basic commands is really important.
+
+Then you have the [shell][wiki-shell]. [Bash][wiki-bash] is a common one that ships with all Apple computers, but there are others: [zsh][zsh], [csh][csh], and [fish][fish] (yes, it's called `fish`). While this goal only focuses on bash, you may be inspired to try out other shells.
+
+As you work through the books and exercises, you'll may encounter questions like the following:
+
+- What is the difference between the user and the system?
+- What happens when an executable script is invoked?
+- What is a shell, a terminal, and an operating system, and how do they interact?
+- How is a filesystem organized?
+- What are file permissions and how do they work?
+- What is the `PATH` and how is it used?
+- What is a process?
+
+Indulge your curiousity and explore the questions that pique your interest.
 
 ## Specifications
 
@@ -62,13 +76,21 @@ _Why is this goal important? How is it useful? What questions will it raise?_
 
 - [ ] All exercises are completed from the ["Learn Enough Command Line to be Dangerous"][hartl-command-line] book and solution code is included as files under a `command-line/` directory.
 - [ ] All activities are completed from the [Bash Scripting][ryans-tutorial-bash-scripting] tutorials and solution code is included as files under a `bash-scripting/` directory.
-- [ ] 10 activities are completed from the [Linux][ryans-tutorial-linux] tutorials and solution code is included as files under a `linux/` directory.
+- [ ] 10 activities are completed from the [Linux][ryans-tutorial-linux] tutorials and solution code is included as files under a `linux/` directory.\*
+
+\*Note: there will likely be overlap between this tutorial and the Hartl book. Choose only activities that cover new material so you don't do redundant work.
 
 ## Quality Rubric
 
-- Quality rubric one [point value]
-- Quality rubric two [point value]
-- Quality rubric three [point value]
+**Clean and clear code**
+- Code is well formatted and easily readable [50 points]
+- Code includes comments where appropriate to explain and give context [50 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [25 points]
+- All features are added via pull requests. [25 points]
+- Every pull request has a description summarizing the changes made. [25 points]
+- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 
@@ -85,3 +107,8 @@ _Why is this goal important? How is it useful? What questions will it raise?_
 [ryans-tutorial-linux]: http://ryanstutorials.net/linuxtutorial/
 [uhi-advanced-unix]: http://www.hawaii.edu/itsdocs/cen/unxadv.pdf
 [codecademy-command-line]: https://www.codecademy.com/learn/learn-the-command-line
+[wiki-shell]: https://en.wikipedia.org/wiki/Shell_(computing)
+[wiki-bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[zsh]: http://www.zsh.org/
+[csh]: https://en.wikipedia.org/wiki/C_shell
+[fish]: https://fishshell.com/
