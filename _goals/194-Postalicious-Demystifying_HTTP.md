@@ -46,13 +46,13 @@ Finally, as a stretch exercise, use Postalicious to send requests to a real-worl
 
 ## Context
 
-HTTP is what makes the web work. Well, it's part of what makes the web work. Knowing what it is and how it works is important for any web developer, because it makes everything else that is built _on top of_ HTTP more reasonable.
+HTTP is what makes the web work. Well, it's part of what makes the web work. Knowing what it is and how it works is important for any web developer, because it makes everything else that is built _on top of_ HTTP easier to understand, debug, and make sense of.
 
 In this goal, you'll become familiar with terms like `request`, `response`, `client`, `server`, `status code`, `protocol`, `header`, `body`, and `HTTP verb`. You'll also have to deal with the parts of a `URL` (Uniform Resource Locator): the `protocol`, `host`, `port`, (resource) `path`, and `query`.
 
 That may sound like a lot of vocabulary words. It is. But these are the building blocks of the web - if you don't know what they mean, this is a perfect opportunity to find out!
 
-The good news is that HTTP is really not hard to work with - it's built to be human-readable. The following message is an abridged, but not unrealted, version  to what your browser sends every time you search for "hedgehog" on Google:
+The good news is that HTTP is really not hard to work with - it's built to be human-readable. The following message is an abridged, but not unrelated, version  to what your browser sends every time you search for "hedgehog" on Google:
 
 ```http
 GET /search?q=hedgehog HTTP/1.1
@@ -66,8 +66,8 @@ Let's break that down quickly and put some of those vocabulary words to use. If 
 
 > (1st line): Send a **request** using the GET method/**verb** to the **path** `/search` with a **query** string containing one key `q` having the value `hedgehog`, using version `1.1` of the hypertext transfer protocol (**HTTP**).
 > <br>(2nd line): In the **header**, specify the **host** to send this request to the **server** at `www.google.com`\*.
-> <br>(3rd line): Include a user agent **header** to identify the **client** as a Chrome browser operating on a Mac computer running OSX 10.12.3.
-> <br>(4th line): Use the accept **header** to tell the server what content types the client can understand so that it sends the appopriate type in the **body** of the **response** message.
+> <br>(3rd line): Include a user agent key in the **header** to identify the **client** as a Chrome browser operating on a Mac computer running OSX 10.12.3.
+> <br>(4th line): Use the accept key in the **header** with the value `text/html` to tell the server which content types (also called [MIME types][list-mime-types]) the client can understand so that it sends the appopriate type in the **body** of the **response** message.
 > <br>(5th line): Leave a blank line to signal the end of the **message**.
 
 _\*Implied in this message is the fact that this request will be sent to **port** 80 because this is the default for HTTP requests._
@@ -200,3 +200,5 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 [curl]: https://curl.haxx.se/
 [mdn-http]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [egghead-http-basics]: https://egghead.io/courses/understand-the-basics-of-http
+
+[list-mime-types]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
