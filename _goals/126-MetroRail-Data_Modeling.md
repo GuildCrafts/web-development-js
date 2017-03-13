@@ -1,10 +1,10 @@
 ---
 authors:
 - "tannerwelsh"
-issueNumber: 126
-teamSize: 2
+goal_id: 126
+team_size: 2
 title: 'MetroRail: Data Modeling & Database Design'
-createdAt: '2016-12-30T22:40:21Z'
+created_at: '2016-12-30T22:40:21Z'
 labels:
 - practice
 published: true

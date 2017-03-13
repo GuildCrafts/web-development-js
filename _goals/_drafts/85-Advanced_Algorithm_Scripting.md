@@ -1,8 +1,8 @@
 ---
 authors:
   - "shereefb"
-teamSize: 1
-issueNumber: 85
+team_size: 1
+goal_id: 85
 ---
 
 # Advanced Algorithm Scripting

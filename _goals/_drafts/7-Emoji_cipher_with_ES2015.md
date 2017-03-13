@@ -1,8 +1,8 @@
 ---
 authors:
   - "tannerwelsh"
-teamSize: 2
-issueNumber: 7
+team_size: 2
+goal_id: 7
 ---
 
 # Emoji cipher with ES2015

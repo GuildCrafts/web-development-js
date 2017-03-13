@@ -1,8 +1,8 @@
 ---
 authors:
   - "asantos3026"
-teamSize: 2
-issueNumber: 92
+team_size: 2
+goal_id: 92
 ---
 
 # Project Sharing Social Media app 

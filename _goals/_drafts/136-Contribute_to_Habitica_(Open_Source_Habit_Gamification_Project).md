@@ -1,8 +1,8 @@
 ---
 authors:
   - "rachel-ftw"
-teamSize: 2
-issueNumber: 136
+team_size: 2
+goal_id: 136
 ---
 
 # Contribute to Habitica (Open Source Habit Gamification Project)

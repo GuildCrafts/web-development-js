@@ -1,10 +1,10 @@
 ---
 authors:
 - "shereefb"
-issueNumber: 174
-teamSize: 1
+goal_id: 174
+team_size: 1
 title: Core Vanilla Javascript [Solo Study]
-createdAt: '2017-02-20T19:20:20Z'
+created_at: '2017-02-20T19:20:20Z'
 labels:
 - core
 - foundational

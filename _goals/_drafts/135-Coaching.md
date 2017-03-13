@@ -1,8 +1,8 @@
 ---
 authors:
   - "jrob8577"
-teamSize: 
-issueNumber: 135
+team_size: 
+goal_id: 135
 ---
 
 # Coaching

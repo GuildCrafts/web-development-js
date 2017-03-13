@@ -1,8 +1,8 @@
 ---
 authors:
   - "asantos3026"
-teamSize: 2
-issueNumber: 45
+team_size: 2
+goal_id: 45
 ---
 
 # Mobile Friendly Community Money Sharing App 

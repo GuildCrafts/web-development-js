@@ -1,8 +1,8 @@
 ---
 authors:
   - "alfonsotech"
-teamSize: 
-issueNumber: 134
+team_size: 
+goal_id: 134
 ---
 
 # Tetris Game with React

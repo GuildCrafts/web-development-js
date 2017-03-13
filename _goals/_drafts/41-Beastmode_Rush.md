@@ -1,8 +1,8 @@
 ---
 authors:
   - "phoniks"
-teamSize: 2
-issueNumber: 41
+team_size: 2
+goal_id: 41
 ---
 
 # Beastmode Rush

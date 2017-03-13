@@ -1,10 +1,10 @@
 ---
 authors:
 - "tannerwelsh"
-teamSize: 2
-issueNumber: 124
+team_size: 2
+goal_id: 124
 title: Multiple Paradigms
-createdAt: '2016-12-29T17:00:54Z'
+created_at: '2016-12-29T17:00:54Z'
 labels:
 - core
 published: true

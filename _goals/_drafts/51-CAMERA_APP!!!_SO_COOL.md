@@ -1,8 +1,8 @@
 ---
 authors:
   - "shakalee14"
-teamSize: 2
-issueNumber: 51
+team_size: 2
+goal_id: 51
 ---
 
 # CAMERA APP!!! SO COOL

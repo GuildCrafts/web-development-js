@@ -1,8 +1,8 @@
 ---
 authors:
   - "nicosesma"
-teamSize: 2
-issueNumber: 101
+team_size: 2
+goal_id: 101
 ---
 
 # Refactor a Previous Project

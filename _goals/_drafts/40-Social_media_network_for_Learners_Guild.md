@@ -1,8 +1,8 @@
 ---
 authors:
   - "phoniks"
-teamSize: 2
-issueNumber: 40
+team_size: 2
+goal_id: 40
 ---
 
 # Social media network for Learners Guild

@@ -1,10 +1,10 @@
 ---
 authors:
 - "tannerwelsh"
-teamSize: 2
-issueNumber: 194
+team_size: 2
+goal_id: 194
 title: Postalicious - Demystifying HTTP
-createdAt: '2017-03-06T00:52:33Z'
+created_at: '2017-03-06T00:52:33Z'
 labels:
 - practice
 - foundational

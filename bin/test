@@ -14,10 +14,10 @@ $logger = Logger.new(STDOUT)
 
 GOAL_PROPERTIES = %w[
   authors
-  issueNumber
-  teamSize
+  goal_id
+  team_size
   title
-  createdAt
+  created_at
   labels
   published
   level

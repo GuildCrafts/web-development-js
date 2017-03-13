@@ -1,8 +1,8 @@
 ---
 authors:
   - "lumodon"
-teamSize: 2
-issueNumber: 142
+team_size: 2
+goal_id: 142
 ---
 
 # Build a Chrome extension

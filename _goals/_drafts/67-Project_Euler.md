@@ -1,8 +1,8 @@
 ---
 authors:
   - "Farhad33"
-teamSize: 2
-issueNumber: 67
+team_size: 2
+goal_id: 67
 ---
 
 # Project Euler

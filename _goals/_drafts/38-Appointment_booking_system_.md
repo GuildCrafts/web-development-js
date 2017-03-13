@@ -1,8 +1,8 @@
 ---
 authors:
   - "Farhad33"
-teamSize: 2
-issueNumber: 38
+team_size: 2
+goal_id: 38
 ---
 
 # Appointment booking system 

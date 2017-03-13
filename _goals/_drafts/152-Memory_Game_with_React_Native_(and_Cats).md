@@ -1,8 +1,8 @@
 ---
 authors:
   - "imsolost"
-teamSize: 2
-issueNumber: 152
+team_size: 2
+goal_id: 152
 ---
 
 # Memory Game with React Native (and Cats)

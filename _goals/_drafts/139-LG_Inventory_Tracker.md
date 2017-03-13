@@ -1,8 +1,8 @@
 ---
 authors:
   - "jrob8577"
-teamSize: 2
-issueNumber: 139
+team_size: 2
+goal_id: 139
 ---
 
 # LG Inventory Tracker

@@ -1,8 +1,8 @@
 ---
 authors:
   - "lisabronwyn"
-teamSize: 2
-issueNumber: 97
+team_size: 2
+goal_id: 97
 ---
 
 # Create an Algorithm To Cultivate A Perfect Magic The Gathering Deck

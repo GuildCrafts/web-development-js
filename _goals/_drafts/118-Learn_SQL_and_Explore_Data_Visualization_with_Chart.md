@@ -1,8 +1,8 @@
 ---
 authors:
   - "alfonsotech"
-teamSize: 2
-issueNumber: 118
+team_size: 2
+goal_id: 118
 ---
 
 # Learn SQL and Explore Data Visualization with Chart.js

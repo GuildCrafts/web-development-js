@@ -1,8 +1,8 @@
 ---
 authors:
   - "rachel-ftw"
-teamSize: 2
-issueNumber: 39
+team_size: 2
+goal_id: 39
 ---
 
 # Tarot Card Self Reflection Web App with React

@@ -1,8 +1,8 @@
 ---
 authors:
   - "deadlyicon"
-teamSize: 2
-issueNumber: 16
+team_size: 2
+goal_id: 16
 ---
 
 # Go Game!

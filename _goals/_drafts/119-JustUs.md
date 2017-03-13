@@ -1,8 +1,8 @@
 ---
 authors:
   - "Anasauce"
-teamSize: 2
-issueNumber: 119
+team_size: 2
+goal_id: 119
 ---
 
 # JustUs

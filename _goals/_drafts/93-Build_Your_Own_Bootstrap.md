@@ -1,8 +1,8 @@
 ---
 authors:
   - "asantos3026"
-teamSize: 2
-issueNumber: 93
+team_size: 2
+goal_id: 93
 ---
 
 # Build Your Own Bootstrap

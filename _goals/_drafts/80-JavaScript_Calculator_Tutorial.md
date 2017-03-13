@@ -1,8 +1,8 @@
 ---
 authors:
   - "shereefb"
-teamSize: 1
-issueNumber: 80
+team_size: 1
+goal_id: 80
 ---
 
 # JavaScript Calculator Tutorial

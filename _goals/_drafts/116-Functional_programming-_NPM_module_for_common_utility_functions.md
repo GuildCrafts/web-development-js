@@ -1,8 +1,8 @@
 ---
 authors:
   - "arayi"
-teamSize: 2
-issueNumber: 116
+team_size: 2
+goal_id: 116
 ---
 
 # Functional programming: NPM module for common utility functions

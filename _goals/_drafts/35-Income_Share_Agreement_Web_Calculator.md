@@ -1,8 +1,8 @@
 ---
 authors:
   - "EthanJStark"
-teamSize: 2
-issueNumber: 35
+team_size: 2
+goal_id: 35
 ---
 
 # Income Share Agreement Web Calculator

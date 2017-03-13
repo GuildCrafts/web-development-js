@@ -1,8 +1,8 @@
 ---
 authors:
   - "deadlyicon"
-teamSize: 2
-issueNumber: 71
+team_size: 2
+goal_id: 71
 ---
 
 # protips.learnersguild.org

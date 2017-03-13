@@ -1,8 +1,8 @@
 ---
 authors:
   - "jrob8577"
-teamSize: 2
-issueNumber: 75
+team_size: 2
+goal_id: 75
 ---
 
 # Stats Calculator

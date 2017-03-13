@@ -1,8 +1,8 @@
 ---
 authors:
   - "alfonsotech"
-teamSize: 2
-issueNumber: 112
+team_size: 2
+goal_id: 112
 ---
 
 # Multi-User, Live Chat Room with JavaScript and Node.js

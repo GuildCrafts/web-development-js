@@ -1,8 +1,8 @@
 ---
 authors:
   - "phoniks"
-teamSize: 2
-issueNumber: 62
+team_size: 2
+goal_id: 62
 ---
 
 # Blackjack Game for the Web

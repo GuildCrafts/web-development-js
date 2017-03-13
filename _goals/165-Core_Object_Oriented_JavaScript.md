@@ -1,10 +1,10 @@
 ---
 authors:
 - "shereefb"
-issueNumber: 165
-teamSize: 1
+goal_id: 165
+team_size: 1
 title: Core Object Oriented Javascript - Solo Study
-createdAt: '2017-02-15T04:17:19Z'
+created_at: '2017-02-15T04:17:19Z'
 labels:
 - core
 - foundational

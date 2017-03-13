@@ -1,10 +1,10 @@
 ---
 authors:
 - "Jusdev89"
-teamSize: 2
-issueNumber: 37
+team_size: 2
+goal_id: 37
 title: Common JS Utility Functions [Lodash]
-createdAt: '2016-07-15T23:34:34Z'
+created_at: '2016-07-15T23:34:34Z'
 labels:
 - practice
 published: true

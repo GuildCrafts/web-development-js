@@ -1,10 +1,10 @@
 ---
 authors:
 - "jrob8577"
-teamSize: 2
-issueNumber: 69
+team_size: 2
+goal_id: 69
 title: Simple Book Store
-createdAt: '2016-08-12T23:16:31Z'
+created_at: '2016-08-12T23:16:31Z'
 labels:
 - practice
 published: true

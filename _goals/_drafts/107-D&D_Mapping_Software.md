@@ -1,8 +1,8 @@
 ---
 authors:
   - "lizzkats"
-teamSize: 
-issueNumber: 107
+team_size: 
+goal_id: 107
 ---
 
 # D&D Mapping Software

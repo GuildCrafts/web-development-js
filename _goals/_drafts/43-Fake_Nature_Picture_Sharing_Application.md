@@ -1,8 +1,8 @@
 ---
 authors:
   - "Moniarchy"
-teamSize: 2
-issueNumber: 43
+team_size: 2
+goal_id: 43
 ---
 
 # Fake Nature Picture Sharing Application

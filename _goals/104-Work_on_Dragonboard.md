@@ -1,10 +1,10 @@
 ---
 authors:
 - "jrob8577"
-teamSize: 2
-issueNumber: 104
+team_size: 2
+goal_id: 104
 title: Work on Dragonboard
-createdAt: '2016-10-28T22:35:46Z'
+created_at: '2016-10-28T22:35:46Z'
 labels:
 - apprentice
 published: true

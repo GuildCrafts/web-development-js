@@ -1,10 +1,10 @@
 ---
 authors:
 - "deonna"
-teamSize: 2
-issueNumber: 96
+team_size: 2
+goal_id: 96
 title: 'Exercises: Foundational Relational Database Knowledge'
-createdAt: '2016-10-13T20:21:12Z'
+created_at: '2016-10-13T20:21:12Z'
 labels:
 - foundational
 published: true

@@ -1,8 +1,8 @@
 ---
 authors:
   - "FrankieFabuloso"
-teamSize: 
-issueNumber: 129
+team_size: 
+goal_id: 129
 ---
 
 # Topics or Resources Bulletin Board

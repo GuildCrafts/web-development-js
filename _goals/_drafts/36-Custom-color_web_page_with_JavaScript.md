@@ -1,8 +1,8 @@
 ---
 authors:
   - "Moniarchy"
-teamSize: 2
-issueNumber: 36
+team_size: 2
+goal_id: 36
 ---
 
 # Custom-color web page with JavaScript

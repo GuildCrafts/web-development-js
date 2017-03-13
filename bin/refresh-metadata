@@ -23,7 +23,7 @@ def get_issue_data(issue_no)
 
   {
     'title' => issue.title,
-    'createdAt' => issue.created_at,
+    'created_at' => issue.created_at,
     'labels' => labels,
     'published' => published,
     'level' => level || 'NONE',
@@ -38,7 +38,7 @@ SOURCE_FILES.each do |file|
   puts
 
   goal = Goal.load(file)
-  issue_no = goal['issueNumber']
+  issue_no = goal['goal_id']
   goal.metadata.merge! get_issue_data(issue_no)
 
   File.write(file, goal.to_markdown)

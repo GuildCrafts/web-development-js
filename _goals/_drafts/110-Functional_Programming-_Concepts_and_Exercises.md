@@ -1,8 +1,8 @@
 ---
 authors:
   - "deonna"
-teamSize: 2
-issueNumber: 110
+team_size: 2
+goal_id: 110
 ---
 
 # Functional Programming: Concepts and Exercises

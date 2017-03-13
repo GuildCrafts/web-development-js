@@ -1,8 +1,8 @@
 ---
 authors:
   - "lizzkats"
-teamSize: 2
-issueNumber: 151
+team_size: 2
+goal_id: 151
 ---
 
 # Text Based Choose Your Own Adventure Game!

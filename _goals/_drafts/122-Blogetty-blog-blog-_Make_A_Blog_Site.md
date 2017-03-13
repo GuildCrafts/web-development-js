@@ -1,8 +1,8 @@
 ---
 authors:
   - "alfonsotech"
-teamSize: 2
-issueNumber: 122
+team_size: 2
+goal_id: 122
 ---
 
 # Blogetty-blog-blog: Make A Blog Site

@@ -1,10 +1,10 @@
 ---
 authors:
 - "tannerwelsh"
-issueNumber: 128
-teamSize: 2
+goal_id: 128
+team_size: 2
 title: Core Data Structures
-createdAt: '2016-12-31T16:12:46Z'
+created_at: '2016-12-31T16:12:46Z'
 labels:
 - core
 published: true

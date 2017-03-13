@@ -1,10 +1,10 @@
 ---
 authors:
 - "punitrathore"
-teamSize: 2
-issueNumber: 115
+team_size: 2
+goal_id: 115
 title: 'Coach-Que : Schedule Time & Incorporate Feedback'
-createdAt: '2016-12-05T00:16:17Z'
+created_at: '2016-12-05T00:16:17Z'
 labels:
 - prototype
 published: true

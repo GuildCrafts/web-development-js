@@ -1,10 +1,10 @@
 ---
 authors:
 - "deadlyicon"
-issueNumber: 150
-teamSize: 1
+goal_id: 150
+team_size: 1
 title: Mac Calculator Clone
-createdAt: '2017-02-02T22:55:41Z'
+created_at: '2017-02-02T22:55:41Z'
 labels:
 - practice
 published: true

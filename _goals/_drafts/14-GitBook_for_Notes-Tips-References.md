@@ -1,8 +1,8 @@
 ---
 authors:
   - "deadlyicon"
-teamSize: 2
-issueNumber: 14
+team_size: 2
+goal_id: 14
 ---
 
 # GitBook for Notes/Tips/References
