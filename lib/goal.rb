@@ -10,12 +10,16 @@ class Goal
     @content = opts[:content]
   end
 
+  def [](key)
+    metadata[key]
+  end
+
   def to_s
     metadata['title']
   end
 
   def to_json
-    metadata.merge({ content: content }).to_json
+    metadata.merge({ "content" => content }).to_json
   end
 
   def to_markdown
@@ -25,10 +29,6 @@ class Goal
       content,
       "\n"
     ].join('')
-  end
-
-  def [](key)
-    metadata[key]
   end
 
   def self.load(file)
