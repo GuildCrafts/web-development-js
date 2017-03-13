@@ -9,7 +9,7 @@ labels:
 - LABELS
 level: 'LEVEL'
 published: BOOL
-redirect_from: 'PATH'
+redirect_from: '/goals/ISSUE_NO'
 ---
 
 # GOAL_TITLE
@@ -38,11 +38,6 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] Spec one.
 - [ ] Spec two.
 - [ ] Spec three.
-
-### Required
-
-_Do not remove these specs - they are required for all goals_.
-
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Quality Rubric
