@@ -32,7 +32,7 @@ Build a loose clone of the [Postman extension][postman-extension] for Google Chr
 
 Postalicious is an app that lets you send custom HTTP requests to a server and inspect both the request and the response messages. In this way, it lets you control things like request parameters, headers, and the message body, and then you can see the raw response from the server.
 
-Here's an wireframe of the Postalicious interface that you can use to design around:
+Here's a wireframe of the Postalicious interface that you can use to design around:
 
 ![postalicious](https://cloud.githubusercontent.com/assets/709100/23727389/d4195ca8-0425-11e7-8a02-fe42d4938b9a.png)
 
