@@ -3,8 +3,8 @@ email: info@learnersguild.org
 description: >
   Useful information and guidance for learning the craft
   of web development with JavaScript.
-baseurl: "/"
 url: "http://jsdev.learnersguild.org"
+baseurl: ""
 
 gems:
   - jekyll-redirect-from
