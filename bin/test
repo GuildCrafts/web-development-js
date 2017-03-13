@@ -1,0 +1,62 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'logger'
+
+ROOT_PATH = File.expand_path('../../', __FILE__)
+API_PATH = File.join(ROOT_PATH, '_api')
+
+SOURCE_GOALS = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
+API_GOALS = Dir[ File.join(API_PATH, 'goals', '*.json') ]
+INDEX_FILE = File.join(API_PATH, 'goals', 'index.json')
+
+$logger = Logger.new(STDOUT)
+
+GOAL_PROPERTIES = %w[
+  authors
+  issueNumber
+  teamSize
+  title
+  createdAt
+  labels
+  published
+  level
+  redirect_from
+]
+
+def test_valid_api
+  API_GOALS.each do |file|
+    if file == INDEX_FILE
+      test_goal_index_api(file)
+    else
+      test_goal_get_api(file)
+    end
+  end
+end
+
+def test_goal_index_api(file)
+  index = JSON.load(File.read(file))
+
+  index['goals'].each do |goal|
+    unless goal.keys.sort == GOAL_PROPERTIES.sort
+      $logger.error "Invalid properties for goal in index.json: #{goal}"
+    end
+  end
+end
+
+def test_goal_get_api(file)
+  goal = JSON.load(File.read(file))
+
+  goal.delete('content')
+
+  unless goal.keys.sort == GOAL_PROPERTIES.sort
+    $logger.error "Invalid properties for goal #{file}"
+  end
+end
+
+$logger.info "Running tests..."
+
+$logger.info "Running test_valid_api:"
+test_valid_api
+
+$logger.info "Tests complete."
