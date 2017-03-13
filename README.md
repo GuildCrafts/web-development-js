@@ -19,13 +19,13 @@ The site is built with [Jekyll](https://jekyllrb.com/), which uses [Ruby](https:
 
 This repo is the home to our goal library. Goals are stored as files in the [_goals/](./_goals) directory.
 
-You can create new goals! Before you do so, please review the instructions in [CONTRIBUTING.md](CONTRIBUTING.md), especially the [Authoring Goals](CONTRIBUTING.md#authoring-goals) section. Use the [contract template][goal-template] to author your new contract.
+You can create new goals! Before you do so, please review the instructions in [CONTRIBUTING.md](CONTRIBUTING.md), especially the [Authoring Goals](CONTRIBUTING.md#authoring-goals) section. Use the [goal template][goal-template] to author your new goal.
 
 If you don't have time to author a new goal, but you still think it should be a part of the goal library, please **make a goal suggestion** by submitting a [new issue][repo-issues]. Read the [Suggesting Goals](CONTRIBUTING.md#suggesting-goals) section of the [CONTRIBUTING.md](CONTRIBUTING.md) file to learn more.
 
 ### Playlists
 
-Playlists are possible paths to becoming a full-stack JavaScript web developer. They are collections of learning contracts organized by other learners to provide meaningful courses of learning.
+Playlists are possible paths to becoming a full-stack JavaScript web developer. They are collections of goals organized by other learners to provide meaningful courses of learning.
 
 All playlists are stored in the [playlists](./playlists) directory.
 

@@ -83,7 +83,7 @@ _If you are starting from scratch (not picking a goal from the backlog or sugges
 
 ### Step 2: Pick a Title
 
-Choose a terse and clear title for the goal. Use this in both the **goal issue** and the **learning contract**. It should summarize _what is being built as a part of this goal_.
+Choose a terse and clear title for the goal. It should summarize _what is being built as a part of this goal_.
 
 Try to use one of the following grammatical structures in your title:
 
@@ -101,7 +101,7 @@ For example:
 
 The goal file serves as a contract for learners to know _how to complete the goal_ with great specificity and clarity.
 
-To add your learning contract to the `_goals/` directory, use [GitHub flow][gh-flow-guide] (create a branch, commit changes, open pull request).
+To add your goal to the `_goals/` directory, use [GitHub flow][gh-flow-guide] (create a branch, commit changes, open pull request).
 
 1. Create a new branch from `master`.
 1. Make a new file with the format `GOAL_NUMBER-GOAL_TITLE.md` (see other files in `_goals/` for examples).
@@ -229,7 +229,7 @@ All new goals start out as a _draft_. In order to be published, a [librarian][te
 
 To start the review process, complete these steps:
 
-- [ ] Open a pull request with your new learning contract.
+- [ ] Open a pull request with your new goal.
   - [ ] Reference the goal issue in your pull request.
 - [ ] In a comment on the pull request, ask for a review from a librarian.
 
