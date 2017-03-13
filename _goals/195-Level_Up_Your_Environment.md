@@ -6,7 +6,7 @@ goal_id: 195
 title: Level Up Your Environment
 created_at: '2017-03-09T11:00:00Z'
 labels:
-- core
+- practice
 level: '1'
 published: true
 redirect_from: '/goals/195'
