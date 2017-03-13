@@ -52,6 +52,10 @@ def test_goal_get_api(file)
   unless goal.keys.sort == GOAL_PROPERTIES.sort
     $logger.error "Invalid properties for goal #{file}"
   end
+
+  unless goal['authors'].none? { |a| a.include?('@') }
+    $logger.error "Invalid '@' in author name for goal #{file}"
+  end
 end
 
 $logger.info "Running tests..."
