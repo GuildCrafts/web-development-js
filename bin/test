@@ -21,6 +21,7 @@ GOAL_PROPERTIES = %w[
   labels
   published
   level
+  url
   redirect_from
 ]
 

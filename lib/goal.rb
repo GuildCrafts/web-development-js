@@ -2,7 +2,10 @@ require 'yaml'
 
 class Goal
   GOAL_SECTIONS_MATCHER = /^---((?:\s^.+$)+)\s^---\n+((?:\s*^.+$)+)/
-  SITE_DIRECTORY = '/goals/'
+
+  class << self
+    attr_accessor :base_url
+  end
 
   attr_reader :metadata, :content
 
@@ -11,7 +14,7 @@ class Goal
     @content = opts[:content]
     @source_file = opts[:source_file]
 
-    @metadata['relative_url'] = relative_url if @source_file
+    @metadata['url'] = url if @source_file
   end
 
   def [](key)
@@ -22,8 +25,8 @@ class Goal
     File.basename(@source_file, '.*')
   end
 
-  def relative_url
-    SITE_DIRECTORY + filename + '.html'
+  def url
+    self.class.base_url + filename + '.html'
   end
 
   def to_s
