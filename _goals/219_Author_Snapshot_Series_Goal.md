@@ -1,10 +1,10 @@
 ---
 authors:
 - "@shereefb"
-teamSize: 2
-issueNumber: 219
+team_size: 2
+goal_id: 219
 title: Author a Series of Snapshot Goals
-createdAt: '2017-03-13T00:52:33Z'
+created_at: '2017-03-13T00:52:33Z'
 labels:
 published: true
 level: '4'
