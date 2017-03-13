@@ -1,6 +1,6 @@
 ---
 authors:
-- "@Jusdev89"
+- "Jusdev89"
 teamSize: 2
 issueNumber: 37
 title: Common JS Utility Functions [Lodash]

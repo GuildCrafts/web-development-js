@@ -1,6 +1,6 @@
 ---
 authors:
-- "@punitrathore"
+- "punitrathore"
 teamSize: 2
 issueNumber: 120
 title: Set (the Game) with React

@@ -1,6 +1,6 @@
 ---
 authors:
-- "@alfonsotech"
+- "alfonsotech"
 teamSize: 1
 issueNumber: 111
 title: Tweet-reGenerator with Node.js

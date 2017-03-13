@@ -1,6 +1,6 @@
 ---
 authors:
-- "@punitrathore"
+- "punitrathore"
 issueNumber: 186
 teamSize: 1
 title: Promises Applied

@@ -1,6 +1,6 @@
 ---
 authors:
-- "@shereefb"
+- "shereefb"
 issueNumber: 181
 teamSize: 2
 title: Timeoff Snapshot - Approver Epic

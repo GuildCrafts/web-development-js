@@ -1,6 +1,6 @@
 ---
 authors:
-- "@tannerwelsh"
+- "tannerwelsh"
 teamSize: 1
 issueNumber: 195
 title: Level Up Your Environment

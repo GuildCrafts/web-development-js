@@ -1,6 +1,6 @@
 ---
 authors:
-- "@tannerwelsh"
+- "tannerwelsh"
 issueNumber: 123
 teamSize: 2
 title: Core Algorithms

@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@asantos3026"
+  - "asantos3026"
 teamSize: 2
 issueNumber: 45
 ---

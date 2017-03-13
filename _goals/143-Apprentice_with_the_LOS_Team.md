@@ -1,6 +1,6 @@
 ---
 authors:
-- "@bundacia"
+- "bundacia"
 teamSize: 2
 issueNumber: 143
 title: Apprentice on the LOS team

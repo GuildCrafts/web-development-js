@@ -1,6 +1,6 @@
 ---
 authors:
-- "@tannerwelsh"
+- "tannerwelsh"
 teamSize: 2
 issueNumber: 194
 title: Postalicious - Demystifying HTTP

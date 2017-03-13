@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@Anasauce"
+  - "Anasauce"
 teamSize: 2
 issueNumber: 119
 ---

@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@Farhad33"
+  - "Farhad33"
 teamSize: 2
 issueNumber: 67
 ---

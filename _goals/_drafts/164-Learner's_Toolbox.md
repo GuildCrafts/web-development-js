@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@thamaranth"
+  - "thamaranth"
 teamSize: 
 issueNumber: 164
 ---

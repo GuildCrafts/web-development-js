@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@lumodon"
+  - "lumodon"
 teamSize: 2
 issueNumber: 102
 ---

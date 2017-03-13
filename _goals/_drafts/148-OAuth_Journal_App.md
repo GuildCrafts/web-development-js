@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@shakalee14"
+  - "shakalee14"
 teamSize: 
 issueNumber: 148
 ---

@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@mKleinCreative"
+  - "mKleinCreative"
 teamSize: 
 issueNumber: 154
 ---

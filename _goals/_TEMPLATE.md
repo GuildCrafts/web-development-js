@@ -1,6 +1,6 @@
 ---
 authors:
-- "@GITHUB_HANDLE"
+- "GITHUB_HANDLE"
 teamSize: TEAM_SIZE
 issueNumber: ISSUE_NO
 title: GOAL_TITLE

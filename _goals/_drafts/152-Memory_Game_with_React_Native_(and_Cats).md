@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@imsolost"
+  - "imsolost"
 teamSize: 2
 issueNumber: 152
 ---

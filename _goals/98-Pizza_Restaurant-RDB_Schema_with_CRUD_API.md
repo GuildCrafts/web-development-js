@@ -1,6 +1,6 @@
 ---
 authors:
-- "@deonna"
+- "deonna"
 teamSize: 2
 issueNumber: 98
 title: 'Pizza Restaurant: Relational DB Schema with CRUD API'

@@ -1,6 +1,6 @@
 ---
 authors:
-- "@shereefb"
+- "shereefb"
 teamSize: 1
 issueNumber: 83
 title: 'Browser Games: Simon & Tic-Tac-Toe'

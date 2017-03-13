@@ -1,6 +1,6 @@
 ---
 authors:
-  - "@EthanJStark"
+  - "EthanJStark"
 teamSize: 2
 issueNumber: 35
 ---

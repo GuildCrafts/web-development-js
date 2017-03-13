@@ -1,6 +1,6 @@
 ---
 authors:
-- "@deadlyicon"
+- "deadlyicon"
 issueNumber: 150
 teamSize: 1
 title: Mac Calculator Clone

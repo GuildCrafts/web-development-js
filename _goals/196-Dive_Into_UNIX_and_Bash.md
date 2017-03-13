@@ -1,6 +1,6 @@
 ---
 authors:
-- "@tannerwelsh"
+- "tannerwelsh"
 teamSize: 2
 issueNumber: 196
 title: Dive Into UNIX and Bash

@@ -26,9 +26,8 @@ layout: default
 
     <div class="mdl-layout-spacer"></div>
     {% for author in page.authors %}
-      {% assign raw_handle = author | remove: "@" %}
-      <span id="author-{{raw_handle}}" class="mdl-chip mdl-chip--contact">
-        <img class="mdl-chip__contact" src="https://avatars.githubusercontent.com/{{ raw_handle }}?size=32">
+      <span id="author-{{author}}" class="mdl-chip mdl-chip--contact">
+        <img class="mdl-chip__contact" src="https://avatars.githubusercontent.com/{{ author }}?size=32">
         <span class="mdl-chip__text">{{ author }}</span>
       </span>
       <div class="mdl-tooltip" data-mdl-for="author-{{raw_handle}}">Goal Author</div>
