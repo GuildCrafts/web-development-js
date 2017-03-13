@@ -2,30 +2,28 @@
 
 There are many ways to contribute to this repository and the goal library it contains. Use the links below for guidance and reference.
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Suggesting Goals](#suggesting-goals)
 - [Authoring Goals](#authoring-goals)
-	- [Goal Quality Checklist](#goal-quality-checklist)
-	- [Step 0 (optional): Create a Scaffold Repository in GuildCrafts](#step-0-optional-create-a-scaffold-repository-in-guildcrafts)
-	- [Step 1: Track your Work in the Goal Library Project](#step-1-track-your-work-in-the-goal-library-project)
-	- [Step 2: Pick a Title](#step-2-pick-a-title)
-	- [Step 3: Create a New Goal File](#step-3-create-a-new-goal-file)
-	- [Step 4: Set your Goal Metadata](#step-4-set-your-goal-metadata)
-		- [Team Size](#team-size)
-		- [Labels](#labels)
-		- [Level](#level)
-	- [Step 5: Write a Description](#step-5-write-a-description)
-	- [Step 6: Provide Context](#step-6-provide-context)
-	- [Step 7: List Specifications](#step-7-list-specifications)
-	- [Step 8: Define a Quality Rubric](#step-8-define-a-quality-rubric)
-	- [Step 9: Include a Challenge Rating](#step-9-include-a-challenge-rating)
-	- [Step 10: Submit for Review](#step-10-submit-for-review)
-	- [Step 11: Improve Goal and Publish](#step-11-improve-goal-and-publish)
+  - [Goal Quality Checklist](#goal-quality-checklist)
+  - [Step 0 (optional): Create a Scaffold Repository in GuildCrafts](#step-0-optional-create-a-scaffold-repository-in-guildcrafts)
+  - [Step 1: Track your Work in the Goal Library Project](#step-1-track-your-work-in-the-goal-library-project)
+  - [Step 2: Pick a Title](#step-2-pick-a-title)
+  - [Step 3: Create a New Goal File](#step-3-create-a-new-goal-file)
+  - [Step 4: Set your Goal Metadata](#step-4-set-your-goal-metadata)
+  - [Step 5: Write a Description](#step-5-write-a-description)
+  - [Step 6: Provide Context](#step-6-provide-context)
+  - [Step 7: List Specifications](#step-7-list-specifications)
+  - [Step 8: Define a Quality Rubric](#step-8-define-a-quality-rubric)
+  - [Step 9: Include a Challenge Rating](#step-9-include-a-challenge-rating)
+  - [Step 10: Submit for Review](#step-10-submit-for-review)
+  - [Step 11: Improve Goal and Publish](#step-11-improve-goal-and-publish)
 - [Reviewing Goals](#reviewing-goals)
-- [Making Changes to the Repository](#making-changes-to-the-repository)
 
 <!-- /TOC -->
+
+_Note: all material added to this repository is subject to the shared [LICENSE][license], regardless of author. Links or other references to other external materials must be properly cited according to their license._
 
 ## Suggesting Goals
 
@@ -261,26 +259,6 @@ To review a goal, use the [Goal Library project][proj-goal-lib] and follow this 
   - Offer suggestions
   - Clarify what would be needed for the goal to be published
 1. When the goal is ready, merge the pull request and move the goal issue to the "Published"
-
-## Making Changes to the Repository
-
-Any member of Learners Guild (if you are reading this, that means you are most likely a member) can make changes to the files in this repository.
-
-The only caveat is that no changes can be made directly to the `master` branch: all changes must be made on a separate branch and then merged via a pull request.
-
-In other words, we follow [GitHub Flow][gh-flow-guide] and we require that any contributors do as well.
-
-Once you've submitted your pull request, ask for a review from a [moderator][team-moderators]. You can do this by `@`-mentioning the team in a comment on the pull request:
-
-```
-@GuildCrafts/moderators can you please review this pull request?
-```
-
-They may ask you to make additional changes before the pull request is accepted.
-
-Once you get approval from a moderator, they'll merge your pull request or give you permission to merge.
-
-_Note: all material added to this repository is subject to the shared [LICENSE][license], regardless of author. Links or other references to other external materials must be properly cited according to their license._
 
 <!-- LINKS -->
 
