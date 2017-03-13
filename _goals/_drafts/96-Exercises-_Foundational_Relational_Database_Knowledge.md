@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@deonna"
-teamSize: 2
-issueNumber: 96
+  - "deonna"
+team_size: 2
+goal_id: 96
 ---
 
 # Exercises: Foundational Relational Database Knowledge

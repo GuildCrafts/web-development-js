@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@alfonsotech"
-teamSize: 2
-issueNumber: 121
+  - "alfonsotech"
+team_size: 2
+goal_id: 121
 ---
 
 # Expertise Registry for Learners with Node.js

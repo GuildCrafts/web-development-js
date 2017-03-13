@@ -6,7 +6,7 @@
 
   <nav class="mdl-navigation">
     {% for goal in include.goals %}
-    <a class="mdl-navigation__link" href="{{ goal.url }}">{{goal.title}} <small>#{{ goal.issueNumber}}</small></a>
+    <a class="mdl-navigation__link" href="{{ goal.url }}">{{goal.title}} <small>#{{ goal.goal_id}}</small></a>
     {% endfor %}
   </nav>
 

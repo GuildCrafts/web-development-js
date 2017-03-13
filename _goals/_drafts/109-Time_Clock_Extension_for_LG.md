@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@mKleinCreative"
-teamSize: 2
-issueNumber: 109
+  - "mKleinCreative"
+team_size: 2
+goal_id: 109
 ---
 
 # Time Clock Extension for LG

@@ -54,7 +54,7 @@ The process is not difficult, although to ensure consistent quality please follo
 This checklist is used to assess the quality of a new goal.
 
 - [ ] Has a good title
-- [ ] Has all front matter / metadata (i.e. `teamSize`, `level`, `authors`)
+- [ ] Has all front matter / metadata (i.e. `team_size`, `level`, `authors`)
 - [ ] Includes complete challenge rating, description, context, specifications, and quality criteria
 - [ ] Is relevant (focused closely on work similar to that of a professional JS web developer)
 - [ ] Is reviewed and approved by a [librarian][team-librarians]
@@ -121,7 +121,7 @@ Fill this out, making sure to add values for each property of the metadata. Use 
 
 All goals have a "recommended team size". Some goals are more appropriate for small teams of 2, others for a large team of 5 or 6. Some goals can even be "solo" goals (i.e. team size of 1).
 
-Consider the scope of your goal, and pick an appropriate `teamSize` label.
+Consider the scope of your goal, and pick an appropriate `team_size` label.
 
 #### Labels
 

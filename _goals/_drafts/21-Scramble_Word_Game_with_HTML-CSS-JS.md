@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@pllearns"
-teamSize: 2
-issueNumber: 21
+  - "pllearns"
+team_size: 2
+goal_id: 21
 ---
 
 # Scramble Word Game with HTML/CSS/JS

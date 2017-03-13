@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@rachel-ftw"
-teamSize: 2
-issueNumber: 138
+  - "rachel-ftw"
+team_size: 2
+goal_id: 138
 ---
 
 # Contribute to Webpack (WIP)

@@ -1,10 +1,10 @@
 ---
 authors:
-- "@deonna"
-issueNumber: 144
-teamSize: 1
+- "deonna"
+goal_id: 144
+team_size: 1
 title: 15 Coding Exercises
-createdAt: '2017-01-29T19:23:24Z'
+created_at: '2017-01-29T19:23:24Z'
 labels:
 - foundational
 published: true

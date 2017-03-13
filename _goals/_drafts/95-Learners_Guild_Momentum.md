@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@Moniarchy"
-teamSize: 2
-issueNumber: 95
+  - "Moniarchy"
+team_size: 2
+goal_id: 95
 ---
 
 # Learners Guild Momentum

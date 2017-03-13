@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@deonna"
-teamSize: 2
-issueNumber: 99
+  - "deonna"
+team_size: 2
+goal_id: 99
 ---
 
 # Crack the coding interview HackerRank style!

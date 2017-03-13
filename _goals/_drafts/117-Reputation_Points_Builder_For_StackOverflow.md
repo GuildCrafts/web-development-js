@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@alfonsotech"
-teamSize: 2
-issueNumber: 117
+  - "alfonsotech"
+team_size: 2
+goal_id: 117
 ---
 
 # Reputation Points Builder For StackOverflow

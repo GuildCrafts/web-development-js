@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@Anasauce"
-teamSize: 2
-issueNumber: 72
+  - "Anasauce"
+team_size: 2
+goal_id: 72
 ---
 
 # Study Tool

@@ -1,10 +1,10 @@
 ---
 authors:
-- "@Moniarchy"
-teamSize: 2
-issueNumber: 77
+- "Moniarchy"
+team_size: 2
+goal_id: 77
 title: Work On Floworky
-createdAt: '2016-09-30T23:32:19Z'
+created_at: '2016-09-30T23:32:19Z'
 labels:
 - apprentice
 published: true

@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@FrankieFabuloso"
-teamSize: 
-issueNumber: 131
+  - "FrankieFabuloso"
+team_size: 
+goal_id: 131
 ---
 
 # Do Me A Favor?: The RPG

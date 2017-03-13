@@ -1,10 +1,10 @@
 ---
 authors:
-- "@tannerwelsh"
-teamSize: 2
-issueNumber: 196
+- "tannerwelsh"
+team_size: 2
+goal_id: 196
 title: Dive Into UNIX and Bash
-createdAt: '2017-03-09T11:00:00Z'
+created_at: '2017-03-09T11:00:00Z'
 labels:
 - core
 level: '1'

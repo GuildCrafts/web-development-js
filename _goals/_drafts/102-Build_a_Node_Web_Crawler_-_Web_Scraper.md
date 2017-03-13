@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@lumodon"
-teamSize: 2
-issueNumber: 102
+  - "lumodon"
+team_size: 2
+goal_id: 102
 ---
 
 # Build a Node.js Web Crawler / Web Scraper

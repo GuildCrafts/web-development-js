@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@alfonsotech"
-teamSize: 2
-issueNumber: 145
+  - "alfonsotech"
+team_size: 2
+goal_id: 145
 ---
 
 # Work on a Portfolio or Personal Project 

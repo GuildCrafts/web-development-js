@@ -1,10 +1,10 @@
 ---
 authors:
-- "@tannerwelsh"
-teamSize: 4
-issueNumber: 133
+- "tannerwelsh"
+team_size: 4
+goal_id: 133
 title: Code -> Docs -> Code
-createdAt: '2017-01-13T05:03:45Z'
+created_at: '2017-01-13T05:03:45Z'
 labels:
 - practice
 published: true

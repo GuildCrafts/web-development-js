@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@phoniks"
-teamSize: 2
-issueNumber: 79
+  - "phoniks"
+team_size: 2
+goal_id: 79
 ---
 
 # Build an (Echo?) interface for the LG Library.

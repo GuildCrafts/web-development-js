@@ -1,10 +1,10 @@
 ---
 authors:
-- "@alfonsotech"
-teamSize: 1
-issueNumber: 111
+- "alfonsotech"
+team_size: 1
+goal_id: 111
 title: Tweet-reGenerator with Node.js
-createdAt: '2016-12-04T00:57:52Z'
+created_at: '2016-12-04T00:57:52Z'
 labels:
 - practice
 published: true

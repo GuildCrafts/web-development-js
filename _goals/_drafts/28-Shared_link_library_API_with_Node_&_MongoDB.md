@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@tannerwelsh"
-teamSize: 2
-issueNumber: 28
+  - "tannerwelsh"
+team_size: 2
+goal_id: 28
 ---
 
 # Shared link library API with Node.js & MongoDB

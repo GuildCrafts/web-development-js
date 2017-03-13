@@ -1,10 +1,10 @@
 ---
 authors:
-- "@shereefb"
-teamSize: 2
-issueNumber: 140
+- "shereefb"
+team_size: 2
+goal_id: 140
 title: Work on Newbie
-createdAt: '2017-01-23T14:25:06Z'
+created_at: '2017-01-23T14:25:06Z'
 labels:
 - production
 published: true

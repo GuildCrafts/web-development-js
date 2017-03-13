@@ -1,10 +1,10 @@
 ---
 authors:
-- "@Jusdev89"
-teamSize: 2
-issueNumber: 202
+- "Jusdev89"
+team_size: 2
+goal_id: 202
 title: Common JS Utility Functions [Underscore]
-createdAt: '2017-02-25T15:13:56Z'
+created_at: '2017-02-25T15:13:56Z'
 labels:
 - practice
 published: true

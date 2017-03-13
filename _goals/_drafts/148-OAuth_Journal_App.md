@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shakalee14"
-teamSize: 
-issueNumber: 148
+  - "shakalee14"
+team_size: 
+goal_id: 148
 ---
 
 # OAuth Journal App

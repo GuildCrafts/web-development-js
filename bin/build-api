@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'yaml'
 require 'logger'
 require 'fileutils'
 
@@ -14,6 +15,12 @@ INDEX_FILE = 'index.json'
 SOURCE_GOALS = Dir[ File.join(ROOT_PATH, '_goals', '*.md') ]
 GOALS_API_PATH = File.join(API_PATH, 'goals')
 
+# For including real URLs in goal data
+JEKYLL_CONFIG = YAML.load(File.read(File.join(ROOT_PATH, '_config.yml')))
+Goal.base_url = JEKYLL_CONFIG['url'] + '/goals/'
+
+$logger = Logger.new(STDOUT)
+
 def build_goals_api
   goals = Goal.load_all(SOURCE_GOALS)
 
@@ -22,7 +29,7 @@ def build_goals_api
   File.write(goals_index_path, { goals: goals.map(&:metadata) }.to_json)
 
   goals.each do |goal|
-    filename = "#{goal['issueNumber']}.json"
+    filename = "#{goal['goal_id']}.json"
     filepath = File.join(GOALS_API_PATH, filename)
 
     $logger.info "Creating goal #{goal}..."
@@ -30,12 +37,10 @@ def build_goals_api
   end
 end
 
-$logger = Logger.new(STDOUT)
-
 $logger.info("Rebuilding API files...")
 
 FileUtils.remove_dir(GOALS_API_PATH)
 FileUtils.mkdir_p(GOALS_API_PATH)
 
 $logger.info "Building #{GOALS_API_PATH}..."
-GOALS = build_goals_api
+build_goals_api

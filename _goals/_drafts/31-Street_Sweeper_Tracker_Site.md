@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@harmanlearns"
-teamSize: 2
-issueNumber: 31
+  - "harmanlearns"
+team_size: 2
+goal_id: 31
 ---
 
 # Street Sweeper Tracker Site

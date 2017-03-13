@@ -1,10 +1,10 @@
 ---
 authors:
-- "@punitrathore"
-issueNumber: 186
-teamSize: 1
+- "punitrathore"
+goal_id: 186
+team_size: 1
 title: Promises Applied
-createdAt: '2017-02-21T23:53:30Z'
+created_at: '2017-02-21T23:53:30Z'
 labels:
 - foundational
 published: true

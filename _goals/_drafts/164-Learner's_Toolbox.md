@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@thamaranth"
-teamSize: 
-issueNumber: 164
+  - "thamaranth"
+team_size: 
+goal_id: 164
 ---
 
 # Learner's Toolbox

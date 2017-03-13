@@ -1,10 +1,10 @@
 ---
 authors:
-- "@shereefb"
-issueNumber: 182
-teamSize: 2
+- "shereefb"
+goal_id: 182
+team_size: 2
 title: Timeoff Snapshot - International Epic
-createdAt: '2017-02-21T23:15:56Z'
+created_at: '2017-02-21T23:15:56Z'
 labels: []
 published: true
 level: '2'

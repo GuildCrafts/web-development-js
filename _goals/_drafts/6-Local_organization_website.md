@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@tannerwelsh"
-teamSize: 2
-issueNumber: 6
+  - "tannerwelsh"
+team_size: 2
+goal_id: 6
 ---
 
 # Local organization website

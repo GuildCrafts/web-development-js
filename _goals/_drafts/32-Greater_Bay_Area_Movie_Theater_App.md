@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@pllearns"
-teamSize: 2
-issueNumber: 32
+  - "pllearns"
+team_size: 2
+goal_id: 32
 ---
 
 # Greater Bay Area Movie Theater App

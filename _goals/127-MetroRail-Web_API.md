@@ -1,10 +1,10 @@
 ---
 authors:
-- "@tannerwelsh"
-issueNumber: 127
-teamSize: 2
+- "tannerwelsh"
+goal_id: 127
+team_size: 2
 title: 'MetroRail: Web API Design, Building, and Documentation'
-createdAt: '2016-12-30T22:42:23Z'
+created_at: '2016-12-30T22:42:23Z'
 labels:
 - practice
 published: true

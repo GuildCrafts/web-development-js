@@ -1,10 +1,10 @@
 ---
 authors:
-- "@bundacia"
-teamSize: 2
-issueNumber: 143
+- "bundacia"
+team_size: 2
+goal_id: 143
 title: Apprentice on the LOS team
-createdAt: '2017-01-27T21:43:35Z'
+created_at: '2017-01-27T21:43:35Z'
 labels:
 - production
 published: true

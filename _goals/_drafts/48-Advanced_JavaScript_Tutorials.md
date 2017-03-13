@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@yaseenagag"
-teamSize: 2
-issueNumber: 48
+  - "yaseenagag"
+team_size: 2
+goal_id: 48
 ---
 
 # Advanced JavaScript Tutorials

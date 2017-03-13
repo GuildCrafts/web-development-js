@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@rachel-ftw"
-teamSize: 2
-issueNumber: 64
+  - "rachel-ftw"
+team_size: 2
+goal_id: 64
 ---
 
 # To Do List App

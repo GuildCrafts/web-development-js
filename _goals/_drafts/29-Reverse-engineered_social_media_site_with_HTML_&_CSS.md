@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@tannerwelsh"
-teamSize: 2
-issueNumber: 29
+  - "tannerwelsh"
+team_size: 2
+goal_id: 29
 ---
 
 # Reverse-engineered social media site with HTML & CSS

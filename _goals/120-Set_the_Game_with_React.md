@@ -1,10 +1,10 @@
 ---
 authors:
-- "@punitrathore"
-teamSize: 2
-issueNumber: 120
+- "punitrathore"
+team_size: 2
+goal_id: 120
 title: Set (the Game) with React
-createdAt: '2016-12-20T04:23:21Z'
+created_at: '2016-12-20T04:23:21Z'
 labels:
 - practice
 published: true

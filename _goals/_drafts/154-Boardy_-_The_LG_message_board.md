@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@mKleinCreative"
-teamSize: 
-issueNumber: 154
+  - "mKleinCreative"
+team_size: 
+goal_id: 154
 ---
 
 # Boardy - The LG message board

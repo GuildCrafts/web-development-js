@@ -1,10 +1,10 @@
 ---
 authors:
-- "@punitrathore"
-issueNumber: 178
-teamSize: 1
+- "punitrathore"
+goal_id: 178
+team_size: 1
 title: Core SQL [Solo Study]
-createdAt: '2017-02-21T01:39:41Z'
+created_at: '2017-02-21T01:39:41Z'
 labels:
 - foundational
 published: true

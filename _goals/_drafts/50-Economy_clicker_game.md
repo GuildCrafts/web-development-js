@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@Moniarchy"
-teamSize: 2
-issueNumber: 50
+  - "Moniarchy"
+team_size: 2
+goal_id: 50
 ---
 
 # Economy clicker game

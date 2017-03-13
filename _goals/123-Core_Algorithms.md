@@ -1,10 +1,10 @@
 ---
 authors:
-- "@tannerwelsh"
-issueNumber: 123
-teamSize: 2
+- "tannerwelsh"
+goal_id: 123
+team_size: 2
 title: Core Algorithms
-createdAt: '2016-12-29T16:52:48Z'
+created_at: '2016-12-29T16:52:48Z'
 labels:
 - core
 published: true

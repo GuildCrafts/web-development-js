@@ -1,10 +1,10 @@
 ---
 authors:
-- "@GITHUB_HANDLE"
-teamSize: TEAM_SIZE
-issueNumber: ISSUE_NO
+- "GITHUB_HANDLE"
+team_size: TEAM_SIZE
+goal_id: ISSUE_NO
 title: GOAL_TITLE
-createdAt: 'yyyy-mm-ddThh:mm:ssZ'
+created_at: 'yyyy-mm-ddThh:mm:ssZ'
 labels:
 - LABELS
 level: 'LEVEL'

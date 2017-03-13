@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shereefb"
-teamSize: 1
-issueNumber: 87
+  - "shereefb"
+team_size: 1
+goal_id: 87
 ---
 
 # HTML, CSS & Javascript Basics

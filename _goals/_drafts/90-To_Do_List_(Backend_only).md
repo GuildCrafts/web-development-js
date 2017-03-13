@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@nodatall"
-teamSize: 2
-issueNumber: 90
+  - "nodatall"
+team_size: 2
+goal_id: 90
 ---
 
 # To Do List (Backend only)

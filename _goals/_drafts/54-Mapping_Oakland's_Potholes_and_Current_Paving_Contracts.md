@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@nicosesma"
-teamSize: 2
-issueNumber: 54
+  - "nicosesma"
+team_size: 2
+goal_id: 54
 ---
 
 # Mapping Oakland's Potholes and Current Paving Contracts

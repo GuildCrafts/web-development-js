@@ -1,10 +1,10 @@
 ---
 authors:
-- "@shereefb"
-teamSize: 1
-issueNumber: 83
+- "shereefb"
+team_size: 1
+goal_id: 83
 title: 'Browser Games: Simon & Tic-Tac-Toe'
-createdAt: '2016-10-05T21:34:11Z'
+created_at: '2016-10-05T21:34:11Z'
 labels:
 - foundational
 published: true

@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shakalee14"
-teamSize: 2
-issueNumber: 91
+  - "shakalee14"
+team_size: 2
+goal_id: 91
 ---
 
 # Farmers Market Review App

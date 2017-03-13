@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@phoniks"
-teamSize: 2
-issueNumber: 68
+  - "phoniks"
+team_size: 2
+goal_id: 68
 ---
 
 # Blackjack Game for the Node.js Console

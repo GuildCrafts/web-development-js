@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shereefb"
-teamSize: 1
-issueNumber: 84
+  - "shereefb"
+team_size: 1
+goal_id: 84
 ---
 
 # Intermediate Algorithm Scripting

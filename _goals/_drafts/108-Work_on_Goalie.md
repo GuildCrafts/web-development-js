@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@tannerwelsh"
-teamSize: 2
-issueNumber: 108
+  - "tannerwelsh"
+team_size: 2
+goal_id: 108
 ---
 
 # Work on Goalie

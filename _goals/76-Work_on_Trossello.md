@@ -1,10 +1,10 @@
 ---
 authors:
-- "@deadlyicon"
-teamSize: 2
-issueNumber: 76
+- "deadlyicon"
+team_size: 2
+goal_id: 76
 title: Work on Trossello
-createdAt: '2016-09-22T20:38:28Z'
+created_at: '2016-09-22T20:38:28Z'
 labels:
 - apprentice
 published: true

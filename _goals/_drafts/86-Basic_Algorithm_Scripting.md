@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shereefb"
-teamSize: 1
-issueNumber: 86
+  - "shereefb"
+team_size: 1
+goal_id: 86
 ---
 
 # Basic Algorithm Scripting

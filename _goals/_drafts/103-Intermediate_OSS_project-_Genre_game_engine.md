@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@arayi"
-teamSize: 2
-issueNumber: 103
+  - "arayi"
+team_size: 2
+goal_id: 103
 ---
 
 # Intermediate OSS project: Genre game engine

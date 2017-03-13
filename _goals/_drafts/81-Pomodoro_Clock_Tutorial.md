@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shereefb"
-teamSize: 1
-issueNumber: 81
+  - "shereefb"
+team_size: 1
+goal_id: 81
 ---
 
 # Pomodoro Clock Tutorial

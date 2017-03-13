@@ -1,10 +1,10 @@
 ---
 authors:
-- "@deadlyicon"
-teamSize: 2
-issueNumber: 130
+- "deadlyicon"
+team_size: 2
+goal_id: 130
 title: Work on Prrr
-createdAt: '2017-01-03T19:03:43Z'
+created_at: '2017-01-03T19:03:43Z'
 labels:
 - apprentice
 published: true

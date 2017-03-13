@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@shakalee14"
-teamSize: 2
-issueNumber: 61
+  - "shakalee14"
+team_size: 2
+goal_id: 61
 ---
 
 # Create a Simple Shopping Cart application with React.js 

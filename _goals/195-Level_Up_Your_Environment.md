@@ -1,10 +1,10 @@
 ---
 authors:
-- "@tannerwelsh"
-teamSize: 1
-issueNumber: 195
+- "tannerwelsh"
+team_size: 1
+goal_id: 195
 title: Level Up Your Environment
-createdAt: '2017-03-09T11:00:00Z'
+created_at: '2017-03-09T11:00:00Z'
 labels:
 - core
 level: '1'

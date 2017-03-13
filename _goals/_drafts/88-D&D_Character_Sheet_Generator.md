@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@lumodon"
-teamSize: 2
-issueNumber: 88
+  - "lumodon"
+team_size: 2
+goal_id: 88
 ---
 
 # D&D Character Sheet Generator

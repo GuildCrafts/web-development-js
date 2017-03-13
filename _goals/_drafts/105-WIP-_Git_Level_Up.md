@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@deadlyicon"
-teamSize: 2
-issueNumber: 105
+  - "deadlyicon"
+team_size: 2
+goal_id: 105
 ---
 
 # WIP: Git Level Up

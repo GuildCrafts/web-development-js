@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@deadlyicon"
-teamSize: 2
-issueNumber: 106
+  - "deadlyicon"
+team_size: 2
+goal_id: 106
 ---
 
 # Test Drive Bookstore

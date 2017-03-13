@@ -1,8 +1,8 @@
 ---
 authors:
-  - "@deonna"
-teamSize: 2
-issueNumber: 98
+  - "deonna"
+team_size: 2
+goal_id: 98
 ---
 
 # Pizza Restaurant: Relational DB Schema with CRUD API
