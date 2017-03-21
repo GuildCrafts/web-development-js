@@ -3,7 +3,7 @@ authors:
 - "shereefb"
 goal_id: 165
 team_size: 1
-title: Core Object Oriented Javascript - Solo Study
+title: Core Object Oriented JavaScript - Solo Study
 created_at: '2017-02-15T04:17:19Z'
 labels:
 - core
@@ -13,7 +13,7 @@ level: '1'
 redirect_from: "/goals/165"
 ---
 
-# Core Object Oriented Javascript
+# Core Object Oriented JavaScript
 
 ## Challenge Rating
 

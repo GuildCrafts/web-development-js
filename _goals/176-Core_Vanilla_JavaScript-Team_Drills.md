@@ -3,7 +3,7 @@ authors:
 - "shereefb"
 goal_id: 176
 team_size: 2
-title: Core Vanilla Javascript [Team Drills & Practice]
+title: Core Vanilla JavaScript [Team Drills & Practice]
 created_at: '2017-02-20T23:03:19Z'
 labels:
 - core
@@ -13,7 +13,7 @@ level: '1'
 redirect_from: "/goals/176"
 ---
 
-# Core Vanilla Javascript [Team Drills & Practice]
+# Core Vanilla JavaScript [Team Drills & Practice]
 
 ## Challenge Rating
 

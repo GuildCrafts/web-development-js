@@ -3,7 +3,7 @@ authors:
 - "shereefb"
 goal_id: 174
 team_size: 1
-title: Core Vanilla Javascript [Solo Study]
+title: Core Vanilla JavaScript [Solo Study]
 created_at: '2017-02-20T19:20:20Z'
 labels:
 - core
@@ -14,7 +14,7 @@ level: '1'
 redirect_from: "/goals/174"
 ---
 
-# Core Vanilla Javascript [Solo Study]
+# Core Vanilla JavaScript [Solo Study]
 
 ## Challenge Rating
 
