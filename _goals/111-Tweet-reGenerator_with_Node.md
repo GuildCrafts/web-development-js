@@ -34,32 +34,28 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 
 ## Specifications
 
-- [ ] Use the Twitter API to access a user's last ten Twitter posts.
-- [ ] Store past tweets in a database for future access.
-- [ ] View database of past tweets in an attractive yet simple UI.
-- [ ] Re-Tweet posts in database of past tweets randomly, manually, or on a timer.
-
-## Stretch Goals
-
-- [ ] Retrieve past tweets from Twitter feed either in batches (say, the last ten tweets) or automatically as they are being tweeted out.
-- [ ] Edit tweets in, or delete tweets from, database in the UI.
-- [ ] Store another user's tweets in database by accessing and capturing their Twitter feed.
-- [ ] Re-Tweet posts in database randomly, manually, or automatically on a set timer (i.e., once an hour).
-- [ ] Ability to organize database of past tweets according to categories (use of filters).
-
-
-### Required
-
+- [ ] App uses the Twitter API.
+- [ ] Users can view their ten most recent tweets from Twitter.
+- [ ] Users can click a button to save a tweet to the database for future access.
+- [ ] Users can view their saved tweets (the ones in the database, not the ones from Twitter).
+- [ ] Users can re-tweet saved tweets at a specified time interval:
+  - [ ] Immediately
+  - [ ] At a random time in the future
+  - [ ] At a specific time in the future
+- [ ] Users can view which saved tweets have been re-tweeted and when.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Stretch
+
+- [ ] App retrieves past tweets from Twitter automatically as they are being tweeted out.
+- [ ] Users can edit tweets in database.
+- [ ] Users can delete tweets in database.
+- [ ] Users can search for and save another user's tweets in database by accessing and capturing their Twitter feed.
+- [ ] Users can organize a database of past tweets according to categories (use of filters).
 
 ## Quality Rubric
 
 - UI: Attractive, intuitive user experience: 20 points.
 - Code is readable and well organized: 20 points.
-- Minimally, app should successfully access the Twitter API to
-  - retrieve tweet history (20 points);
-  - store tweets in a database (20 points);
-  - and allow user to retweet this content back out (20 points):
-            Total 60 points.
 
 [mit-license]: https://opensource.org/licenses/MIT
