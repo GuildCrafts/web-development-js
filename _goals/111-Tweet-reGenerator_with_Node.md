@@ -64,8 +64,17 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 
 ## Quality Rubric
 
-- UI: Attractive, intuitive user experience: 20 points.
-- Code is readable and well organized: 20 points.
+- UI provides an attractive, intuitive user experience: 50 points.
+- Code is readable and well organized: 50 points.
+
+## Resources
+
+- [Twitter REST API][twitter-rest-api]
+- [Node.js][node]
+- [Express][express]
+- [Routes.js][routes-js]
+- [MySQL][mysql]
+- [Handlebars][handlebars]
 
 [mit-license]: https://opensource.org/licenses/MIT
 
