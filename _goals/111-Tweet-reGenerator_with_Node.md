@@ -25,11 +25,11 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
+A web application that will allow the developer-user to collect their tweets and save them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
 
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of [MeetEdgar](https://meetedgar.com/), a social media management tool.
 
-Building this app will require use of the [Twitter REST API][] with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), JavaScript, [Node.js][node], [Express][], routing by way of [Routes.js][routes-js], [MySQL][mysql] for database management, and a templating engine like [Handlebars][].
+Building this app will require use of the [Twitter REST API][] with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), JavaScript, [Node.js][node], [Express][], routing by way of [Routes.js][routes-js], the [MySQL][mysql] database, and a templating engine like [Handlebars][].
 
 _Note: this is only one suggested stack; you could also do it using express, PostgreSQL, pug (as many projects at the guild seem to do), or you could go the React/MongoDb way. Up to the developer team to decide what technologies to implement._
 
@@ -57,10 +57,10 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 ### Stretch
 
 - [ ] App retrieves past tweets from Twitter automatically as they are being tweeted out.
-- [ ] Users can edit tweets in database.
-- [ ] Users can delete tweets in database.
-- [ ] Users can search for and save another user's tweets in database by accessing and capturing their Twitter feed.
-- [ ] Users can organize a database of past tweets according to categories (use of filters).
+- [ ] Users can edit saved tweets.
+- [ ] Users can delete saved tweets.
+- [ ] Users can search for and save another user's tweets by accessing and capturing their Twitter feed.
+- [ ] Users can organize saved tweets according to categories (use of filters).
 
 ## Quality Rubric
 
