@@ -6,7 +6,7 @@ goal_id: 219
 title: Author a Series of Snapshot Goals
 created_at: '2017-03-13T00:52:33Z'
 labels:
-published: true
+published: false
 level: '4'
 redirect_from: "/goals/219"
 ---
