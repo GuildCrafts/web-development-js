@@ -32,7 +32,7 @@ This goal makes heavy use of external resources: the [Promises Course][promises-
 
 For the first two days you will be working on existing courses and completing tutorials. Then you'll use your skills to complete a set of exercises, and submit your solutions as your artifacts.
 
-Fork the two repos [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] and [pg-promise-exercises][pg-promise-exercises] which contain the exercises you need to complete, and make them your artifacts.
+Fork the repo [promises-exercises][promises-exercises] which contains the exercises you need to complete, and make it your artifact.
 
 
 ## Context
@@ -98,6 +98,7 @@ Promises provide a simpler alternative for executing, composing, and managing as
 - https://blog.domenic.me/youre-missing-the-point-of-promises/
 - https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example
 
-[promise-it-wont-hurt-solutions]: https://github.com/GuildCrafts/promise-it-wont-hurt-solutions
+[promise-it-wont-hurt-solutions]: https://github.com/GuildCrafts/promises-exercises/tree/master/promise-it-wont-hurt-solutions
 [promises-course]: https://www.udacity.com/course/javascript-promises--ud898
-[pg-promise-exercises]: https://github.com/GuildCrafts/pg-promise-exercises
+[pg-promise-exercises]: https://github.com/GuildCrafts/promises-exercises/tree/master/pg-promise-exercises
+[promises-exercises]: https://github.com/GuildCrafts/promises-exercises
