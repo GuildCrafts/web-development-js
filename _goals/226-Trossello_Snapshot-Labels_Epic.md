@@ -21,7 +21,7 @@ This goal will likely be within your ZPD if you...
 - Can build CRUD apps from scratch with Node.js and PostgreSQL
 - Can use React to build stateful client-side applications
 - Have worked with SASS stylesheets
-- Are familiar with ORMs like Knex.js
+- Are familiar with SQL and SQL query writers like Knex.js
 - Are interested in working within a more complex, real-world codebase
 
 ## Description
@@ -30,7 +30,7 @@ Starting at commit [`3745aba`][starting-commit], implement **card labels** in th
 
 If you are **new to snapshot goals**, this is a good introductory challenge. Read the [Context](#context) section to learn whether this project will be right for you.
 
-When you are done with this goal, your app should behave similar to this walk-through:
+When you are done with this goal, your app should behave similar to this walk-through (note that when the gif loops, it looks like the label disappears - labels should only disappear when they are deleted):
 
 ![label-story](https://cloud.githubusercontent.com/assets/709100/24116982/d4f9bdea-0d7e-11e7-8a2a-89cd55fdc8a3.gif)
 
@@ -47,7 +47,7 @@ When you are done with this goal, your app should behave similar to this walk-th
   ```
 1. Push your branch to the remote repo on GitHub
   ```
-  $ git push origin labels-epic
+  $ git push -u origin labels-epic
   ```
 1. Get started on the specs!
 
@@ -77,7 +77,7 @@ In the Real World, you will rarely be building a project from the ground up, tou
 
 _If you've never done a snapshot goal before_, this one is a good place to start. The features should not involve very complex logic.
 
-This particular snapshot roughly mimics the work done in this [pull request][example-pr]. When you are done implmeneting your solution, take a look at the code there to see how closely it matches your solution.
+This particular snapshot roughly mimics the work done in this [pull request][example-pr]. When you are done implementing your solution, take a look at the code there to see how closely it matches your solution.
 
 ## Specifications
 
