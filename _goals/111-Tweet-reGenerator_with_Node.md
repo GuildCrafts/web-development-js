@@ -14,15 +14,24 @@ redirect_from: "/goals/111"
 
 # Tweet-reGenerator with Node.js
 
+## Challenge Rubric
+
+This goal will likely be within your ZPD if you...
+
+- Can build basic CRUD apps with Node.js and a SQL database
+- Have a Twitter account and are familiar with basic Twitter concepts (like re-tweeting)
+- Are interested in building full-stack web applications with frameworks like [Express][]
+- Are interested in using a live web API
+
 ## Description
 
 A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
 
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of [MeetEdgar](https://meetedgar.com/), a social media management tool.
 
-Building this app will require use of the [Twitter REST API](https://dev.twitter.com/overview/api) with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), Javascript, [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/), routing by way of [Routes.js](https://www.npmjs.com/package/routes-js), [MySQL](https://www.mysql.com/) for database management, and a templating engine like [Handlebars](http://handlebarsjs.com/).
+Building this app will require use of the [Twitter REST API][] with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), JavaScript, [Node.js][node], [Express][], routing by way of [Routes.js][routes-js], [MySQL][mysql] for database management, and a templating engine like [Handlebars][].
 
-_Note: this is only one suggested stack; you could also do it using express, sql, postgres, pug (as many projects at the guild seem to do), or you could go the React/MongoDb way. Up to the developer team to decide what technologies to implement._
+_Note: this is only one suggested stack; you could also do it using express, PostgreSQL, pug (as many projects at the guild seem to do), or you could go the React/MongoDb way. Up to the developer team to decide what technologies to implement._
 
 ## Context
 
@@ -59,3 +68,10 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 - Code is readable and well organized: 20 points.
 
 [mit-license]: https://opensource.org/licenses/MIT
+
+[twitter-rest-api]: https://dev.twitter.com/overview/api
+[node]: https://nodejs.org/en/
+[express]: http://expressjs.com/
+[routes-js]: https://www.npmjs.com/package/routes-js
+[mysql]: https://www.mysql.com/
+[handlebars]: http://handlebarsjs.com/
