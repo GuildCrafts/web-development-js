@@ -20,14 +20,17 @@ A web application that will allow the developer-user to collect their tweets and
 
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of [MeetEdgar](https://meetedgar.com/), a social media management tool.
 
-Building this app will require use of the [Twitter REST API](https://dev.twitter.com/overview/api) with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), Javascript, [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/), routing by way of [Routes.js](https://www.npmjs.com/package/routes-js), [MySQL](https://www.mysql.com/) for database management, and (optionally) a templating engine like [Handlebars](http://handlebarsjs.com/). [In response to JRob's feedback below: This is only one suggested stack; you could also do it using express, sql, postgres, pug (as many projects at the guild seem to do), or you could go the REACT/MongoDb way. Up to the developer team to decide what technologies to implement.]
+Building this app will require use of the [Twitter REST API](https://dev.twitter.com/overview/api) with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), Javascript, [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/), routing by way of [Routes.js](https://www.npmjs.com/package/routes-js), [MySQL](https://www.mysql.com/) for database management, and a templating engine like [Handlebars](http://handlebarsjs.com/).
+
+_Note: this is only one suggested stack; you could also do it using express, sql, postgres, pug (as many projects at the guild seem to do), or you could go the React/MongoDb way. Up to the developer team to decide what technologies to implement._
 
 ## Context
 
-The life-span for a tweet is about 20 minutes, which means that most of your Twitter followers will not see your tweets the first time you post them. For this reason, re-tweeting your best content is a good idea. This web app will allow you to grab and store your best, evergreen content tweets and re-tweet them to your followers. By keeping your Twitter followers better informed and entertained, you will organically grow your Twitter audience faster.
+The life-span for a tweet is about 20 minutes, which means that most of your Twitter followers will not see your tweets the first time you post them. For this reason, re-tweeting your best content is a good idea.
+
+This web app will allow you to grab and store your best, evergreen content tweets and re-tweet them to your followers. By keeping your Twitter followers better informed and entertained, you will organically grow your Twitter audience faster.
 
 Developers/Learners will get practice working with Twitter's REST APIs on the backend; and with creating and working with a database on the backend (CRUD).
-
 
 ## Specifications
 
@@ -58,12 +61,5 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
   - store tweets in a database (20 points);
   - and allow user to retweet this content back out (20 points):
             Total 60 points.
-
----
-
-
-
-
-
 
 [mit-license]: https://opensource.org/licenses/MIT
