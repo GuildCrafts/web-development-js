@@ -32,8 +32,6 @@ If you are **new to snapshot goals**, this is a good introductory challenge. Rea
 
 When you are done with this goal, your app should behave similar to this walk-through (note that when the gif loops, it looks like the label disappears - labels should only disappear when they are deleted):
 
-![label-story](https://cloud.githubusercontent.com/assets/709100/24116982/d4f9bdea-0d7e-11e7-8a2a-89cd55fdc8a3.gif)
-
 ### Setting Up Your Snapshot
 
 1. Fork & clone the [Trossello repo][trossello]
@@ -92,9 +90,10 @@ This particular snapshot roughly mimics the work done in this [pull request][exa
 - [ ] Users can see which labels a card has in the card detail modal
 - [ ] Users can see the label color for each card in the board view
 - [ ] All cards on the same board have access to the same set of labels
-- [ ] Different boards do not share labels
+- [ ] Different boards do not share the same labels (unique labels for each board)
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+- [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
 ## Quality Rubric
 
