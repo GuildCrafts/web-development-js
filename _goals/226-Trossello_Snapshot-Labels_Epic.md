@@ -94,6 +94,7 @@ This particular snapshot roughly mimics the work done in this [pull request][exa
 - [ ] All cards on the same board have access to the same set of labels
 - [ ] Different boards do not share labels
 - [ ] Tests exist for each of the above specs
+- [ ] UI looks the same as in the mockups
 
 ## Quality Rubric
 
