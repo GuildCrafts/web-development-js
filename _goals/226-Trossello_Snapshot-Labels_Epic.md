@@ -32,6 +32,8 @@ If you are **new to snapshot goals**, this is a good introductory challenge. Rea
 
 When you are done with this goal, your app should behave similar to this walk-through (note that when the gif loops, it looks like the label disappears - labels should only disappear when they are deleted):
 
+![label-story](https://cloud.githubusercontent.com/assets/709100/24116982/d4f9bdea-0d7e-11e7-8a2a-89cd55fdc8a3.gif)
+
 ### Setting Up Your Snapshot
 
 1. Fork & clone the [Trossello repo][trossello]
