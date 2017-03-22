@@ -27,7 +27,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Starting at commit [`55301b0`][starting-commit], implement **board + card members** in the [Trossello][trossello] app.
+Starting at commit [`d177114`][starting-commit], implement **board + card members** in the [Trossello][trossello] app.
 
 If you are **new to snapshot goals or to the Trossello app**, you may want to try a slightly easier one first, like the [Labels Epic][labels-epic]. Read the [Context](#context) section to learn whether this project will be right for you.
 
@@ -39,7 +39,7 @@ To complete this goal, you'll be mimicking features of the real Trello app. To d
 
 In the Trello app, boards can have "members". Board members are other Trello users who the board owner invites to collaborate on the board. They receive notifications about board activity and can be assigned to cards on the board.
 
-Assigning a member to a card "subscribes" them to that card, meaning that they will receive notifications for things like comments on the card, due date changes, and when the card moves.
+Assigning a member to a card "subscribes" them to that card, meaning that they will see activity for things like comments on the card, due date changes, and when the card moves.
 
 Finally, as part of the "stretch" specs in this goal, you may choose to implement the "teams" feature of Trello. In Trello, teams of members can be created, and teams can own boards.
 
@@ -54,7 +54,7 @@ Use the real Trello app and the mockups below to guide your design and developme
   ```
 1. Use `git reset --hard` to revert your local repo to the [starting commit][starting-commit]
   ```
-  $ git reset --hard 55301b0218af35527c6f4a15e78f93fcc9e0cdd7
+  $ git reset --hard d177114b033eb950e6fdd4d620815b74b5f90eaa
   ```
 1. Push your branch to the remote repo on GitHub
   ```
@@ -73,6 +73,8 @@ Here are some example mockups that you can use as a reference. To be thorough, y
 This animation (from the Trello site) shows the basic workflow of adding a member to a board:
 
 ![file-sxaw6sxkpe](https://cloud.githubusercontent.com/assets/709100/24219290/988ba072-0f1c-11e7-9c49-f84c80e16636.gif)
+
+Note how typing auto-updates the search results of Trello users.
 
 Here are some static mockups of the same workflow:
 
@@ -113,11 +115,20 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 - [ ] Boards have members
 - [ ] Cards have members
 - [ ] Board owners can add members to their board using the board menu
+- [ ] Board owners can search for & add members by their name (not just email)
+- [ ] Board members receive messages in their activity feed for:
+  - [ ] New cards created
+  - [ ] New members added
 - [ ] Board members can add members to a card on the board using the card modal
 - [ ] Board owners can remove members from their board
 - [ ] Board members can remove members from a card on the board
 - [ ] Card members are identified by their avatar in the modal view
 - [ ] Card members are identified by their avatar in the board view
+- [ ] Card members receive messages in their activity feed for:
+  - [ ] New comments on the card
+  - [ ] Changes to the due date
+  - [ ] Upcoming due dates
+  - [ ] Moving the card between lists
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
@@ -163,5 +174,5 @@ Implement the "teams" feature from Trello.
 
 [labels-epic]: {{ site.url }}{% link _goals/226-Trossello_Snapshot-Labels_Epic.md %}
 [trossello]: https://github.com/GuildCrafts/Trossello
-[starting-commit]: https://github.com/GuildCrafts/Trossello/commit/55301b0218af35527c6f4a15e78f93fcc9e0cdd7
+[starting-commit]: https://github.com/GuildCrafts/Trossello/commit/d177114b033eb950e6fdd4d620815b74b5f90eaa
 [example-pr]: https://github.com/GuildCrafts/Trossello/pull/106/
