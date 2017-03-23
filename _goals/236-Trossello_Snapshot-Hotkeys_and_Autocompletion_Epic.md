@@ -101,6 +101,7 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 
 _Note: most of these specs are pulled directly from Trello's [shortcuts page][shortcuts]._
 
+- [ ] Users have a username (required for autocomplete features later)
 - [ ] Users can press the `?` key in a board view to bring up the list of keyboard shortcuts
 - [ ] Users can use the following hotkeys to interact with boards:
   - [ ] `←↓↑→` = Navigate Cards: Pressing the arrow keys will select adjacent cards on a board.
