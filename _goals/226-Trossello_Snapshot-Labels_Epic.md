@@ -69,6 +69,8 @@ Try to mimic the following mockups as closely as you can.
 
 ## Context
 
+[Trossello][] is a clone of the popular kanban software [Trello](https://trello.com/). It is built entirely by Learners Guild learners and staff.
+
 A **snapshot goal** is meant to simulate the experience of developing a feature for an existing project.
 
 You will have to orient yourself to the codebase, its idioms and architecture, and whichever tools you'll need to implement the feature. This involves reading a lot of code. To succeed, you'll need to figure out how the code works first before you begin to add to it.
