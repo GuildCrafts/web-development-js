@@ -66,11 +66,11 @@ Try to mimic the following mockups as closely as you can.
 
 #### Card With Activity
 
-![card-with-activity](https://cloud.githubusercontent.com/assets/709100/24225050/d1939402-0f34-11e7-9f64-9e41f51f77f5.png)
+<img alt="card-with-activity" src="https://cloud.githubusercontent.com/assets/709100/24225050/d1939402-0f34-11e7-9f64-9e41f51f77f5.png" width="800px">
 
 #### Card Without Comments
 
-![card-without-comments](https://cloud.githubusercontent.com/assets/709100/24225051/d196334c-0f34-11e7-8b5d-86280e621905.png)
+<img alt="card-without-comments" src="https://cloud.githubusercontent.com/assets/709100/24225051/d196334c-0f34-11e7-8b5d-86280e621905.png" width="800px">
 
 
 ## Context

@@ -73,19 +73,19 @@ Here are some example mockups that you can use as a reference. To be thorough, y
 
 Pressing the `?` key in a board view brings up the list of keyboard shortcuts.
 
-![keyboard-shortcuts](https://cloud.githubusercontent.com/assets/709100/24263175/cbe2bb48-0fd2-11e7-88de-f3fb8788c37a.png)
+<img alt="keyboard shortcuts" src="https://cloud.githubusercontent.com/assets/709100/24263175/cbe2bb48-0fd2-11e7-88de-f3fb8788c37a.png" width="800px">
 
 #### Autocomplete Labels
 
 Typing a `#` character when creating a new card or editing the name or description of a card will auto-complete labels.
 
-![autocomplete-labels](https://cloud.githubusercontent.com/assets/709100/24263174/cbe11c66-0fd2-11e7-82a9-8e5c9f125d4a.png)
+<img alt="autocomplete labels" src="https://cloud.githubusercontent.com/assets/709100/24263174/cbe11c66-0fd2-11e7-82a9-8e5c9f125d4a.png" width="800px">
 
 #### Autocomplete Members
 
 Typing a `@` character when creating a new card or editing the name or description of a card will auto-complete members.
 
-![autocomplete-members](https://cloud.githubusercontent.com/assets/709100/24263173/cbe123dc-0fd2-11e7-8c8b-c4ceeb5109da.png)
+<img alt="autocomplete members" src="https://cloud.githubusercontent.com/assets/709100/24263173/cbe123dc-0fd2-11e7-8c8b-c4ceeb5109da.png" width="800px">
 
 ## Context
 

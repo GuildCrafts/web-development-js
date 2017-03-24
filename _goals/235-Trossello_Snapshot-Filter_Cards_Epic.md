@@ -73,19 +73,19 @@ Here are some example mockups that you can use as a reference. To be thorough, y
 
 Filter cards pane can be accessed from the board menu.
 
-![filter-cards-menu-item](https://cloud.githubusercontent.com/assets/709100/24263241/fcb15ebe-0fd2-11e7-9e1a-2fea7f684f50.png)
+<img alt="filter-cards-menu-item" src="https://cloud.githubusercontent.com/assets/709100/24263241/fcb15ebe-0fd2-11e7-9e1a-2fea7f684f50.png" width="800px">
 
 #### Filter Cards Pane
 
 Filter cards pane shows labels, members, and other filter types. Can even search for filter types.
 
-![filter-cards-pane](https://cloud.githubusercontent.com/assets/709100/24263242/fcb47ac2-0fd2-11e7-877f-cb00d5314e70.png)
+<img alt="filter-cards-pane" src="https://cloud.githubusercontent.com/assets/709100/24263242/fcb47ac2-0fd2-11e7-877f-cb00d5314e70.png" width="800px">
 
 #### Filter Cards Board View
 
 When viewing a "filtered" version of a board, it shows a "Filtering is on" badge.
 
-![filter-cards-board-view](https://cloud.githubusercontent.com/assets/709100/24263243/fcb4f056-0fd2-11e7-857e-2e6fd9b32199.png)
+<img alt="filter-cards-board-view" src="https://cloud.githubusercontent.com/assets/709100/24263243/fcb4f056-0fd2-11e7-857e-2e6fd9b32199.png" width="800px">
 
 ## Context
 

@@ -72,33 +72,33 @@ Here are some example mockups that you can use as a reference. To be thorough, y
 
 This animation (from the Trello site) shows the basic workflow of adding a member to a board:
 
-![file-sxaw6sxkpe](https://cloud.githubusercontent.com/assets/709100/24219290/988ba072-0f1c-11e7-9c49-f84c80e16636.gif)
+<img alt="members gif" src="https://cloud.githubusercontent.com/assets/709100/24219290/988ba072-0f1c-11e7-9c49-f84c80e16636.gif">
 
 Note how typing auto-updates the search results of Trello users.
 
 Here are some static mockups of the same workflow:
 
-**Members list**
-![board-add-members-list](https://cloud.githubusercontent.com/assets/709100/24207107/70d91ba2-0ef6-11e7-8a19-0eb3bc431e8f.png)
+##### Members list
+<img alt="board-add-members-list" src="https://cloud.githubusercontent.com/assets/709100/24207107/70d91ba2-0ef6-11e7-8a19-0eb3bc431e8f.png" width="800px">
 
-**Member search**
-![board-add-members-list-with-entries](https://cloud.githubusercontent.com/assets/709100/24207105/70d645ee-0ef6-11e7-83a3-dd47f61148dd.png)
+##### Member search
+<img alt="board-add-members-list-with-entries" src="https://cloud.githubusercontent.com/assets/709100/24207105/70d645ee-0ef6-11e7-83a3-dd47f61148dd.png" width="800px">
 
-**List of members**
-![board-members-list](https://cloud.githubusercontent.com/assets/709100/24207108/70d9052c-0ef6-11e7-8f50-358d04abc4e3.png)
+##### List of members
+<img alt="board-members-list" src="https://cloud.githubusercontent.com/assets/709100/24207108/70d9052c-0ef6-11e7-8f50-358d04abc4e3.png" width="800px">
 
 #### Add Members to a Card
 
 There's no gif for adding members to a card :/ but here are some static mockups you can use. Also, make sure to try the feature out for yourself in Trello to see how it works.
 
-**Member search in card**
-![card-members-button-add](https://cloud.githubusercontent.com/assets/709100/24207111/70ec01a4-0ef6-11e7-811a-c2d3126b8f9a.png)
+##### Member search in card
+<img alt="card-members-button-add" src="https://cloud.githubusercontent.com/assets/709100/24207111/70ec01a4-0ef6-11e7-811a-c2d3126b8f9a.png" width="800px">
 
-**Card shows members' avatars**
-![card-members-show-modal](https://cloud.githubusercontent.com/assets/709100/24207110/70e40d28-0ef6-11e7-9b17-762c2e81b373.png)
+##### Card shows members' avatars
+<img alt="card-members-show-modal" src="https://cloud.githubusercontent.com/assets/709100/24207110/70e40d28-0ef6-11e7-9b17-762c2e81b373.png" width="800px">
 
-**Board shows members' avatars on assigned cards**
-![card-members-show-board](https://cloud.githubusercontent.com/assets/709100/24207109/70e0bb1e-0ef6-11e7-8f06-597e99bcddee.png)
+##### Board shows members' avatars on assigned cards
+<img alt="card-members-show-board" src="https://cloud.githubusercontent.com/assets/709100/24207109/70e0bb1e-0ef6-11e7-8f06-597e99bcddee.png" width="800px">
 
 ## Context
 

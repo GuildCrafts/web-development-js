@@ -32,7 +32,7 @@ If you are **new to snapshot goals**, this is a good introductory challenge. Rea
 
 When you are done with this goal, your app should behave similar to this walk-through (note that when the gif loops, it looks like the label disappears - labels should only disappear when they are deleted):
 
-![label-story](https://cloud.githubusercontent.com/assets/709100/24116982/d4f9bdea-0d7e-11e7-8a2a-89cd55fdc8a3.gif)
+<img alt="label-story" src="https://cloud.githubusercontent.com/assets/709100/24116982/d4f9bdea-0d7e-11e7-8a2a-89cd55fdc8a3.gif">
 
 ### Setting Up Your Snapshot
 
@@ -57,15 +57,15 @@ Try to mimic the following mockups as closely as you can.
 
 #### Label List
 
-![label-list](https://cloud.githubusercontent.com/assets/709100/24119014/2f451374-0d86-11e7-9e6b-9f197cce8516.png)
+<img alt="label-list" src="https://cloud.githubusercontent.com/assets/709100/24119014/2f451374-0d86-11e7-9e6b-9f197cce8516.png" width="800px">
 
 #### Create Label
 
-![create-label](https://cloud.githubusercontent.com/assets/709100/24119016/2f4c34b0-0d86-11e7-9ab3-ac1dec451481.png)
+<img alt="create-label" src="https://cloud.githubusercontent.com/assets/709100/24119016/2f4c34b0-0d86-11e7-9ab3-ac1dec451481.png" width="800px">
 
 #### Edit Label
 
-![edit-label](https://cloud.githubusercontent.com/assets/709100/24119015/2f453a3e-0d86-11e7-8171-eb0fc9b5a670.png)
+<img alt="edit-label" src="https://cloud.githubusercontent.com/assets/709100/24119015/2f453a3e-0d86-11e7-8171-eb0fc9b5a670.png" width="800px">
 
 ## Context
 

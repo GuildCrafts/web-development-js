@@ -80,19 +80,19 @@ Here are some example mockups that you can use as a reference. To be thorough, y
 
 Clicking user avatar / name in menu bar opens the user menu.
 
-![user-menu](https://cloud.githubusercontent.com/assets/709100/24263314/2f5de3dc-0fd3-11e7-8062-04ce3dbf11d9.png)
+<img alt="User menu" src="https://cloud.githubusercontent.com/assets/709100/24263314/2f5de3dc-0fd3-11e7-8062-04ce3dbf11d9.png" width="800px">
 
 #### Profile Page Activity
 
 Default view of user page is profile tab.
 
-![profile-page-activity](https://cloud.githubusercontent.com/assets/709100/24263310/2f513290-0fd3-11e7-8ea0-b2a75bbd4195.png)
+<img alt="Profile page activity" src="https://cloud.githubusercontent.com/assets/709100/24263310/2f513290-0fd3-11e7-8ea0-b2a75bbd4195.png" width="800px">
 
 #### Profile Page Edit
 
 Clicking "Edit profile" button opens edit form.
 
-![profile-page-edit](https://cloud.githubusercontent.com/assets/709100/24263313/2f5d03a4-0fd3-11e7-87ac-ad94d7a97a13.png)
+<img alt="Profile page edit" src="https://cloud.githubusercontent.com/assets/709100/24263313/2f5d03a4-0fd3-11e7-87ac-ad94d7a97a13.png" width="800px">
 
 ## Context
 
