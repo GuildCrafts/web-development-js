@@ -513,7 +513,7 @@
         "snapshot"
       ],
       "published": true,
-      "level": "2",
+      "level": "3",
       "redirect_from": "/goals/235",
       "url": "http://jsdev.learnersguild.org/goals/235-Trossello_Snapshot-Filter_Cards_Epic.html"
     },
@@ -529,7 +529,7 @@
         "snapshot"
       ],
       "published": true,
-      "level": "2",
+      "level": "3",
       "redirect_from": "/goals/236",
       "url": "http://jsdev.learnersguild.org/goals/236-Trossello_Snapshot-Hotkeys_and_Autocompletion_Epic.html"
     },
