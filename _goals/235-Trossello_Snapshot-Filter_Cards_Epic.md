@@ -8,7 +8,7 @@ created_at: '2017-03-23T13:40:48Z'
 labels:
 - snapshot
 published: true
-level: '2'
+level: '3'
 redirect_from: "/goals/235"
 ---
 
