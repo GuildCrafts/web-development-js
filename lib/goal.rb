@@ -49,6 +49,9 @@ class Goal
   def self.load(file)
     front_matter, content = File.read(file).match(GOAL_SECTIONS_MATCHER)[1,2]
     self.new(metadata: YAML.load(front_matter), content: content, source_file: file)
+  rescue Psych::SyntaxError
+    $logger.error("Error parsing goal file #{file}")
+    exit
   end
 
   def self.load_all(files)
