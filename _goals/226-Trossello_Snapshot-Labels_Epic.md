@@ -3,16 +3,16 @@ authors:
 - "tannerwelsh"
 goal_id: 226
 team_size: 2
-title: Trossello Snapshot - Labels Epic
+title: Trossello Snapshot: Labels Epic
 created_at: '2017-03-20T15:26:48Z'
 labels:
-  - snapshot
+- snapshot
 published: true
 level: '2'
 redirect_from: "/goals/226"
 ---
 
-# Trossello Snapshot [Labels Epic]
+# Trossello Snapshot: Labels Epic
 
 ## Challenge Rating
 
@@ -69,11 +69,13 @@ Try to mimic the following mockups as closely as you can.
 
 ## Context
 
+[Trossello][] is a clone of the popular kanban software [Trello](https://trello.com/). It is built entirely by Learners Guild learners and staff.
+
 A **snapshot goal** is meant to simulate the experience of developing a feature for an existing project.
 
 You will have to orient yourself to the codebase, its idioms and architecture, and whichever tools you'll need to implement the feature. This involves reading a lot of code. To succeed, you'll need to figure out how the code works first before you begin to add to it.
 
-In the Real World, you will rarely be building a project from the ground up, touching only code that _you_ have written. More often than not, you'll be contributing to a large, shared codebase with lots of legacy code. Not everything will make sense. You can't just start writing code any way you want - you have to learn how to integrate with the existing code.
+As a professional web developer, you will rarely be building a project from the ground up, touching only code that _you_ have written. More often than not, you'll be contributing to a large, shared codebase with lots of legacy code. Not everything will make sense. You can't just start writing code any way you want - you have to learn how to integrate with the existing code.
 
 _If you've never done a snapshot goal before_, this one is a good place to start. The features should not involve very complex logic.
 
@@ -92,8 +94,10 @@ This particular snapshot roughly mimics the work done in this [pull request][exa
 - [ ] Users can see which labels a card has in the card detail modal
 - [ ] Users can see the label color for each card in the board view
 - [ ] All cards on the same board have access to the same set of labels
-- [ ] Different boards do not share labels
+- [ ] Different boards do not share the same labels (unique labels for each board)
 - [ ] Tests exist for each of the above specs
+- [ ] UI looks the same as in the mockups
+- [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
 ## Quality Rubric
 
