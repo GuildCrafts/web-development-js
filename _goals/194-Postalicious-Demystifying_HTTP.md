@@ -175,7 +175,7 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 
 ## Resources
 
-### Courses and Tutorials
+### Courses, Tutorials, Articles
 
 - Treehouse course on [HTTP Basics][treehouse-http] (67-minute Development Tools Course)
 - [Overview of HTTP][ntu-http-overview] from NTU Singapore
@@ -183,6 +183,7 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 - [Beginner's Guide to HTTP and REST][tutsplus-http-rest] from Tuts+
 - Mozilla Developer Network's [Guide to HTTP][mdn-http]
 - 30 min course on the [Basics of HTTP][egghead-http-basics]
+- Article on [How the Web Works](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.3l2bffw28)
 
 ### Tools
 
