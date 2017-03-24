@@ -133,6 +133,7 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
   - [ ] The HTTP request is sent, and the raw response message is shown
 - [ ] Users can fill out an HTML form to specify HTTP request details.
 - [ ] Submitting the form will send the request according to the specified details.
+- [ ] Requests are made from the server, not from the browser (this is to avoid [CORS issues](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)).
 - [ ] Using the HTML form, users can specify...
   - [ ] host and path
   - [ ] HTTP verb/method
