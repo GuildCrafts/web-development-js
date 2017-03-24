@@ -2,22 +2,6 @@
   "goals": [
     {
       "authors": [
-        "jrob8577"
-      ],
-      "team_size": 2,
-      "goal_id": 104,
-      "title": "Work on Dragonboard",
-      "created_at": "2016-10-28T22:35:46Z",
-      "labels": [
-        "apprentice"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/104",
-      "url": "http://jsdev.learnersguild.org/goals/104-Work_on_Dragonboard.html"
-    },
-    {
-      "authors": [
         "deonna"
       ],
       "team_size": 2,
@@ -47,22 +31,6 @@
       "level": "1",
       "redirect_from": "/goals/111",
       "url": "http://jsdev.learnersguild.org/goals/111-Tweet-reGenerator_with_Node.html"
-    },
-    {
-      "authors": [
-        "punitrathore"
-      ],
-      "team_size": 2,
-      "goal_id": 115,
-      "title": "Coach-Que : Schedule Time & Incorporate Feedback",
-      "created_at": "2016-12-05T00:16:17Z",
-      "labels": [
-        "prototype"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/115",
-      "url": "http://jsdev.learnersguild.org/goals/115-Work_on_Coach-Que.html"
     },
     {
       "authors": [
@@ -178,22 +146,6 @@
     },
     {
       "authors": [
-        "deadlyicon"
-      ],
-      "team_size": 2,
-      "goal_id": 130,
-      "title": "Work on Prrr",
-      "created_at": "2017-01-03T19:03:43Z",
-      "labels": [
-        "apprentice"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/130",
-      "url": "http://jsdev.learnersguild.org/goals/130-Work_on_Prrr.html"
-    },
-    {
-      "authors": [
         "tannerwelsh"
       ],
       "team_size": 4,
@@ -207,22 +159,6 @@
       "level": "1",
       "redirect_from": "/goals/133",
       "url": "http://jsdev.learnersguild.org/goals/133-Code_to_Docs_to_Code.html"
-    },
-    {
-      "authors": [
-        "shereefb"
-      ],
-      "team_size": 2,
-      "goal_id": 140,
-      "title": "Work on Newbie",
-      "created_at": "2017-01-23T14:25:06Z",
-      "labels": [
-        "production"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/140",
-      "url": "http://jsdev.learnersguild.org/goals/140-Work_on_Newbie.html"
     },
     {
       "authors": [
@@ -661,38 +597,6 @@
       "level": "1",
       "redirect_from": "/goals/69",
       "url": "http://jsdev.learnersguild.org/goals/69-Simple_Book_Store.html"
-    },
-    {
-      "authors": [
-        "deadlyicon"
-      ],
-      "team_size": 2,
-      "goal_id": 76,
-      "title": "Work on Trossello",
-      "created_at": "2016-09-22T20:38:28Z",
-      "labels": [
-        "apprentice"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/76",
-      "url": "http://jsdev.learnersguild.org/goals/76-Work_on_Trossello.html"
-    },
-    {
-      "authors": [
-        "Moniarchy"
-      ],
-      "team_size": 2,
-      "goal_id": 77,
-      "title": "Work On Floworky",
-      "created_at": "2016-09-30T23:32:19Z",
-      "labels": [
-        "apprentice"
-      ],
-      "published": true,
-      "level": "2",
-      "redirect_from": "/goals/77",
-      "url": "http://jsdev.learnersguild.org/goals/77-Work_on_Floworky.html"
     },
     {
       "authors": [
