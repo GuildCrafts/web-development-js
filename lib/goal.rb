@@ -21,6 +21,10 @@ class Goal
     metadata[key]
   end
 
+  def all_data
+    metadata.merge({ "content" => content })
+  end
+
   def filename
     File.basename(@source_file, '.*')
   end
@@ -31,10 +35,6 @@ class Goal
 
   def to_s
     metadata['title']
-  end
-
-  def to_json
-    metadata.merge({ "content" => content }).to_json
   end
 
   def to_markdown

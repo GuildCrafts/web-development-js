@@ -26,14 +26,14 @@ def build_goals_api
 
   $logger.info "Writing goals index..."
   goals_index_path = File.join(GOALS_API_PATH, INDEX_FILE)
-  File.write(goals_index_path, { goals: goals.map(&:metadata) }.to_json)
+  File.write(goals_index_path, JSON.pretty_generate({ goals: goals.map(&:metadata) }))
 
   goals.each do |goal|
     filename = "#{goal['goal_id']}.json"
     filepath = File.join(GOALS_API_PATH, filename)
 
     $logger.info "Creating goal #{goal}..."
-    File.write(filepath, goal.to_json)
+    File.write(filepath, JSON.pretty_generate(goal.all_data))
   end
 end
 
