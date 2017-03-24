@@ -5,6 +5,8 @@ description: >
   of web development with JavaScript.
 url: "http://jsdev.learnersguild.org"
 baseurl: ""
+github_org: GuildCrafts
+github_repo: web-development-js
 
 gems:
   - jekyll-redirect-from

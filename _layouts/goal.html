@@ -15,7 +15,8 @@ layout: default
   </div>
 
   <div class="mdl-card__actions mdl-card--border">
-    <span>Goal #{{page.goal_id}}</span>
+    <span>Goal #{{page.goal_id}} |
+      <a href="https://www.github.com/{{ site.github_org }}/{{ site.github_repo }}/tree/master/{{ page.path }}">Source File</a></span>
     &nbsp;
 
     {% for label in page.labels %}
