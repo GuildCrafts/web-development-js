@@ -7,7 +7,7 @@ title: Work on Dragonboard
 created_at: '2016-10-28T22:35:46Z'
 labels:
 - apprentice
-published: true
+published: false
 level: '2'
 redirect_from: "/goals/104"
 ---

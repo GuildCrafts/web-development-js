@@ -7,7 +7,7 @@ title: Work on Trossello
 created_at: '2016-09-22T20:38:28Z'
 labels:
 - apprentice
-published: true
+published: false
 level: '2'
 redirect_from: "/goals/76"
 ---

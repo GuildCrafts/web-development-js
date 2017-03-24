@@ -7,7 +7,7 @@ title: Work On Floworky
 created_at: '2016-09-30T23:32:19Z'
 labels:
 - apprentice
-published: true
+published: false
 level: '2'
 redirect_from: "/goals/77"
 ---
