@@ -3,7 +3,7 @@ authors:
 - "tannerwelsh"
 goal_id: 236
 team_size: 4
-title: Trossello Snapshot: Hotkeys & Autocompletion Epic
+title: "Trossello Snapshot: Hotkeys & Autocompletion Epic"
 created_at: '2017-03-23T13:40:48Z'
 labels:
 - snapshot

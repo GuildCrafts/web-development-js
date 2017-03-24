@@ -3,7 +3,7 @@ authors:
 - "tannerwelsh"
 goal_id: 235
 team_size: 4
-title: Trossello Snapshot: Filter Cards Epic
+title: "Trossello Snapshot: Filter Cards Epic"
 created_at: '2017-03-23T13:40:48Z'
 labels:
 - snapshot

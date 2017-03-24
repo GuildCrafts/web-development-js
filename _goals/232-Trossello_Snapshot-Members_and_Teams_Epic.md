@@ -3,7 +3,7 @@ authors:
 - "tannerwelsh"
 goal_id: 232
 team_size: 2
-title: Trossello Snapshot: Members & Teams Epic
+title: "Trossello Snapshot: Members & Teams Epic"
 created_at: '2017-03-22T11:10:48Z'
 labels:
 - snapshot

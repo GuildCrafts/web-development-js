@@ -3,7 +3,7 @@ authors:
 - "tannerwelsh"
 goal_id: 237
 team_size: 4
-title: Trossello Snapshot: Deploy the Profile Epic
+title: "Trossello Snapshot: Deploy the Profile Epic"
 created_at: '2017-03-23T13:40:48Z'
 labels:
 - snapshot
