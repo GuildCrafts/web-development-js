@@ -5,7 +5,7 @@
     </a>
   </header>
 
-  {% assign goals_by_level = site.goals | sort:'title' | group_by:'level' | sort:'name' %}
+  {% assign goals_by_level = site.goals | where:'published',true | sort:'title' | group_by:'level' | sort:'name' %}
   {% assign level_nos = goals_by_level | map:'name' %}
 
   <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
