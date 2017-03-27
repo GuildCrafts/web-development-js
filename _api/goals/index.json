@@ -393,6 +393,22 @@
         "tannerwelsh"
       ],
       "team_size": 2,
+      "goal_id": 191,
+      "title": "Refactor your Projects",
+      "created_at": "2017-03-27T10:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "level": "2",
+      "published": true,
+      "redirect_from": "/goals/191",
+      "url": "http://jsdev.learnersguild.org/goals/191-Refactor_your_Projects.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
       "goal_id": 194,
       "title": "Postalicious - Demystifying HTTP",
       "created_at": "2017-03-06T00:52:33Z",
