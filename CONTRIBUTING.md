@@ -31,9 +31,12 @@ If you have an idea for a goal, but do not have time or energy to go through the
 
 To suggest a goal, please take the following steps:
 
-1. Create a new issue and use the GOAL SUGGESTION template contained within (it should come up automatically, but if not you can find it in the [issue template][issue-template]).
-1. Write as much as you can about your goal idea. What will the goal produce? Why is it relevant?
-1. Mark your goal issue as `draft` and add it to the "Ideas & Suggestions" column of the [Goal Library][proj-goal-lib] project.
+1. Create a new issue.
+1. Write as much as you can about your goal idea.
+  - What will the goal produce?
+  - Why is it relevant?
+1. Mark your goal issue with the `goal-idea` label.
+1. Move the issue to the "Ideas & Suggestions" column of the [Goal Library][proj-goal-lib] project.
 
 There's no guarantee that all suggestions will be turned into goals, but the [goal librarians][team-librarians] will do their best to create and maintain a rich and diverse set of relevant, well-written goals.
 
@@ -136,12 +139,12 @@ Choose the appropriate goal type from the list below and tag it with the corresp
 
 To help other learners choose a goal at an appropriate level of difficulty to provide a good challenge but not be too overwhelming, goals are ranked by level.
 
-| Level | Description |
-|:------|:------------|
-| 1 | Goals requiring basic application logic and requiring a small set of libraries and technologies. Limited in scope. Using only one environment (development). |
-| 2 | Goals with non-trivial application logic using frameworks or advanced DSLs. Often employing multiple libraries and technologies. May have additional testing environment configuration needs in addition to development. |
-| 3 | Goals involving complex systems with many moving pieces. Projects will be deployed and/or maintained. Specs may be unpredictable; learners will have to adapt to changing circumstances. |
-| 4 | Goals presenting a near-exact simulation of working on a professional software team. Requirements will be unpredictable; multiple environments will have to be managed; live products will have to be maintained; third-party services and tools will be required. |
+| Level | Description                                                                                                                                                                                                                                                        |
+|:------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Goals requiring basic application logic and requiring a small set of libraries and technologies. Limited in scope. Using only one environment (development).                                                                                                       |
+| 2     | Goals with non-trivial application logic using frameworks or advanced DSLs. Often employing multiple libraries and technologies. May have additional testing environment configuration needs in addition to development.                                           |
+| 3     | Goals involving complex systems with many moving pieces. Projects will be deployed and/or maintained. Specs may be unpredictable; learners will have to adapt to changing circumstances.                                                                           |
+| 4     | Goals presenting a near-exact simulation of working on a professional software team. Requirements will be unpredictable; multiple environments will have to be managed; live products will have to be maintained; third-party services and tools will be required. |
 
 Ranking the difficulty level of goal is not a straight-forward task. Do your best, and if you need assistance, consider reaching out to a [practitioner][team-practitioners] or [librarian][team-librarians].
 
