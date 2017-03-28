@@ -1,3 +1,5 @@
+_The text here is just a placeholder with some useful instructions - please delete it and replace with whatever you'd like to say._
+
 Hooray! You're submitting an issue to the web-development-js repository!
 
 Use issues to do things like:
