@@ -91,7 +91,9 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
   - [ ] the `Content-Type` header set to `text/plain`
 - [ ] Sending a `GET` request to the path `/search?q=doodads` responds with...
   - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `You searched for: "doodads"` (it doesn't need to actually do any searching, just return the plain text)
+  - [ ] a plain-text response body with the content `You searched for: "doodads"` 
+    - NOTE: (it doesn't need to actually do any searching, just return the plain text)
+    - NOTE: "doodads" is a placeholder for whatever string is in the `q` query param
   - [ ] the `Content-Type` header set to `text/plain`
 - [ ] Sending a `GET` request to the path `/search` responds with...
   - [ ] a 400 (Bad Request) status code
@@ -100,6 +102,7 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 - [ ] Sending a `POST` request to the path `/things` with a plain text body `flying car` responds with...
   - [ ] a 201 (Created) status code
   - [ ] a plain-text response body with the content `New thing created: "flying car"!` (it doesn't need to actually create anything, just return the plain text)
+    - NOTE: "flying car" is just a placeholder for whatever string is sent in the POST body.
   - [ ] the `Content-Type` header set to `text/plain`
 - [ ] Sending a `GET` request to the path `/somefile` with an `Accept` header of `text/plain` responds with...
   - [ ] a 200 (OK) status code
