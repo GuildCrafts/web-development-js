@@ -93,6 +93,9 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 - Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
 - Running the linter on all source code files generates no linting errors. [50 points]
 
+**Command to run tests**
+- The test suite can be invoked with a command (e.g. `npm run test`). [100 points]
+
 **Clear and useful README**
 - Repository includes a README file with installation and setup instructions. [25 points]
 - Repository includes a README file with usage instructions and at least one example use case. [25 points]
