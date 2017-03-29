@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "nodatall"
+  ],
+  "team_size": 2,
+  "goal_id": 238,
+  "title": "Work on Step",
+  "created_at": "2016-03-28T20:38:28Z",
+  "labels": [
+    "apprentice"
+  ],
+  "published": true,
+  "level": "2",
+  "redirect_from": "/goals/238",
+  "url": "http://jsdev.learnersguild.org/goals/238-Work on Step.html",
+  "content": "# Work on Step\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build full-stack web applications with Node.js and npm\n- Can write feature-complete, fully tested, quality code\n- Can debug programs in both client- and server-side environments\n- Have worked with teams to deploy web apps\n- Are familiar with the GitHub project management tools\n- Are interested in open-source web development\n- Are interested in collaborating on a living codebase\n\n## Description\n\nBuild an open-source to do list application.\n\nStep is an ongoing project that will ultimately be used by real humans in the real world!\n\nWhen you join Step, you will select or be assigned issues to work on for the week. Be ready to jump in and contribute!\n\nRepo: https://github.com/nodatall/step\n\n## Context\n\nYou will work as if you were on a professional software development team.\n\n- You'll be working on a large pre-existing code base\n- Your work will eventually be deployed to an actual production environment\n- All changes are accepted or rejected by the project lead via Github pull requests\n- The tasks available to work on are locked in by the project lead\n- You'll write tests for everything\n- You'll test your changes on a staging environment\n- You'll need to read a lot more code than you'll write\n\n### Skills\n\nSome of the skills you'll likely be practicing if you choose this goal:\n\n- Git / Github\n  - forking a repository\n  - making pull requests\n  - managing multiple remotes\n  - rebasing off a remote branch\n  - rebasing to polish a pull request\n  - resolving merge conflicts\n  - when to use and not to use `git push --force`\n  - how to write a good commit message\n  - knowing what you're committing with `git add --patch`\n- JavaScript\n  - Callbacks and Promises\n  - React Components as ES6 classes\n  - ES6 Syntax\n  - Testing with Mocha/Chai/Enzyme/Sion\n- Node\n  - NPM\n    - `scripts` section of the `package.json`\n  - Express\n    - writing API routes that receive and render JSON\n  - Knex SQL node package\n  - ES6 Import / Export\n  - using babel to transpile ES6 -> ES5\n  - using webpack to package JavaScript for the web\n- Web / HTTP\n  - HTTP requests (GET, POST, post body, rendering json)\n  - Deploying to Heroku\n  - Auth via an encrypted session cookie\n  - OAuth with Google\n- UNIX\n  - Environment variables\n  - Creating and running executable files\n- Basic .scss\n- Basic SQL\n  - schema design\n  - schema migrations\n  - selects, joins, indexes\n\n## Specifications\n\nRead the [README](https://github.com/nodatall/step) to learn how to contribute.\n\n## Quality Rubric\n\nQuality requirements will be determined by your project lead."
+}
