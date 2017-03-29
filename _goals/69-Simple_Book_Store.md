@@ -78,6 +78,10 @@ In this goal, you'll be applying the CRUD pattern to the real-world system of a 
 - [ ] Test suite can be run with the command `npm test`
 - [ ] All code submissions are peer reviewed via GitHub PR by at least one other member of the team
 - [ ] Master is always in a stable state (tests passing, site functions)
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
@@ -90,17 +94,6 @@ In this goal, you'll be applying the CRUD pattern to the real-world system of a 
   - [ ] Users with role `clerk` can edit books in addition to viewing/searching
   - [ ] Users with role `admin` can perform all actions (create, read, update, delete) with books
 - [ ] Books have a price, cover image, publisher, and ISBN number
-
-## Quality Rubric
-
-- Code is well formatted without any linting errors [25 points]
-- Variables, functions, CSS classes, etc. are meaningfully named\* [50 points]
-- Functions are small and serve a single purpose [50 points]
-- Code is well organized into a meaningful file structure [50 points]
-- Code is reasonably tested with a test suite [50 points]
-- Interface is user friendly [25 points]
-
-\* _meaningfully named_ = no comments exist in code to explain functionality - the names serve that function.
 
 ## Resources
 

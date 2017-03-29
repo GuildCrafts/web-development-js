@@ -51,26 +51,16 @@ Choose this goal if you've wondered how objects work in JavaScript and are looki
 - [ ] All exercises and lessons in the `README` are completed and checked off.
 - [ ] Final project is complete.
 - [ ] Final project code is in the `Frogger` directory of the artifact.
-
+- [ ] Final project follows the [principle of coupling][principle-coupling], also known as "separation of concerns".
+- [ ] Final project follows the [principle of encapsulation][principle-encapsulation].
+- [ ] Final project follows the [principle of abstraction][principle-abstraction].
+- [ ] Final project follows the [principle of inheritance][principle-inheritance].
+- [ ] Code is well formatted with proper spacing and indentation.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 
 ### Stretch
 
 - [ ] All stretch tasks in the `README` are completed.
-
-## Quality Rubric
-
-**Clean code and commit messages**
-- Code is well formatted with proper spacing and indentation. [20 points]
-- Descriptive, well-named functions, variables, files, CSS classes, etc. [20 points]
-- Commit messages are concise and descriptive. [20 points]
-
-*Note: Make sure to checkoff your progress and push your repo to github at least twice a day.*
-
-**Follows object-oriented principles**
-- Final project follows the [principle of coupling][principle-coupling], also known as "separation of concerns". [20 points]
-- Final project follows the [principle of encapsulation][principle-encapsulation]. [20 points]
-- Final project follows the [principle of abstraction][principle-abstraction]
-- Final project follows the [principle of inheritance][principle-inheritance]
 
 [core-oojs]: https://github.com/GuildCrafts/core-object-oriented-javascript
 [core-oojs-readme]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/README.md

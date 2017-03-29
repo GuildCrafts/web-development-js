@@ -145,6 +145,9 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 - [ ] App is configured to use CircleCI continuous integration
 - [ ] CirlceCI badge is added to the README
 - [ ] Latest build is passing on CircleCI
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 
 ### Stretch
 
@@ -159,18 +162,6 @@ Update user activity feed to also include events that _are not_ directly trigger
   - [ ] New card is created on board that user is a member of
   - [ ] Card that user is a member of is moved between lists
   - [ ] New member is added to card that user is a member of
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

@@ -52,12 +52,14 @@ Read and reference good resources on the web to build your conceptual understand
 
 ## Specifications
 
-### Required
-
 - [ ] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
 - [ ] All CSS files are in a `css/` directory.
 - [ ] Main page is called `demo.html` and includes an example of each component.
 - [ ] No external CSS libraries/modules are used. Everything is written from scratch.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stage 1: Reverse Engineer Bootstrap Components
@@ -96,18 +98,6 @@ Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) 
 
 - [ ] Demo page for stylized components is published as a [GitHub Pages site](https://pages.github.com/)
 - [ ] Site includes instructions for how to include and use your framework
-
-## Quality Rubric
-
-**Good code style**
-- HTML and CSS files are well formatted with proper spacing and indentation. [50 points]
-- Descriptive, well-named functions, variables, files, CSS classes, etc. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

@@ -52,6 +52,8 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
   - [ ] At a random time in the future
   - [ ] At a specific time in the future
 - [ ] Users can view which saved tweets have been re-tweeted and when.
+- [ ] UI provides an attractive, intuitive user experience.
+- [ ] Code is readable and well organized.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
@@ -61,11 +63,6 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 - [ ] Users can delete saved tweets.
 - [ ] Users can search for and save another user's tweets by accessing and capturing their Twitter feed.
 - [ ] Users can organize saved tweets according to categories (use of filters).
-
-## Quality Rubric
-
-- UI provides an attractive, intuitive user experience: 50 points.
-- Code is readable and well organized: 50 points.
 
 ## Resources
 

@@ -48,19 +48,14 @@ Choose this goal if you're just getting started with the basics of JavaScript an
 - [ ] All readings and videos in the [team_practice.md][core-vjs-team] are completed and checked off.
 - [ ] All exercises and lessons in the [team_practice.md][core-vjs-team] are completed and checked off.
 - [ ] Final project is complete and in the proper directory of the artifact.
+- [ ] Code is well formatted with proper spacing and indentation.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 
 _Note: Make sure to check off your progress and push your repo to GitHub at least twice a day._
 
 ### Stretch
 
 - [ ] All stretch tasks in the [team_practice.md][core-vjs-team] are completed.
-
-## Quality Rubric
-
-**Clean code and commit messages**
-- Code is well formatted with proper spacing and indentation. [40 points]
-- Descriptive, well-named functions, variables, files, CSS classes, etc. [40 points]
-- Commit messages are concise and descriptive. [20 points]
 
 [core-vjs]: https://github.com/GuildCrafts/core-vanilla-javascript
 [core-vjs-team]: https://github.com/GuildCrafts/core-object-oriented-javascript/blob/master/team_practice.md

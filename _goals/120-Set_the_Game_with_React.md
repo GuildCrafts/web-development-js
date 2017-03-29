@@ -64,6 +64,13 @@ This goal will especially exercise your [domain modeling](https://en.wikipedia.o
   - [ ] "Game Over" message is displayed
   - [ ] "New Game" button is displayed, which starts a new game if clicked
 - [ ] Cards and their graphics are rendered with [CSS shape tricks](https://css-tricks.com/examples/ShapesOfCSS/) (not images)
+- [ ] Game logic is separated from the rendering logic.
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
@@ -79,27 +86,5 @@ As a stretch goal, implement multiplayer Set. More than one player can play at o
   - [ ] All players are notified of the player who is currently selecting (using their name)
 - [ ] When a player selects a set, all players are notified of who got the set with a temporary message
 - [ ] When game is over, scoreboard is displayed to all players
-
-## Quality Rubric
-
-**Separation of concerns**
-- Game logic is separated from the rendering logic. [100 points]
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
-
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [mit-license]: https://opensource.org/licenses/MIT

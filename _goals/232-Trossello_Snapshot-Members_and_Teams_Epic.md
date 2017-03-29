@@ -133,6 +133,9 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
   - [ ] Moving the card between lists
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
 ### Stretch
@@ -145,18 +148,6 @@ Implement the "teams" feature from Trello.
 - [ ] Team members can remove team boards
 - [ ] Team boards automatically include all team members
 - [ ] Team boards work like regular boards in all other ways
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

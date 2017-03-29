@@ -52,15 +52,9 @@ As a result, the best way to prepare is to do "mock" interviews as a trial, with
 - [ ] Artifact produced is a fork of the [interview-trials][interview-trials] repo.
 - [ ] At least two completed mock interviews per team member, with all trial files added to `trials/`.
 - [ ] Trial files for interviews are complete, including:
-  - Questions asked
-  - Interviewee reflections
-  - Interviewer evaluation
-
-## Quality Rubric
-
-- Commit messages are concise and descriptive. [25 points]
-- All new questions/trials are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
+  - [ ] Questions asked
+  - [ ] Interviewee reflections
+  - [ ] Interviewer evaluation
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
 
 [interview-trials]: https://github.com/GuildCrafts/interview-trials

@@ -46,19 +46,11 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] For **both** of the games Tic-Tac-Toe and Simon, there exists:
   - [ ] A playable, complete version of the game at `public/GAME_NAME.html` (e.g. `public/ticTacToe.html`)
   - [ ] A link to the game page from `public/index.html`
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-## Quality Rubric
-
-**Good code style**
-- HTML, CSS, and JS files are well formatted with proper spacing and indentation. [50 points]
-- Descriptive, well-named functions, variables, files, CSS classes, etc. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [browser-games]: https://github.com/GuildCrafts/browser-games
 [games-list]: https://github.com/GuildCrafts/browser-games/blob/master/games.md

@@ -70,6 +70,13 @@ When working on this goal, you'll encounter questions like:
 
 - [ ] Backend uses Node.js and [Express][npm-express].
 - [ ] App persists to do list items in a database.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] There are thorough tests for all functionality involved in interacting with the database.
+- [ ] All tests are passing.
+- [ ] Repository includes a README file with basic installation and setup.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
@@ -78,29 +85,6 @@ When working on this goal, you'll encounter questions like:
 - [ ] Users can create multiple to-do lists.
 - [ ] Users have their own account and can sign up and log in/out.
 - [ ] App is written with ES6 and compiled using [babel][npm-babel].
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Testing**
-- There is a command to run tests (e.g. `npm test`) and it is specified in the installation and setup instructions of the README. [50 pts]
-- There are thorough tests for all functionality involved in interacting with the database. [50 pts]
-
-**Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
-
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [npm-express]: https://www.npmjs.com/package/express
 [npm-babel]: https://www.npmjs.com/package/babel

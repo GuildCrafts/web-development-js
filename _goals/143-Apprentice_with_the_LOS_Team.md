@@ -54,7 +54,3 @@ You should choose this goal if you are ready to try being part of a team working
 ## Specifications
 
 Specifications and requirements will come from LOS story tickets in [Clubhouse](https://app.clubhouse.io/learnersguild/) (the LOS issue tracking system).
-
-## Quality Rubric
-
-Quality requirements will be determined by the nature of the work you take on. No code will be merged without first being reviewed, and you can expect a high bar for quality.
