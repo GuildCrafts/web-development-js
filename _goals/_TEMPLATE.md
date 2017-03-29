@@ -40,14 +40,6 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] Spec three.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
-## Quality Rubric
-
-_What are some appropriate quality objectives for this goal? These are statements about the internal characteristics of the product that demonstrate fine design and craftspersonship, not its external features._
-
-- Quality rubric one [point value]
-- Quality rubric two [point value]
-- Quality rubric three [point value]
-
 ## Resources
 
 _Include any resources (articles, books, tutorials, tools, videos, etc.) that are helpful for learners working on this goal._

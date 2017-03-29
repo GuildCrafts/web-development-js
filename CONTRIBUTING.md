@@ -6,19 +6,18 @@ There are many ways to contribute to this repository and the goal library it con
 
 - [Suggesting Goals](#suggesting-goals)
 - [Authoring Goals](#authoring-goals)
-  - [Goal Quality Checklist](#goal-quality-checklist)
-  - [Step 0 (optional): Create a Scaffold Repository in GuildCrafts](#step-0-optional-create-a-scaffold-repository-in-guildcrafts)
-  - [Step 1: Track your Work in the Goal Library Project](#step-1-track-your-work-in-the-goal-library-project)
-  - [Step 2: Pick a Title](#step-2-pick-a-title)
-  - [Step 3: Create a New Goal File](#step-3-create-a-new-goal-file)
-  - [Step 4: Set your Goal Metadata](#step-4-set-your-goal-metadata)
-  - [Step 5: Write a Description](#step-5-write-a-description)
-  - [Step 6: Provide Context](#step-6-provide-context)
-  - [Step 7: List Specifications](#step-7-list-specifications)
-  - [Step 8: Define a Quality Rubric](#step-8-define-a-quality-rubric)
-  - [Step 9: Include a Challenge Rating](#step-9-include-a-challenge-rating)
-  - [Step 10: Submit for Review](#step-10-submit-for-review)
-  - [Step 11: Improve Goal and Publish](#step-11-improve-goal-and-publish)
+	- [Goal Quality Checklist](#goal-quality-checklist)
+	- [Step 0 (optional): Create a Scaffold Repository in GuildCrafts](#step-0-optional-create-a-scaffold-repository-in-guildcrafts)
+	- [Step 1: Track your Work in the Goal Library Project](#step-1-track-your-work-in-the-goal-library-project)
+	- [Step 2: Pick a Title](#step-2-pick-a-title)
+	- [Step 3: Create a New Goal File](#step-3-create-a-new-goal-file)
+	- [Step 4: Set your Goal Metadata](#step-4-set-your-goal-metadata)
+	- [Step 5: Write a Description](#step-5-write-a-description)
+	- [Step 6: Provide Context](#step-6-provide-context)
+	- [Step 7: List Specifications](#step-7-list-specifications)
+	- [Step 8: Include a Challenge Rating](#step-8-include-a-challenge-rating)
+	- [Step 9: Submit for Review](#step-9-submit-for-review)
+	- [Step 10: Improve Goal and Publish](#step-10-improve-goal-and-publish)
 - [Reviewing Goals](#reviewing-goals)
 
 <!-- /TOC -->
@@ -42,7 +41,7 @@ There's no guarantee that all suggestions will be turned into goals, but the [go
 
 ## Authoring Goals
 
-Goals are stored in our **goal library** as files in the [_goals/][goals] directory. To author a new goal for the library, you need to write a full goal with description, context, specs, quality rubric, etc.
+Goals are stored in our **goal library** as files in the [_goals/][goals] directory. To author a new goal for the library, you need to write a full goal with description, context, specs, etc.
 
 In addition, goals may have a _scaffold repository_ with some starter code or other resources for projects to use. This makes it easy to start a new project from this goal: just fork the repo. As an example, take a look at the [Core Data Structures][core-data-structures] goal and its associated repo.
 
@@ -56,7 +55,7 @@ This checklist is used to assess the quality of a new goal.
 
 - [ ] Has a good title
 - [ ] Has all front matter / metadata (i.e. `team_size`, `level`, `authors`)
-- [ ] Includes complete challenge rating, description, context, specifications, and quality criteria
+- [ ] Includes complete challenge rating, description, context, specifications, and some resources
 - [ ] Is relevant (focused closely on work similar to that of a professional JS web developer)
 - [ ] Is reviewed and approved by a [librarian][team-librarians]
 - [ ] Scaffold repository for goal (optional)...
@@ -186,23 +185,7 @@ Each of these describes a _feature_ of the product, and each can be converted to
 
 It is up to you to decide exactly how _specific_ to make your specifications. If you leave some room for interpretation, that allows learners the freedom to make their own implementation decisions. So long as they are _verifiable_, they work as specs.
 
-### Step 8: Define a Quality Rubric
-
-Beyond the specifications for _features_ of the final product, you should identify criteria for what constitutes a _good quality_ artifact for the goal.
-
-The quality rubric doesn't describe the external characteristics of the product, but the caliber of its construction. Unlike specifications, which describe features that either do or don't hold true (they are binary), a quality rubric exists on a gradient: you assign a maximum point value to each criteria so that reviewers can determine how many points to award.
-
-For example, a chair from IKEA and a chair built by a master carpenter could both have the same specifications: dimensions, shape, etc. But the _quality_ of the carpenter's chair would be much higher, reflecting the care and professionalism that went into its design and construction.
-
-This would be a good, basic rubric for most any piece of software:
-
-- There is a well written test suite, and it tests the right things: 100pts
-- Variables, functions, and classes/modules are clearly named: 50pts
-- `README` and `CONTRIBUTING` files are well written: 50pts
-
-Feel free to use this as a starting point, and come up with your own criteria as well.
-
-### Step 9: Include a Challenge Rating
+### Step 8: Include a Challenge Rating
 
 One of the most important questions a learner considering a goal will have is "will this goal put me into my ZPD?" In other words, will the goal be too difficult or too easy?
 
@@ -226,7 +209,7 @@ This goal will likely be within your ZPD if you...
 - Are interested in critical thinking and problem solving
 ```
 
-### Step 10: Submit for Review
+### Step 9: Submit for Review
 
 All new goals start out as a _draft_. In order to be published, a [librarian][team-librarians] must review the goal first (see section on [Reviewing Goals](#reviewing-goals)).
 
@@ -238,7 +221,7 @@ To start the review process, complete these steps:
 
 Example comment: `@GuildCrafts/librarians please review my goal`.
 
-### Step 11: Improve Goal and Publish
+### Step 10: Improve Goal and Publish
 
 Work with the librarians to improve the goal. They may offer suggestions or submit a pull request with some changes your repository.
 
