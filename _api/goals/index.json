@@ -572,7 +572,7 @@
       "team_size": 2,
       "goal_id": 238,
       "title": "Work on Step",
-      "created_at": "2016-03-28T20:38:28Z",
+      "created_at": "2017-03-28T20:38:28Z",
       "labels": [
         "apprentice"
       ],
@@ -580,6 +580,22 @@
       "level": "2",
       "redirect_from": "/goals/238",
       "url": "http://jsdev.learnersguild.org/goals/238-Work_on_Step.html"
+    },
+    {
+      "authors": [
+        "HJBowers"
+      ],
+      "team_size": 2,
+      "goal_id": 258,
+      "title": "Work on Interview App",
+      "created_at": "2017-03-30T14:25:06Z",
+      "labels": [
+        "production"
+      ],
+      "published": false,
+      "level": "2",
+      "redirect_from": "/goals/258",
+      "url": "http://jsdev.learnersguild.org/goals/258-Work_on_Interview_App.html"
     },
     {
       "authors": [
