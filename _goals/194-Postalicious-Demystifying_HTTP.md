@@ -207,3 +207,4 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 [egghead-http-basics]: https://egghead.io/courses/understand-the-basics-of-http
 
 [list-mime-types]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
+ 
