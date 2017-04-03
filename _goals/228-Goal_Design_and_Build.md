@@ -4,7 +4,7 @@ authors:
 team_size: 1
 goal_id: 228
 title: Goal Design & Build
-created_at: '2017-04-3T10:13:56Z'
+created_at: '2017-04-03T10:13:56Z'
 labels:
 - prototype
 published: true
