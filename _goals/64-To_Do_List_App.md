@@ -41,7 +41,7 @@ If you are already experienced with this project, you may want to choose a diffe
 
 You may design your own UI, but it's probably better to copy someone else's design. After all, there _are_ a few other to-do list apps out there ;). Here's one example using Google's [Material Design][material-design] that you could mimic:
 
-![screen shot 2017-02-28 at 11 33 00 am](https://cloud.githubusercontent.com/assets/709100/23414837/3f8c7046-fdab-11e6-8631-8dfb80662e24.png)
+<img width=800 src="https://cloud.githubusercontent.com/assets/709100/23414837/3f8c7046-fdab-11e6-8631-8dfb80662e24.png">
 
 ## Context
 
