@@ -583,6 +583,23 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 251,
+      "title": "Init 1: Bossggle Word Game",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/251",
+      "url": "http://jsdev.learnersguild.org/goals/251-Init_1-Bossggle_Word_Game.html"
+    },
+    {
+      "authors": [
         "HJBowers"
       ],
       "team_size": 2,
