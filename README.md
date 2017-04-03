@@ -6,12 +6,45 @@ This is a shared resource, and it is collaboratively developed by all learners. 
 
 ## Getting Started
 
-The site is built with [Jekyll](https://jekyllrb.com/), which uses [Ruby](https://www.ruby-lang.org/en/). You'll need to download the version of Ruby specified in `./.ruby-version` to get the app running.
+### Authoring and Editing Goals
 
-1. Clone this repo
-2. Run `bundle install` to install the dependencies
-3. Run `bundle exec jekyll serve --watch` to start the server at `http://localhost:4000`
-4. Make any changes and review your results
+If you are just authoring or editing goals, then you can make edits directly to the files in the `_goals/` directory.
+
+Goals are just plain-text Markdown files, which when published to the `master` branch are rendered on the production site: http://jsdev.learnersguild.org/.
+
+To preview the goals as they would appear on a browser, however, you'll need to set up your own development server.
+
+### Setting Up a Local Development Server
+
+The site is published on [GitHub Pages](https://pages.github.com/) using [Jekyll](https://jekyllrb.com/). Jekyll is a package for the [Ruby](https://www.ruby-lang.org/en/) language. You don't need to know Ruby, but you do need to have it installed in order to preview your changes locally.
+
+1. Clone this repo and change into the directory
+  ```
+  $ git clone git@github.com:GuildCrafts/web-development-js.git
+  ...
+  $ cd web-development-js
+  ```
+1. Install [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build) plugin with [Homebrew](https://brew.sh/)
+  ```
+  $ brew install rbenv ruby-build
+  ```
+1. Install the version of [Ruby](https://www.ruby-lang.org/en/) specified in `.ruby-version` file
+  ```
+  $ rbenv install
+  ```
+1. Install [Jekyll](https://jekyllrb.com/) and [Bundler](http://bundler.io/) gems
+  ```
+  $ gem install jekyll bundler
+  ```
+1. Install the dependencies listed in the `Gemfile`
+  ```
+  $ bundle install
+  ```
+1. Start the server and auto-update when changes are made
+  ```
+  $ bundle exec jekyll serve --watch
+  ```
+1. Make any changes and review your results
 
 ## Contents
 
