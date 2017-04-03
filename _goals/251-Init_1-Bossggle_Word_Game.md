@@ -119,7 +119,7 @@ This is a shorter day because much of the day is dedicated to **reflection** and
 
 ## Context
 
-The series of initiation goals are designed for brand-new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
+The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 <!-- TODO: add links to other initiation goals -->
 
@@ -138,6 +138,7 @@ By the time you're done with this goal, you will have:
 These are the basic specs for Bossggle, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
 #### Stage 1
+- [ ] Repo is created on GitHub.
 - [ ] The site looks the same as in the [mockups](#mockups) (except without the same words/letters/points - those are just placeholders).
 - [ ] Your repo includes the files: `index.html`, `main.css`, and `bossggle.js`.
 
@@ -177,7 +178,7 @@ Try to mimic the following mockups as closely as you can. Note that some of the 
 
 **with comments**
 
-<img alt="bossggle-mockup-mid-game-with-comments" width=800 src="https://cloud.githubusercontent.com/assets/709100/24516043/5f1e9d68-1547-11e7-87c5-7665681e9e3c.png">
+<img alt="bossggle-mockup-mid-game-with-comments" width=800 src="https://cloud.githubusercontent.com/assets/709100/24624906/4273c616-187b-11e7-8846-1b5897230b3c.png">
 
 ### Stretch
 
@@ -284,13 +285,39 @@ Note that these Init series of goals are _more structured_ with a lot more _cura
 
 #### How should I work with my pair?
 
+You and your pair are responsible for two things:
+
+- Working together to complete the project
+- Helping each other to learn as much as you can
+
+As you work through the initiation goals, you'll be learning how to balance and harmonize these two responsibilities. Sometimes that means that you are "pair programming" and actively solving a problem together; other times it means that you are spending time alone researching and studying so that you can come back to contribute better with your pair.
+
+In the Playbook, there is a section on [Strategies for Team Learning][playbook-strategies-team]. Read this for more actionable ideas on how to best work in team.
+
 #### What if I have questions or need help?
+
+This is a great question. When you are in your ZPD, you will have lots of questions and problems that you can't address alone.
+
+The most efficient way to get help is to start with _highly available_ resources and then escalate to other people if you aren't able to find a way forward. In other words, if you have a problem and need help, go through the following steps to get "unstuck":
+
+1. Come up with a good question: be specific about what it is that you are struggling with
+2. Do online research: use Google, documentation, Q&A sites, etc.
+3. Get help from from your teammate/pair: two brains are better than one
+4. Request support from a coach: if they can't unstick you, they will escalate to someone who likely can
 
 #### What skills should I be building? How do I know I'm learning the right things?
 
+To take a big-picture view of your learning progress, use the skills [Matrix][] to help chart your course through the wide array of skills needed to become a professional JavaScript web developer.
+
+When you are working on a goal, try to focus your work on the areas in your ZPD: challenge yourself by taking on the tasks/specs at your learning edge.
+
+If you are not sure if you are learning the right things, talk to other learners or guild staff. They can help you determine what is relevant and what isn't.
+
 #### How do I "complete" this goal? How do I submit my project for review?
 
-When you are
+When you are done with the goal (no matter how many specs you completed), you need to make it available for others to review.
+
+Read the [section on Reviews in the Playbook][playbook-reviews] for more information and instructions on how to do so.
 
 [wiki-basic-words]: https://simple.wikipedia.org/wiki/Wikipedia:List_of_1000_basic_words
 [gist-basic-words]: https://gist.github.com/tannerwelsh/dcd33611c1bc615fd5a1c8cadc05d1b2
@@ -311,5 +338,8 @@ When you are
 [gh-pages]: https://pages.github.com/
 
 [playbook-proj-kickoff]: https://playbook.learnersguild.org/Learning_Guide/Kickoff.html
+[playbook-reviews]: https://playbook.learnersguild.org/Learning_Guide/Review.html
+[playbook-strategies-team]: https://playbook.learnersguild.org/Strategies/Team.html
+[matrix]: http://matrix.apps.learnersguild.org/
 
 [mit-license]: https://opensource.org/licenses/MIT
