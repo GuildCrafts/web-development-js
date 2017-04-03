@@ -63,7 +63,7 @@ It is recommended (but not required) that you follow along with the day-by-day p
 
 #### Day 1
 
-With your pair, work on the specs in [Stage 1][] to build out the user interface (UI) so that it looks like the [new game mockup](#new-game).
+With your pair, work on the specs in [Stage 1](#stage-1) to build out the user interface (UI) so that it looks like the [new game mockup](#new-game).
 
 Leave some hours in the afternoon for _solo study_ time: use the [resources](#resources) and do your own research to fill any gaps in your skills. Since today focuses on **HTML** and **CSS**, here are some recommended resources (pick one, or skim both):
 
@@ -74,7 +74,7 @@ After solo study, sync back up with your pair to share what you learned. Togethe
 
 #### Day 2
 
-With your pair, work on the specs in [Stage 2][] to add some basic interactivity to your game with JavaScript.
+With your pair, work on the specs in [Stage 2](#stage-2) to add some basic interactivity to your game with JavaScript.
 
 The specs for today focus mostly on **DOM manipulation** with JavaScript. Go as far as you can with your pair on the specs. When you get stumped, take a break for solo study. Recommended resources:
 
@@ -86,7 +86,7 @@ Make sure to sync up after studying and _integrate_ your learning with your pair
 
 #### Day 3
 
-With your pair, work on the specs in [Stage 3][] to continue adding interactive functionality to your game with event handlers.
+With your pair, work on the specs in [Stage 3](#stage-3) to continue adding interactive functionality to your game with event handlers.
 
 The specs for the day cover more DOM manipulation and **browser events**. If you and your pair get stuck, take a break for solo study. Recommended resources:
 
@@ -97,11 +97,11 @@ If you break for solo study, make sure to sync up after and apply to your projec
 
 #### Day 4
 
-With your pair, work on the specs in [Stage 4][] to implement the _scoring_ feature of the game.
+With your pair, work on the specs in [Stage 4](#stage-4) to implement the _scoring_ feature of the game.
 
 This feature requires a bit more up-front design and _algorithmic thinking_ to accomplish it. Make sure that you and your pair are clear on _how_ you want to solve the specs before you start coding them.
 
-Depending on your skill level, you may be able to finish these specs in time to move on to [Stage 5][] or even the [Stretch](#stretch) specs. If so, great!
+Depending on your skill level, you may be able to finish these specs in time to move on to [Stage 5](#stage-5) or even the [Stretch](#stretch) specs. If so, great!
 
 If you or your pair are struggling to complete the specs, consider spending time reviewing core **JavaScript programming** skills using the following recommended resources:
 
@@ -110,7 +110,7 @@ If you or your pair are struggling to complete the specs, consider spending time
 
 #### Day 5
 
-With your pair, work on the specs in [Stage 5][] to publish your game as a GitHub Pages site.
+With your pair, work on the specs in [Stage 5](#stage-5) to publish your game as a GitHub Pages site.
 
 This is a shorter day because much of the day is dedicated to **reflection** and review. Get as much done as you can with your pair. If you have extra time, consider doing the [Stretch](#stretch) specs or building core skills with these recommended resources:
 
