@@ -7,10 +7,12 @@ title: Work on Interview App
 created_at: '2017-03-30T14:25:06Z'
 labels:
 - production
-published: false
+published: true
 level: '2'
 redirect_from: "/goals/258"
 ---
+
+# Work on Interview App
 
 ## Challenge Rating
 
