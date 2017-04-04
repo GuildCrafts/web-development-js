@@ -65,38 +65,18 @@ Before diving in, it is **strongly recommended** to review the video and code fr
   - [ ] payment methods on file (e.g., cash, credit, check - if credit, then the card number should also be stored)
 - [ ] Can track each customer's pizza **preferences**
 - [ ] Can track the **ingredients** that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
-- [ ] Supports an interface for delivery **drivers**, tracking...
-  - [ ] the addresses each driver delivers to
-  - [ ] the dates/times of delivery
-  - [ ] money collected (including tips)
 - [ ] Can track standard **drinks**, including...
   - [ ] a product ID
   - [ ] drink description
   - [ ] manufacturer
   - [ ] supplier
   - [ ] price
-- [ ] Supports calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
 - [ ] Can track **pizza** data:
   - [ ] sizes (small, medium, large, extra large)
   - [ ] types (thick or thin crust)
   - [ ] **ingredients** (pepperoni, sausage, mushrooms, onions, cheese, etc.)
   - [ ] price data for these pizza sizes and ingredients
   - [ ] happy hour price discounts
-- [ ] Maintains a history of **transactions** of all purchases including...
-  - [ ] price
-  - [ ] payment method
-  - [ ] delivery date
-
-**Entity Relationship Diagram**
-
-The E-R diagram...
-
-- [ ] Supports all the product/user stories
-- [ ] Indicates whether or not each relationship in the schema is is one to one, one to many, or many to many
-- [ ] Contains a list of attributes for each entity and relationship
-- [ ] Contains the SQL data types of each attribute in the schema
-- [ ] Notes any foreign or primary keys in each table in the schema
-- [ ] Is included in the artifact (as a `.png` or some other easily viewable format)
 
 **Other**
 - [ ] The artifact is a GitHub repo
@@ -115,8 +95,28 @@ Please feel free to adapt the content of the data to your personal preferences o
 
 ### Stretch
 
+- [ ] Maintains a history of **transactions** of all purchases including...
+  - [ ] price
+  - [ ] payment method
+  - [ ] delivery date
+- [ ] Supports an interface for delivery **drivers**, tracking...
+  - [ ] the addresses each driver delivers to
+  - [ ] the dates/times of delivery
+  - [ ] money collected (including tips)
+- [ ] Supports calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
 - [ ] API documentation is included in the repo with details on each route, parameters/headers needed, and the structure of returned data
 - [ ] A simple web user interface exists that allows users CRUD the data in the specification (this interface can be as simple as a checkbox that "orders" a pizza by creating a DB record in one of your tables)
+- [ ] Implements a testing suite (mocha/chai)
+
+**Entity Relationship Diagram**
+
+- [ ] The E-R diagram...
+  - [ ] Supports all the product/user stories
+  - [ ] Indicates whether or not each relationship in the schema is is one to one, one to many, or many to many
+  - [ ] Contains a list of attributes for each entity and relationship
+  - [ ] Contains the SQL data types of each attribute in the schema
+  - [ ] Notes any foreign or primary keys in each table in the schema
+  - [ ] Is included in the artifact (as a `.png` or some other easily viewable format)
 
 ## Quality Rubric
 
@@ -129,7 +129,6 @@ Please feel free to adapt the content of the data to your personal preferences o
 - Variables, functions, CSS classes, etc. are meaningfully named [50 points]
 - Functions are small and serve a single purpose [50 points]
 - Code is well organized into a meaningful file structure [50 points]
-- Code is reasonably tested with a test suite [50 points]
 
 ## Resources
 
