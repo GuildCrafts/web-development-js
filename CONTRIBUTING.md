@@ -58,7 +58,6 @@ This checklist is used to assess the quality of a new goal.
 - [ ] Has all front matter / metadata (i.e. `team_size`, `level`, `authors`)
 - [ ] Includes complete challenge rating, description, context, specifications, and quality criteria
 - [ ] Is relevant (focused closely on work similar to that of a professional JS web developer)
-- [ ] Is reviewed and approved by a [librarian][team-librarians]
 - [ ] Scaffold repository for goal (optional)...
   - [ ] exists and is referenced from goal
   - [ ] includes starter code
