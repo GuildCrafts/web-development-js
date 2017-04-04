@@ -93,7 +93,7 @@ Please feel free to adapt the content of the data to your personal preferences o
 
 [Get creative](https://www.youtube.com/watch?v=9C_HReR_McQ)!
 
-### Stretch (or Advanced/week2 version)
+### Stretch
 
 - [ ] Maintains a history of **transactions** of all purchases including...
   - [ ] price
@@ -104,8 +104,12 @@ Please feel free to adapt the content of the data to your personal preferences o
   - [ ] the dates/times of delivery
   - [ ] money collected (including tips)
 - [ ] Supports calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
+- [ ] API documentation is included in the repo with details on each route, parameters/headers needed, and the structure of returned data
+- [ ] A simple web user interface exists that allows users CRUD the data in the specification (this interface can be as simple as a checkbox that "orders" a pizza by creating a DB record in one of your tables)
+- [ ] Implements a testing suite (mocha/chai)
 
 **Entity Relationship Diagram**
+
 - [ ] The E-R diagram...
   - [ ] Supports all the product/user stories
   - [ ] Indicates whether or not each relationship in the schema is is one to one, one to many, or many to many
@@ -113,10 +117,6 @@ Please feel free to adapt the content of the data to your personal preferences o
   - [ ] Contains the SQL data types of each attribute in the schema
   - [ ] Notes any foreign or primary keys in each table in the schema
   - [ ] Is included in the artifact (as a `.png` or some other easily viewable format)
-
-- [ ] API documentation is included in the repo with details on each route, parameters/headers needed, and the structure of returned data
-- [ ] A simple web user interface exists that allows users CRUD the data in the specification (this interface can be as simple as a checkbox that "orders" a pizza by creating a DB record in one of your tables)
-- [ ] Implements a testing suite (mocha/chai)
 
 ## Quality Rubric
 
