@@ -1,3 +1,8 @@
+These questions should be answered by this spec:
+
+Should learners be replicating Bootstrap’s grid system?
+Should learners be making their classes mobile responsive?
+
 ---
 authors:
 - "asantos3026"
