@@ -1,0 +1,67 @@
+   ---
+authors:
+- "najee"
+team_size: 1
+goal_id: 259
+title: 'Diving into Open Source Software'
+created_at: '2017-04-4T15:40:44Z'
+labels:
+- practice
+- draft
+published: true
+level: '2'
+---
+# Diving Into Open Source Software
+## Challenge Rubric
+
+This Goal will likely be in your ZPD if you...
+
+- Can choose a goal that fits your ZPD
+- Can build simple projects such as to do list and bookstore
+- Can set your own specs for a week long project
+- Are comfortable using multiple frameworks and libraries(JQuery, Mongodb, React etc.)
+- Are comfortable jumping into a new codebase
+- Are interested in working on larger projects
+
+## Description
+
+As a software developer it is important to have a catalog of work that shows your true potential and ability to contribute to existing codebases. What better way to show off your skill than by making contributions to Open Source Software that we use all the time(such as NPM Modules).
+Your job is to choose an existing issue from either the list of recommended projects or a project of your choosing that you can complete within the week. And then fork the repo, set the artifact, create a Read.me detailing the issue, finish the issue and submit a PR for review. 
+       
+## Context
+        
+In the field you need to build relationships and make sure that your resume stands out from the pile(aka the blackhole of tech resumes). One way to stand out is contributing to well known projects. This project is to test your understanding of javascript as well as your ability to determine your skills and pick a project within your ZPD. When choosing a project make sure to pick something you're actually interested in and perhaps you have used before. Make sure that the project is something you can complete in week, but also stretches you. You are responsible for setting your own artifact and making it easy for your coach to determine whether or not you completed the specs(have finished the issue you set out to complete). 
+
+## Specifications
+- [ ] Choose an issue that will take you a week to complete. If you finish early choose another issue.
+- [ ] Artifact is properly set
+- [ ] Repo is forked
+- [ ] Read.me contains a description of the issue, the OSS it comes from, and any other necessary instructions to test your code
+- [ ] PR is submitted with a link in the Read.me
+- [ ] Code is tested where applicable( it is highly recommended that your test all code) 
+- [ ] Follow any guidelines established in a CONTRIBUTING.md
+
+## Quality Rubric
+
+- Commit messages are concise and descriptive [50 points]
+- Code is well formatted without any linting errors [25 points]
+- Variables, functions, CSS classes, etc. are meaningfully named [50 points]
+- Functions are small and serve a single purpose [50 points]
+- Code is well organized into a meaningful file structure [50 points]
+- Code follows design principles of existing codebase[25 points]
+
+## Stretch
+- If changes are requested you make changes to get the PR merged
+- write a medium blog about the experience
+
+## Resources
+- https://opensource.guide/
+- https://github.com/npm/npm/issues
+- http://up-for-grabs.net/#/tags/javascript
+- https://github.com/freeCodeCamp/freeCodeCamp/issues
+- https://www.codetriage.com/?language=JavaScript
+- https://github.com/explore
+- https://opensource.google.com/projects/explore/featured
+- https://opensource.com/article/16/12/yearbook-top-10-open-source-projects
+            https://github.com/MunGell/awesome-for-beginners
+            https://openhatch.org/
