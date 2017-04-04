@@ -49,8 +49,6 @@ This goal is designed to give you a taste of full stack development.  You will i
 
 ## Resources
 
-_Include any resources (articles, books, tutorials, tools, videos, etc.) that are helpful for learners working on this goal._
-
 [Keystone's]: http://keystonejs.com/docs/ documentation, google group, and github issues are all great resources.
 
 [ConnextCMS]: https://github.com/skagitpublishing/ConnextCMS/wiki has a relatively helpful wiki when it comes to setting up the repo. The documentation is less helpful during actual development.
