@@ -89,19 +89,14 @@ Becoming a full stack web developer means that you need to be comfortable with w
 ### Day 5: Exercises on SQL Bolt
 - [ ] Complete the [SQL Bolt tutorial](https://sqlbolt.com/)
 
+### General
+
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] SQL files are well formatted and readable.
+- [ ] All the SQL keywords are capitalized.
+
 ### Stretch
 - [ ] Complete the [Codeacademy course on SQL](https://www.codecademy.com/learn/learn-sql)
 - [ ] Complete the [SQL Zoo quizzes](http://sqlzoo.net/wiki/Tutorial_Quizzes)
-
-### Quality Rubric
-
-**Well formatted code**
-- All the SQL keywords are capitalized [25 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [sql-exercises]:https://github.com/GuildCrafts/sql-exercises

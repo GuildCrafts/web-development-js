@@ -63,6 +63,7 @@ The specs are broken down in the following 5 stages. Make sure to complete all t
 - [Stage 3](#stage-3)
 - [Stage 4](#stage-4)
 - [Stage 5](#stage-5)
+- [General](#general) (applies to the whole project)
 
 **IMPORTANT:** When you complete a stage, before moving onto the next stage, tag the commit that completes stage N as `stage-N-complete` using [`git tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging). *Don't forget to push with `--tags`*.
 
@@ -232,28 +233,15 @@ In stage 5 you are going to add persistence to your express server. We're going 
 - [ ] the server stores up to 100 calculation results
 - [ ] all mathematical operations have their own function, defined outside of any express router handlers.
 
-### Required
+### General
 
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
-
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [mit-license]: https://opensource.org/licenses/MIT
 [mac-calculator-clone]: https://github.com/GuildCrafts/mac-calculator-clone

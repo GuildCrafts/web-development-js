@@ -100,11 +100,12 @@ Being fluent in different paradigms will help you to think about and understand 
   - [ ] Linear control flow
   - [ ] Sequential state modifications
   - [ ] Looping and branching statements
-
-### Required
-
-_Do not remove these specs - they are required for all goals_.
-
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
@@ -116,25 +117,6 @@ For each programming paradigm, write a Markdown parser using a language that _sp
 - [ ] Imperative-style Markdown parser is written in either [C](https://en.wikipedia.org/wiki/C_(programming_language)) or [Go](https://golang.org/)\*
 
 _\*It is a bit blasphemous to say that Go specializes in imperative programming, as it is a highly sophisticated language. That being said, it works just fine when using an imperative style._
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
-
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 [mit-license]: https://opensource.org/licenses/MIT
 [multiple-paradigms]: https://github.com/GuildCrafts/multiple-paradigms

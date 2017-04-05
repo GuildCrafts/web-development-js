@@ -79,6 +79,12 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 **General**
 
 - [ ] The artifact produced is a repo with at least two sub-folders: `postalicious/` and `sandbox-server/`.
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 **Sandbox Server**
@@ -91,7 +97,7 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
   - [ ] the `Content-Type` header set to `text/plain`
 - [ ] Sending a `GET` request to the path `/search?q=doodads` responds with...
   - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `You searched for: "doodads"` 
+  - [ ] a plain-text response body with the content `You searched for: "doodads"`
     - NOTE: (it doesn't need to actually do any searching, just return the plain text)
     - NOTE: "doodads" is a placeholder for whatever string is in the `q` query param
   - [ ] the `Content-Type` header set to `text/plain`
@@ -156,25 +162,6 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
   - [ ] Get all tweets with the hashtag `#javascript` with the Twitter API
   - [ ] Any other API request(s) of your choice
   - [ ] External HTTP requests are saved in files under a `example-requests/` directory (make sure to obscure any secure information before saving these files, like your password or authentication token)
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
-
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

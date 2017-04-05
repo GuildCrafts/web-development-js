@@ -125,16 +125,13 @@ It is important to know how to configure this environment and continuously modif
   - [ ] Dotfiles repo.
   - [ ] `Brewfile` with favorite Homebrew packages.
   - [ ] List of your favorite plugins for your editor of choice.
+- [ ] Code in dotfiles repo is well formatted and readable.
+- [ ] All text files are well organized and easily readable even in their raw format.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
 
 - [ ] Your own custom Atom package is built and linked from the artifact.
-
-## Quality Rubric
-
-- Code in dotfiles repo is well formatted and readable [50 points]
-- All text files are well organized and easily readable even in their raw format. [50 points]
 
 ## Resources
 

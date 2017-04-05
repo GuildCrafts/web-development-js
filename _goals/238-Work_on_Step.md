@@ -93,7 +93,3 @@ Some of the skills you'll likely be practicing if you choose this goal:
 ## Specifications
 
 Read the [README](https://github.com/nodatall/step) to learn how to contribute.
-
-## Quality Rubric
-
-Quality requirements will be determined by your project lead.

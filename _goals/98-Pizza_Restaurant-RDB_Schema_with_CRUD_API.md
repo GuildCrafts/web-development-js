@@ -85,6 +85,14 @@ Before diving in, it is **strongly recommended** to review the video and code fr
   - [ ] Drop the database
   - [ ] Insert sample/seed data to the database
   - [ ] Start the web server
+- [ ] SQL files are well formatted and readable.
+- [ ] All the SQL keywords are capitalized.
+- [ ] The E-R diagram minimizes data redundancy.
+- [ ] Table names are singular, not plural.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
+- [ ] Code is well organized into a meaningful file structure.
+- [ ] Code is reasonably tested with a test suite.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
@@ -117,18 +125,6 @@ Please feel free to adapt the content of the data to your personal preferences o
   - [ ] Contains the SQL data types of each attribute in the schema
   - [ ] Notes any foreign or primary keys in each table in the schema
   - [ ] Is included in the artifact (as a `.png` or some other easily viewable format)
-
-## Quality Rubric
-
-- SQL files are well formatted and readable [50 points]
-- All the SQL keywords are capitalized [25 points]
-- The E-R diagram minimizes data redundancy [25 points]
-- Table names are singular, not plural [25 points]
-- Commit messages are concise and descriptive [50 points]
-- Code is well formatted without any linting errors [25 points]
-- Variables, functions, CSS classes, etc. are meaningfully named [50 points]
-- Functions are small and serve a single purpose [50 points]
-- Code is well organized into a meaningful file structure [50 points]
 
 ## Resources
 

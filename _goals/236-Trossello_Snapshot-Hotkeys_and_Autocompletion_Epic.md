@@ -120,6 +120,9 @@ _Note: most of these specs are pulled directly from Trello's [shortcuts page][sh
   - [ ] `#` = Autocomplete Labels: When adding a new card, users can type “#” plus the label’s color or title and get a list of matching labels. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will add the label to the composed card. The labels will be added to the card when users submit.
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
 ### Stretch
@@ -132,18 +135,6 @@ _Note: most of these specs are pulled directly from Trello's [shortcuts page][sh
 - [ ] When adding new cards, the following keys will open autocomplete menus:
   - [ ] `^` = Autocomplete Position: When adding a new card, users can type “^” plus a list name or position in a list. Users can also type “top” or “bottom” to add to the top or bottom of the current list. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will automatically change the position of the composed card.
 - [ ] When writing a comment, users can type “@” plus a member’s name, username, or initials and get a list of matching members. Users can navigate that list with the up and down arrows. Pressing enter or tab with a member selected will mention that user in the comment. The mentioned user will get a notification once submitted.
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

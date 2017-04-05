@@ -52,6 +52,10 @@ The article [The Two Pillars of JavaScript — Pt 2: Functional Programming]
   - [ ] [Chapter 5 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch5.html#exercises) completed and all tests are passing
   - [ ] [Chapter 8 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#exercises) completed and all tests are passing
 - [ ] [5 Functional Programming katas][codewars-chals] from CodeWars are completed and added to the `code-wars` folder of your artifact repo
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Code is well formatted with proper spacing and indentation.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 A just a heads up on CodeWars: you're required to answer a couple of super basic JS questions to sign up for CodeWars, and you need to be signed up for the links to work.
@@ -61,17 +65,6 @@ A just a heads up on CodeWars: you're required to answer a couple of super basic
 - [ ] Additional 5 katas from [CodeWars][codewars-chals] are completed and added to your artifact repo
 - [ ] Refactor a previous project to use functional programming patterns (strongly recommended to review the Mostly Adequate Guide before starting)
   - [ ] Add links to your refactoring PRs in a `refactoring.md` file in your artifact repo
-
-## Quality Rubric
-
-**Clean code and commit messages**
-- Code is well formatted with proper spacing and indentation. [30 points]
-- Descriptive, well-named functions, variables, files, etc. [40 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [10 points]
-- All features are added via pull requests. [10 points]
-- Every pull request has a description summarizing the changes made. [10 points]
 
 ## Resources
 

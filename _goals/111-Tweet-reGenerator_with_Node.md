@@ -48,6 +48,8 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 - [ ] When user sends out a tweet, it is automatically saved to the database for future access.
 - [ ] Users can view their saved tweets (the ones in the database, not the ones from Twitter).
 - [ ] Users automatically re-tweet saved tweets at a specified interval (on the hour, for example).
+- [ ] UI provides an attractive, intuitive user experience.
+- [ ] Code is readable and well organized
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
@@ -63,11 +65,6 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 - [ ] Users can search for and save tweets by hashtag or search term.
 - [ ] Users can organize saved tweets according to categories (use of filters).
 - [ ] Users can Tweet out a randomly selected tweet from the database with a specificied category.
-
-## Quality Rubric
-
-- UI provides an attractive, intuitive user experience: 50 points.
-- Code is readable and well organized: 50 points.
 
 ## Resources
 

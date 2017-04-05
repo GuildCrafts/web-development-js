@@ -97,19 +97,10 @@ This particular snapshot roughly mimics the work done in this [pull request][exa
 - [ ] Different boards do not share the same labels (unique labels for each board)
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

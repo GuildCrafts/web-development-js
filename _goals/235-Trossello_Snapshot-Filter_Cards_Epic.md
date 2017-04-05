@@ -117,6 +117,9 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 - [ ] Users can set filter to "Match all labels and all members"
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
 ### Stretch
@@ -125,18 +128,6 @@ Implement the "filter search" feature from Trello.
 
 - [ ] Users can search filter options in the filter cards pane
 - [ ] Results of search in filter cards pane show all matching labels and members for query
-
-## Quality Rubric
-
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
-
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 

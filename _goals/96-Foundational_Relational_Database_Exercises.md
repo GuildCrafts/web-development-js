@@ -86,6 +86,8 @@ It is recommended that you complete these specs in order. The LeetCode exercises
   - [ ] Solutions added to artifact repo
 
 **Other**
+- [ ] SQL files are well formatted and readable.
+- [ ] All the SQL keywords are capitalized.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT)
 
 ### Stretch
@@ -99,13 +101,6 @@ It is recommended that you complete these specs in order. The LeetCode exercises
   - [ ] `POST /api/puppies` Adds a puppy
   - [ ] `PUT /api/puppies/:id` Updates a puppy
   - [ ] `DELETE /api/puppies/:id` Deletes a puppy
-
-## Quality Rubric
-
-**Clean code and commit messages**
-- SQL files are well formatted and readable [50 points]
-- All the SQL keywords are capitalized [25 points]
-- Commit messages are concise and descriptive. [25 points]
 
 ## Resources
 
