@@ -57,7 +57,7 @@ Run your responses against the automated test suites provided by LeetCode and Ha
 
 Foundational knowledge for working with relational databases is important if you are creating or maintaining web applications with persistent storage.
 
-Sometimes to overhead of learning how to use a new SQL client or a library (for example, the [Sequelize](http://docs.sequelizejs.com/en/v3/) [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [pg-promise](https://github.com/vitaly-t/pg-promise), or the [KnexJS](http://knexjs.org/) query builder) detracts from learning these foundational concepts.
+Sometimes the overhead of learning how to use a new SQL client or a library (for example, the [Sequelize](http://docs.sequelizejs.com/en/v3/) [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [pg-promise](https://github.com/vitaly-t/pg-promise), or the [KnexJS](http://knexjs.org/) query builder) detracts from learning these foundational concepts.
 
 This project provides the opportunity to focus on this core knowledge so working with SQL clients and ORMs will be easier in a 'real-world' environment.
 

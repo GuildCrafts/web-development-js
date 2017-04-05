@@ -48,7 +48,18 @@ Promises provide a simpler alternative for executing, composing, and managing as
 - [ ] Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post
 - [ ] Read [this](https://scotch.io/tutorials/javascript-promises-for-dummies) blog post
 
-### Day 3 & 4
+### Day 3
+- [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
+- [ ] Exercises 1-7 in the [pg promise exercises][pg-promise-exercises] are complete
+  - [ ] Exercise 1
+  - [ ] Exercise 2
+  - [ ] Exercise 3
+  - [ ] Exercise 4
+  - [ ] Exercise 5
+  - [ ] Exercise 6
+  - [ ] Exercise 7
+
+### Day 4 & 5
 - [ ] Exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] are complete and written to the appropriate file:
   - [ ] `src/01-warmup.js`
   - [ ] `src/02-fullfill-a-promise.js`
@@ -63,17 +74,6 @@ Promises provide a simpler alternative for executing, composing, and managing as
   - [ ] `src/11-multiple-promises.js`
   - [ ] `src/12-fetch-json.js`
   - [ ] `src/13-do-some-work.js`
-
-### Day 5
-- [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
-- [ ] Exercises 1-7 in the [pg promise exercises][pg-promise-exercises] are complete
-  - [ ] Exercise 1
-  - [ ] Exercise 2
-  - [ ] Exercise 3
-  - [ ] Exercise 4
-  - [ ] Exercise 5
-  - [ ] Exercise 6
-  - [ ] Exercise 7
 
 ### General
 - [ ] All dependencies are properly declared in `package.json`.

@@ -489,6 +489,22 @@
       "authors": [
         "tannerwelsh"
       ],
+      "team_size": 1,
+      "goal_id": 228,
+      "title": "Goal Design & Build",
+      "created_at": "2017-04-03T10:13:56Z",
+      "labels": [
+        "prototype"
+      ],
+      "published": true,
+      "level": "3",
+      "redirect_from": "/goals/228",
+      "url": "http://jsdev.learnersguild.org/goals/228-Goal_Design_and_Build.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
       "goal_id": 231,
       "team_size": 2,
       "title": "Trossello Snapshot: Activity & Comments Epic",
@@ -572,7 +588,7 @@
       "team_size": 2,
       "goal_id": 238,
       "title": "Work on Step",
-      "created_at": "2016-03-28T20:38:28Z",
+      "created_at": "2017-03-28T20:38:28Z",
       "labels": [
         "apprentice"
       ],
@@ -580,6 +596,39 @@
       "level": "2",
       "redirect_from": "/goals/238",
       "url": "http://jsdev.learnersguild.org/goals/238-Work_on_Step.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 251,
+      "title": "Init 1: Bossggle Word Game",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/251",
+      "url": "http://jsdev.learnersguild.org/goals/251-Init_1-Bossggle_Word_Game.html"
+    },
+    {
+      "authors": [
+        "HJBowers"
+      ],
+      "team_size": 2,
+      "goal_id": 258,
+      "title": "Work on Interview App",
+      "created_at": "2017-03-30T14:25:06Z",
+      "labels": [
+        "production"
+      ],
+      "published": true,
+      "level": "2",
+      "redirect_from": "/goals/258",
+      "url": "http://jsdev.learnersguild.org/goals/258-Work_on_Interview_App.html"
     },
     {
       "authors": [
