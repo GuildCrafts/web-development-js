@@ -90,7 +90,7 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-Bike_Shop_OOP.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}

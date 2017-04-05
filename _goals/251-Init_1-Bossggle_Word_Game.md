@@ -105,7 +105,7 @@ Depending on your skill level, you may be able to finish these specs in time to 
 
 If you or your pair are struggling to complete the specs, consider spending time reviewing core **JavaScript programming** skills using the following recommended resources:
 
-- LearnJS tutorials, especially the JavaScript Fundamentals and Data Types sections (links in [Resources > Tutorials](#tutorials))
+- JavaScript.info tutorials, especially the JavaScript Fundamentals and Data Types sections (links in [Resources > Tutorials](#tutorials))
 - Treehouse workshop on Debugging JavaScript in the Browser (~40 minutes videos + exercises; link in [Resources > Courses](#courses))
 
 #### Day 5
@@ -247,7 +247,7 @@ _Note: you can get a free Treehouse and Lynda account with an SF library card. A
 
 - Shay Howe: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) #html #css
   - [Positioning Content](http://learn.shayhowe.com/html-css/positioning-content/) #css #html
-- [LearnJS](https://javascript.info/) #js
+- [JavaScript.info](https://javascript.info/) #js
   - [JavaScript Fundamentals](https://javascript.info/first-steps)
   - [Data Types](https://javascript.info/data-types)
 
@@ -331,7 +331,7 @@ Read the [section on Reviews in the Playbook][playbook-reviews] for more informa
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-Bike_Shop_OOP.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
