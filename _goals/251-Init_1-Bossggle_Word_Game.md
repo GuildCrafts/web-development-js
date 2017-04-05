@@ -282,7 +282,7 @@ Goals have 5 sections:
 
 - [Challenge Rating](#challenge-rating) - helps to determine if this goal is appropriately challenging given your current skill level.
 - [Description](#description) - tells you what the _output_ of this goal will be, without going into _too_ much detail.
-- [Context](#context) (you're here now) - useful background information to help you understand how to complete the goal and _why_ this goal is useful.
+- [Context](#context) - useful background information to help you understand how to complete the goal and _why_ this goal is useful.
 - [Specifications](#specifications) - defines specific criteria that you must meet in order to complete the goal.
 - [Resources](#resources) (optional) - lists recommended resources such as articles, tutorials, or tools.
 
