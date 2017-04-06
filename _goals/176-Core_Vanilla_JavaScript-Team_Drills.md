@@ -8,7 +8,7 @@ created_at: '2017-02-20T23:03:19Z'
 labels:
 - core
 - practice
-published: true
+published: false
 level: '1'
 redirect_from: "/goals/176"
 ---

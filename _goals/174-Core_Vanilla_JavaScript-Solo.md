@@ -9,7 +9,7 @@ labels:
 - core
 - foundational
 - practice
-published: true
+published: false
 level: '1'
 redirect_from: "/goals/174"
 ---
