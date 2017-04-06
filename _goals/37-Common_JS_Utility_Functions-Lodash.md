@@ -72,10 +72,10 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ## Specifications
 
-- [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Lodash library.
+- [ ] Tests and correct implementations exist for **32** (not all) utility functions from the Lodash library.
 - [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
 - [ ] All code is written with ES2015.
-- [ ] Includes a README that describes each method and provides an example of use.
+- [ ] Includes a README listing each method written and which file it is in.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Code is well tested and all tests are passing.
 - [ ] All dependencies are properly declared in `package.json`.
@@ -85,7 +85,7 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ### Stretch
 
-- [ ] An additional **32** utility functions have tests and correct implementations.
+- [ ] An additional **16** utility functions have tests and correct implementations.
 - [ ] Package is published to [NPM][npm].
 - [ ] All source code has inline documentation using [JSDoc][jsdoc] format.
 - [ ] Documentation is published a simple [GitHub Pages][github-pages] site (hint: use a builder like the [documentation package][npm-documentation]).
