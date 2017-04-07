@@ -111,7 +111,7 @@ By the time you're done with this goal, you will have:
 
 ## Specifications
 
-These are the basic specs for Bossggle, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
+These are the basic specs for OOP Practice, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
 #### Stage 1
 
