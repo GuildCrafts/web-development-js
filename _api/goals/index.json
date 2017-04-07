@@ -599,6 +599,108 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 251,
+      "title": "Init 1: Bossggle Word Game",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/251",
+      "url": "http://jsdev.learnersguild.org/goals/251-Init_1-Bossggle_Word_Game.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 3,
+      "goal_id": 252,
+      "title": "Init 2: OOP Practice with Bike Shop",
+      "created_at": "2017-04-04T10:00:00Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/252",
+      "url": "http://jsdev.learnersguild.org/goals/252-Init_2-OOP_Practice_with_Bike_Shop.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 253,
+      "title": "Init 3: Hello, Web Servers",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/253",
+      "url": "http://jsdev.learnersguild.org/goals/253-Init_3-Hello_Web_Servers.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 254,
+      "title": "Init 4: Relational Databases",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/254",
+      "url": "http://jsdev.learnersguild.org/goals/254-Init_4-Relational_Databases.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 255,
+      "title": "Init 5: Web APIs",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/255",
+      "url": "http://jsdev.learnersguild.org/goals/255-Init_5-Web_APIs.html"
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 256,
+      "title": "Init 6: Developer Tools",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/256",
+      "url": "http://jsdev.learnersguild.org/goals/256-Init_6-Developer_Tools.html"
+    },
+    {
+      "authors": [
         "HJBowers"
       ],
       "team_size": 2,
