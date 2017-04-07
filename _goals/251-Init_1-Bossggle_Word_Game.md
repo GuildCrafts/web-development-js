@@ -99,7 +99,7 @@ If you break for solo study, make sure to sync up after and apply to your projec
 
 With your pair, work on the specs in [Stage 4](#stage-4) to implement the _scoring_ feature of the game.
 
-This feature requires a bit more up-front design and _algorithmic thinking_ to accomplish it. Make sure that you and your pair are clear on _how_ you want to solve the specs before you start coding them.
+This feature requires a bit more up-front design and **algorithmic thinking** to accomplish it. Make sure that you and your pair are clear on _how_ you want to solve the specs before you start coding them.
 
 Depending on your skill level, you may be able to finish these specs in time to move on to [Stage 5](#stage-5) or even the [Stretch](#stretch) specs. If so, great!
 
@@ -122,7 +122,7 @@ This is a shorter day because much of the day is dedicated to **reflection** and
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: Bike Shop OOP][bike-shop-oop]
+1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
@@ -250,11 +250,6 @@ _Note: you can get a free Treehouse and Lynda account with an SF library card. A
 - [JavaScript.info](https://javascript.info/) #js
   - [JavaScript Fundamentals](https://javascript.info/first-steps)
   - [Data Types](https://javascript.info/data-types)
-
-##### Exercises
-
-- Exercism.io: [JavaScript Track](http://exercism.io/languages/javascript/about) #js
-- [JavaScript Koans](https://github.com/mrdavidlaing/javascript-koans) #js
 
 ##### Videos
 

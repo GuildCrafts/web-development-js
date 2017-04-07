@@ -93,7 +93,7 @@ With your team, complete the specs in [Stage 5](#stage-5) to challenge and pract
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: Bike Shop OOP][bike-shop-oop]
+1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
