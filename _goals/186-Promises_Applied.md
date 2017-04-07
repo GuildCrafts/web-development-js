@@ -44,9 +44,16 @@ Promises provide a simpler alternative for executing, composing, and managing as
 ## Specifications
 
 ### Day 1 & 2
-- [ ] Complete the [Promises Course][promises-course] on Udacity
+- [ ] Complete these sections (including the exercises) of the [Rethinking Asynchronous JavaScript][fem-async-js] on Frontend Masters:
+  - [ ] Parallel vs. Async
+  - [ ] Callback
+  - [ ] Thunks
+  - [ ] Promises
+- [ ] Complete the [Understanding Promises in JavaScript][treehouse-workshop-promises] workshop (22m)
 - [ ] Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post
 - [ ] Read [this](https://scotch.io/tutorials/javascript-promises-for-dummies) blog post
+
+If you complete the above with time to spare, fill any gaps in your understanding by skimming through the [Promises Course][promises-course] on Udacity.
 
 ### Day 3
 - [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
@@ -97,3 +104,5 @@ Promises provide a simpler alternative for executing, composing, and managing as
 [promises-course]: https://www.udacity.com/course/javascript-promises--ud898
 [pg-promise-exercises]: https://github.com/GuildCrafts/promises-exercises/tree/master/pg-promise-exercises
 [promises-exercises]: https://github.com/GuildCrafts/promises-exercises
+[treehouse-workshop-promises]: https://teamtreehouse.com/library/understanding-promises-in-javascript
+[fem-async-js]: https://frontendmasters.com/courses/rethinking-async-js/

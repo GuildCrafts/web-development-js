@@ -1,7 +1,7 @@
 ---
 authors:
 - "tannerwelsh"
-team_size: 2
+team_size: 1
 goal_id: 196
 title: Dive Into UNIX and Bash
 created_at: '2017-03-09T11:00:00Z'
@@ -62,11 +62,11 @@ Indulge your curiousity and explore the questions that pique your interest.
 
 - [ ] Artifact is a GitHub repo.
 - [ ] 20 exercises are completed from the ["Learn Enough Command Line to be Dangerous"][hartl-command-line] book.
-  - [ ] Solution code for each exercise is included in its own bash file (*.sh).
+  - [ ] Solution code for each exercise is included in its own bash file (`*.sh`).
   - [ ] Solution code for exercises are stored in a `command-line/` directory of your artifact repo.
   - [ ] Solution code for each exercise includes a comment with the prompt text for the exercise.
 - [ ] 20 activities are completed from the [Bash Scripting][ryans-tutorial-bash-scripting] tutorials.
-  - [ ] Solution code for each activity is included in its own bash file (*.sh). **Tip**: for the bash-scripting tutorials, check your solutions by executing your bash (.sh) files (type their name in the terminal), instead of writing code directly in the terminal.
+  - [ ] Solution code for each activity is included in its own bash file (`*.sh`). **Tip**: for the bash-scripting tutorials, check your solutions by executing your bash (.sh) files (type their name in the terminal), instead of writing code directly in the terminal.
   - [ ] Solution code for activities are stored in a `bash-scripting/` directory of your artifact repo.
   - [ ] Solution code for each activity includes a comment with the prompt text for the activity.
 - [ ] Cheat sheet of your favorite useful commands and a brief explanation of what they do is included in the artifact as a `cheat-sheet.md` file.
@@ -81,6 +81,8 @@ Indulge your curiousity and explore the questions that pique your interest.
 - [ ] All activities are completed from the [Bash Scripting][ryans-tutorial-bash-scripting] tutorials and solution code is included as files under a `bash-scripting/` directory.
 - [ ] 10 activities are completed from the [Linux][ryans-tutorial-linux] tutorials and solution code is included as files under a `linux/` directory.\*
 
+If you finish _all_ of this (or are just itchy for other resources), then go dive into [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line). There's enough material in there for months of learning :).
+
 \*Note: there will likely be overlap between this tutorial and the Hartl book. Choose only activities that cover new material so you don't do redundant work.
 
 ## Resources
@@ -88,8 +90,15 @@ Indulge your curiousity and explore the questions that pique your interest.
 - Michael Hartl's book ["Learn Enough Command Line to be Dangerous"][hartl-command-line]
 - Ryan Chadwick's Tutorial on [Bash Scripting][ryans-tutorial-bash-scripting]
 - Ryan Chadwick's Tutorial on [Linux][ryans-tutorial-linux]
+- Lynda.com course on [Unix for Mac OS X Users (6h 35m)](https://www.lynda.com/Mac-OS-X-10-6-tutorials/Unix-for-Mac-OS-X-Users/78546-2.html)
 - University of Hawaii article on [Advanced Unix][uhi-advanced-unix]
 - Codecademy's [Command Line course][codecademy-command-line]
+- [jlevy](https://github.com/jlevy/)'s [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
+
+Videos:
+
+- Unix Commands Tutorial for Beginners: [1](https://www.youtube.com/watch?v=hbzRWQjA6kI) and [2](https://www.youtube.com/watch?v=fu_f0yiljj0)
+- [Unix Tutorial for Beginners](https://www.youtube.com/watch?v=NX44RQVw0s0)
 
 [mit-license]: https://opensource.org/licenses/MIT
 

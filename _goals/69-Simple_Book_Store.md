@@ -55,6 +55,8 @@ Like the steel frame of a skyscraper, _CRUD_ is the skeleton around which web ap
 
 In this goal, you'll be applying the CRUD pattern to the real-world system of a bookstore.
 
+_Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with, because there is not a lot of HTML support for them. If you haven't used these request types before, you should do some reading and research. Start with these SO questions: [using PUT in HTML form](http://stackoverflow.com/questions/8054165/using-put-method-in-html-form) and [PUT vs POST in REST](http://stackoverflow.com/questions/630453/put-vs-post-in-rest)._
+
 ## Specifications
 
 - [ ] Books have a title, author, and genre
@@ -88,7 +90,7 @@ In this goal, you'll be applying the CRUD pattern to the real-world system of a 
 
 - [ ] App is deployed and live on the web (consider using Heroku)
 - [ ] All source code is written with ES6
-- [ ] Users have their own account and can sign up and log in/out
+- [ ] Users have their own account and can sign up and sign in/out
 - [ ] Users have one of three roles: `admin`, `clerk`, `reader`
   - [ ] Users with role `reader` can only view and search for books
   - [ ] Users with role `clerk` can edit books in addition to viewing/searching

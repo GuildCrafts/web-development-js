@@ -28,9 +28,13 @@ This goal will likely be within your ZPD if you...
 
 Write tests and implementations for algorithms commonly used in job interviews.
 
+An "algorithm" is a technical term for "a particular set of steps to solve a defined problem". At the smallest scale, a `sum()` function is an example of an algorithm. At a large scale, the method by which Netflix recommends movies to its users is also called an algorithm.
+
 Fork the the [core-algorithms repository][core-algorithms] and use the fork as your project artifact.
 
 Use the list in the [algorithms.md][algorithms-list] file as a reference for each algorithm.
+
+In addition, consider doing one or more of the [Courses](#courses) on algorithms listed in the [Resources](#resources).
 
 ## Context
 
@@ -39,6 +43,10 @@ Being able to design, implement, and test algorithms is a key skill for all prog
 For this reason, developing the ability to do **algorithmic thinking** is a high-value skill.
 
 In addition, many job interview processes will include some algorithmic problem-solving component, and it is useful to be familiar with some of the most common problems and good approaches to find their solutions.
+
+To be totally clear, the algorithms you design here are _totally contrived_. They are useful to know because interviewers may ask you to solve problems like this (a controversial fact of the software engineering industry), but beyond that it is unlikely that you will _ever_ write a merge sort algorithm as part of a web development job.
+
+_However_, that doesn't mean that they have no learning value. They are still useful as exercises in **critical thinking**, **logic**, and **program design**.
 
 ## Specifications
 
@@ -64,6 +72,15 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 - [ ] For each algorithm identified above, there exists:
   - [ ] a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
   - [ ] an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
+
+## Resources
+
+#### Courses
+
+- Khan Academy: [Computer Science: Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)
+- edX / IIT Bombay: [Algorithms](https://www.edx.org/course/algorithms-iitbombayx-cs213-3x-0)
+- Coursera: [Learn To Think Like A Computer Scientist](https://www.coursera.org/specializations/algorithms)
+- Lynda: [Introduction to algorithms](https://www.lynda.com/Programming-Foundations-tutorials/Introduction-algorithms/83603/90489-4.html)
 
 [mit-license]: https://opensource.org/licenses/MIT
 [core-algorithms]: https://github.com/GuildCrafts/core-algorithms

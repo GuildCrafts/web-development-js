@@ -64,7 +64,9 @@ When working on this goal, you'll encounter questions like:
 - [ ] Users can check items off as completed.
 - [ ] Users can rearrange to do list items.
 - [ ] Users can edit the text on existing to do list items.
-- [ ] When an error occurs, the user is notified.
+- [ ] When an error occurs, the user is notified with modal message.\*
+
+\* A quick and easy way to do this is to use the `alert()` function.
 
 ### Additional
 

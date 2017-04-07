@@ -28,6 +28,8 @@ This goal will likely be within your ZPD if you...
 
 Write tests and implementations for common data structures.
 
+A "data structure" is a technical term for how a computer organizes data. They are implementations of an "abstraction" for some way that information is structured. For example, a "list" is an abstract data structure (just a bunch of things in some sequence) that could be implemented in a variety of ways in any given programming language.
+
 Fork the the [core-data-structures repository][core-data-structures] and use the fork as your project artifact.
 
 Use the list in the [data-structures.md][list-ds] file as a reference for each data structure's interface.
@@ -36,9 +38,13 @@ Use the list in the [data-structures.md][list-ds] file as a reference for each d
 
 If you spend most of your time programming in high-level languages, you may not realize how often you use data structures or how they are built. Sometimes it's useful to peek under the hood and see how the engine works.
 
-The nice thing is, most data structures are **actually quite simple** when you get down to it. They have straight-forward, relatively small interfaces.
+The nice thing is, most data structures are _actually quite simple_ when you get down to it. They have straight-forward, relatively small interfaces.
 
 In a larger sense, being more familiar with data structures is helpful for you ability to think about data more abstractly, and to design better software.
+
+To be totally clear, the data structures you build here are not good examples of a common web development task. They are useful to know because interviewers may ask you to solve problems like this (a controversial fact of the software engineering industry), but beyond that you are unlikely to implement a linked list as part of your day-to-day web development job. More often than not, you'll use existing data structures (like `Array`, `Set`, and `Object` in JavaScript) instead of rolling your own.
+
+_However_, that doesn't mean that they have no learning value. Knowing how to design, talk about, and work with different shapes and structures for data is what programmers do all the time. Whether you're designing a database schema, an object model, or an HTML template - _you're working with data structures_. THey are also Like working with algorithms, the are also useful as exercises in **critical thinking**, **logic**, and **program design**.
 
 ## Specifications
 
@@ -64,6 +70,14 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 - [ ] For each data structure identified above, there exists:
   - [ ] a test file with unit tests for each method and property _in a language other than JavaScript_.
   - [ ] an implementation file with a correct implementation of the data structure _in a language other than JavaScript_.
+
+## Resources
+
+#### Courses
+
+- edX / Univ. of Adelaide: [Introduction to Data Structures](https://www.edx.org/course/introduction-data-structures-adelaidex-data101x)
+- edX / IIT Bombay: [Foundations of Data Structures](https://www.edx.org/course/foundations-data-structures-iitbombayx-cs213-1x-0)
+- Coursera: [Master Algorithmic Programming Techniques](https://www.coursera.org/specializations/data-structures-algorithms) - Course 2 is on Data Structures
 
 [mit-license]: https://opensource.org/licenses/MIT
 [core-data-structures]: https://github.com/GuildCrafts/core-data-structures
