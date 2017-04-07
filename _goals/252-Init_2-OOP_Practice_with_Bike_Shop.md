@@ -8,7 +8,7 @@ created_at: '2017-04-04T10:00:00Z'
 labels:
 - practice
 - foundational
-published: false
+published: true
 level: '1'
 redirect_from: '/goals/252'
 ---
