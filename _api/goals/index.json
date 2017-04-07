@@ -643,7 +643,7 @@
         "practice",
         "foundational"
       ],
-      "published": false,
+      "published": true,
       "level": "1",
       "redirect_from": "/goals/253",
       "url": "http://jsdev.learnersguild.org/goals/253-Init_3-Hello_Web_Servers.html"
@@ -660,7 +660,7 @@
         "practice",
         "foundational"
       ],
-      "published": false,
+      "published": true,
       "level": "1",
       "redirect_from": "/goals/254",
       "url": "http://jsdev.learnersguild.org/goals/254-Init_4-Relational_Databases.html"
@@ -677,7 +677,7 @@
         "practice",
         "foundational"
       ],
-      "published": false,
+      "published": true,
       "level": "1",
       "redirect_from": "/goals/255",
       "url": "http://jsdev.learnersguild.org/goals/255-Init_5-Web_APIs.html"
@@ -694,7 +694,7 @@
         "practice",
         "foundational"
       ],
-      "published": false,
+      "published": true,
       "level": "1",
       "redirect_from": "/goals/256",
       "url": "http://jsdev.learnersguild.org/goals/256-Init_6-Developer_Tools.html"

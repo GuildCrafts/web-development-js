@@ -175,15 +175,15 @@ Try to mimic the following mockups as closely as you can. Note that some of the 
 
 #### New Game
 
-<img alt="bossggle-mockup-blank" width=800 src="https://cloud.githubusercontent.com/assets/709100/24516044/5f309950-1547-11e7-9862-412d2cd2ed2f.png">
+<img alt="bossggle-mockup-blank" width="800" src="https://cloud.githubusercontent.com/assets/709100/24516044/5f309950-1547-11e7-9862-412d2cd2ed2f.png" />
 
 #### Mid Game
 
-<img alt="bossggle-mockup-mid-game" width=800 src="https://cloud.githubusercontent.com/assets/709100/24516042/5f1e17c6-1547-11e7-8c93-e75612089c70.png">
+<img alt="bossggle-mockup-mid-game" width="800" src="https://cloud.githubusercontent.com/assets/709100/24516042/5f1e17c6-1547-11e7-8c93-e75612089c70.png" />
 
 **with comments**
 
-<img alt="bossggle-mockup-mid-game-with-comments" width=800 src="https://cloud.githubusercontent.com/assets/709100/24624906/4273c616-187b-11e7-8846-1b5897230b3c.png">
+<img alt="bossggle-mockup-mid-game-with-comments" width="800" src="https://cloud.githubusercontent.com/assets/709100/24624906/4273c616-187b-11e7-8846-1b5897230b3c.png" />
 
 ### Stretch
 

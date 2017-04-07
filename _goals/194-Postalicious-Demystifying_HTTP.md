@@ -34,7 +34,7 @@ Postalicious is an app that lets you send custom HTTP requests to a server and i
 
 Here's a wireframe of the Postalicious interface that you can use to design around:
 
-<img alt="Postalicious mockup" width=800 src="https://cloud.githubusercontent.com/assets/709100/23727389/d4195ca8-0425-11e7-8a02-fe42d4938b9a.png">
+<img alt="Postalicious mockup" width="800" src="https://cloud.githubusercontent.com/assets/709100/23727389/d4195ca8-0425-11e7-8a02-fe42d4938b9a.png">
 
 In order to give Postalicious something to practice on, you'll also build a simple HTTP server using Node.js and [Express][express] (we'll just call this the "sandbox server"). This server won't do much, but it will provide a range of response to different kinds of requests so that your Postalicious app has a good sandbox to play with.
 
@@ -55,7 +55,7 @@ These are the steps, simplified and demonstrated in the diagram below:
 3. Postalicious receives response from external server (`foo.com`)
 4. Postalicious sends response to client, showing both the initial request and the final response from `foo.com`
 
-<img alt="Postalicious flow" width=800 src="https://cloud.githubusercontent.com/assets/709100/24780424/379ee40a-1b05-11e7-8c40-20c66368c26a.png">
+<img alt="Postalicious flow" width="800" src="https://cloud.githubusercontent.com/assets/709100/24780424/379ee40a-1b05-11e7-8c40-20c66368c26a.png">
 
 _Note that the above diagram assumes that Postalicious is sending a request to a site on the world wide web. But you could also send requests to URLs hosted by servers on your own computer, which is exactly what you are doing when you send requests to the sandbox server._
 
