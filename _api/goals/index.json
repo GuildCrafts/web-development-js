@@ -2,6 +2,22 @@
   "goals": [
     {
       "authors": [
+        "lumodon",
+        "thamaranth"
+      ],
+      "team_size": 2,
+      "goal_id": 102,
+      "title": "Web Scraper with Node.js",
+      "created_at": "2017-04-05T16:23:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "1",
+      "url": "http://jsdev.learnersguild.org/goals/102-Build_a_Node_Web_Crawler_-_Web_Scraper.html"
+    },
+    {
+      "authors": [
         "deonna"
       ],
       "team_size": 2,
