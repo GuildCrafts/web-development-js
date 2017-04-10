@@ -24,11 +24,11 @@ This goal will likely be within your ZPD if you...
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
 - Are familiar with the Node.js programming environment and with npm
 - Are interested in building full-stack web apps with Node.js
-- Are interested in learning the popular [Express.js][express] framework
+- Are interested in using the popular [Express.js][express] framework
 
 ## Description
 
-Build a [Markdown][] editor app using Node.js and the popular Express.js framework. The final product will be similar to (but a lot simpler than) this app: http://dillinger.io/.
+Build a [markdown][] editor app using Node.js and the popular Express.js framework. The final product will be similar to (but a lot simpler than) this app: http://dillinger.io/.
 
 When people talk about "full-stack web development", usually what they mean is the process of building applications that run on both a _server_ and a _client_.
 
@@ -42,11 +42,7 @@ It is recommended (but not required) that you follow along with the day-by-day p
 
 Each day, pay attention to the **terms & concepts** highlighed in **bold**. By the end of the day, you should have a better idea of what they mean and how to use them. In other words, aim to be able to answer the question "what is X?" for yourself.
 
-If you work thorugh a full day and have time left over:
-
-- Solidify your learning with the [resources](#resources) provided or
-- Start on the next day with your team or
-- Attempt the [stretch](#stretch) specs
+Depending on how much support you and your team need, balance solo and team time. Make sure to always review the day's work with your team and share important learnings.
 
 #### Day 1
 
@@ -61,17 +57,36 @@ With your team, complete the specs in [Stage 1](#stage-1) to set up your initial
 
 With your team, complete the specs in [Stage 2](#stage-2) to organize your view files with the [Pug][] templating engine. You'll be learning and practicing:
 
-- what 
-
+- what an **HTML template** is and how it works
+- how to split HTML templates into smaller components using **includes**
+- how templating is similar to **string interpolation**
+- how to include and organize your **static files** like CSS
 
 #### Day 3
 
+With your team, complete the specs in [Stage 3](#stage-3) to implement the "MVP" (Minimum Viable Product) feature: being able to write and render markdown text. You'll be learning and practicing:
+
+- how to install a JavaScript **package** for use in the browser
+- what **markdown** is and how it is used
+- what it means to **render** markdown text to HTML
+- how to listen for **key press events** in the browser
+- how to **send data** from a browser to the server
+- how to use Node.js to **read and write to a file**
 
 #### Day 4
 
+With your team, complete the specs in [Stage 4](#stage-4) to add the more advanced feature of the product: managing multiple files. You'll be learning and practicing:
+
+- what **routes** are and how to use them in Express.js
+- how to **create new files** programmatically with Node.js
+- how to use **iteration** in your HTML templates
+- what **cookies** are and how to use them in Express.js
 
 #### Day 5
 
+This day is open! There are a lot of new things to learn this week, so use this last day to revisit the areas you least understand.
+
+Use the [Resources](#resources) where applicable, but don't limit yourself to them! There are plenty of great resources online that you can use.
 
 ## Context
 
