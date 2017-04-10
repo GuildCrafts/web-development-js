@@ -62,13 +62,13 @@ If you work thorugh a full day and have time left over:
 
 #### Day 1
 
-Fork the [oop-practice][] into your own GitHub account. Each team member should write code in their own fork, but you should work together and share ideas and solutions as you go.
+Fork the [oop-practice][] repo into your own GitHub account. Each team member should write code in their own fork, but you should work together and share ideas and solutions as you go.
 
 With your team, complete the specs in [Stage 1](#stage-1) to practice working with **objects** and learn about **key/value** pairs, **object literals**, and **nested objects**.
 
 #### Day 2
 
-Complete the specs in [Stage 2](#stage-2) to practice working with **constructor function** and the **"new" keyword**, and to learn about object **properties**, **instances** and **instantiation**, and the **"this" keyword**.
+Complete the specs in [Stage 2](#stage-2) to practice working with **constructor functions** and the **"new" keyword**, and to learn about object **properties**, **instances** and **instantiation**, and the **"this" keyword**.
 
 To make sure that you are getting enough challenge, spend the morning working solo on the JavaScript.info exercises and then use the afternoon to work in team on the `bike-shop`.
 
