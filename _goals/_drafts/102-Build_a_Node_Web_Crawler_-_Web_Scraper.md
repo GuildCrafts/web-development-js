@@ -4,13 +4,12 @@ authors:
   - "thamaranth"
 team_size: 2
 goal_id: 102
-title: Build a node.js Web Crawler / Web Scraper
+title: Web Scraper with Node.js
 created_at: '2017-04-05T16:23:00Z'
 labels:
 - practice
-- draft
-published: false
-level: '2'
+published: true
+level: '1'
 ---
 
 # Web Scraper with Node.js
@@ -30,17 +29,22 @@ This Goal will likely be in your ZPD if you...
 
 "Web scraping is a technique in data extraction where you pull information from websites." *1
 
-Create a web scraper which gathers information from the web.  The tutorial listed below will take you through, step by step, in setting up your own crawler. Modify this tutorial to fit some subject of interest to you, build an app with unique content of your choosing(i.e a list movie titles with images, a list of related blogs, news articles, etc.).
+Create a web scraper which gathers information from the web. The tutorial listed below will take you through, step by step, setting up your own crawler. Modify this tutorial to fit some subject of interest to you, build an app with unique content of your choosing (i.e a list movie titles with images, a list of related blogs, news articles, etc.).
 
-Web scrapers are used to pull information from websites where no API is available, or where you're pulling data from multiple sites at once. A Web Scraper pulls information from a site through the DOM. After you have the information it can be formatted and stored in a JSON object. When designing your scraper think about the kind of data you want to receive. It is possible to search a single page for information or search multiple pages at once for a specific type of content(i.e searching multiple sites to find videos about puppies.) It is your job to build a simple web scraper and then modify it to search for information from several different sites to populate your app.
+Web scrapers are used to pull information from websites where no API is available, or where you're pulling data from multiple sites at once. A web scraper pulls information from HTML. After you have the information it can be formatted and stored in a more structured way like in a JSON object.
+
+When designing your scraper think about the kind of data you want to receive. It is possible to search a single page for information or search multiple pages at once for a specific type of content (i.e searching multiple sites to find videos about puppies.) It is your job to build a simple web scraper and then modify it to search for information from several different sites to populate your app.
 
 ## Context
 
-There are many common / practical uses to this, and this is a technique employed by many companies these days. A scraper can be used to populate a list of movies, or particular blogs that you like. This project also gives you a great practical example of the limits that efficient code can bring, since you will be pushing the limit of a process when your crawler is running.
+There are many common / practical uses to this, and this is a technique employed by many companies these days. A scraper can be used to populate a list of movies, or particular blogs that you like.
+
+This project also gives you a great practical example of the limits that efficient code can bring, since you will be pushing the limit of a process when your crawler is running.
 
 ## Specifications
 
-- [ ] Follow the tutorial here:  https://scotch.io/tutorials/scraping-the-web-with-node-js
+Follow the tutorial here:  https://scotch.io/tutorials/scraping-the-web-with-node-js
+
 - [ ] Artifact produced is a repo
 - [ ] Can run a command to start the scraper server
 - [ ] Can scrape a single site for multiple pieces of information (i.e extracting name, director, and release date from IMDB)
