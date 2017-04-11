@@ -99,4 +99,4 @@ Becoming a full stack web developer means that you need to be comfortable with w
 - [ ] Complete the [Codeacademy course on SQL](https://www.codecademy.com/learn/learn-sql)
 - [ ] Complete the [SQL Zoo quizzes](http://sqlzoo.net/wiki/Tutorial_Quizzes)
 
-[sql-exercises]:https://github.com/GuildCrafts/sql-exercises
+[sql-exercises]: https://github.com/GuildCrafts/sql-exercises
