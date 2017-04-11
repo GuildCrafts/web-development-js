@@ -259,6 +259,7 @@ Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) a
 | `rings_back`   | INTEGER               | 7             |
 | `brakes_front` | BOOLEAN               | true          |
 | `brakes_back`  | BOOLEAN               | true          |
+{:.mdl-data-table}
 
 ##### Table: `frames`
 
@@ -268,6 +269,7 @@ Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) a
 | `color`     | VARCHAR              | 'black'       |
 | `size`      | INTEGER              | 55            |
 | `style`     | VARCHAR              | 'street'      |
+{:.mdl-data-table}
 
 ##### Table: `tires`
 
@@ -276,6 +278,7 @@ Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) a
 | `id`        | SERIAL (PRIMARY KEY) |               |
 | `diameter`  | INTEGER              | 22            |
 | `type`      | VARCHAR              | 'street'      |
+{:.mdl-data-table}
 
 ##### Table: `bike_frame`
 
@@ -284,6 +287,7 @@ Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) a
 | `id`        | SERIAL (PRIMARY KEY)  |               |
 | `bike_id`   | INTEGER (FOREIGN KEY) | NULL          |
 | `frame_id`  | INTEGER (FOREIGN KEY) | NULL          |
+{:.mdl-data-table}
 
 ##### Table: `bike_tires`
 
@@ -293,6 +297,7 @@ Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) a
 | `bike_id`       | INTEGER (FOREIGN KEY) | NULL          |
 | `front_tire_id` | INTEGER (FOREIGN KEY) | NULL          |
 | `back_tire_id`  | INTEGER (FOREIGN KEY) | NULL          |
+{:.mdl-data-table}
 
 ### Stretch
 
