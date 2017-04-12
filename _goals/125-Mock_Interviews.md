@@ -1,18 +1,18 @@
 ---
 authors:
 - "tannerwelsh"
-team_size: 4
+team_size: 2
 goal_id: 125
-title: Mock Interview Trials
+title: Mock Interviews
 created_at: '2016-12-29T17:10:18Z'
 labels:
-- core
-published: false
-level: NONE
+- interview
+published: true
+level: 4
 redirect_from: "/goals/125"
 ---
 
-# Mock Interview Trials
+# Mock Interviews
 
 ## Challenge Rating
 
@@ -29,13 +29,13 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Practice your interviewing skills with mock interview trials.
+Practice your interviewing skills with mock interviews.
 
-Fork the [interview-trials][interview-trials] repository and use the fork as your project artifact.
+Fork the [mock-interviews][mock-interviews] repository, add your questions and interview reflections/evaluations, and submit a pull request.
 
-To complete this goal, each team member should conduct at least two interview trials with an interviewer. The rest of the time should be spent preparing for interviews and practicing common interview questions.
+To complete this goal, each team member should conduct at least two mock interviews with an interviewer. The interviewer can be your coach, or one of your teammates. The rest of the time should be spent preparing for interviews and practicing common interview questions.
 
-At the end of the project, submit the trial files for each interview conducted, along with the questions used, the interviewee reflection, and the interviewer's evaluation.
+At the end of the project, submit the reflection/evaluation files for each interview conducted, including: the questions used, the interviewee reflection, and the interviewer's evaluation.
 
 It is up to the interviewer to decide how they wish to conduct their interviews, but they should all use the same evaluation format provided in the repository.
 
@@ -45,16 +45,16 @@ Unfortunately, just being good at building software with a team is not enough to
 
 If you want to get a job, you'll need to _also_ be good at interviewing. This will mean different things for different companies, positions, and interviewers. There is no one question that they all ask, or one skill that they all look for.
 
-As a result, the best way to prepare is to do "mock" interviews as a trial, with plenty of feedback from the interviewer. Not only will this give you practice answering questions and solving problems in an interview setting, but it will also help to demystify the interview process.
+As a result, the best way to prepare is to do "mock" interviews, with plenty of feedback from the interviewer. Not only will this give you practice answering questions and solving problems in an interview setting, but it will also help to demystify the interview process.
 
 ## Specifications
 
-- [ ] Artifact produced is a fork of the [interview-trials][interview-trials] repo.
-- [ ] At least two completed mock interviews per team member, with all trial files added to `trials/`.
-- [ ] Trial files for interviews are complete, including:
+- [ ] Artifact produced is a pull request to the [mock-interviews][mock-interviews] repo.
+- [ ] At least two completed mock interviews per team member, with all mock interview reflection/evaluation files added to `interviews/`.
+- [ ] Files for interviews are complete, including:
   - [ ] Questions asked
   - [ ] Interviewee reflections
   - [ ] Interviewer evaluation
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 
-[interview-trials]: https://github.com/GuildCrafts/interview-trials
+[mock-interviews]: https://github.com/GuildCrafts/mock-interviews
