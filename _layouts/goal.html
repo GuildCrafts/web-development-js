@@ -12,6 +12,12 @@ layout: default
 
     <div id="team_size" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{ page.team_size }}">people</div>
     <div class="mdl-tooltip" data-mdl-for="team_size">Team Size</div>
+
+    &nbsp;
+
+    <!-- This computed XP Value should match the Goal#xp_value in lib/goal.rb -->
+    <span id="xp_value">{{ 50 | times: page.level | times: page.team_size }} XP</span>
+    <div class="mdl-tooltip" data-mdl-for="xp_value">XP Value</div>
   </div>
 
   <div class="mdl-card__actions mdl-card--border">
