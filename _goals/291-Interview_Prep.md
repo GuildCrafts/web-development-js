@@ -32,7 +32,7 @@ This goal will likely be within your ZPD if you...
 
 Find interviewing questions in your ZPD, research them, refine and practice your answer, and share with the community.
 
-You'll choose 4+ challenging questions and spend the week developing solid answers to each of them.
+You'll choose 4+ challenging questions and spend the week developing solid answers to each of them. There are lots and lots of example interview questions on the web. Start by checking out the [Resources](#resources).
 
 These questions could be specific and straight-forward, for example:
 
@@ -41,6 +41,8 @@ These questions could be specific and straight-forward, for example:
 or they could be more high-level and broad, for example:
 
 > Design the application architecture for a web-based real time chat client (like Slack or HipChat)
+
+After you've chosen your questions, be sure to add them to the [Interview App][] so that others can benefit from them too :).
 
 For at least 1 of these questions, you'll need to produce something shareable with the community so that other learners can benefit from what you've found out. This can take the form of a blog post, a live presentation with slides, or a screencast.
 
@@ -66,6 +68,7 @@ By this point, you should have a decent sense of what you are capable of, and wh
   - [ ] A link to or citation of the question's source.
   - [ ] Links or notes with resources pertaining to the question.
 - [ ] In-depth answers to at least 1 question per team member have been shared with the community in the form of a blog post, presentation (with slideshow), or screencast.
+- [ ] All questions are submitted to the [Interview App][] (unless they are already in there).
 - [ ] Links to in-depth answers are added to the gist.
 
 ### Stretch
@@ -76,3 +79,5 @@ By this point, you should have a decent sense of what you are capable of, and wh
 
 - Book: [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=ST9H0HC4AF2AS4K90FCV)
 - [Interview Cake](https://www.interviewcake.com/)
+
+[interview-app]: https://github.com/GuildCrafts/interview-app
