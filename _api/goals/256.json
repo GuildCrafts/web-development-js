@@ -14,5 +14,6 @@
   "level": "1",
   "redirect_from": "/goals/256",
   "url": "http://jsdev.learnersguild.org/goals/256-Init_6-Developer_Tools.html",
+  "xp_value": 100,
   "content": "**Placeholder for upcoming goal \"Init 6: Developer Tools\"**\n\n[simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}\n\n[bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}\n[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}\n[hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}\n[relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}\n[web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}\n[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}\n\n[mit-license]: https://opensource.org/licenses/MIT"
 }
