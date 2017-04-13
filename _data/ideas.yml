@@ -1,0 +1,268 @@
+- name: Pinterest Clone
+  type: web-app
+  complexity: medium
+  source: https://www.freecodecamp.com/challenges/build-a-pinterest-clone
+
+- name: Manage a Book Trading Club
+  type: web-app
+  complexity: medium
+  source: https://www.freecodecamp.com/challenges/manage-a-book-trading-club
+
+- name: Chart the Stock Market
+  type: web-app
+  complexity: medium
+  source: https://www.freecodecamp.com/challenges/chart-the-stock-market
+
+- name: Voting App
+  type: web-app
+  complexity: low
+  source: https://www.freecodecamp.com/challenges/build-a-voting-app
+
+- name: Nightlife Coordination App
+  type: web-app
+  complexity: medium
+  source: https://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app
+
+- name: URL Shortener
+  type: web-api
+  complexity: low
+  source: https://www.freecodecamp.com/challenges/url-shortener-microservice
+
+- name: Page Scraper
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: Online White Board
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: Get Atomic Time from Internet Clock
+  type: web-app
+  complexity: low
+  source: https://github.com/karan/Projects#web
+
+- name: Fetch Current Weather
+  type: web-app
+  complexity: low
+  source: https://github.com/karan/Projects#web
+
+- name: Scheduled Auto Login and Action
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: E-Card Generator
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: Content Management System
+  type: web-app
+  complexity: high
+  source: https://github.com/karan/Projects#web
+
+- name: Web Board (Forum)
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: CAPTCHA Maker
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#web
+
+- name: SQL Query Analyzer
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Remote SQL Tool
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Report Generator
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Event Scheduler and Calendar
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Budget Tracker
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: TV Show Tracker
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Travel Planner System
+  type: web-app
+  complexity: medium
+  source: https://github.com/karan/Projects#databases
+
+- name: Memory Puzzle
+  type: game
+  complexity: low
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Sliding Puzzle
+  type: game
+  complexity: low
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Nibbles
+  type: game
+  complexity: low
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Tetris
+  type: game
+  complexity: medium
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Othello
+  type: game
+  complexity: low
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Connect Four
+  type: game
+  complexity: medium
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Quoridor
+  type: game
+  complexity: medium
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Stratego
+  type: game
+  complexity: high
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Checkers / Draughts
+  type: game
+  complexity: medium
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Chess
+  type: game
+  complexity: high
+  source: http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+
+- name: Blog
+  type: web-app
+  complexity: low
+
+- name: Fitness Tracker
+  type: web-app
+  complexity: low
+
+- name: Calculator
+  type: web-app
+  complexity: low
+
+- name: Password Manager & Generator
+  type: web-app
+  complexity: medium
+
+- name: Recipe Share Site
+  type: web-app
+  complexity: medium
+
+- name: Poll/Survey Tool
+  type: web-app
+  complexity: medium
+
+- name: Clone Pastebin
+  type: web-app
+  complexity: low
+  source: https://pastebin.com/
+
+- name: Clone Twitter
+  type: web-app
+  complexity: medium
+  source: https://twitter.com/
+
+- name: Clone IFTTT
+  type: web-app
+  complexity: medium
+  source: https://ifttt.com/
+
+- name: Clone Trello
+  type: web-app
+  complexity: high
+  source: https://trello.com/
+
+- name: Clone Asana
+  type: web-app
+  complexity: high
+  source: https://asana.com
+
+- name: Clone TypeForm
+  type: web-app
+  complexity: medium
+  source: https://www.typeform.com/
+
+- name: Clone Eventbrite
+  type: web-app
+  complexity: medium
+  source: https://www.eventbrite.com/
+
+- name: Clone LinkedIn
+  type: web-app
+  complexity: medium
+  source: https://www.linkedin.com/
+
+- name: Clone Buffer
+  type: web-app
+  complexity: medium
+  source: https://buffer.com/
+
+- name: Clone Pocket
+  type: web-app
+  complexity: low
+  source: https://getpocket.com/
+
+- name: Clone Freshbooks
+  type: web-app
+  complexity: high
+  source: https://www.freshbooks.com/
+
+- name: Product Inventory
+  type: web-api
+  complexity: low
+  source: https://github.com/karan/Projects#classes
+
+- name: Airline / Hotel Reservation System
+  type: web-api
+  complexity: low
+  source: https://github.com/karan/Projects#classes
+
+- name: Company Manager
+  type: web-api
+  complexity: low
+  source: https://github.com/karan/Projects#classes
+
+- name: Bank Account Manager
+  type: web-api
+  complexity: medium
+  source: https://github.com/karan/Projects#classes
+
+- name: Patient / Doctor Scheduler
+  type: web-api
+  complexity: low
+  source: https://github.com/karan/Projects#classes
+
+- name: Family Tree
+  type: web-api
+  complexity: low
+  source: https://github.com/karan/Projects#classes
