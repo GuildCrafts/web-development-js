@@ -10,9 +10,9 @@
     "core"
   ],
   "published": true,
-  "level": "1",
+  "level": "2",
   "redirect_from": "/goals/157",
   "url": "http://jsdev.learnersguild.org/goals/157-Core_Data_Structures-Advanced.html",
-  "xp_value": 50,
+  "xp_value": 100,
   "content": "# Core Data Structures [Advanced]\n\nThis is a sub-goal of [Core Data Structures][core-ds].\n\nUse the same specifications & quality rubric as in [Core Data Structures][core-ds], but complete **ONLY** the [Advanced Data Structures][list-advanced-ds] from the list, not the [Basic][list-basic-ds]. That's a [separate goal][core-ds-basic]. :)\n\n[core-ds]: {{ site.url }}{% link _goals/128-Core_Data_Structures.md %}\n[core-ds-basic]: {{ site.url }}{% link _goals/156-Core_Data_Structures-Basic.md %}\n[list-basic-ds]: https://github.com/GuildCrafts/core-data-structures/blob/master/data-structures.md#basic-data-structures\n[list-advanced-ds]: https://github.com/GuildCrafts/core-data-structures/blob/master/data-structures.md#advanced-data-structures"
 }

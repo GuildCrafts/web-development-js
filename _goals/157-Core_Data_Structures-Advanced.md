@@ -8,7 +8,7 @@ created_at: '2016-12-31T16:12:46Z'
 labels:
 - core
 published: true
-level: '1'
+level: '2'
 redirect_from: "/goals/157"
 ---
 

@@ -2,7 +2,7 @@
 authors:
 - "tannerwelsh"
 goal_id: 156
-team_size: 1
+team_size: 2
 title: Core Data Structures [Basic]
 created_at: '2016-12-31T16:12:46Z'
 labels:
