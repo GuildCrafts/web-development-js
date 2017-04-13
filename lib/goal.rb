@@ -15,6 +15,7 @@ class Goal
     @source_file = opts[:source_file]
 
     @metadata['url'] = url if @source_file
+    @metadata['xp_value'] = xp_value
   end
 
   def [](key)
@@ -31,6 +32,11 @@ class Goal
 
   def url
     self.class.base_url + filename + '.html'
+  end
+
+  def xp_value
+    # If you change this, make sure to also change the computed value in _layouts/goal.html
+    self['team_size'].to_i * self['level'].to_i * 50
   end
 
   def to_s
