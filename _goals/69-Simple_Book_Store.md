@@ -2,29 +2,29 @@
 authors:
 - "jrob8577"
 team_size: 2
-goal_id: 69
+goal_id: 69-A
 title: Simple Book Store
 created_at: '2016-08-12T23:16:31Z'
 labels:
 - practice
 published: true
-level: '1'
+level: '2'
 redirect_from: "/goals/69"
 ---
 
-# Simple Book Store
+# Simple Book Store with React
 
 ## Challenge Rubric
 
 This goal will likely be within your ZPD if you...
 
 - Can build basic websites with HTML & CSS
-- Can add behavior to a website with JavaScript
+- Can add behavior to a website with React JS
 - Are familiar with SQL and relational databases like [PostgreSQL][]
 - Are familiar with JavaScript promises
 - Are interested in building full-stack web applications with frameworks like [Express][]
 - Are interested in learning CRUD (Create, Read, Update, Delete) relational database interactions
-- Are interested in server-side templating with tools like [Pug][] or [EJS][]
+- Are interested in server-side templating with tools like [React][]
 
 ## Description
 
@@ -36,7 +36,7 @@ To implement this system, you'll need to use (among other things)...
 
 - a _web application framework_ (we recommend [Express][])
 - a _database_ (we recommend [PostgreSQL][])
-- a tool for server-side _HTML templating_ (we recommend [Pug][])
+- a tool for server-side _HTML templating_ (we recommend [React][])
 
 Don't sweat the UI design too much. If you want to add some quick and easy styles so that it doesn't look _too_ terrible, use a library like [Bootstrap][] or [Pure.css][pure-css].
 
@@ -67,15 +67,17 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
   - [ ] Delete a book from the bookstore (_delete_)
   - [ ] Search for books by title OR by author OR by genre (_read_)
   - [ ] View book details on a book detail page (_read_)
+- [ ] All views are rendered on the server using server-side templates written with [React][]
+- [ ] Cors and fetch requests are used to retreive and view the book library
 - [ ] Lists of books are always paginated in groups of 10
 - [ ] Book detail view is linked to from the listing and search pages
-- [ ] Search results are presented in a new page
+- [ ] Use of React router to navigate betweem different "pages"
+- [ ] Search results are displayed by updating the state and using new fetch requests
 - [ ] Appropriate HTTP verbs are used for CRUD actions
   - [ ] `GET` requests are only used for _read_ actions
   - [ ] `POST` requests are only used for _create_ actions
   - [ ] `PUT` or `PATCH` requests are only used for _update_ actions
   - [ ] `DELETE` requests are only used for _delete_ actions
-- [ ] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
 - [ ] Web server can be started with the command `npm start`
 - [ ] Test suite can be run with the command `npm test`
 - [ ] All code submissions are peer reviewed via GitHub PR by at least one other member of the team
@@ -85,6 +87,7 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+
 
 ### Stretch
 
