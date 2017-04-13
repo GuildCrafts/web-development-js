@@ -2,14 +2,14 @@
 authors:
 - "tannerwelsh"
 team_size: 2
-goal_id: 296
+goal_id: 283
 title: "Concept Focus: Testing and TDD"
 created_at: '2017-04-13T10:00:00Z'
 labels:
 - concept
 level: '2'
 published: true
-redirect_from: '/goals/296'
+redirect_from: '/goals/283'
 ---
 
 # Concept Focus: Testing and TDD
