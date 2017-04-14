@@ -303,6 +303,7 @@ The Mac Calculator follows an order of operations where multiplication and divis
 3 + 5 x 6 x 2 + // This operation will be broken into steps below
 3 + 5 x         // Display will be 5
 6 x             // Display will be 30
+```
 
 [mit-license]: https://opensource.org/licenses/MIT
 [mac-calculator-clone]: https://github.com/GuildCrafts/mac-calculator-clone
