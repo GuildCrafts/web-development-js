@@ -27,15 +27,35 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
+Build a database-backed web API for the music player app that you started working on in [Init 2: OOP Practice with Bike Shop][bike-shop-oop] and [Init 4: Relational Databases][relational-databases].
 
-### Recommended Pace
+In this goal, you'll be putting all of the skills you've learned so far together to create a RESTful web API: JavaScript, Node.js, web servers with Express, and databases.
 
-It is recommended (but not required) that you follow along with the day-by-day pace included here. These are designed to help you break down the problem into more manageable parts so that you can pace your work appropriately and leave time to explore the [learning resources](#resources).
+When you're done, you'll have a RESTful web API allowing _consumers_ of the API to manage artists, albums, songs, and playlists on your music player app.
+
+What is an API, you ask? API stands for **A**pplication **P**rogramming **I**nterface. It's a technical way of saying "the list of things you can tell a program to do".
+
+So, in the case of this application, your program is the music player application. It manages a music database containing artists, albums, songs, and playlists. The "list of things you can tell it to do" will include things like:
+
+- Get me all the artists
+- Get me songs in album X
+- Get me all songs in the playlist Y
+
+
+
+### Terms & Concepts
 
 Each day, pay attention to the **terms & concepts** highlighed in **bold**. By the end of the day, you should have a better idea of what they mean and how to use them. In other words, aim to be able to answer the question "what is X?" for yourself.
 
-Depending on how much support you and your team need, balance solo and team time. Make sure to always review the day's work with your team and share important learnings.
-
+- **API** (**A**pplication **P**programming **I**nterface)
+- **JSON** (**J**ava**S**cript **O**bject **N**otation)
+- **REST** (**Re**presentational **S**tate **T**ransfer) and **RESTful** design
+- HTTP **request**
+- HTTP **response**
+- HTTP **request types**: GET, POST, PUT/PATCH, DELETE
+- Web **server**
+- API **client** or **consumer**
+- **Runtime environment**: development, production, test
 
 ## Context
 
@@ -50,6 +70,17 @@ The series of initiation goals are designed for new members of Learners Guild to
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
+### Goodbye Stages and Pace
+
+If you've been following along with the initiation goals so far, you are used to goals being broken down into stages that correspond nicely to a "Recommended Pace". You'll notice that this goal does _not_ have stages or a pace.
+
+So, what's going on? In a nutshell, it's time to take away the scaffolding.
+
+Most of the other goals that you'll work on at Learners Guild very intentionally _do not_ provide stages or pace. Instead, they list the specs and your job is to figure out how to get everything done in the time allotted.
+
+The reason that most goals don't include stages or pace is because that isn't how it works on a real software development team. You won't have someone telling you how to _manage your time_. This skill—**time management**—is one that you will need to learn and practice, and now is the perfect time to start!
+
+If this is daunting to you, then ask a coach or another learner for help setting your own pace. Practice outlining the work with your team, and breaking it down into manageable chunks so that each day you are thinking only about one part of the problem, and are not overwhelmed with the whole enchilada.
 
 ## Specifications
 
@@ -119,6 +150,8 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
 
 If you complete all of the specs listed above (the checkboxes), there's no reason to stop there! Try building more advanced features with these stretch specs.
 
+UI for music player
+
 Your Choice API
 
 
@@ -128,6 +161,8 @@ Your Choice API
 ##### Guides
 
 - [Web APIs for Non Programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/) #api #rest
+- Michael Herman: [Designing a RESTful API With Node and Postgres](http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/) #rest #nodejs #express #api #postgresql
+- Michael Herman: [Node, Postgres, and Sequelize](http://mherman.org/blog/2015/10/22/node-postgres-sequelize/) #nodejs #postgresql #sequelize
 - Heroku: [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) #heroku #nodejs #devops
 - Heroku: [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs) #heroku #nodejs #devops
 - Heroku: [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support) #heroku #nodejs #devops
@@ -149,3 +184,6 @@ Your Choice API
 [developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
 
 [mit-license]: https://opensource.org/licenses/MIT
+
+[twitter-api]: https://dev.twitter.com/rest/public
+[github-api]: https://developer.github.com/v3/
