@@ -1,3 +1,17 @@
+---
+authors:
+- "rachel-ftw"
+- "mantinone"
+team_size: 2
+goal_id: 64
+title: To Do List App
+created_at: '2016-08-06T00:52:33Z'
+labels:
+- practice
+published: true
+level: '1'
+redirect_from: "/goals/64"
+---
 
 # To Do List
 
