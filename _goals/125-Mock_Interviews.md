@@ -8,7 +8,7 @@ created_at: '2016-12-29T17:10:18Z'
 labels:
 - interview
 published: true
-level: 4
+level: '4'
 redirect_from: "/goals/125"
 ---
 
