@@ -35,27 +35,38 @@ When you're done, you'll have a RESTful web API allowing _consumers_ of the API 
 
 What is an API, you ask? API stands for **A**pplication **P**rogramming **I**nterface. It's a technical way of saying "the list of things you can tell a program to do".
 
-So, in the case of this application, your program is the music player application. It manages a music database containing artists, albums, songs, and playlists. The "list of things you can tell it to do" will include things like:
+So, in the case of this application, your _program_ is the music player application. It manages a music database containing artists, albums, songs, and playlists. The "list of things you can tell it to do" will include things like:
 
 - Get me all the artists
 - Get me songs in album X
 - Get me all songs in the playlist Y
+- Add a new album by artist X with title Y
+- Edit the name of song X
+- Delete song X from playlist Y
 
+The API part is just the _way to talk to and use a program_, and you actually use APIs all the time. Whenever you use a module in Node.js, you are using that module's API. Whenever you install and use a package from npm, you use that package's API. The set of things that you can do with the DOM in the browser is called the DOM API.
 
+When you build a _web API_, you're providing a way to talk to a program _through the internet_ using the HTTP protocol. That's what you're doing when you use the [Twitter][twitter-api] or [GitHub][github-api] web APIs.
+
+Take a look at the [resources](#resources) provided for more background, guidance, and support in learning how to build web APIs with Node.js, Express, and PostgreSQL.
 
 ### Terms & Concepts
 
 Each day, pay attention to the **terms & concepts** highlighed in **bold**. By the end of the day, you should have a better idea of what they mean and how to use them. In other words, aim to be able to answer the question "what is X?" for yourself.
 
 - **API** (**A**pplication **P**programming **I**nterface)
-- **JSON** (**J**ava**S**cript **O**bject **N**otation)
 - **REST** (**Re**presentational **S**tate **T**ransfer) and **RESTful** design
 - HTTP **request**
 - HTTP **response**
-- HTTP **request types**: GET, POST, PUT/PATCH, DELETE
+- HTTP **request/response body** and **head**
+- HTTP **request methods**: GET, POST, PUT/PATCH, DELETE (also called request **verbs**)
 - Web **server**
 - API **client** or **consumer**
-- **Runtime environment**: development, production, test
+- **Runtime environment**: (common ones: development, production, test)
+- **Deployment** to a **remote server**
+- Database **connection**
+- Database **query** and query **results**
+- **JSON** data (**J**ava**S**cript **O**bject **N**otation)
 
 ## Context
 
@@ -68,7 +79,11 @@ The series of initiation goals are designed for new members of Learners Guild to
 1. [Init 5: Web APIs][web-apis]
 1. [Init 6: Developer Tools][developer-tools]
 
-By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
+If you can complete this goal, then you will be ready to take on [Simple Book Store][simple-book-store]. That goal expands upon the things you'll work on here, and adds the final layer of a truly "full-stack" web application.
+
+In this goal, you'll be building a complete "backend" web server with database persistence. Since you already know how to build the "frontend" (HTML, CSS), you'll be well equipped to take on full-stack apps next ("full-stack" just means backend _and_ frontend in the same app).
+
+One thing you may have noticed about this goal is that it doesn't include any "Recommended Pace", and the specs aren't organized into 5 distinct "Stages". If you're wondering why, keep reading...
 
 ### Goodbye Stages and Pace
 
@@ -80,7 +95,7 @@ Most of the other goals that you'll work on at Learners Guild very intentionally
 
 The reason that most goals don't include stages or pace is because that isn't how it works on a real software development team. You won't have someone telling you how to _manage your time_. This skill—**time management**—is one that you will need to learn and practice, and now is the perfect time to start!
 
-If this is daunting to you, then ask a coach or another learner for help setting your own pace. Practice outlining the work with your team, and breaking it down into manageable chunks so that each day you are thinking only about one part of the problem, and are not overwhelmed with the whole enchilada.
+If this is daunting to you, then ask a coach or another learner for help setting your own pace. Practice outlining the work with your team and breaking it down into manageable chunks so that each day you are thinking only about one part of the problem. That way you are not overwhelmed with trying to complete all of the things all at once.
 
 ## Specifications
 
@@ -111,6 +126,7 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
 #### API Specs
 
 - [ ] API employs a RESTful design
+- [ ] API returns JSON-formatted data
 - [ ] Users of the API can...
   - [ ] Get all artists
   - [ ] Get an artist by id
@@ -138,6 +154,7 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
   - [ ] Create a playlist
   - [ ] Edit a playlist
   - [ ] Delete a playlist
+- [ ] API accepts POST and PUT/PATCH requests with JSON-formatted bodies
 
 #### Deployment
 
@@ -150,11 +167,30 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
 
 If you complete all of the specs listed above (the checkboxes), there's no reason to stop there! Try building more advanced features with these stretch specs.
 
-UI for music player
+**Users, Authentication & Authorization**
 
-Your Choice API
+- [ ] Music player API requires authentication with username and password
+- [ ] API provides ways for users to "sign in" and "sign out"
+- [ ] Users have their own "library" of albums and playlists
+- [ ] Users can only see and interact with music in their own library
 
+**Music Player UI**
 
+- [ ] App provides a single-page web UI.
+- [ ] UI uses JavaScript to fetch and send data from/to the API.
+- [ ] UI provides ways for users to view, create, edit, and delete:
+  - [ ] Artists
+  - [ ] Albums
+  - [ ] Songs
+  - [ ] Playlists
+
+**Your Choice API**
+
+Pick another resource to build an API around. For example: a store with products in categories; an organization roster with employees and teams; a newspaper with articles, editions and writers.
+
+- [ ] App provides a RESTful JSON API
+- [ ] API manages at least 3 types of "resources" (i.e. it has at least 3 distinct tables in the database)
+- [ ] API allows users to read and create all 3 kinds of resources
 
 ## Resources
 
@@ -170,9 +206,15 @@ Your Choice API
 ##### Courses
 
 - Treehouse: [Build a REST API with Express (3h)](https://teamtreehouse.com/library/build-a-rest-api-with-express) #rest #api #express #nodejs
-- Treehouse: [User Authentication with Express and Mongo (2h)](https://teamtreehouse.com/library/user-authentication-with-express-and-mongo) #authentication #express #mongo #nodejs
 - Treehouse: [Using SQL And Node.js With Sequelize (44m)](https://teamtreehouse.com/library/using-sql-and-nodejs-with-sequelize) #nodejs #sql #sequelize #db
+- Treehouse: [Deploy a Node Application to Heroku (12m)](https://teamtreehouse.com/library/deploy-a-node-application-to-heroku) #nodejs #heroku #deployment
 - Frontend Masters: [API Design in Node.js (using Express & Mongo) (10h)](https://frontendmasters.com/courses/api-design-nodejs/) #api #rest #nodejs #express #mongo
+- Code School: [Building Blocks of Express.js (5h)](https://www.codeschool.com/courses/building-blocks-of-express-js) #express #js
+- Treehouse: [User Authentication with Express and Mongo (2h)](https://teamtreehouse.com/library/user-authentication-with-express-and-mongo) #authentication #express #mongo #nodejs
+
+##### Books
+
+- [Eloquent JavaScript](http://eloquentjavascript.net) #js
 
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
