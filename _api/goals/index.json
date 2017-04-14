@@ -811,6 +811,23 @@
     },
     {
       "authors": [
+        "Anasauce"
+      ],
+      "team_size": 2,
+      "goal_id": 295,
+      "title": "Work on Literator",
+      "created_at": "2017-04-13T14:25:06Z",
+      "labels": [
+        "production"
+      ],
+      "published": true,
+      "level": "4",
+      "redirect_from": "/goals/295",
+      "url": "http://jsdev.learnersguild.org/goals/295-Work_on_Literator.html",
+      "xp_value": 400
+    },
+    {
+      "authors": [
         "Jusdev89"
       ],
       "team_size": 2,
