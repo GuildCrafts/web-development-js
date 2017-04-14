@@ -164,14 +164,13 @@ Setup repo, complete a Khan Academy project, and install PostgreSQL. For instruc
 
 #### Stage 2
 
-Complete another Khan Academy project, use the SQL Designer tool, and install the Postico app.
+Complete another Khan Academy project, use the SQL Designer tool, and install the [Postico app][postico] (this is recommended, but not required).
 
 - [ ] Solution SQL for the Khan Academy project: [Data dig][ka-proj-data-dig] is added to a file in your repo named `data_dig.sql`
 - [ ] SQL in `data_dig.sql` has consistent indentation.
 - [ ] All the SQL keywords in `data_dig.sql` are written in ALL CAPS.
 - [ ] Schema diagrams are created for both the "Store database" and "Data dig" database using the [SQL Designer tool][sql-designer].
 - [ ] Screenshots of each schema diagram are added to repo as `store_db_schema.png` and `data_dig_schema.png`, respectively.
-- [ ] [Postico app][postico] is installed on your computer.
 
 #### Stage 3
 
