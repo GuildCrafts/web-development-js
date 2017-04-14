@@ -143,6 +143,27 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
 - [ ] The mathematical operations for your calculator are each their own function, and are defined outside of any DOM event handler
 - [ ] When the length of the number displayed exceeds the width available, the font-size deterministically drops
 - [ ] Calculator functionality and behavior is consistent with [Mac calculator rules](#calculator-rules-and-examples)
+  - [ ] pressing `CA` `AC` displays `0`
+  - [ ] pressing `CA` `8` `+/-` displays `-8`
+  - [ ] pressing `CA` `-5` `+/-` displays `5`
+  - [ ] pressing `CA` `99` `%` displays `0.99`
+  - [ ] pressing `CA` `9` `+` `9` `-` `3` `=` displays `15`
+  - [ ] pressing `CA` `6` `+` `=` displays `12`
+  - [ ] pressing `CA` `4` `x` `4` `=` displays `64`
+  - [ ] pressing `CA` `64` `+` `=` displays `128`
+  - [ ] pressing `CA` `9` `+` displays `9`
+  - [ ] pressing `CA` `8` `-` `5` `-` displays `3`
+  - [ ] pressing `CA` `9` `-` `5` `+` displays `4`
+  - [ ] pressing `CA` `9` `+` `9` `+` `+` `+` displays `18`
+  - [ ] pressing `CA` `5` `+` `3` `x` `6` `+` displays `23`
+  - [ ] pressing `CA` `9` `x` displays `9`
+  - [ ] pressing `CA` `3` `x` `5` `x` displays `15`
+  - [ ] pressing `CA` `6` `/` `3` displays `2`
+  - [ ] pressing `CA` `3` `x` `4` `x` `x` `x` displays `12`
+  - [ ] pressing `CA` `4` `+` `3` `x` `6` `x` displays `18`
+  - [ ] pressing `CA` `3` `+` `5` `x` displays `5`
+  - [ ] pressing `CA` `3` `+` `5` `x` `6` `x` displays `30`
+  - [ ] pressing `CA` `3` `+` `5` `x` `6` `x` `2` `+` displays `63`
 
 ### Stage 3
 
@@ -293,6 +314,7 @@ The Mac Calculator buttons follow certain rules which govern what is displayed (
 3 x 5 x     // Display will be 15
 6 / 3 x     // Display will be 2
 4 + 3 x 6 x // Display will be 18
+3 x 4 x x x // Display will be 12
 ```
 ##### Order of operations
 The Mac Calculator follows an order of operations where multiplication and division are given precedence over addition and subtraction. The Mac Calculator will follow the order of operations as long as '=' has not been pressed or '+'  or '-' has not been pressed twice. Below are examples that illustrate this concept:
@@ -303,6 +325,7 @@ The Mac Calculator follows an order of operations where multiplication and divis
 3 + 5 x 6 x 2 + // This operation will be broken into steps below
 3 + 5 x         // Display will be 5
 6 x             // Display will be 30
+2 +             // Display will be 63 (5 x 6 x 2 = 60, then add 3)
 ```
 
 [mit-license]: https://opensource.org/licenses/MIT
