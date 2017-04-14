@@ -90,9 +90,7 @@ Before diving in, it is **strongly recommended** to review the video and code fr
 - [ ] The E-R diagram minimizes data redundancy.
 - [ ] Table names are singular, not plural.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
 - [ ] Code is well organized into a meaningful file structure.
-- [ ] Code is reasonably tested with a test suite.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
