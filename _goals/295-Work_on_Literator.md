@@ -65,5 +65,10 @@ Specs will be determined at project start time.
 - [Literator's site][literator]
 - [Project Proposal Literator - Learners Guild][project-proposal]
 
+On remote work:
+
+- [10 Secrets to Becoming a Great Remote Developer](https://x-team.com/blog/10-secrets-to-becoming-a-great-remote-developer/)
+- [8 Tips to Become an Effective Remote Developer](https://www.codementor.io/learn-programming/8-tips-to-become-an-effective-remote-developer)
+
 [literator]: http://www.literatorapp.com/
 [project-proposal]: https://github.com/GuildCrafts/web-development-js/files/917811/DevelopmentProjectProposalLearnersGuild.pdf
