@@ -6,7 +6,7 @@ goal_id: 283
 title: "Concept Focus: Testing and TDD"
 created_at: '2017-04-13T10:00:00Z'
 labels:
-- concept
+- concept-focus
 level: '2'
 published: true
 redirect_from: '/goals/283'
@@ -35,14 +35,14 @@ Apply common testing patterns and techniques to practice this essential skill. P
 
 _Concept focus_ goals like this one have some unique characteristics. If this is your first time working on one, read the [Context](#context) for more information.
 
-In working on this goal, you'll explore concepts like:
+In working on this goal, you should explore concepts like:
 
 - unit, integration, and functional testing
 - test coverage
 - test-driven development
 - testing happy/sad/bad paths
 
-For guidance and support, look to the [Resources](#resources) provided.
+For guidance and support, start with the [Resources](#resources) provided.
 
 ## Context
 
