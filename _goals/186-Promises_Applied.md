@@ -76,8 +76,8 @@ If you complete the above with time to spare, fill any gaps in your understandin
   - [ ] `src/06-shortcuts.js`
   - [ ] `src/07-promise-after-promise.js`
   - [ ] `src/08-values-and-promises.js`
-  - [ ] `src/09-throw-an-error.js`
-  - [ ] `src/10-an-important-file.js`
+  - [ ] `src/09-throw-an-error.js` - note that there is a bug and you will not be able to successfully solve
+  - [ ] `src/10-an-important-file.js` - note that there is a bug and you will not be able to successfully solve
   - [ ] `src/11-multiple-promises.js`
   - [ ] `src/12-fetch-json.js`
   - [ ] `src/13-do-some-work.js`
