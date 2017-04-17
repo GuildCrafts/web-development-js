@@ -142,6 +142,28 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
 - [ ] The state of the calculator is not be stored in the `DOM`
 - [ ] The mathematical operations for your calculator are each their own function, and are defined outside of any DOM event handler
 - [ ] When the length of the number displayed exceeds the width available, the font-size deterministically drops
+- [ ] Calculator functionality and behavior is consistent with [Mac calculator rules](#calculator-rules-and-examples)
+  - [ ] pressing `AC` displays `0`
+  - [ ] pressing `AC` `8` `+/-` displays `-8`
+  - [ ] pressing `AC` `-5` `+/-` displays `5`
+  - [ ] pressing `AC` `99` `%` displays `0.99`
+  - [ ] pressing `AC` `9` `+` `9` `-` `3` `=` displays `15`
+  - [ ] pressing `AC` `6` `+` `=` displays `12`
+  - [ ] pressing `AC` `4` `x` `4` `=` displays `64`
+  - [ ] pressing `AC` `64` `+` `=` displays `128`
+  - [ ] pressing `AC` `9` `+` displays `9`
+  - [ ] pressing `AC` `8` `-` `5` `-` displays `3`
+  - [ ] pressing `AC` `9` `-` `5` `+` displays `4`
+  - [ ] pressing `AC` `9` `+` `9` `+` `+` `+` displays `18`
+  - [ ] pressing `AC` `5` `+` `3` `x` `6` `+` displays `23`
+  - [ ] pressing `AC` `9` `x` displays `9`
+  - [ ] pressing `AC` `3` `x` `5` `x` displays `15`
+  - [ ] pressing `AC` `6` `/` `3` displays `2`
+  - [ ] pressing `AC` `3` `x` `4` `x` `x` `x` displays `12`
+  - [ ] pressing `AC` `4` `+` `3` `x` `6` `x` displays `18`
+  - [ ] pressing `AC` `3` `+` `5` `x` displays `5`
+  - [ ] pressing `AC` `3` `+` `5` `x` `6` `x` displays `30`
+  - [ ] pressing `AC` `3` `+` `5` `x` `6` `x` `2` `+` displays `63`
 
 ### Stage 3
 
@@ -242,6 +264,69 @@ In stage 5 you are going to add persistence to your express server. We're going 
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Calculator Rules and Examples
+
+##### The Mac Calculator supports:
+- addition
+- subtraction
+- multiplication
+- division
+- clear (display '0' and reset calculator memory)
+- change of sign (toggles between positive and negative)
+- percentage (change number into its decimal equivalent (number/100) for computation)
+
+##### Rules
+The Mac Calculator buttons follow certain rules which govern what is displayed (and also what is computed, covered in the next section). The '=' will always reset operator key presses to zero.
+
+- '=' : Display varies as follows:
+  - 1st key press: Displays the results of all entered operations and operands
+  - Subsequent key presses: Applies last operator used with last operand to displayed value
+  - Special case: If equal was hit for result (or a number was entered), then an operator, then equal again, the operands used with the operator are both the results of the first equal result
+
+```
+9 + 9 - 3 = // Display will be 15
+6 + =       // Display will be 12  
+4 X 4 =     // Display will be 16;
+=           // if '=' hit again, answer will be 64
++ =         // if '+', then '=' pressed at this point, answer will be 128
+```
+- '+' : Display varies as follows:
+  - 1st key press: Most recently entered number
+  - Subsequent key presses: Displays as if equal button has been pressed, but is expecting to add another input afterwards
+  - Repeated key presses maintain the display until another number has been entered
+- '-' : Same display rules as addition button, but with subtraction functionality. Grouped with addition so that either operation counts as a key press
+```
+9 +           // Display will be 9
+8 - 5 -       // Display will be 3
+9 - 5 +       // Display will be 4
+9 + 9 + + + + // Display will be 18
+5 + 3 x 6 +   // Display will be 23
+```
+- 'x' : Display varies as follows:
+  - 1st key press - Most recently entered number
+  - Subsequent key presses: Displays result of most recent multiplication operation
+  - Repeated key presses maintain the display until another number has been entered
+- '&#247;' : Same display rules as multiplication button, but with division functionality. Grouped with multiplication so that either operation counts as a key press
+
+```
+9 x         // Display will be 9
+3 x 5 x     // Display will be 15
+6 / 3 x     // Display will be 2
+4 + 3 x 6 x // Display will be 18
+3 x 4 x x x // Display will be 12
+```
+##### Order of operations
+The Mac Calculator follows an order of operations where multiplication and division are given precedence over addition and subtraction. The Mac Calculator will follow the order of operations as long as '=' has not been pressed or '+'  or '-' has not been pressed twice. Below are examples that illustrate this concept:
+
+```
+2 * 5 + 3 = 7
+3 + 5 x 2 = 13
+3 + 5 x 6 x 2 + // This operation will be broken into steps below
+3 + 5 x         // Display will be 5
+6 x             // Display will be 30
+2 +             // Display will be 63 (5 x 6 x 2 = 60, then add 3)
+```
 
 [mit-license]: https://opensource.org/licenses/MIT
 [mac-calculator-clone]: https://github.com/GuildCrafts/mac-calculator-clone
