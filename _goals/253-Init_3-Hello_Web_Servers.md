@@ -171,15 +171,15 @@ No stage 5! Move into stretch specs, or use the time to polish up your code.
 
 Try to mimic the following mockup as closely as you can. Note that some of the features in the mockup are part of the [stretch specs](#stretch) - you don't have to build those yet.
 
-<img alt="mmmarkdown-mockup" width=800 src="https://cloud.githubusercontent.com/assets/709100/24804622/01ad8ffe-1b7d-11e7-91f4-a60303a79ff8.png">
+<img alt="mmmarkdown-mockup" width="800" src="https://cloud.githubusercontent.com/assets/709100/24804622/01ad8ffe-1b7d-11e7-91f4-a60303a79ff8.png">
 
 ##### with comments
 
-<img alt="mmmarkdown-mockup-with-comments" width=800 src="https://cloud.githubusercontent.com/assets/709100/24805262/2824fd32-1b7f-11e7-9690-5576477151c6.png">
+<img alt="mmmarkdown-mockup-with-comments" width="800" src="https://cloud.githubusercontent.com/assets/709100/24805262/2824fd32-1b7f-11e7-9690-5576477151c6.png">
 
 #### New File
 
-<img alt="mmmarkdown-mockup-new-file" width=800 src="https://cloud.githubusercontent.com/assets/709100/24805253/23e24c84-1b7f-11e7-8820-5f5e022da97b.png">
+<img alt="mmmarkdown-mockup-new-file" width="800" src="https://cloud.githubusercontent.com/assets/709100/24805253/23e24c84-1b7f-11e7-8820-5f5e022da97b.png">
 
 ### Stretch
 
