@@ -42,7 +42,7 @@ or they could be more high-level and broad, for example:
 
 > Design the application architecture for a web-based real time chat client (like Slack or HipChat)
 
-After you've chosen your questions, be sure to add them to the [Interview App][] so that others can benefit from them too :).
+After you've chosen your questions, be sure to add them to the [Interview App][interview-app] so that others can benefit from them too :).
 
 For at least 1 of these questions, you'll need to produce something shareable with the community so that other learners can benefit from what you've found out. This can take the form of a blog post, a live presentation with slides, or a screencast.
 
@@ -68,12 +68,12 @@ By this point, you should have a decent sense of what you are capable of, and wh
   - [ ] A link to or citation of the question's source.
   - [ ] Links or notes with resources pertaining to the question.
 - [ ] In-depth answers to at least 1 question per team member have been shared with the community in the form of a blog post, presentation (with slideshow), or screencast.
-- [ ] All questions are submitted to the [Interview App][] (unless they are already in there).
+- [ ] All questions are submitted to the [Interview App][interview-app] (unless they are already in there).
 - [ ] Links to in-depth answers are added to the gist.
 
 ### Stretch
 
-- [ ] Questions and answers are added to the [Interview App](https://github.com/GuildCrafts/interview-app).
+- [ ] Questions and answers are added to the [Interview App][interview-app].
 
 ## Resources
 
