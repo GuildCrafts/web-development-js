@@ -7,7 +7,7 @@ title: Work on Literator
 created_at: '2017-04-13T14:25:06Z'
 labels:
 - production
-published: true
+published: false
 level: '4'
 redirect_from: "/goals/295"
 ---
