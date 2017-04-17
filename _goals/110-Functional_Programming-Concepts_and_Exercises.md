@@ -70,6 +70,7 @@ A just a heads up on CodeWars: you're required to answer a couple of super basic
 
 - [Mostly Adequate Guide ][mostly-adequate-guide] book
 - [CodeWars functional programming in JS katas][codewars-chals]
+- Video: [Intro to Functional JavaScript (8m)](https://scrimba.com/Lokeh/cast-1180)
 
 Articles, guides, and courses
 
