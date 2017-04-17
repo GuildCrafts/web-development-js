@@ -129,7 +129,7 @@ Setup the repo and file structure, install and configure [Express][], and get a 
 
 Build out the template structure with [Pug][] for a single-file editor. Don't worry about multiple files for now, or implementing the markdown rendering.
 
-- [ ] [Pug][] is installed and set up for HTML templating
+- [ ] [Pug][pug] is installed and set up for HTML templating
 - [ ] View template files are created in the `/views` subdirectory
 - [ ] Main view file is called `index`
 - [ ] Includes are created for the different "components" of the main view:
@@ -144,7 +144,7 @@ Build out the template structure with [Pug][] for a single-file editor. Don't wo
 
 Setup real markdown rendering so that writing in the left panel updates the right panel, and make the "Save" button work.
 
-- [ ] [Marked][] is installed
+- [ ] [Marked][marked] is installed
 - [ ] Markdown text written in the "Editor" pane is rendered in the "Preview" pane automatically
 - [ ] Preview is updated every time text in the editor changes
 - [ ] Clicking the "Save" button saves the markdown text in the editor to a file in a subdirectory of the server `data/`
