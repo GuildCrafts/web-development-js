@@ -101,6 +101,7 @@ Collection of resources referenced from goals.
 - Treehouse: [Design and Development](https://teamtreehouse.com/library/design-and-development) #ui #design #ruby
 - Treehouse: [Sketch Basics (2h)](https://teamtreehouse.com/library/sketch-basics) #design #sketch #ui
 - Treehouse: [Debugging JavaScript in the Browser (39m)](https://teamtreehouse.com/library/debugging-javascript-in-the-browser) #debugging #js
+- FreeCodeCamp: [My giant JavaScript Basics course is now live on YouTube.](https://medium.freecodecamp.com/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27) #js
 
 ## Tutorials
 
