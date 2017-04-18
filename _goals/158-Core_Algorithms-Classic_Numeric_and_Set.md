@@ -34,7 +34,13 @@ Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/b
 
 - [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
 - [ ] Can run all tests with `npm test`.
+
+__FEEDBACK:__ can we be more clear about what "correctly implemented" means in the specs below?
+
 - [ ] `makeChange()` algorithm is correctly implemented.
+
+__FEEDBACK:__ would this goal be better if the tests were provided? I'd be happy to write them. 
+
 - [ ] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `fizzBuzz()` algorithm is correctly implemented.
 - [ ] Tests for `fizzBuzz()` exist.
@@ -61,6 +67,8 @@ Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/b
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+__FEEDBACK:__ I think this is a case where weighting these specs would be useful. 
 
 ### Stretch
 
