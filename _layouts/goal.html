@@ -7,17 +7,7 @@ layout: default
     <h2 class="mdl-card__title-text">{{ page.title }}</h2>
     <div class="mdl-layout-spacer"></div>
 
-    <div id="level_no" class="material-icons mdl-badge"><i class="material-icons">filter_{{ page.level }}</i></div>
-    <div class="mdl-tooltip" data-mdl-for="level_no">Level</div>
-
-    <div id="team_size" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{ page.team_size }}">people</div>
-    <div class="mdl-tooltip" data-mdl-for="team_size">Team Size</div>
-
-    &nbsp;
-
-    <!-- This computed XP Value should match the Goal#xp_value in lib/goal.rb -->
-    <!-- <span id="xp_value">{{ 50 | times: page.level | times: page.team_size }} XP</span>
-    <div class="mdl-tooltip" data-mdl-for="xp_value">XP Value</div> -->
+    {% include goal_badges.html goal=page %}
   </div>
 
   <div class="mdl-card__actions mdl-card--border">
