@@ -77,6 +77,8 @@ Luckily, you can create a free website with GitHub Pages, so you don't even have
 
 - [ ] Artifact contains list of good Meetups and/or workshops with links and any thoughts/reflections after attending.
 
+_Note: try to only attend events that take place outside of Guild hours. If you absolutely have to miss Guild hours to attend the best event ever, be sure to let the appropriate people know when you'll be gone._
+
 ### Find and Follow Industry Thought Leaders
 
 Discover interesting folks to follow on Twitter, Medium, and other social media sites. This is a good way to find inspirational folks and maybe even make a new friend or two. :)
