@@ -66,11 +66,11 @@ These are the basic specs for "Developer Tools". If you complete these specs, tr
 
 You don't have to complete these specs in any particular order.
 
-#### General
+### General
 
 - [ ] Artifact produced is a gist with a Markdown file containing links and text
 
-#### Level Up your Debugging
+### Level Up your Debugging
 
 To be a great programmer, you need to be a great debugger. This means both being able to _think analytically_ as well as being able to use _debugging tools_.
 
@@ -87,7 +87,7 @@ Starting with the [Debugging Resources](#debugging), learn as much as you can ab
 
 - [ ] Artifact includes a list of 3+ debugging tools that you found especially useful
 
-#### Get Good at Git and GitHub
+### Get Good at Git and GitHub
 
 Pick one of your repositories that has a decent amout of code and git history already and create a copy of it to use as a "sandbox" environment for learning about git and GitHub. To create a "sandbox" copy of your repository, follow these steps:
 
@@ -124,7 +124,7 @@ Pick one of your repositories that has a decent amout of code and git history al
 - [ ] Sandbox repo includes a `.gitignore` file with at least a few patterns included
 - [ ] Sandbox repo has at least one **pull request**
 
-#### Type Faster and Better
+### Type Faster and Better
 
 Boost your typing skills. Practice as much as you can—being able to type quickly and efficiently is an essential skill.
 
@@ -137,7 +137,7 @@ Here are a couple of resources for you to use, but don't be limited to them if y
 
 - [ ] Artifact cites your best WPM (words per minute) score from Typing.io
 
-#### Practice Pair Programming
+### Practice Pair Programming
 
 Learn some techniques and tools for **pair programming** and try them out with your teammate.
 
@@ -151,7 +151,7 @@ Check out the links in the [Pair Programming](#pair-programming) section of the 
 
 There is no "completion" spec for this section.
 
-#### Master your Editor
+### Master your Editor
 
 Your **code editor** should be as familiar to you as your bedroom. You should know where things live, what they do, and how to use them.
 
@@ -164,7 +164,7 @@ Check out the links in the [Editor Extensions and Plugins](#editor-extensions-an
 - [ ] Artifact contains a list of 3+ features of your editor that you discovered
 - [ ] Artifact contains a list of your favorite editor plugins
 
-#### Setup Homebrew and Install Some Packages
+### Setup Homebrew and Install Some Packages
 
 [Homebrew][homebrew] is a useful tool for managing software and packages/libraries on a Mac. If you don't have it already, set it up!
 
@@ -174,7 +174,7 @@ Then, use the [homebrew-bundle][homebrew-bundle] package to create your own `Bre
 
 ### Stretch
 
-#### Make Your Own Dotfiles
+### Make Your Own Dotfiles
 
 Dotfiles are usually **configuration files** for things like your shell, languages, and packages. Many developers keep all their dotfiles organized in one repo.
 
@@ -183,7 +183,7 @@ Check out the links in the [Dotfiles & Environment Management](#dotfiles-environ
 - [ ] Dotfiles repo exists in your personal GitHub account
 - [ ] Artifact includes link to dotfiles repo
 
-#### Build an Atom Package
+### Build an Atom Package
 
 The Atom editor has a robust package management system. And, you can write them in JavaScript. :smile:
 
