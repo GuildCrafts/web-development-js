@@ -56,6 +56,9 @@ Promises provide a simpler alternative for executing, composing, and managing as
 If you complete the above with time to spare, fill any gaps in your understanding by skimming through the [Promises Course][promises-course] on Udacity.
 
 ### Day 3
+
+__FEEDBACK:__ I cannot confirm these next 9 specs were met based on this artifact
+
 - [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
 - [ ] Exercises 1-7 in the [pg promise exercises][pg-promise-exercises] are complete
   - [ ] Exercise 1
@@ -76,13 +79,13 @@ If you complete the above with time to spare, fill any gaps in your understandin
   - [ ] `src/06-shortcuts.js`
   - [ ] `src/07-promise-after-promise.js`
   - [ ] `src/08-values-and-promises.js`
-  - [ ] `src/09-throw-an-error.js` \* see note below
-  - [ ] `src/10-an-important-file.js` \* see note below
+  - [ ] `src/09-throw-an-error.js` _see note below_
+  - [ ] `src/10-an-important-file.js` _see note below_
   - [ ] `src/11-multiple-promises.js`
   - [ ] `src/12-fetch-json.js`
   - [ ] `src/13-do-some-work.js`
 
-\*Note: `promise-it-wont-hurt` has a bug which checks the full path of the files, instead of the relative paths. This causes exercise 9 & 10's verify command to fail even though the solution is correct. If the file path is the only error that you are seeing, it means that your code is correct.
+_Note: `promise-it-wont-hurt` has a bug which checks the full path of the files, instead of the relative paths. This causes exercise 9 & 10's verify command to fail even though the solution is correct. If the file path is the only error that you are seeing, it means that your code is correct._
 
 ### General
 - [ ] All dependencies are properly declared in `package.json`.
