@@ -9,6 +9,7 @@ labels:
 - apprentice
 published: true
 level: '2'
+dynamic: true
 redirect_from: "/goals/238"
 ---
 

@@ -9,6 +9,7 @@ labels:
 - production
 published: false
 level: '2'
+dynamic: true
 redirect_from: "/goals/140"
 ---
 
