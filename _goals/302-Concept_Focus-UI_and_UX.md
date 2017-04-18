@@ -67,8 +67,10 @@ That being said, if you have the self-discipline, motivation, and resolve, you w
   - [ ] A list of user stories in a `stories.md` file.
   - [ ] A set of wireframe files in a `wireframes/` subdirectory.
   - [ ] A set of mockup files in a `mockups/` subdirectory.
+  - [ ] A style guide specifying colors, typography, and guidelines for key components.
 - [ ] Implementation subdirectory for each product includes:
   - [ ] A static web site (front-end only) with views matching the design mockups.
+  - [ ] Static design assets (images and fonts).
   - [ ] "Proof-of-concept" behavior (i.e. core UX features are there, but don't need to be fully functional).
 - [ ] All code added to implementation is added through pull requests that reference the user stories and/or mockups it implements.
 - [ ] The best resources you find for learning testing are added to a file `resources.md`.
@@ -86,6 +88,7 @@ That being said, if you have the self-discipline, motivation, and resolve, you w
 - [Wireframe.cc](https://wireframe.cc/) #ui #wireframe
 - [Sketch](https://www.sketchapp.com/) #ui #mockup #design
 - [InVision](https://www.invisionapp.com/) #ui #design #mockup
+- Huge Inc.'s [Style Guide Builder](https://hugeinc.github.io/styleguide/) #ui #design
 
 ##### Articles
 
