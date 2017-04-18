@@ -13,6 +13,8 @@ level: '1'
 redirect_from: '/goals/255'
 ---
 
+# Init 5: Web APIs
+
 ## Challenge Rating
 
 This goal will likely be within your ZPD if you...
