@@ -51,9 +51,32 @@ _However_, that doesn't mean that they have no learning value. Knowing how to de
 - [ ] Artifact produced is a fork of the [core-data-structures][core-data-structures] repo.
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
-- [ ] For each data structure in [the list][list-ds], there exists:
-  - [ ] a test file with unit tests for each method and property.
-  - [ ] an implementation file with a working implementation of the data structure.
+- [ ] A working implementation of the `Node` data structure is complete.
+- [ ] Unit tests exist for all methods of `Node`.
+- [ ] A working implementation of the `Linked List` data structure is complete.
+- [ ] Unit tests exist for all methods of `Linked List`.
+- [ ] A working implementation of the `Stack` data structure is complete.
+- [ ] Unit tests exist for all methods of `Stack`.
+- [ ] A working implementation of the `Queue` data structure is complete.
+- [ ] Unit tests exist for all methods of `Queue`.
+- [ ] A working implementation of the `Priority Queue` data structure is complete.
+- [ ] Unit tests exist for all methods of `Priority Queue`.
+- [ ] A working implementation of the `Priority Node` data structure is complete.
+- [ ] Unit tests exist for all methods of `Priority Node`.
+- [ ] A working implementation of the `Doubly-Linked List` data structure is complete.
+- [ ] Unit tests exist for all methods of `Doubly-Linked List`.
+- [ ] A working implementation of the `Double Node` data structure is complete.
+- [ ] Unit tests exist for all methods of `Double Node`.
+- [ ] A working implementation of the `Set` data structure is complete.
+- [ ] Unit tests exist for all methods of `Set`.
+- [ ] A working implementation of the `Hash Table` data structure is complete.
+- [ ] Unit tests exist for all methods of `Hash Table`.
+- [ ] A working implementation of the `Binary (Search) Tree` data structure is complete.
+- [ ] Unit tests exist for all methods of `Binary (Search) Tree`.
+- [ ] A working implementation of the `Tree Node` data structure is complete.
+- [ ] Unit tests exist for all methods of `Tree Node`.
+- [ ] A working implementation of the `Directed Graph` data structure is complete.
+- [ ] Unit tests exist for all methods of `Directed Graph`.
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
