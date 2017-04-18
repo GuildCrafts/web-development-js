@@ -52,36 +52,36 @@ _However_, that doesn't mean that they have no learning value. They are still us
 
 - [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
 - [ ] Can run all tests with `npm test`.
-- [ ] (makeChange) an implementation file with a correct implementation of the algorithm.
-- [ ] (makeChange) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (fizzBuzz) an implementation file with a correct implementation of the algorithm.
-- [ ] (fizzBuzz) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (isPalindrome) an implementation file with a correct implementation of the algorithm.
-- [ ] (isPalindrome) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (factorial) an implementation file with a correct implementation of the algorithm.
-- [ ] (factorial) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (fibonacci) an implementation file with a correct implementation of the algorithm.
-- [ ] (fibonacci) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (collatzConjecture) an implementation file with a correct implementation of the algorithm.
-- [ ] (collatzConjecture) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (setUnion) an implementation file with a correct implementation of the algorithm.
-- [ ] (setUnion) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (setIntersection) an implementation file with a correct implementation of the algorithm.
-- [ ] (setIntersection) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (setComplement) an implementation file with a correct implementation of the algorithm.
-- [ ] (setComplement) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (setSymmetricDifference) an implementation file with a correct implementation of the algorithm.
-- [ ] (setSymmetricDifference) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (binarySearch) an implementation file with a correct implementation of the algorithm.
-- [ ] (binarySearch) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (bubbleSort) an implementation file with a correct implementation of the algorithm.
-- [ ] (bubbleSort) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (mergeSort) an implementation file with a correct implementation of the algorithm.
-- [ ] (mergeSort) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (closestPair) an implementation file with a correct implementation of the algorithm.
-- [ ] (closestPair) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] (isConnectedGraph) an implementation file with a correct implementation of the algorithm.
-- [ ] (isConnectedGraph) a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `makeChange()` algorithm is correctly implemented.
+- [ ] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `fizzBuzz()` algorithm is correctly implemented.
+- [ ] Tests for `fizzBuzz()` exist.
+- [ ] `isPalindrome()` algorithm is correctly implemented.
+- [ ] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
+- [ ] `factorial()` algorithm is correctly implemented.
+- [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
+- [ ] `fibonacci()` algorithm is correctly implemented.
+- [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `collatzConjecture()` algorithm is correctly implemented.
+- [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setUnion()` algorithm is correctly implemented.
+- [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setIntersection()` algorithm is correctly implemented.
+- [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setComplement()` algorithm is correctly implemented.
+- [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setSymmetricDifference()` algorithm is correctly implemented.
+- [ ] Tests for `setSymmetricDifference()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `binarySearch()` algorithm is correctly implemented.
+- [ ] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `bubbleSort()` algorithm is correctly implemented.
+- [ ] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `mergeSort()` algorithm is correctly implemented.
+- [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `closestPair()` algorithm is correctly implemented.
+- [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `isConnectedGraph()` algorithm is correctly implemented.
+- [ ] Tests for `isConnectedGraph()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
