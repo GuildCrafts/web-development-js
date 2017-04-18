@@ -98,9 +98,14 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 
 #### Courses
 
+- Frontend Masters: https://frontendmasters.com/courses/data-structures-algorithms/
 - edX / Univ. of Adelaide: [Introduction to Data Structures](https://www.edx.org/course/introduction-data-structures-adelaidex-data101x)
 - edX / IIT Bombay: [Foundations of Data Structures](https://www.edx.org/course/foundations-data-structures-iitbombayx-cs213-1x-0)
 - Coursera: [Master Algorithmic Programming Techniques](https://www.coursera.org/specializations/data-structures-algorithms) - Course 2 is on Data Structures
+
+#### Books
+
+- [Data Structures and Algorithms with JavaScript](http://shop.oreilly.com/product/0636920029557.do)
 
 [mit-license]: https://opensource.org/licenses/MIT
 [core-data-structures]: https://github.com/GuildCrafts/core-data-structures

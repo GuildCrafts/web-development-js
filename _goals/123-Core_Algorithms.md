@@ -103,10 +103,15 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 
 #### Courses
 
+- Frontend Masters: https://frontendmasters.com/courses/data-structures-algorithms/
 - Khan Academy: [Computer Science: Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)
 - edX / IIT Bombay: [Algorithms](https://www.edx.org/course/algorithms-iitbombayx-cs213-3x-0)
 - Coursera: [Learn To Think Like A Computer Scientist](https://www.coursera.org/specializations/algorithms)
 - Lynda: [Introduction to algorithms](https://www.lynda.com/Programming-Foundations-tutorials/Introduction-algorithms/83603/90489-4.html)
+
+#### Books
+
+- [Data Structures and Algorithms with JavaScript](http://shop.oreilly.com/product/0636920029557.do)
 
 [mit-license]: https://opensource.org/licenses/MIT
 [core-algorithms]: https://github.com/GuildCrafts/core-algorithms
