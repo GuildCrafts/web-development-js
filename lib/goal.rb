@@ -16,6 +16,7 @@ class Goal
 
     @metadata['url'] = url if @source_file
     @metadata['xp_value'] = xp_value
+    @metadata['dynamic'] ||= false # default to false
   end
 
   def [](key)
