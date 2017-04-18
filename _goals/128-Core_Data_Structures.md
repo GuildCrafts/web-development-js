@@ -53,7 +53,7 @@ _However_, that doesn't mean that they have no learning value. Knowing how to de
 - [ ] All tests are passing.
 - [ ] For each data structure in [the list][list-ds], there exists:
   - [ ] a test file with unit tests for each method and property.
-  - [ ] an implementation file with a correct implementation of the data structure.
+  - [ ] an implementation file with a working implementation of the data structure.
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
