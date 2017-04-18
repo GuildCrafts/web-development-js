@@ -4,7 +4,7 @@ authors:
 team_size: 1
 goal_id: 254
 title: 'Init 4: Relational Databases'
-created_at: '2017-03-30T10:38:28Z'
+created_at: '2017-04-10T10:38:28Z'
 labels:
 - practice
 - foundational
