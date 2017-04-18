@@ -1,7 +1,7 @@
 ---
 authors:
 - 'tannerwelsh'
-team_size: 3
+team_size: 2
 goal_id: 252
 title: 'Init 2: OOP Practice with Bike Shop'
 created_at: '2017-04-04T10:00:00Z'
@@ -87,6 +87,10 @@ Depending on how much support you and your team need, balance solo and team time
 #### Day 5
 
 With your team, complete the specs in [Stage 5](#stage-5) to challenge and practice everything that you've learned so far.
+
+Take your object-oriented skills into a new domain to put them to the test. Instead of working against a set of clearly defined specs, you'll have to come up with your own **object model** for a new system: a music player.
+
+A big part of object-oriented programming is taking the specs for a product and figuring out what kinds of **objects** will be needed to implement the desired behavior. Among other things, you'll need to design the classes, their instance methods and properties, and the relationships between objects.
 
 ## Context
 
