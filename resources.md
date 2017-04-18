@@ -4,7 +4,7 @@ layout: page
 
 # Resources
 
-Collection of resources referenced from goals.
+Collection of resources referenced from goals. [Edit this page](https://github.com/GuildCrafts/web-development-js/edit/master/resources.md)
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -19,6 +19,8 @@ Collection of resources referenced from goals.
 - [Libraries](#libraries)
 
 <!-- /TOC -->
+
+---
 
 ## Books
 
