@@ -68,7 +68,7 @@ A just a heads up on CodeWars: you're required to answer a couple of super basic
 
 ## Resources
 
-- [Mostly Adequate Guide ][mostly-adequate-guide] book
+- [Mostly Adequate Guide][mostly-adequate-guide] book
 - [CodeWars functional programming in JS katas][codewars-chals]
 - Video: [Intro to Functional JavaScript (8m)](https://scrimba.com/Lokeh/cast-1180)
 
@@ -79,6 +79,9 @@ Articles, guides, and courses
 - [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
 - [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) (advanced)
 - [Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
+- Frontend Masters: [Hardcore Functional Programming in JavaScript (6h)](https://frontendmasters.com/courses/functional-javascript/) #fp #js
+- Frontend Masters: [Functional-Lite JavaScript (3h)](https://frontendmasters.com/courses/functional-js-lite/) #fp #js
+- Frontend Masters: [Four Semesters of Computer Science in 5 Hours (5h)](https://frontendmasters.com/courses/computer-science/) - specifically, the Section "Functional Programming 101" #fp #js
 
 Tools and libraries
 
