@@ -62,6 +62,15 @@ Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/b
 - [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
+### Stretch
+
+Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Python, C, Java...) and write tests & implementations for each.
+
+- [ ] Can run all non-JavaScript tests with a single command.
+- [ ] For each algorithm identified above, there exists:
+  - [ ] a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
+  - [ ] an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
+
 
 [core-algos]: {{ site.url }}{% link _goals/123-Core_Algorithms.md %}
 [core-algos-adv]: {{ site.url }}{% link _goals/159-Core_Algorithms-Sorting_Searching_Graphing_and_Geometry.md %}
