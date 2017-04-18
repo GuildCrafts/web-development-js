@@ -61,6 +61,8 @@ $ npm run parse:oo hello.md
 </ul>
 ```
 
+If you're new to parsing strategies, take a look at the [resources](#resources) provided.
+
 ## Context
 
 Knowing how, when, and where to apply a particular _programming paradigms_ to a a piece of code is a key skill of any self-respecting software developer.
@@ -117,6 +119,11 @@ For each programming paradigm, write a Markdown parser using a language that _sp
 - [ ] Imperative-style Markdown parser is written in either [C](https://en.wikipedia.org/wiki/C_(programming_language)) or [Go](https://golang.org/)\*
 
 _\*It is a bit blasphemous to say that Go specializes in imperative programming, as it is a highly sophisticated language. That being said, it works just fine when using an imperative style._
+
+## Resources
+
+- [Parsing strategy](http://spec.commonmark.org/0.27/#appendix-a-parsing-strategy) appendix from the [CommonMark Spec](http://spec.commonmark.org/0.27/).
+- Github: [A formal spec for GitHub Flavored Markdown](https://githubengineering.com/a-formal-spec-for-github-markdown/).
 
 [mit-license]: https://opensource.org/licenses/MIT
 [multiple-paradigms]: https://github.com/GuildCrafts/multiple-paradigms
