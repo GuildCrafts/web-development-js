@@ -14,6 +14,8 @@ redirect_from: "/goals/96"
 
 # Foundational Relational Database Exercises
 
+<strong style="color: red;">There has been feedback that the SQL Zoo tutorials in this goal are not great. :( Consider choosing a different SQL goal, like [Core SQL #178][core-sql] or [Init 4: Relational Databases][relational-databases].</strong>
+
 ## Challenge Rating
 
 This goal will likely be within your ZPD if you...
@@ -37,10 +39,6 @@ Create a repository to use as your artifact, and copy your SQL solutions for eac
 ### SQL Foundations
 
 Learn SQL query fundamentals by working through bite-sized tutorials on [SQLBolt](https://sqlbolt.com/) and [SQLZOO](http://sqlzoo.net/). Execute tutorial queries directly on [SQLBolt](https://sqlbolt.com/) and [SQLZOO](http://sqlzoo.net/) to yield the desired data.
-
-### SQL Foundations Practice Exercises
-
-Once you gain more confidence in your ability to construct queries with tutorial data, start working through database exercises on [LeetCode](https://leetcode.com/problemset/database/).
 
 ### Exercises to Reinforce Conceptual Knowledge
 
@@ -67,16 +65,12 @@ Being able to write SQL queries is an important skill, but being able to design 
 
 ## Specifications
 
-It is recommended that you complete these specs in order. The LeetCode exercises build on the **SQL Foundations** exercises.
+It is recommended that you complete these specs in order.
 
 **SQL Foundations**
 - [ ] [SQLBolt](https://sqlbolt.com/) exercises completed
   - [ ] Solutions added to artifact repo
 - [ ] Exercises in "Tutorials: Learn SQL in stages" section on [SQLZOO](http://sqlzoo.net/) completed
-  - [ ] Solutions added to artifact repo
-
-**SQL Foundations Practice Exercises**
-- [ ] 10 TOTAL "Easy" and "Medium" level [database challenges](https://leetcode.com/problemset/database/) on LeetCode completed
   - [ ] Solutions added to artifact repo
 
 **Exercises to Reinforce Conceptual Knowledge**
@@ -109,3 +103,6 @@ It is recommended that you complete these specs in order. The LeetCode exercises
 - [SQLZOO](http://sqlzoo.net/)
 - [SQL Teaching](https://www.sqlteaching.com/)
 - [What are 1NF, 2NF and 3NF in database design?](http://stackoverflow.com/questions/723998/what-are-1nf-2nf-and-3nf-in-database-design/724032#724032)
+
+[relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
+[core-sql]: {{ site.url }}{% link _goals/178-Core_SQL.md %}
