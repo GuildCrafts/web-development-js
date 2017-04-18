@@ -11,6 +11,7 @@
   ],
   "published": true,
   "level": "2",
+  "dynamic": true,
   "redirect_from": "/goals/238",
   "url": "http://jsdev.learnersguild.org/goals/238-Work_on_Step.html",
   "xp_value": 200,

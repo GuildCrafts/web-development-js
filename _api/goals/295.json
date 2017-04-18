@@ -11,6 +11,7 @@
   ],
   "published": false,
   "level": "4",
+  "dynamic": true,
   "redirect_from": "/goals/295",
   "url": "http://jsdev.learnersguild.org/goals/295-Work_on_Literator.html",
   "xp_value": 400,
