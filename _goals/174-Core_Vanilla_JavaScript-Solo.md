@@ -48,6 +48,7 @@ Choose this goal if you're just getting started with the basics of JavaScript an
 - [ ] Artifact produced is a fork of the [core-vjs][core-vjs] repo.
 - [ ] All readings and videos in the `solo_study.md` file are completed and checked off.
 - [ ] All exercises and lessons in the `solo_study.md` file are completed and checked off.
+- [ ] Solution code for all exercises in `solo_study.md` file are added to the repo.
 - [ ] Final project is complete and in the proper directory of the artifact.
 - [ ] Code is well formatted with proper spacing and indentation.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
