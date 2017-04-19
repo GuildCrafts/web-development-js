@@ -5,23 +5,27 @@ layout: default
 <div class="custom-goal-page mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">{{ page.title }}</h2>
-    <div class="mdl-layout-spacer"></div>
-
-    {% include goal_badges.html goal=page %}
-  </div>
-
-  <div class="mdl-card__actions mdl-card--border">
-    <span>Goal #{{page.goal_id}} |
-      <a href="https://www.github.com/{{ site.github_org }}/{{ site.github_repo }}/tree/master/{{ page.path }}">Source File</a></span>
     &nbsp;
-
+    <small>
+      #{{page.goal_id}}
+      | <a href="https://www.github.com/{{ site.github_org }}/{{ site.github_repo }}/tree/master/{{ page.path }}">Source</a>
+    </small>
+    <div class="mdl-layout-spacer"></div>
     {% for label in page.labels %}
       <span class="mdl-chip">
         <span class="mdl-chip__text">{{ label }}</span>
       </span>
     {% endfor %}
+    &nbsp;
+
+    {% include goal_badges.html goal=page %}
+  </div>
+
+  <div class="mdl-card__actions mdl-card--border">
+    {% include goal_xp.html goal=page %}
 
     <div class="mdl-layout-spacer"></div>
+
     {% for author in page.authors %}
       <span id="author-{{author}}" class="mdl-chip mdl-chip--contact">
         <img class="mdl-chip__contact" src="https://avatars.githubusercontent.com/{{ author }}?size=32">
