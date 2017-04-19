@@ -40,6 +40,12 @@ class Goal
     self['team_size'].to_i * self['level'].to_i * 50
   end
 
+  def bonus_xp
+    # If you change this, make sure to also change the computed value in _includes/goal_badges.html
+    multiplier = self['team_size'] == 1 ? 0.075 : 0.15
+    base_xp * multiplier
+  end
+
   def to_s
     metadata['title']
   end
