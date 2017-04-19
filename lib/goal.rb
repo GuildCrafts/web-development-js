@@ -15,7 +15,8 @@ class Goal
     @source_file = opts[:source_file]
 
     @metadata['url'] = url if @source_file
-    @metadata['xp_value'] = xp_value
+    @metadata['base_xp'] = base_xp
+    @metadata['bonus_xp'] = bonus_xp
     @metadata['dynamic'] ||= false # default to false
   end
 
@@ -35,9 +36,19 @@ class Goal
     self.class.base_url + filename + '.html'
   end
 
-  def xp_value
-    # If you change this, make sure to also change the computed value in _layouts/goal.html
+  def base_xp
+    return self['base_xp'] if self['base_xp']
+
+    # If you change this, make sure to also change the computed value in _includes/goal_xp.html
     self['team_size'].to_i * self['level'].to_i * 50
+  end
+
+  def bonus_xp
+    return self['bonus_xp'] if self['bonus_xp']
+
+    # If you change this, make sure to also change the computed value in _includes/goal_xp.html
+    multiplier = self['team_size'] == 1 ? 0.075 : 0.15
+    base_xp * multiplier
   end
 
   def to_s
