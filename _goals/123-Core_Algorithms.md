@@ -113,6 +113,10 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 
 - [Data Structures and Algorithms with JavaScript](http://shop.oreilly.com/product/0636920029557.do)
 
+#### Other Resources
+
+- Xkcd comic: [collatzConjecture](https://xkcd.com/710/)
+
 [mit-license]: https://opensource.org/licenses/MIT
 [core-algorithms]: https://github.com/GuildCrafts/core-algorithms
 [algorithms-list]: https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md
