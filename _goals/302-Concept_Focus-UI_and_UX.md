@@ -57,6 +57,8 @@ The disadvantage is that it is very easy to get distracted or to waste time on n
 
 That being said, if you have the self-discipline, motivation, and resolve, you will likely benefit from choosing this goal.
 
+An added benefit of working on a concept-focus goal is that you'll have a project with lots of great _examples_ that you can reference later.
+
 ## Specifications
 
 - [ ] Artifact produced is a GitHub repo.
