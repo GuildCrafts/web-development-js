@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "jrob8577"
+  ],
+  "team_size": 1,
+  "goal_id": 135,
+  "title": "Coaching",
+  "created_at": "2017-04-20T13:34:34Z",
+  "labels": [
+    "apprentice"
+  ],
+  "published": true,
+  "level": "3",
+  "base_xp": 175,
+  "bonus_xp": 26,
+  "redirect_from": "/goals/37",
+  "url": "http://jsdev.learnersguild.org/goals/135-Coaching.html",
+  "dynamic": false,
+  "content": "# Coaching\n\n## Description\n\nGoal for Level 3 folks to vote on for coaching.\n\n## Specifications\n\n- Sign up for coach-queue\n- Perform code reviews\n- Providing technical guidance and advice to players\n- Assisting players in their project work\n- Supporting teams in completing their projects\n\n\n- Link to the coaching playbook (jrob has it)\n- Expectations: completeness = % of primary claimed + % of communal claimed\n- Priorities for coaching (https://app.glassfrog.com/roles/8700307)\n- Accountabilities for coaching (https://app.glassfrog.com/roles/8700307)\n- Emphasis on completing 100% project reviews"
+}
