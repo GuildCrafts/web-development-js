@@ -21,3 +21,10 @@ Goal for Level 3 folks to vote on for coaching.
 - Providing technical guidance and advice to players
 - Assisting players in their project work
 - Supporting teams in completing their projects
+
+
+- Link to the coaching playbook (jrob has it)
+- Expectations: completeness = % of primary claimed + % of communal claimed
+- Priorities for coaching (https://app.glassfrog.com/roles/8700307)
+- Accountabilities for coaching (https://app.glassfrog.com/roles/8700307)
+- Emphasis on completing 100% project reviews
