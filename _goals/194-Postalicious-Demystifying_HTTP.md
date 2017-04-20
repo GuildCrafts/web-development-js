@@ -32,15 +32,11 @@ Build a loose clone of the [Postman extension][postman-extension] for Google Chr
 
 Postalicious is an app that lets you send custom HTTP requests to a server and inspect both the request and the response messages. In this way, it lets you control things like request parameters, headers, and the message body, and then you can see the raw response from the server.
 
-Here's a wireframe of the Postalicious interface that you can use to design around:
+Below is a wireframe of the Postalicious interface that you can use to design around. This design is a simplified version of the UI for  [Postman][postman-extension].
 
 <img alt="Postalicious mockup" width="800" src="https://cloud.githubusercontent.com/assets/709100/23727389/d4195ca8-0425-11e7-8a02-fe42d4938b9a.png">
 
-In order to give Postalicious something to practice on, you'll also build a simple HTTP server using Node.js and [Express][express] (we'll just call this the "sandbox server"). This server won't do much, but it will provide a range of response to different kinds of requests so that your Postalicious app has a good sandbox to play with.
-
 If you are brand-new to HTTP, or just a little rusty, it is highly recommended that you go through some or all of the [courses and tutorials](#courses-tutorials-articles) in the [resources](#resources) section. Don't limit yourself to just these resources — there are lots of good learning materials on the web — but these at least should put you on more solid footing.
-
-It is recommended that you build the sandbox server first, and then the Postalicious app after. However, if you'd like to get a jump start on the sandbox server so that you can spend more time on Postalicious, you can use the provided [Scaffolded Sandbox Server](#scaffolded-sandbox-server) code.
 
 Finally, as a stretch exercise, use Postalicious to send requests to a real-world web API.
 
@@ -57,7 +53,7 @@ These are the steps, simplified and demonstrated in the diagram below:
 
 <img alt="Postalicious flow" width="800" src="https://cloud.githubusercontent.com/assets/709100/24780424/379ee40a-1b05-11e7-8c40-20c66368c26a.png">
 
-_Note that the above diagram assumes that Postalicious is sending a request to a site on the world wide web. But you could also send requests to URLs hosted by servers on your own computer, which is exactly what you are doing when you send requests to the sandbox server._
+_Note that the above diagram assumes that Postalicious is sending a request to a site on the world wide web. But you could also send requests to URLs hosted by servers on your own computer._
 
 ## Context
 
@@ -91,65 +87,8 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 
 ## Specifications
 
-**General**
-
-- [ ] The artifact produced is a repo with at least two sub-folders: `postalicious/` and `sandbox-server/`.
-- [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
-
-**Sandbox Server**
-
-_Note: to get a jump start on the sandbox server, you can use the provided [Scaffolded Sandbox Server](#scaffolded-sandbox-server) code. It doesen't solve for all of the specs below, but it will get a good amount of the way there._
-
-- [ ] Can run the command `npm run sandbox-server` (or `npm run sb`, if you want to save some typing) to start the sandbox web server at port 3000.
-- [ ] The sandbox server source code is written using the [Express][express] library.
-- [ ] Sending a `GET` request to the path `/` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `Welcome to Sandbox!`
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `GET` request to the path `/search?q=doodads` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `You searched for: "doodads"`
-    - NOTE: (it doesn't need to actually do any searching, just return the plain text)
-    - NOTE: "doodads" is a placeholder for whatever string is in the `q` query param
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `GET` request to the path `/search` responds with...
-  - [ ] a 400 (Bad Request) status code
-  - [ ] a plain-text response body with the content `You didn't provide a search query term :(`
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `POST` request to the path `/things` with a plain text body `flying car` responds with...
-  - [ ] a 201 (Created) status code
-  - [ ] a plain-text response body with the content `New thing created: "flying car"!` (it doesn't need to actually create anything, just return the plain text)
-    - NOTE: "flying car" is just a placeholder for whatever string is sent in the POST body.
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `GET` request to the path `/somefile` with an `Accept` header of `text/plain` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `This is a plain text file`
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `GET` request to the path `/somefile` with an `Accept` header of `text/html` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] an HTML response body with the content `<!DOCTYPE html><html><body>This is an HTML file</body></html>`
-  - [ ] the `Content-Type` header set to `text/html`
-- [ ] Sending a `GET` request to the path `/myjsondata` with an `Accept` header of `application/json` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] an HTML response body with the content `{ "title": "some JSON data" }`
-  - [ ] the `Content-Type` header set to `application/json`
-- [ ] Sending a `GET` request to the path `/old-page` responds with...
-  - [ ] a 301 (Moved Permanently) status code
-  - [ ] the `Location` header set to `http://localhost:3000/newpage`
-- [ ] Sending a `POST` request to the path `/admin-only` responds with a 403 (Forbidden) status code
-- [ ] Sending a `GET` request to the path `/not-a-page` responds with a 404 (Not Found) status code
-- [ ] Sending a `GET` request to the path `/server-error` responds with a 500 (Internal Server Error) staus code
-
-**Postalicious**
-
-- [ ] Can run the command `npm run postalicious` (or `npm run pl`, if you want to save some typing) to start the Postalicious app at port 3001.
-- [ ] Users can visit the main page of the Postalicious site at `http://localhost:3001`.
+- [ ] The artifact produced is a GitHub repository.
+- [ ] Can run the command `npm start` to start the Postalicious app.
 - [ ] Main page has three main sections:
   - [ ] Request builder HTML form
   - [ ] Raw HTTP request
@@ -166,12 +105,18 @@ _Note: to get a jump start on the sandbox server, you can use the provided [Scaf
   - [ ] query parameter keys + values
   - [ ] header keys + values
   - [ ] request body
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
 
 Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 
-- [ ] Sandbox server is written using _only the core Node.js modules_ (instead of Express, use the built-in [HTTP module][node-http]).
 - [ ] Users of Postalicious can "save" their requests in a history panel
 - [ ] Clicking on a saved request will re-load it into the form
 - [ ] Using Postalicious, create some HTTP requests to various real-world APIs:
@@ -197,46 +142,6 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 - [Postman][postman-extension] is a nice GUI for building HTTP requests
 - [curl][curl] is a super useful tool for making HTTP requests from the command line
 
-### Scaffolded Sandbox Server
-
-If you want to get a jump-start on the sandbox server code, you can use the following Express server code to get you going (note you'll need to install the `express` and `body-parser` packages):
-
-```javascript
-const express = require('express')
-const bodyParser = require('body-parser')
-const http = require('http')
-
-const app = express()
-const port = 3000
-
-app.use(bodyParser.text())
-
-app.get('/', function(req, res) {
-  res.set('Content-Type', 'text/plain')
-  res.status(200).send('Welcome to Sandbox!')
-})
-
-app.get('/search', function(req, res) {
-  if ('q' in req.query) {
-    res.set('Content-Type', 'text/plain')
-    res.status(200).send(`You searched for: "${req.query.q}"`)
-  } else {
-    res.set('Content-Type', 'text/plain')
-    res.status(400).send("You didn't provide a search query term :(")
-  }
-})
-
-app.post('/things', function(req, res) {
-  res.set('Content-Type', 'text/plain')
-  res.status(201).send(`New thing created: "${req.body}"!`)
-})
-
-// Add other routes here
-
-app.listen(, function() {
-  console.log('Listening on port ' + port)
-})
-```
 
 [postman-extension]: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
 [express]: http://expressjs.com/
