@@ -2,10 +2,15 @@
 authors:
   - "jrob8577"
 team_size: 1
-goal_id: 135
-level: 3
+title: Coaching
+created_at: '2017-04-20T13:34:34Z'
+labels:
+- apprentice
+published: true
+level: '3'
 base_xp: 175
 bonus_xp: 26
+redirect_from: "/goals/37"
 ---
 
 # Coaching
