@@ -13,8 +13,8 @@
   "level": "3",
   "base_xp": 175,
   "bonus_xp": 26,
-  "redirect_from": "/goals/37",
+  "redirect_from": "/goals/135",
   "url": "http://jsdev.learnersguild.org/goals/135-Coaching.html",
   "dynamic": false,
-  "content": "# Coaching\n\n## Description\n\nGoal for Level 3 folks to vote on for coaching.\n\n## Specifications\n\n- Sign up for coach-queue\n- Perform code reviews\n- Providing technical guidance and advice to players\n- Assisting players in their project work\n- Supporting teams in completing their projects\n\n\n- Link to the coaching playbook (jrob has it)\n- Expectations: completeness = % of primary claimed + % of communal claimed\n- Priorities for coaching (https://app.glassfrog.com/roles/8700307)\n- Accountabilities for coaching (https://app.glassfrog.com/roles/8700307)\n- Emphasis on completing 100% project reviews"
+  "content": "# Coaching\n\nJoin the coaching team.\n\n## Accountabilities\n\n- Sign up for coach-que\n- Perform code and project reviews\n- Providing technical guidance and advice to players\n- Assisting players in their project work\n- Supporting teams in completing their projects\n- Conducting cognitive apprenticeship sessions\n\n## Priorities\n\nAs a Coach, you should prioritize your time this way:\n\n1. Project review for past week for projects that you were lead coach on. You should aim for **100% of project reviews**.\n1. Responding to coach queue requests for projects that you are coach lead on.\n1. Everything else.\n\n## Completion\n\nAs a coach, your \"completeness\" and XP is calculated differently than when working on projects.\n\nYour completeness is the sum of your percent of primary requests claimed and your percent of communal requests claimed. Here's the formula:\n\n```\ncompleteness = % of primary claimed + % of communal claimed\n```\n\nThis completeness % is then used to calculate how much XP you earned for a cycle of coaching."
 }
