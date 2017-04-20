@@ -16,21 +16,33 @@ redirect_from: "/goals/135"
 
 # Coaching
 
-## Description
+Join the coaching team.
 
-Goal for Level 3 folks to vote on for coaching.
+## Accountabilities
 
-## Specifications
-
-- Sign up for coach-queue
-- Perform code reviews
+- Sign up for coach-que
+- Perform code and project reviews
 - Providing technical guidance and advice to players
 - Assisting players in their project work
 - Supporting teams in completing their projects
+- Conducting cognitive apprenticeship sessions
 
+## Priorities
 
-- Link to the coaching playbook (jrob has it)
-- Expectations: completeness = % of primary claimed + % of communal claimed
-- Priorities for coaching (https://app.glassfrog.com/roles/8700307)
-- Accountabilities for coaching (https://app.glassfrog.com/roles/8700307)
-- Emphasis on completing 100% project reviews
+As a Coach, you should prioritize your time this way:
+
+1. Project review for past week for projects that you were lead coach on. You should aim for **100% of project reviews**.
+1. Responding to coach queue requests for projects that you are coach lead on.
+1. Everything else.
+
+## Completion
+
+As a coach, your "completeness" and XP is calculated differently than when working on projects.
+
+Your completeness is the sum of your percent of primary requests claimed and your percent of communal requests claimed. Here's the formula:
+
+```
+completeness = % of primary claimed + % of communal claimed
+```
+
+This completeness % is then used to calculate how much XP you earned for a cycle of coaching.
