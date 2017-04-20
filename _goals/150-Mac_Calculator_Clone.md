@@ -28,7 +28,7 @@ Replicate the builtin Mac calculator as a web app.
 
 The specs for this goal are far too numerous to complete within a week. Do not expect to get everything done but try to get as much done as you can. They are designed to cover a wide range of basic concepts and get progressively more complex.
 
-This goal has [5 linear stages][readme]. You must complete the specs of each stage before progressing onto the next. **The number of stages you complete will be the basis of your self assessment**, so keep track of how far you get, and aim to get farther next time.
+This goal has 3 linear stages. You must complete the specs of each stage before progressing onto the next. **The number of stages you complete will be the basis of your self assessment**, so keep track of how far you get, and aim to get farther next time.
 
 Fork the the [mac-calculator-clone repository][mac-calculator-clone] and use the fork as your project artifact.
 
@@ -56,14 +56,14 @@ Fork the the [mac-calculator-clone repository][mac-calculator-clone] and use the
 
 ## Specifications
 
-The specs are broken down in the following 5 stages. Make sure to complete all the items in each stages's `Specs` section.
+The specs are broken down in the following 3 stages, plus two "stretch" stages. Make sure to complete all the items in each stages's `Specs` section.
 
 - [Stage 1](#stage-1)
 - [Stage 2](#stage-2)
 - [Stage 3](#stage-3)
-- [Stage 4](#stage-4)
-- [Stage 5](#stage-5)
 - [General](#general) (applies to the whole project)
+- [Stretch Stage 1](#stretch-stage-1)
+- [Stretch Stage 2](#stretch-stage-2)
 
 **IMPORTANT:** When you complete a stage, before moving onto the next stage, tag the commit that completes stage N as `stage-N-complete` using [`git tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging). *Don't forget to push with `--tags`*.
 
@@ -195,9 +195,21 @@ In stage 3 you are going to add a second calculator to the page. Both calculator
 - [ ] The focused calculator is `opacity: 1`
 - [ ] The not-focused calculator is `opacity: 0.5`
 
-### Stage 4
+### General
 
-In stage 4 you are going to move the work of your calculator to the server. This might seem silly but its a good way to practice moving logic from the browser to the server without the logic itself being too complex.
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Stretch
+
+#### Stretch Stage 1
+
+In this stage you are going to move the work of your calculator to the server. This might seem silly but its a good way to practice moving logic from the browser to the server without the logic itself being too complex.
 
 ##### In this stage you will be using at least the following skills:
 
@@ -224,9 +236,9 @@ In stage 4 you are going to move the work of your calculator to the server. This
 - [ ] Each operation request responds with `JSON`
 - [ ] When the calculator is waiting for an operation request response, it ignores all input
 
-### Stage 5
+#### Stretch Stage 2
 
-In stage 5 you are going to add persistence to your express server. We're going to be persisting the history of the users calculations. We're also going back to just having one calculator on the page.
+In this stage you are going to add persistence to your express server. We're going to be persisting the history of the users calculations. We're also going back to just having one calculator on the page.
 
 ![calculator-with-history](https://cloud.githubusercontent.com/assets/8385/22572149/9be3c83e-e957-11e6-9431-9b9742b6b4af.png)
 
@@ -255,15 +267,7 @@ In stage 5 you are going to add persistence to your express server. We're going 
 - [ ] the server stores up to 100 calculation results
 - [ ] all mathematical operations have their own function, defined outside of any express router handlers.
 
-### General
-
-- [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+## Resources
 
 ### Calculator Rules and Examples
 
@@ -286,7 +290,7 @@ The Mac Calculator buttons follow certain rules which govern what is displayed (
 
 ```
 9 + 9 - 3 = // Display will be 15
-6 + =       // Display will be 12  
+6 + =       // Display will be 12
 4 X 4 =     // Display will be 16;
 =           // if '=' hit again, answer will be 64
 + =         // if '+', then '=' pressed at this point, answer will be 128
