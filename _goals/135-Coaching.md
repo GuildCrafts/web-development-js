@@ -1,6 +1,6 @@
 ---
 authors:
-  - "jrob8577"
+- "jrob8577"
 team_size: 1
 goal_id: 135
 title: Coaching
@@ -11,7 +11,7 @@ published: true
 level: '3'
 base_xp: 175
 bonus_xp: 26
-redirect_from: "/goals/37"
+redirect_from: "/goals/135"
 ---
 
 # Coaching
