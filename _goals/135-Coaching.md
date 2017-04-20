@@ -20,7 +20,7 @@ Join the coaching team.
 
 ## Accountabilities
 
-- Sign up for coach-que
+- Sign up for coach-queue
 - Perform code and project reviews
 - Providing technical guidance and advice to players
 - Assisting players in their project work
