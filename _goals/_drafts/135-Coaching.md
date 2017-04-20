@@ -1,8 +1,11 @@
 ---
 authors:
   - "jrob8577"
-team_size: 
+team_size: 1
 goal_id: 135
+level: 3
+base_xp: 175
+bonus_xp: 26
 ---
 
 # Coaching
