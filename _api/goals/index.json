@@ -1000,6 +1000,25 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 326,
+      "title": "Concept Focus: HTTP & Web APIs",
+      "created_at": "2017-04-14T10:00:00Z",
+      "labels": [
+        "concept-focus"
+      ],
+      "level": "2",
+      "published": true,
+      "redirect_from": "/goals/326",
+      "url": "http://jsdev.learnersguild.org/goals/326-Concept_Focus-HTTP_and_Web_APIs.html",
+      "base_xp": 200,
+      "bonus_xp": 30.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "Jusdev89"
       ],
       "team_size": 2,
