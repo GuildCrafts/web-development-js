@@ -46,3 +46,7 @@ completeness = % of primary claimed + % of communal claimed
 ```
 
 This completeness % is then used to calculate how much XP you earned for a cycle of coaching.
+
+## Resources
+
+- [How To Get The Most Out Of Coaching: A Guide](https://dianavashti.gitbooks.io/how-to-get-the-most-out-of-coaching/content/)
