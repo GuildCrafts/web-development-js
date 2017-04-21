@@ -9,7 +9,9 @@ labels:
 - practice
 - foundational
 published: true
-level: '1'
+level: '0'
+base_xp: 90
+bonus_xp: 20
 redirect_from: '/goals/255'
 ---
 
