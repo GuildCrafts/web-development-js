@@ -9,6 +9,8 @@ labels:
 - snapshot
 published: true
 level: '2'
+base_xp: 250
+bonus_xp: 37
 redirect_from: "/goals/231"
 ---
 
