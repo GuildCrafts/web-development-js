@@ -10,6 +10,8 @@ labels:
 published: true
 level: '2'
 redirect_from: "/goals/226"
+base_xp: 250
+bonus_xp: 37
 ---
 
 # Trossello Snapshot: Labels Epic
