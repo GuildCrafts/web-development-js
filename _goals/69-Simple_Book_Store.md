@@ -79,7 +79,7 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 - [ ] Web server can be started with the command `npm start`
 - [ ] Test suite can be run with the command `npm test`
 - [ ] All features are added as pull requests
-- [ ] All pull requests are approved by at least one other member of the team
+- [ ] All pull requests are approved by at least one other member of the team using GitHub's [pull request review feature](https://help.github.com/articles/about-pull-request-reviews/) (so that your teammate's approval is of the PR is documented)
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose
 - [ ] Code uses a linter and there are no linting errors.
