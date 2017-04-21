@@ -82,6 +82,7 @@ Articles, guides, and courses
 - Frontend Masters: [Hardcore Functional Programming in JavaScript (6h)](https://frontendmasters.com/courses/functional-javascript/) #fp #js
 - Frontend Masters: [Functional-Lite JavaScript (3h)](https://frontendmasters.com/courses/functional-js-lite/) #fp #js
 - Frontend Masters: [Four Semesters of Computer Science in 5 Hours (5h)](https://frontendmasters.com/courses/computer-science/) - specifically, the Section "Functional Programming 101" #fp #js
+- [funfunfunction YouTube Series on Functional Programming] (https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 
 Tools and libraries
 
