@@ -10,6 +10,8 @@ labels:
 published: true
 level: '2'
 redirect_from: "/goals/237"
+base_xp: 500
+bonus_xp: 75
 ---
 
 # Trossello Snapshot: Deploy the Profile Epic
