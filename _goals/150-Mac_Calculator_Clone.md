@@ -26,9 +26,7 @@ This goal will likely be within your ZPD if you...
 
 Replicate the builtin Mac calculator as a web app.
 
-The specs for this goal are far too numerous to complete within a week. Do not expect to get everything done but try to get as much done as you can. They are designed to cover a wide range of basic concepts and get progressively more complex.
-
-This goal has 3 linear stages. You must complete the specs of each stage before progressing onto the next. **The number of stages you complete will be the basis of your self assessment**, so keep track of how far you get, and aim to get farther next time.
+This goal has 3 linear stages. You must complete the specs of each stage before progressing onto the next. 
 
 Fork the the [mac-calculator-clone repository][mac-calculator-clone] and use the fork as your project artifact.
 
