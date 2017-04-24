@@ -34,25 +34,25 @@ Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/b
 
 - [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
 - [ ] Can run all tests with `npm test`.
-- [ ] `makeChange()` algorithm is correctly implemented.
+- [ ] `makeChange()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `fizzBuzz()` algorithm is correctly implemented.
+- [ ] `fizzBuzz()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `fizzBuzz()` exist.
-- [ ] `isPalindrome()` algorithm is correctly implemented.
+- [ ] `isPalindrome()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
-- [ ] `factorial()` algorithm is correctly implemented.
+- [ ] `factorial()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
-- [ ] `fibonacci()` algorithm is correctly implemented.
+- [ ] `fibonacci()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `collatzConjecture()` algorithm is correctly implemented.
+- [ ] `collatzConjecture()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setUnion()` algorithm is correctly implemented.
+- [ ] `setUnion()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setIntersection()` algorithm is correctly implemented.
+- [ ] `setIntersection()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setComplement()` algorithm is correctly implemented.
+- [ ] `setComplement()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setSymmetricDifference()` algorithm is correctly implemented.
+- [ ] `setSymmetricDifference()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `setSymmetricDifference()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
@@ -74,3 +74,4 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 
 [core-algos]: {{ site.url }}{% link _goals/123-Core_Algorithms.md %}
 [core-algos-adv]: {{ site.url }}{% link _goals/159-Core_Algorithms-Sorting_Searching_Graphing_and_Geometry.md %}
+[algorithms-list]: https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md
