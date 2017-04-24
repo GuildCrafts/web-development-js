@@ -71,7 +71,6 @@ Indulge your curiousity and explore the questions that pique your interest.
   - [ ] Solution code for each activity includes a comment with the prompt text for the activity.
 - [ ] Cheat sheet of your favorite useful commands and a brief explanation of what they do is included in the artifact as a `cheat-sheet.md` file.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
