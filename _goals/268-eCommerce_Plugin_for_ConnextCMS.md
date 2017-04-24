@@ -12,6 +12,8 @@ published: true
 redirect_from: '/goals/268'
 ---
 
+__FEEDBACK:__ This goal is impossible to review because it is a closed source repo. its also not on github. Please remove this goal from the library. 
+
 # eCommerce Plugin for ConnextCMS
 
 ## Challenge Rating
