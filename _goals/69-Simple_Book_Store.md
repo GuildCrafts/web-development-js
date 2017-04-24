@@ -59,32 +59,32 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 
 ## Specifications
 
-- [ ] [+1] Books have a title, author, and genre
+- [ ] [1] Books have a title, author, and genre
 - Users can...
-  - [ ] [+4] Add books into the bookstore system via an admin page (_create_)
-  - [ ] [+2] See a list of books on the home page (_read_)
-  - [ ] [+4] Edit a book's title, author, or genre (_update_)
-  - [ ] [+4] Delete a book from the bookstore (_delete_)
-  - [ ] [+8] Search for books by title OR by author OR by genre (_read_)
-  - [ ] [+2] View book details on a book detail page (_read_)
-- [ ] [+4] Lists of books are always paginated in groups of 10
-- [ ] [+1] Book detail view is linked to from the listing and search pages
-- [ ] [+1] Search results are presented in a new page
+  - [ ] [4] Add books into the bookstore system via an admin page (_create_)
+  - [ ] [2] See a list of books on the home page (_read_)
+  - [ ] [4] Edit a book's title, author, or genre (_update_)
+  - [ ] [4] Delete a book from the bookstore (_delete_)
+  - [ ] [8] Search for books by title OR by author OR by genre (_read_)
+  - [ ] [2] View book details on a book detail page (_read_)
+- [ ] [4] Lists of books are always paginated in groups of 10
+- [ ] [1] Book detail view is linked to from the listing and search pages
+- [ ] [1] Search results are presented in a new page
 - Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guidelines explained in [this article](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful))
-  - [ ] [+1] `GET` requests are only used for _read_ actions
-  - [ ] [+1] `POST` requests are only used for _create_ actions
-  - [ ] [+1] `PUT` or `PATCH` requests are only used for _update_ actions
-  - [ ] [+1] `DELETE` requests are only used for _delete_ actions
-- [ ] [+2] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
-- [ ] [+1] Web server can be started with the command `npm start`
-- [ ] [+1] Test suite can be run with the command `npm test`
-- [ ] [+1] All features are added as pull requests
-- [ ] [+1] All pull requests are approved by at least one other member of the team using GitHub's [pull request review feature](https://help.github.com/articles/about-pull-request-reviews/) (so that your teammate's approval is of the PR is documented)
-- [ ] [+1] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] [+1] Functions are small and serve a single purpose
-- [ ] [+1] Code uses a linter and there are no linting errors.
-- [ ] [+4] Code is well tested and all tests are passing.
-- [ ] [+1] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+  - [ ] [1] `GET` requests are only used for _read_ actions
+  - [ ] [1] `POST` requests are only used for _create_ actions
+  - [ ] [1] `PUT` or `PATCH` requests are only used for _update_ actions
+  - [ ] [1] `DELETE` requests are only used for _delete_ actions
+- [ ] [2] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
+- [ ] [1] Web server can be started with the command `npm start`
+- [ ] [1] Test suite can be run with the command `npm test`
+- [ ] [1] All features are added as pull requests
+- [ ] [1] All pull requests are approved by at least one other member of the team using GitHub's [pull request review feature](https://help.github.com/articles/about-pull-request-reviews/) (so that your teammate's approval is of the PR is documented)
+- [ ] [1] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] [1] Functions are small and serve a single purpose
+- [ ] [1] Code uses a linter and there are no linting errors.
+- [ ] [4] Code is well tested and all tests are passing.
+- [ ] [1] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
 
