@@ -119,7 +119,7 @@ By the time you're done with this goal, you will have:
 
 These are the basic specs for OOP Practice, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
-__FEEDBACK:__ this is one of the hardest goals to check. A lot of reading of external resources. Its not very easy to see if the solutons work since I cannot just execute them. I feel like OOP practice is perfect for a "make these tests pass" goal format. 
+__FEEDBACK:__ this is one of the hardest goals to check. A lot of reading of external resources. Its not very easy to see if the solutons work since I cannot just execute them. The bike-shop part is great but grading the music-player and bike-shop is hard.
 
 #### Stage 1
 
