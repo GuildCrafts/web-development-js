@@ -46,14 +46,25 @@ The article [The Two Pillars of JavaScript — Pt 2: Functional Programming]
 
 ## Specifications
 
+__FEEDBACK:__ there is no way to confirm someone has read something :P
+
 - [ ] Read the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] through Chapter 8: Tupperware
+
+__FEEDBACK:__ can we specify where so whoever grades this artifact knows where to look? Maybe we can change these specs to be one checkbox per spec you're written. And we can just run the tests to determine completeness?
+
 - [ ] Exercises from the Mostly Adequate Guide are completed and included in the artifact repo
   - [ ] [Chapter 4 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html#exercises) completed and all tests are passing
   - [ ] [Chapter 5 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch5.html#exercises) completed and all tests are passing
   - [ ] [Chapter 8 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#exercises) completed and all tests are passing
 - [ ] [5 Functional Programming katas][codewars-chals] from CodeWars are completed and added to the `code-wars` folder of your artifact repo
 - [ ] Code uses a linter and there are no linting errors.
+
+__FEEDBACK:__ this spec seems redundant if you're using a properly configured linter
+
 - [ ] Code is well formatted with proper spacing and indentation.
+
+__FEEDBACK:__ this is too subject. We should remove it or replace it in all the goals its listed on. 
+
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
