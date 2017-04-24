@@ -34,15 +34,15 @@ Complete **ONLY** the [Sorting and Searching](https://github.com/GuildCrafts/cor
 
 - [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
 - [ ] Can run all tests with `npm test`.
-- [ ] `binarySearch()` algorithm is correctly implemented.
+- [ ] `binarySearch()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `bubbleSort()` algorithm is correctly implemented.
+- [ ] `bubbleSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `mergeSort()` algorithm is correctly implemented.
+- [ ] `mergeSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `closestPair()` algorithm is correctly implemented.
+- [ ] `closestPair()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `isConnectedGraph()` algorithm is correctly implemented.
+- [ ] `isConnectedGraph()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `isConnectedGraph()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
@@ -63,3 +63,4 @@ Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Pytho
 
 [core-algos]: {{ site.url }}{% link _goals/123-Core_Algorithms.md %}
 [core-algos-basic]: {{ site.url }}{% link _goals/158-Core_Algorithms-Classic_Numeric_and_Set.md %}
+[algorithms-list]: https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md
