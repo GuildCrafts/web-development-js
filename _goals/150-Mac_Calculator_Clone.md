@@ -147,7 +147,7 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
   - [ ] pressing `AC` `99` `%` displays `0.99`
   - [ ] pressing `AC` `9` `+` `9` `-` `3` `=` displays `15`
   - [ ] pressing `AC` `6` `+` `=` displays `12`
-  - [ ] pressing `AC` `4` `x` `4` `=` displays `64`
+  - [ ] pressing `AC` `4` `x` `4` `=` displays `16`
   - [ ] pressing `AC` `64` `+` `=` displays `128`
   - [ ] pressing `AC` `9` `+` displays `9`
   - [ ] pressing `AC` `8` `-` `5` `-` displays `3`
