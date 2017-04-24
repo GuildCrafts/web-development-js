@@ -91,11 +91,13 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 - [ ] [+4] App is deployed and live on the web (consider using Heroku)
 - [ ] [+4] All source code is written with ES6
 - [ ] [+4] Users have their own account and can sign up and sign in/out
-- [ ] [+2] Users have one of three roles: `admin`, `clerk`, `reader`
-  - [ ] [+4] Users with role `reader` can only view and search for books
-  - [ ] [+4] Users with role `clerk` can edit books in addition to viewing/searching
-  - [ ] [+4] Users with role `admin` can perform all actions (create, read, update, delete) with books
 - [ ] [+1] Books have a price, cover image, publisher, and ISBN number
+
+#### Roles
+- [ ] [+2] Users have one of three roles: `admin`, `clerk`, `reader`
+- [ ] [+4] Users with role `reader` can only view and search for books
+- [ ] [+4] Users with role `clerk` can edit books in addition to viewing/searching
+- [ ] [+4] Users with role `admin` can perform all actions (create, read, update, delete) with books
 
 ## Resources
 
