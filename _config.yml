@@ -1,0 +1,49 @@
+title: JS Web Developer Goals
+email: info@learnersguild.org
+description: >
+  Useful information and guidance for learning the craft
+  of web development with JavaScript.
+url: "http://jsdev.learnersguild.org"
+baseurl: ""
+github_org: GuildCrafts
+github_repo: web-development-js
+
+gems:
+  - jekyll-redirect-from
+  - rouge
+  - jemoji
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+show_downloads: false
+destination: _site
+exclude:
+  - bin
+  - lib
+  - guides
+  - library
+  - playlists
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+collections:
+  goals:
+    output: true
+  api:
+    output: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: "JS Web Developer Craft Repo"
+      level: '1'
+  -
+    scope:
+      path: ""
+      type: goals
+    values:
+      layout: goal

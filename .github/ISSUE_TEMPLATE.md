@@ -1,38 +1,11 @@
-## Description
+_The text here is just a placeholder with some useful instructions - please delete it and replace with whatever you'd like to say._
 
-_Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
+Hooray! You're submitting an issue to the web-development-js repository!
 
-## Context
+Use issues to do things like:
 
-_Why is this goal important? How is it useful? What questions will it raise?_
-
-## Specifications
-
-_List of specifications (specs) for the completed goal. These are declarative sentences (statements) describing a feature of the final product._
-
-- [ ] Spec one.
-- [ ] Spec two.
-- [ ] Spec three.
-
-### Required
-
-_Do not remove these specs - they are required for all goals_.
-
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-## Quality Rubric
-
-_What are some appropriate quality objectives for this goal? These are statements about the internal characteristics of the product that demonstrate fine design and craftspersonship, not its external features._
-
-- Quality rubric one: point value
-- Quality rubric two: point value
-- Quality rubric three: point value
-
----
-
-<!-- LICENSE -->
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-[mit-license]: https://opensource.org/licenses/MIT
+- Suggest a new goal => use label: `goal-idea`
+- Give feedback on an existing goal => use label: `goal-feedback`
+- Request an edit to a goal => use label: `goal-edit`
+- Report a bug in the goal library => use label: `bug`
+- Request a feature of the goal library => use label: `feature`

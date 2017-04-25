@@ -1,0 +1,27 @@
+{% if include.goal.base_xp %}
+  {% assign base_xp = include.goal.base_xp %}
+{% else %}
+  <!-- This computed Base XP should match the Goal#base_xp in lib/goal.rb -->
+  {% assign base_xp = 50 | times: include.goal.level | times: include.goal.team_size %}
+{% endif %}
+
+{% if include.goal.bonus_xp %}
+  {% assign bonus_xp = include.goal.bonus_xp %}
+{% elsif include.goal.team_size == 1 %}
+  <!-- This computed Bonus XP should match the Goal#bonus_xp in lib/goal.rb -->
+  {% assign bonus_xp = 0.075 | times: base_xp %}
+{% else %}
+  <!-- This computed Bonus XP should match the Goal#bonus_xp in lib/goal.rb -->
+  {% assign bonus_xp = 0.15 | times: base_xp %}
+{% endif %}
+
+<span class="mdl-chip mdl-color--orange-200">
+  <span id="base_xp" class="mdl-chip__text"><strong>{{ base_xp }}</strong> Base XP</span>
+</span>
+&nbsp;
+<span class="mdl-chip mdl-color--deep-orange-300">
+    <span id="bonus_xp" class="mdl-chip__text"><strong>{{ bonus_xp }}</strong> Bonus XP</span>
+</span>
+
+<div class="mdl-tooltip" data-mdl-for="base_xp">XP split between team members based on contribution and completeness</div>
+<div class="mdl-tooltip" data-mdl-for="bonus_xp">XP awarded to all members based on completeness</div>
