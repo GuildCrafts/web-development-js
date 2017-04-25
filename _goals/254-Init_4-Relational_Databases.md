@@ -338,6 +338,7 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 
 - [SQL Bolt][sql-bolt] #sql #db
 - [SQL Zoo](http://sqlzoo.net/) #sql #db
+- [SQL Teaching](https://www.sqlteaching.com/) #sql #db
 
 ##### Guides
 
