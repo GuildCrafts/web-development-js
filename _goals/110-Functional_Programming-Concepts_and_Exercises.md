@@ -34,6 +34,8 @@ You'll practice these concepts with a series of reinforcement exercises from the
 
 Fork the [fp-exercises][fp-exercises] repo, and use the fork as your artifact.
 
+Before getting going on the exercises, it is recommended that you use some of he resources to familiarize yourself with basic functional programming concepts.
+
 This repo has the exercises and tests for the Mostly Adequate Guide already there so you can get started right away. When you work on the CodeWars katas, just copy your solution into the `code-wars` folder of the repo so that your code can be reviewed and so that you can reference it in the future.
 
 If this goal is too advanced for you, a good pre-requisite goal is @Jusdev89's [Common JS Utility Functions - Lodash](./37-Common_JS_Utility_Functions-Lodash.md).
@@ -49,7 +51,6 @@ The article [The Two Pillars of JavaScript — Pt 2: Functional Programming]
 #### General
 
 - [ ] Code uses a linter and there are no linting errors.
-- [ ] Code is well formatted with proper spacing and indentation.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
