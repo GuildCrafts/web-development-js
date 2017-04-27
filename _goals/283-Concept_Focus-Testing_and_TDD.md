@@ -12,6 +12,10 @@ published: true
 redirect_from: '/goals/283'
 ---
 
+__FEEDBACK:__ I think we should move this goal back into draft. Look at it from the perspectice of consistant and objective completeness scores, I conclude the specs are too ambigious. 
+
+__RECOMMENDATION:__ This goal should come with an app that needs testing and at least one example of each kind of test so the learner can follow a pre-existing example. This goal currently says "go figure out how these three kinds of tests work and impliment them" which is too large of an ask for one week at any skill level. I doubt I could complete this goal in a way jrob would give me 100%. The lines between unit, integration and feature tests is ambigious even among experts. I think if we provide an example learners can follow this will be a more objectively measurable way to practice writing these kinds of tests. 
+
 # Concept Focus: Testing and TDD
 
 ## Challenge Rating
