@@ -627,9 +627,9 @@
       "published": true,
       "level": "2",
       "redirect_from": "/goals/226",
+      "base_xp": 250,
+      "bonus_xp": 37,
       "url": "http://jsdev.learnersguild.org/goals/226-Trossello_Snapshot-Labels_Epic.html",
-      "base_xp": 200,
-      "bonus_xp": 30.0,
       "dynamic": false
     },
     {
@@ -664,10 +664,10 @@
       ],
       "published": true,
       "level": "2",
+      "base_xp": 250,
+      "bonus_xp": 37,
       "redirect_from": "/goals/231",
       "url": "http://jsdev.learnersguild.org/goals/231-Trossello_Snapshot-Activity_and_Comments_Epic.html",
-      "base_xp": 200,
-      "bonus_xp": 30.0,
       "dynamic": false
     },
     {
@@ -684,9 +684,9 @@
       "published": true,
       "level": "2",
       "redirect_from": "/goals/232",
+      "base_xp": 250,
+      "bonus_xp": 37,
       "url": "http://jsdev.learnersguild.org/goals/232-Trossello_Snapshot-Members_and_Teams_Epic.html",
-      "base_xp": 200,
-      "bonus_xp": 30.0,
       "dynamic": false
     },
     {
@@ -741,9 +741,9 @@
       "published": true,
       "level": "2",
       "redirect_from": "/goals/237",
+      "base_xp": 500,
+      "bonus_xp": 75,
       "url": "http://jsdev.learnersguild.org/goals/237-Trossello_Snapshot-Deploy_the_Profile_Epic.html",
-      "base_xp": 400,
-      "bonus_xp": 60.0,
       "dynamic": false
     },
     {
@@ -778,11 +778,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 50,
+      "bonus_xp": 30,
       "redirect_from": "/goals/251",
       "url": "http://jsdev.learnersguild.org/goals/251-Init_1-Bossggle_Word_Game.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
@@ -798,11 +798,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 60,
+      "bonus_xp": 25,
       "redirect_from": "/goals/252",
       "url": "http://jsdev.learnersguild.org/goals/252-Init_2-OOP_Practice_with_Bike_Shop.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
@@ -818,11 +818,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 70,
+      "bonus_xp": 20,
       "redirect_from": "/goals/253",
       "url": "http://jsdev.learnersguild.org/goals/253-Init_3-Hello_Web_Servers.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
@@ -838,11 +838,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 40,
+      "bonus_xp": 15,
       "redirect_from": "/goals/254",
       "url": "http://jsdev.learnersguild.org/goals/254-Init_4-Relational_Databases.html",
-      "base_xp": 50,
-      "bonus_xp": 3.75,
       "dynamic": false
     },
     {
@@ -858,11 +858,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 90,
+      "bonus_xp": 20,
       "redirect_from": "/goals/255",
       "url": "http://jsdev.learnersguild.org/goals/255-Init_5-Web_APIs.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
@@ -878,11 +878,11 @@
         "foundational"
       ],
       "published": true,
-      "level": "1",
+      "level": "0",
+      "base_xp": 80,
+      "bonus_xp": 10,
       "redirect_from": "/goals/256",
       "url": "http://jsdev.learnersguild.org/goals/256-Init_6-Developer_Tools.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
