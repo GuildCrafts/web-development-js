@@ -49,4 +49,5 @@ This completeness % is then used to calculate how much XP you earned for a cycle
 
 ## Resources
 
-- [How To Get The Most Out Of Coaching: A Guide](https://dianavashti.gitbooks.io/how-to-get-the-most-out-of-coaching/content/)
+- [Coaching Guide](https://playbook.learnersguild.org/Learning_Guide/Coaching.html)
+
