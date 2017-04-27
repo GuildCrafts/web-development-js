@@ -98,6 +98,7 @@ If you finish _all_ of this (or are just itchy for other resources), then go div
 - University of Hawaii article on [Advanced Unix][uhi-advanced-unix]
 - Codecademy's [Command Line course][codecademy-command-line]
 - [jlevy](https://github.com/jlevy/)'s [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
+- Article: [Ten things I wish I knew earlier about the Linux command line](https://linuxacademy.com/blog/linux/ten-things-i-wish-i-knew-earlier-about-the-linux-command-line-2/)
 
 Videos:
 
