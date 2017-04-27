@@ -66,6 +66,8 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
+__FEEDBACK:__ all the `Examples … listed and linked to in the README.` specs are confusing. What is a link? Can we have an example?
+
 - [ ] Artifact produced is a GitHub repo.
 - [ ] Repo contains a full-stack web application using Node.js.
   - [ ] Application uses a database.
