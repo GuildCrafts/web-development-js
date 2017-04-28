@@ -10,7 +10,7 @@ labels:
 - "games"
 - "console"
 - "JavaScript basics"
-level: 1
+level: '1'
 published: true
 redirect_from: '/goals/68'
 ---
@@ -77,6 +77,7 @@ This goal provides a great chance to spend a whole week working with only .js fi
 - [ ] The payout on a natural blackjack is 3:2 instead of 1:1
 
 Here is an example of how one round of your game might look in your repo (The demo version used a bank that has both money and objects as payroll. What will you do to make your version unique? Have fun with it!):
+
 ![screenshot1](https://cloud.githubusercontent.com/assets/19767738/25509217/2ddaa572-2b6c-11e7-8001-3a4412d3b093.png)
 
 ## Resources
