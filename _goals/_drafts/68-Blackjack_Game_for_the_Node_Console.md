@@ -59,6 +59,7 @@ This goal provides a great chance to spend a whole week working with only .js fi
   - [ ] The player can only see one of the dealers two cards during their turn.
   - [ ] The dealer takes their actions after the user.
   - [ ] The dealer gets to go second and will always try and win. (If you don't bust the dealer will hit until they win or bust.)
+  - [ ] An Ace is worth 11 unless it would put the player over 21, in which it becomes worth 1. This is still true for multiple Ace's (Example: A♠︎, A♣️, 9♦️ => 1, 11, 9 => 21)
   - [ ] There is an exit command to terminate the game.
   - [ ] The game does not allow you to bet more than you have.
   - [ ] Each round begins by showing you your current bankroll, and you can bet as much or as little of that total as you wish.
