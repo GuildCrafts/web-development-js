@@ -1076,6 +1076,28 @@
       "dynamic": false
     },
     {
+      "title": "Blackjack Game in the Shell with Node.js",
+      "authors": [
+        "phoniks",
+        "DianaVashti"
+      ],
+      "team_size": 2,
+      "goal_id": 68,
+      "created_at": "2017-04-24T09:34:55Z",
+      "labels": [
+        "games",
+        "console",
+        "JavaScript basics"
+      ],
+      "level": "1",
+      "published": true,
+      "redirect_from": "/goals/68",
+      "url": "http://jsdev.learnersguild.org/goals/68-Blackjack_Game_in_the_Shell_with_Node.html",
+      "base_xp": 100,
+      "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
       "authors": [
         "jrob8577"
       ],
