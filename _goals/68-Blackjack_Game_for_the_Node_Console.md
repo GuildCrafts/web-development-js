@@ -1,18 +1,21 @@
 ---
+title: Blackjack Game in the Shell with Node.js
 authors:
-  - "phoniks"
-  - "DianaVashti"
+- "phoniks"
+- "DianaVashti"
 team_size: 2
 goal_id: 68
 created_at: '2017-04-24T09:34:55Z'
 labels:
-- Games, Console, JavaScript basics
+- "games"
+- "console"
+- "JavaScript basics"
 level: 1
-published: false
+published: true
 redirect_from: '/goals/68'
 ---
 
-# Blackjack Game for the Node.js Console
+# Blackjack Game in the Shell with Node.js
 
 ## Challenge Rating
 
@@ -67,7 +70,7 @@ This goal provides a great chance to spend a whole week working with only .js fi
   - [ ] The game observes only the basic rules of blackjack: Natural blackjacks, ties lead to re-deals with the same bet, basic hit or stay abilities. Do not worry about more complex rules like doubling-down or splits.
   - [ ] The artifact for the project is set and the readME includes the: Team name, goal number, team member handles, and a brief description of how to play your game (example: What is the command to quit, start, hit, or stay?)
 
-Stretch:
+### Stretch
 - [ ] The game supports multiple user-players.
 - [ ] The dealer AI considers all players in multi-player format when executing their logic.
 - [ ] There is a multiplayer format without a dealer ( player vs. player: Game ends when one player is out of bankroll )
@@ -77,14 +80,14 @@ Here is an example of how one round of your game might look in your repo (The de
 ![screenshot1](https://cloud.githubusercontent.com/assets/19767738/25509217/2ddaa572-2b6c-11e7-8001-3a4412d3b093.png)
 
 ## Resources
-## Here are 4 different options for adding user prompts to your commandline:
+#### Here are 4 different options for adding user prompts to your commandline:
 Readline-sync: https://www.npmjs.com/package/readline-sync
 Readline: https://www.npmjs.com/package/readline
 Inquirer: https://www.npmjs.com/package/inquirer
 Questions: https://www.npmjs.com/package/questions
 
-## Here's a package for adding some style and color to your terminal/shell:
+#### Here's a package for adding some style and color to your terminal/shell:
 Colors (for making things in your terminal colorful): https://www.npmjs.com/package/colors
 
-## Here are the basics of the game of blackjack:
+#### Here are the basics of the game of blackjack:
 The basics of blackjack strategy: http://www.hitorstand.net/strategy.php
