@@ -14,12 +14,10 @@
         {% if level_no == page.level %}
           <a href="#level-{{level_no}}" class="mdl-layout__tab mdl-tabs__tab is-active">
             {{level_no}}
-            <!-- <i class="material-icons">filter_{{level_no}}</i> -->
           </a>
         {% else %}
           <a href="#level-{{level_no}}" class="mdl-layout__tab mdl-tabs__tab">
             {{level_no}}
-            <!-- <i class="material-icons">filter_{{level_no}}</i> -->
           </a>
         {% endif %}
       {% endfor %}
