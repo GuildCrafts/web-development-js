@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "jlopker"
+  ],
+  "team_size": 1,
+  "goal_id": 356,
+  "title": "Your Portfolio Site",
+  "created_at": "2017-04-26T11:00:00Z",
+  "labels": [
+    "practice"
+  ],
+  "level": "2",
+  "published": true,
+  "redirect_from": "/goals/356",
+  "url": "http://jsdev.learnersguild.org/goals/356-Your_Portfolio_Site.html",
+  "base_xp": 100,
+  "bonus_xp": 7.5,
+  "dynamic": false,
+  "content": "# Your Portfolio Site\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can use Google to find relevant resources\n- Are around your 30th week\n- Have mostly completed at least 2 projects that would serve well as portfolio pieces\n\n## Description\n\nCreate a good lookin' portfolio / resume site to help you get a job! Highlight your most impressive projects. To complete this goal, you'll need to have links to at least 2 live projects so part of your week might be spent cleaning up old projects and putting them on the internet.\n\n## Specifications\n\n- [ ] Site is hosted (I recommend Heroku or gh-pages)\n- [ ] Site prominently features link to your GitHub\n- [ ] Site uses a CSS framework\n- [ ] Site includes blurbs / screenshots / links (both to GitHub and live site) to your most impressive projects (at least 2)\n- [ ] Site includes blurbs / links to your open source contributions\n- [ ] Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)\n- [ ] Site includes an about page / section with a headshot and bio\n- [ ] Your GitHub profile page is cleaned up with clear, descriptive READMEs for the projects you are highlighting\n\n### Optional / Nice to haves\n\n- [ ] Site includes Twitter integration (tweets show up on site)\n- [ ] Site includes a blog or a link to your blog\n- [ ] Uses a custom domain (I recommend using [Google Domains](https://domains.google/)) - this will cost you a little $$\n\n## Resources\n\n#### Nice Portfolios\n\n- [danklammer](http://danklammer.com/)\n- [alex](https://alex.dytry.ch/)\n- [ianwharton](http://www.ianwharton.com/)\n- [mynameisjoshsilverman](http://www.mynameisjoshsilverman.com/)\n- [flarin](http://www.flarin.com/)\n\n#### Design sites\n\n- [PatternTap](http://zurb.com/patterntap)\n- [Dribble](https://dribbble.com/)\n\n#### Articles\n\n- [Portfolios to Inspire you](https://medium.com/@learntocodewithme/15-web-developer-portfolios-to-inspire-you-137fb1743cae)\n\n***Please PR this goal with additional resources that you find helpful and/or your awesome portfolio that you think others would benefit from seeing!***"
+}
