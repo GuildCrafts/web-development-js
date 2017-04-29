@@ -2,14 +2,15 @@
 authors:
 - "deadlyicon"
 - "tannerwelsh"
-team_size: 1
+team_size: 2
 goal_id: 16
 title: 'Browser Games: Go'
 created_at: '2017-04-29T11:00:00Z'
 labels:
 - practice
 published: true
-level: '2'
+level: '1'
+base_xp: 150
 redirect_from: "/goals/16"
 ---
 
@@ -62,13 +63,12 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Go game can be found at `public/go.html`
 - [ ] Go game is playable by two people
 - [ ] Players can decide between 9x9, 13x13 or 17x17 board size
+- [ ] The game state is persisted (so reloading the page resumes where you left off)
+- [ ] The board can scale to the window size
 - [ ] Go game page is linked from `public/index.html`
 
 ### Stretch
 
-- [ ] The game state is persisted (so reloading the page resumes where you left off)
-- [ ] The board can scale to the window size
-- [ ] Display users' Gravatars (users will have to provide their email address)
 - [ ] Game can be played against a computer AI (i.e. human v. computer)
 - Implement Othello (Reversi) game
   - [ ] Othello game can be found at `public/othello.html`
