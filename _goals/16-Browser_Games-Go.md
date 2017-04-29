@@ -65,7 +65,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Players can decide between 9x9, 13x13 or 17x17 board size
 - [ ] The game state is persisted (so reloading the page resumes where you left off)
 - [ ] The board can scale to the window size
-- [ ] Go game page is linked from `public/index.html`
+- [ ] Game page is linked from `public/index.html`
 
 ### Stretch
 

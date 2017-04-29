@@ -63,7 +63,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Pieces can only be moved according to the rules of chess
 - [ ] The game state is persisted (so reloading the page resumes where you left off)
 - [ ] The board can scale to the window size
-- [ ] Go game page is linked from `public/index.html`
+- [ ] Game page is linked from `public/index.html`
 
 ### Stretch
 

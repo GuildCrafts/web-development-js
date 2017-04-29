@@ -61,7 +61,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Tetris game can be found at `public/tetris.html`
 - [ ] Tetris game is playable
 - [ ] Players have a score
-- [ ] Go game page is linked from `public/index.html`
+- [ ] Game page is linked from `public/index.html`
 
 ### Stretch
 
