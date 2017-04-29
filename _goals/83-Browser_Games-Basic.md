@@ -1,6 +1,7 @@
 ---
 authors:
 - "shereefb"
+- "tannerwelsh"
 team_size: 1
 goal_id: 83
 title: 'Browser Games: Simon & Tic-Tac-Toe'
@@ -42,15 +43,32 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 
 ## Specifications
 
+### General
+
 - [ ] Artifact produced is a fork of the [browser-games][browser-games] repo.
-- [ ] For **both** of the games Tic-Tac-Toe and Simon, there exists:
-  - [ ] A playable, complete version of the game at `public/GAME_NAME.html` (e.g. `public/ticTacToe.html`)
-  - [ ] A link to the game page from `public/index.html`
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Tic-Tac-Toe
+
+- [ ] Tic-Tac-Toe game can be found at `public/ticTacToe.html`
+- [ ] Tic-Tac-Toe game is playable by two people
+- [ ] Tic-Tac-Toe game page is linked from `public/index.html`
+
+### Simon
+
+- [ ] Simon game can be found at `public/ticTacToe.html`
+- [ ] Simon game is playable
+- [ ] Simon game page is linked from `public/index.html`
+
+### Stretch
+
+- [ ] Tic-Tac-Toe has a player-vs-computer version
+- [ ] Tic-Tac-Toe AI will always win or tie
+- [ ] Simon plays sounds
 
 [browser-games]: https://github.com/GuildCrafts/browser-games
 [games-list]: https://github.com/GuildCrafts/browser-games/blob/master/games.md
