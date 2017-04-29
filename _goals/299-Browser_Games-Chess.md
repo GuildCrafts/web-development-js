@@ -1,41 +1,40 @@
 ---
 authors:
-- "deadlyicon"
 - "tannerwelsh"
-team_size: 2
-goal_id: 16
-title: 'Browser Games: Go'
+team_size: 1
+goal_id: 299
+title: 'Browser Games: Chess'
 created_at: '2017-04-29T11:00:00Z'
 labels:
 - practice
 published: true
-level: '1'
+level: '2'
 base_xp: 150
-redirect_from: "/goals/16"
+redirect_from: "/goals/299"
 ---
 
-# Browser Games: Go
+# Browser Games: Chess
 
 ## Challenge Rating
 
 This goal will likely be within your ZPD if you...
 
-- Can build basic web sites with HTML & CSS
+- Can build web sites with HTML & CSS
 - Can add behavior to a web site with JavaScript
-- Are familiar with DOM manipulation
-- Are familiar with board games like Go and Othello (Reversi)
+- Can use jQuery
+- Have built other browser games
+- Are familiar with the rules of Chess
 - Are interested in making more complex interactive web pages
-- Are interested in using jQuery
 
 ## Description
 
-Build a [Go](https://en.wikipedia.org/wiki/Go_%28game%29) game in the browser using HTML, CSS, JavaScript, and the [jQuery][jquery] library.
+Build a [Chess](https://en.wikipedia.org/wiki/Chess) game in the browser using HTML, CSS, JavaScript, and the [jQuery][jquery] library.
 
 Fork the the [browser-games repository][browser-games] and use the fork as your project artifact.
 
-Implement the **Go** game from the list in the [games.md][games-list] file. As a stretch, implement the **Othello (Reversi)** game.
+Implement the **Chess** game from the list in the [games.md][games-list] file.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Go-board-animated.gif/120px-Go-board-animated.gif)
+![chess-gif](https://cloud.githubusercontent.com/assets/709100/25557927/a936f2b0-2cd0-11e7-84d8-faf1cf988d7c.gif)
 
 ## Context
 
@@ -55,14 +54,14 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
-#### Go Game
+#### Chess
 
 - [ ] [User stories](http://searchsoftwarequality.techtarget.com/definition/user-story) and features for the game are added as issues to your repo with the label `feature` or `user-story`
   <br>_You'll have to define these yourself by looking at the rules of the game and coming up with the right user stories & features_
 - [ ] jQuery is used for DOM manipulation code
-- [ ] Go game can be found at `public/go.html`
-- [ ] Go game is playable by two people
-- [ ] Players can decide between 9x9, 13x13 or 17x17 board size
+- [ ] Chess game can be found at `public/chess.html`
+- [ ] Chess game is playable by two people
+- [ ] Pieces can only be moved according to the rules of chess
 - [ ] The game state is persisted (so reloading the page resumes where you left off)
 - [ ] The board can scale to the window size
 - [ ] Go game page is linked from `public/index.html`
@@ -70,10 +69,6 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 ### Stretch
 
 - [ ] Game can be played against a computer AI (i.e. human v. computer)
-- Implement Othello (Reversi) game
-  - [ ] Othello game can be found at `public/othello.html`
-  - [ ] Othello game is playable by two people (i.e. human v. human)
-  - [ ] Othello game page is linked from `public/index.html`
 
 ## Resources
 
@@ -83,6 +78,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - Example implementation of Go: http://ismyrnow.github.io/Go/ (source code: https://github.com/ismyrnow/Go)
 - Example implementation of Othello: http://kana.github.io/othello-js/
 - Othello [game rules](http://radagast.se/othello/Help/strategy.html)
+- FreeCodeCamp article: [A step-by-step guide to building a simple chess AI](https://medium.freecodecamp.com/simple-chess-ai-step-by-step-1d55a9266977)
 
 [browser-games]: https://github.com/GuildCrafts/browser-games
 [games-list]: https://github.com/GuildCrafts/browser-games/blob/master/games.md

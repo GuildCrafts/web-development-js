@@ -34,7 +34,7 @@ Build a [Blackjack](https://en.wikipedia.org/wiki/Blackjack) game in the browser
 
 Fork the the [browser-games repository][browser-games] and use the fork as your project artifact.
 
-Implement the games **Blackjack** game from the list in the [games.md][games-list] file.
+Implement the **Blackjack** game from the list in the [games.md][games-list] file.
 
 If you are not familiar with Blackjack, read up on the rules before beginning this project. Here is a brief overview of how the game works:
 
