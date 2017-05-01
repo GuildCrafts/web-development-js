@@ -46,7 +46,7 @@ Specs are tracked as issues on the repo.
 
 Use the [Dev](https://github.com/GuildCrafts/map/projects/1) project to track your work:
 
-1. Grab an issue from the top backlog
+1. Grab an issue from the top of the backlog
 1. Assign yourself and your pair
 1. Move it to "In Progress"
 1. Get coding!
