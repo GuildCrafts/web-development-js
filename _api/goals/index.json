@@ -62,6 +62,25 @@
         "punitrathore"
       ],
       "team_size": 2,
+      "goal_id": 115,
+      "title": "Work on Coach-Que",
+      "created_at": "2016-12-05T00:16:17Z",
+      "labels": [
+        "prototype"
+      ],
+      "published": true,
+      "level": "2",
+      "dynamic": true,
+      "redirect_from": "/goals/115",
+      "url": "http://jsdev.learnersguild.org/goals/115-Work_on_Coach-Que.html",
+      "base_xp": 200,
+      "bonus_xp": 30.0
+    },
+    {
+      "authors": [
+        "punitrathore"
+      ],
+      "team_size": 2,
       "goal_id": 120,
       "title": "Set (the Game) with React",
       "created_at": "2016-12-20T04:23:21Z",
