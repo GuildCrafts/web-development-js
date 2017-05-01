@@ -3,7 +3,7 @@ authors:
 - "tannerwelsh"
 team_size: 2
 goal_id: 365
-title: Accessibility in HTML & CSS
+title: Accessible Web Elements
 created_at: '2017-04-29T11:00:00Z'
 labels:
 - foundational
@@ -12,7 +12,7 @@ level: '1'
 redirect_from: "/goals/365"
 ---
 
-# Accessibility in HTML & CSS
+# Accessible Web Elements
 
 ## Challenge Rating
 
@@ -54,7 +54,7 @@ Consider reading the [W3C standard on Web Accessiblity](https://www.w3.org/stand
 - [ ] All CSS files are in a `css/` directory.
 - [ ] Main page is called `index.html` and includes your full style guide.
 - [ ] No external CSS libraries/modules are used. Everything is written from scratch.
-- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [ ] HTML & CSS files are well formatted with proper spacing and indentation.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
