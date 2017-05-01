@@ -32,7 +32,7 @@ Build a better map for learning web development.
 
 Map combines skills, goals, resources, and more into one connected graph. It will merge the [matrix](https://github.com/GuildCrafts/matrix) with the [goal library](https://github.com/GuildCrafts/web-development-js/) and improve upon them both.
 
-Repo: https://github.com/GuildCrafts/map/
+Repo: [https://github.com/GuildCrafts/map/](https://github.com/GuildCrafts/map/)
 
 ## Context
 
