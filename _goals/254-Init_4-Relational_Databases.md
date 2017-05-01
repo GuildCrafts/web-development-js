@@ -21,6 +21,11 @@ redirect_from: '/goals/254'
 
 This goal will likely be within your ZPD if you...
 
+
+Feedback: 
+I'm in level one and I'm also from the July cohort. I picked this goal because I thought it would provide a deep dive directly into relational databases and joins specifically. However, I am not really familiar with the initial goals for new guild members and just jumped into this goal. I just glanced over the challenge rating portion, not seeing that there were actual pre-requisites for this goal. I don't think this nor other init goals should be included in level one. I think these goals are goals that newcombers should be able to pick outside of the lot of levels 1,2,3.. etc. Also, I would like a level 1 relational database goal that helps build up someone's skills with db joins, something that skips all of the introductory tutorials about SQL queries and just jumps straight into joins. 
+
+
 - Have completed the first three initiation goals: [1][bossggle-word-game], [2][bike-shop-oop], and [3][hello-web-servers]
 - Have used a spreadsheet application like Excel
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
