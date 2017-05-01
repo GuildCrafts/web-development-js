@@ -3,17 +3,17 @@ authors:
 - "punitrathore"
 team_size: 2
 goal_id: 115
-title: 'Coach-Que : Schedule Time & Incorporate Feedback'
+title: 'Work on Coach-Que'
 created_at: '2016-12-05T00:16:17Z'
 labels:
 - prototype
-published: false
+published: true
 level: '2'
 dynamic: true
 redirect_from: "/goals/115"
 ---
 
-# Work on Coach-Que : Schedule Time & Incorporate Feedback
+# Work on Coach-Que
 
 ## Challenge Rating
 
@@ -49,7 +49,3 @@ You'll be expected to commit clean, functional, well-written code on time. Every
 ## Specifications
 
 Specifications and requirements will come from the issues tracked in the [repo's projects](https://github.com/GuildCrafts/coach-que/projects).
-
-## Quality Rubric
-
-Quality requirements will be determined by the nature of the work you take on. Check with other team members to learn what is expected.
