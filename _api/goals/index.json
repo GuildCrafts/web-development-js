@@ -1172,6 +1172,25 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 367,
+      "title": "Work on the Map",
+      "created_at": "2017-05-01T10:38:28Z",
+      "labels": [
+        "prototype"
+      ],
+      "published": true,
+      "level": "3",
+      "dynamic": true,
+      "redirect_from": "/goals/367",
+      "url": "http://jsdev.learnersguild.org/goals/367-Work_on_the_Map.html",
+      "base_xp": 300,
+      "bonus_xp": 45.0
+    },
+    {
+      "authors": [
         "Jusdev89"
       ],
       "team_size": 2,
