@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "tannerwelsh"
+  ],
+  "team_size": 2,
+  "goal_id": 364,
+  "title": "Medio (Medium Clone) Part 1",
+  "created_at": "2017-04-29T11:00:00Z",
+  "labels": [
+    "foundational"
+  ],
+  "published": true,
+  "level": "1",
+  "redirect_from": "/goals/364",
+  "url": "http://jsdev.learnersguild.org/goals/364-Medio-Medium_Clone-Part_1.html",
+  "base_xp": 100,
+  "bonus_xp": 15.0,
+  "dynamic": false,
+  "content": "# Medio (Medium Clone) Part 1\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build basic web sites with HTML & CSS\n- Are familiar with common HTML/CSS elements and components\n- Are familiar with common HTML/CSS layouts and grid systems\n- Are interested in strengthening your HTML & CSS skills\n- Are interested in how HTML/CSS frameworks actually work\n- Are interested in user interface (UI) design\n\n## Description\n\nBuild a static, HTML & CSS only version of **Medio**, a clone of the popular Medium blog platform.\n\n## Context\n\n\n\n## Specifications\n\n- [ ] Site \n\n#### General\n\n- [ ] Artifact is a GitHub repository.\n- [ ] All CSS files are in a `css/` directory.\n- [ ] Main page is called `index.html`.\n- [ ] No external CSS libraries/modules are used. Everything is written from scratch.\n- [ ] HTML & CSS files are well formatted with proper spacing and indentation.\n- [ ] All major features are added via pull requests with a clear description and concise commit messages.\n- [ ] Every pull request has been reviewed by at least one other person.\n- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).\n\n\n### Stretch\n\n- [ ] Site is published as a [GitHub Pages site](https://pages.github.com/)\n\n## Resources\n\nCourses & tutorials\n\n- Frontend Masters: [Intro to Web Development tutorial](https://frontendmasters.com/courses/web-development/)\n- Code School: [Frontend Formations tutorial](https://www.codeschool.com/courses/front-end-formations)\n- Code School: [Cracking the Case with Flexbox](https://www.codeschool.com/courses/cracking-the-case-with-flexbox)\n- CSS Tricks: [HTML & Flexbox](https://css-tricks.com/video-screencasts/148-laying-things-html-flexbox-dee-gill/)\n\nGames\n\n- [Flexbox Defense](http://www.flexboxdefense.com/)\n- [Flexbox Froggy](http://flexboxfroggy.com/)\n- [CSS Diner](https://flukeout.github.io/)\n\nGuides\n\n- [Shay Howe: Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)\n- [MDN: How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)\n- [MDN: CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)\n- [MDN: Styling Text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text)\n- [MDN: Styling Boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes)\n\nTools\n\n- [Google Fonts][google-fonts]\n- [Adobe Color CC][adobe-color]\n\n[bootstrap]: http://getbootstrap.com/\n[google-fonts]: https://fonts.google.com/\n[adobe-color]: https://color.adobe.com/explore/newest/"
+}

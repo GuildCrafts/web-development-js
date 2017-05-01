@@ -363,6 +363,26 @@
     },
     {
       "authors": [
+        "deadlyicon",
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 16,
+      "title": "Browser Games: Go",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 150,
+      "redirect_from": "/goals/16",
+      "url": "http://jsdev.learnersguild.org/goals/16-Browser_Games-Go.html",
+      "bonus_xp": 22.5,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "shereefb"
       ],
       "goal_id": 165,
@@ -1002,6 +1022,25 @@
       "authors": [
         "tannerwelsh"
       ],
+      "team_size": 1,
+      "goal_id": 299,
+      "title": "Browser Games: Chess",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "2",
+      "base_xp": 150,
+      "redirect_from": "/goals/299",
+      "url": "http://jsdev.learnersguild.org/goals/299-Browser_Games-Chess.html",
+      "bonus_xp": 11.25,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
       "team_size": 2,
       "goal_id": 302,
       "title": "Concept Focus: UX & UI",
@@ -1057,6 +1096,82 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 362,
+      "title": "Browser Games: Tetris",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "2",
+      "base_xp": 150,
+      "redirect_from": "/goals/362",
+      "url": "http://jsdev.learnersguild.org/goals/362-Browser_Games-Tetris.html",
+      "bonus_xp": 11.25,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 363,
+      "title": "Browser Games: Generic Platform Game",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 80,
+      "redirect_from": "/goals/363",
+      "url": "http://jsdev.learnersguild.org/goals/363-Browser_Games-Platform.html",
+      "bonus_xp": 6.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 364,
+      "title": "Medio (Medium Clone) Part 1",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/364",
+      "url": "http://jsdev.learnersguild.org/goals/364-Medio-Medium_Clone-Part_1.html",
+      "base_xp": 100,
+      "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 365,
+      "title": "Accessible Web Elements",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/365",
+      "url": "http://jsdev.learnersguild.org/goals/365-Accessible_Web_Elements.html",
+      "base_xp": 100,
+      "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "Jusdev89"
       ],
       "team_size": 2,
@@ -1072,6 +1187,27 @@
       "url": "http://jsdev.learnersguild.org/goals/37-Common_JS_Utility_Functions-Lodash.html",
       "base_xp": 100,
       "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "phoniks",
+        "DianaVashti",
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 62,
+      "title": "Browser Games: Blackjack",
+      "created_at": "2017-04-29T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 125,
+      "redirect_from": "/goals/62",
+      "url": "http://jsdev.learnersguild.org/goals/62-Browser_Games-Blackjack.html",
+      "bonus_xp": 18.75,
       "dynamic": false
     },
     {
@@ -1137,11 +1273,12 @@
     },
     {
       "authors": [
-        "shereefb"
+        "shereefb",
+        "tannerwelsh"
       ],
       "team_size": 1,
       "goal_id": 83,
-      "title": "Browser Games: Simon & Tic-Tac-Toe",
+      "title": "Browser Games [Basic]",
       "created_at": "2016-10-05T21:34:11Z",
       "labels": [
         "foundational"

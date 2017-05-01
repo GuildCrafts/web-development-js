@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "tannerwelsh"
+  ],
+  "team_size": 1,
+  "goal_id": 363,
+  "title": "Browser Games: Generic Platform Game",
+  "created_at": "2017-04-29T11:00:00Z",
+  "labels": [
+    "practice"
+  ],
+  "published": true,
+  "level": "1",
+  "base_xp": 80,
+  "redirect_from": "/goals/363",
+  "url": "http://jsdev.learnersguild.org/goals/363-Browser_Games-Platform.html",
+  "bonus_xp": 6.0,
+  "dynamic": false,
+  "content": "# Browser Games: Generic Platform Game\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build basic web sites with HTML & CSS\n- Can add behavior to a web site with JavaScript\n- Are familiar with DOM manipulation\n- Are familiar with platform-based games\n- Are interested in making more complex interactive web pages\n\n## Description\n\nImplement a simple [platform](https://en.wikipedia.org/wiki/Platform_game) (\"run and jump\") game with HTML, CSS, and JavaScript.\n\nFollow [this tutorial](http://eloquentjavascript.net/15_game.html) from [Eloquent JavaScript](http://eloquentjavascript.net/).\n\nFork the the [browser-games repository][browser-games] and use the fork as your project artifact.\n\nImplement the **Platform** game from the list in the [games.md][games-list] file.\n\n![platform-game](http://eloquentjavascript.net/img/darkblue.png)\n\n## Context\n\nThis goal will challenge your ability to take a _formal, defined system_ from the real world and replicate it in code. You will start with all of the logic of the system (the rules of the game) and most of the UI already designed.\n\nYour work will be mainly in deciding how to replicate that formal logic and user interface using only JavaScript, HTML, and CSS.\n\n## Specifications\n\n#### General\n\n- [ ] Artifact produced is a fork of the [browser-games][browser-games] repo.\n- [ ] Variables, functions, files, etc. have appropriate and meaningful names.\n- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.\n- [ ] There is a clear separation of game logic code from view/rendering code.\n- [ ] All major features are added via pull requests with a clear description and concise commit messages.\n- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].\n\n#### Generic Platform Game\n\n- [ ] Game can be found at `public/platform.html`\n- [ ] Game is playable by one player\n- [ ] Game follows rules established in [tutorial](http://eloquentjavascript.net/15_game.html)\n- [ ] Game page is linked from `public/index.html`\n\n### Stretch\n\nDesign and build your own platform-like game. What else can you build with the techniques you came up with in building the Generic Platform Game?\n\n- [ ] Game has its own HTML, CSS, and JS\n- [ ] Game is playable\n- [ ] Game page is linked from `public/index.html`\n\n## Resources\n\n- MDN: [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) #html #dom #js\n- MDN: [Guide to Event Handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) #dom #js\n- Shay Howe: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) #html #css\n- Tutorial: [Project: A Platform Game](http://eloquentjavascript.net/15_game.html) #js #html #dom\n\n[browser-games]: https://github.com/GuildCrafts/browser-games\n[games-list]: https://github.com/GuildCrafts/browser-games/blob/master/games.md\n[mit-license]: https://opensource.org/licenses/MIT"
+}
