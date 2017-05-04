@@ -31,9 +31,9 @@ TODO: link to scaffold
 
 ## Context
 
-This is an assessment. It is not a normal goal. What you build will be used in an assessment.
+This is an assessment. It is not a normal goal. What you build will be used to asses how well you're learning at the Guild.
 
-Write the best code you can. Write all of the code that you submit. You will be assessed for your comprehension of the code you right, not just whether it works or not.
+Write the best code you can. Write all of the code that you submit. You will be assessed on how well your code meets the specs as well as your comprehension of the code you wrote.
 
 This doesn't mean that you can't get help: use as much support as you need. It just means that you will be expected to explain your code, so if you write code that you don't understand you may have a hard time passing that part of the assessment.
 
@@ -65,10 +65,10 @@ This goal is designed to exercise and assess many of the "Priority 1" skills fro
     <br>At the very least: tags in HTML and brackets in JavaScript are opened/closed on the same indent level; there are line breaks between style definitions in CSS and between function declarations in JavaScript.
 - [ ] Git commit history shows clear progression through different features, with concise and descriptive commit messages.
     <br>Commit messages should summarize what changes are being introduced.
-- [ ] There are at least two commits per day.
-    <br>It's OK to commit incomplete/draft code. The important thing is to keep a good pace of development.
-- [ ] Artifact (final project) uses the [starter code](TODO: link).
-- [ ] Artifact is published to a GitHub repository.
+- [ ] There are at least two commits per day but ideally a lot more.
+    <br>It's OK to commit incomplete/draft code. The important thing is to keep a good pace of development and show how your code evolved toward your solution.
+- [ ] Your artifact (final project) uses the [starter code](TODO: link).
+- [ ] Your artifact is published to a GitHub repository.
 
 #### Pages and Routes
 
@@ -112,6 +112,13 @@ Users of the app have the ability to take the following actions.
 
 The user interface matches the designs in the mockups.
 
+- [ ] The site header has a link to the homepage
+- [ ] The site header has a link to the new contact page (`/new`)
+- [ ] The site header has a a text input that lets you fuzzy search for contacts
+- [ ] The color of the header, link text, etc are exactly the same as the colors in the mockup images
+- [ ] The font across the whole site is monospace
+- [ ] The base font-size of the site is 16px
+
 TODO: add mockups and add specs for colors, spacing, typography, etc.
 
 #### Templating and Includes
@@ -119,17 +126,15 @@ TODO: add mockups and add specs for colors, spacing, typography, etc.
 Use HTML templating to build your web pages and embed dynamic data.
 
 - [ ] The server uses the [EJS templating language][ejs] to build HTML.
-- There are template files (`.ejs`) for each page.
-  - [ ] There is a template file for the contact list page shown at the `/` route.
-  - [ ] There is a template file for the contact detail page shown at the `/contact/:id` route.
-  - [ ] There is a template file for the new contact form page shown at the `/contacts/new` route.
-- [ ] There are include files used for _components_ that are used in every page (e.g. header, footer, menu).
+- [ ] Each route that renders html, uses its own ejs template
+- [ ] Each page template includes the same page header via another ejs template (eg: `header.ejs`)
 
 #### Browser Interactivity
 
-Add JavaScript to the front end to create more interactive features for the user.
+- [ ] when clicking a link that will delete a contact, a confirmation prompt displays confirming the user wants to delete the contact
+- [ ] when a user attempts to submit the new contact form without a value in the first name field, the form is not submitted and a form validation error is displayed at the top of the page in red
+- [ ] all CSS classnames have clear and specific names
 
-TODO: define specs for browser interactivity
 
 ## Assessment
 
