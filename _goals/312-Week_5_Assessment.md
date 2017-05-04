@@ -31,11 +31,11 @@ TODO: link to scaffold
 
 ## Context
 
-This is an assessment. It is not a normal goal. What you build will be used in an evaluation.
+This is an assessment. It is not a normal goal. What you build will be used in an assessment.
 
-Write the best code you can. Write all of the code that you submit. You will be evaluated for your comprehension of the code you right, not just whether it works or not.
+Write the best code you can. Write all of the code that you submit. You will be assessed for your comprehension of the code you right, not just whether it works or not.
 
-This doesn't mean that you can't get help: use as much support as you need. It just means that you will be expected to explain your code, so if you write code that you don't understand you may have a hard time passing that part of the evaluation.
+This doesn't mean that you can't get help: use as much support as you need. It just means that you will be expected to explain your code, so if you write code that you don't understand you may have a hard time passing that part of the assessment.
 
 ### Skill Areas Covered
 
@@ -43,7 +43,7 @@ This goal is designed to exercise and assess many of the "Priority 1" skills fro
 
 - Basics of JavaScript [JavaScript]
 - Basic JavaScript debugging [JavaScript Debugging]
-- Work with DOM operations and events [JavaScript in the Browser ]
+- Work with DOM operations and events [JavaScript in the Browser]
 - Write basic HTML/CSS [HTML and CSS]
 - Use Node.js packages and modules [Node.js]
 - Build server applications [Server Applications]
@@ -53,7 +53,7 @@ This goal is designed to exercise and assess many of the "Priority 1" skills fro
 - Create organized, readable code [Code Quality]
 - Write short functions, and well-factored readable code [Code Construction]
 - Use good names for files, variables classes, methods etc. Pay attention to commit messages. Apply consistent white space usage. [Code Readability]
-- Methods are grouped logically or by accessibility [Code Organization]
+- Methods are grouped logically [Code Organization]
 
 ## Specifications
 
@@ -131,21 +131,20 @@ Add JavaScript to the front end to create more interactive features for the user
 
 TODO: define specs for browser interactivity
 
-### Screencast
+## Assessment
 
-When you are done building your application, make a 10-15 minute screencast explaining your code.
+After you finish building your application, you'll do a walk of your code (probably via a video call / screen share) with an assessor.
 
-Walk through the user interface in the browser, and then go through each file in your code and explain how it works (as best you can).
+They will likely ask you to walk through your project starting with the user interface, and then to go through each file in your code and explain how it works.
 
-Make sure to address the following questions:
+To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be able to provide a good answer to any of them.
 
-- [ ] How can a user take the actions specified in the [user stories](#user-stories)?
-- [ ] How are the project files organized? What does each file do?
-- [ ] What are the different routes and which views do they relate to?
-- [ ] Where is data read from and written to the database?
-- [ ] How do you start the server?
-
-You can use the built-in Quicktime app on a Mac to make a screencast.
+- How can a user take the actions specified in the [user stories](#user-stories)?
+- How are the project files organized? What does each file do?
+- What are the different routes and which views do they relate to?
+- Where is data read from and written to the database?
+- How do you start the server?
+- What were the stages of your development? Walk through your commit history to show how your project grew.
 
 ## Resources
 
