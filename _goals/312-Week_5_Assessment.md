@@ -85,6 +85,7 @@ Update the database schema so that your app can store all the necessary informat
 
 - [ ] Database table `contacts` has fields for contact name, email address, phone number, home address (separate fields for: street, city, state, country, and zip code), birthday, and personal website.
 - [ ] Columns in database table use appropriate data types.
+- [ ] Your app uses `pg`, `pg-promise` or `knex` to communicate with a postgres server
 
 #### User Stories
 
@@ -112,8 +113,9 @@ Users of the app have the ability to take the following actions.
 
 The user interface matches the designs in the mockups.
 
+- [ ] The entire page content should be constrained by a centered page column
 - [ ] The site header has a link to the homepage
-- [ ] The site header has a link to the new contact page (`/new`)
+- [ ] The site header has a link to the new contact page (`/contacts/new`)
 - [ ] The site header has a a text input that lets you fuzzy search for contacts
 - [ ] The color of the header, link text, etc are exactly the same as the colors in the mockup images
 - [ ] The font across the whole site is monospace
