@@ -127,7 +127,11 @@ Use HTML templating to build your web pages and embed dynamic data.
 
 - [ ] The server uses the [EJS templating language][ejs] to build HTML.
 - [ ] Each route that renders html, uses its own ejs template
-- [ ] Each page template includes the same page header via another ejs template (eg: `header.ejs`)
+- [ ] Each page template shares the same layout.
+  <br/>The means the `<head>` is consistent across all paged and is not duplicated
+- [ ] Each page template shared the same nav bar
+  <br/>I.E. each page has the same nav bar but the code is not duplicated
+  <br/>I.E. each page template uses the same page header ejs template (eg: `header.ejs`)
 
 #### Browser Interactivity
 
