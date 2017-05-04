@@ -65,13 +65,13 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 - [ ] GitHub repo contains a web server.
 - [ ] Can run the command `npm start` to start the web server at port 3000.
 - [ ] The web server source code is written using the [Express][express] library.
-- [ ] The web server handles routes for the following HTTP verbs
+- The web server handles routes for the following HTTP verbs
   - [ ] `GET`
   - [ ] `POST`
   - [ ] `PUT/PATCH`
   - [ ] `DELETE`
 - [ ] Examples of each HTTP verb usage are listed and linked to in the README
-- [ ] The web server makes use of the following response status codes
+- The web server makes use of the following response status codes
   - [ ] `200` (OK)
   - [ ] `201` (Created)
   - [ ] `400` (Bad Request)
@@ -80,34 +80,29 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
   - [ ] `404` (Not Found)
   - [ ] `500` (Internal Server Error)
 - [ ] Examples of each status code usage are listed and linked to in the README
-- [ ] The web server uses URL components in routing and responding
+- The web server uses URL components in routing and responding
   - [ ] Different paths trigger different routes
   - [ ] Values from the URL query string are used in a route
 - [ ] Examples of routing and query string usage are listed and linked to in the README
-- [ ] The web server makes use of the following request headers
+- The web server makes use of the following request headers
   - [ ] `Accept`
-  - [ ] `Origin`
   - [ ] `Content Type`
-  - [ ] `Authorization`
   - [ ] `Cookie`
 - [ ] Examples of each request header usage are listed and linked to in the README
-- [ ] The web server makes use of the following response headers
-  - [ ] `Location`
+- The web server makes use of the following response headers
   - [ ] `Set-Cookie`
   - [ ] `Refresh`
-  - [ ] `Access-Control-Allow-Origin`
-  - [ ] `Content-Length`
 - [ ] Examples of each response header usage are listed and linked to in the README
-- [ ] The web server serves different types of resources
+- The web server serves different types of resources
   - [ ] Asset files (CSS, images)
   - [ ] Static HTML
   - [ ] Static JSON
   - [ ] Dynamic resources (content of response changes based on query params, request headers, and/or application state)
 - [ ] Examples of each response type are listed and linked to in the README
-- [ ] Example of a raw HTTP request and the server's raw HTTP response are included in the README
+- Example of a raw HTTP request and the server's raw HTTP response are included in the README
   - [ ] Examples show full HTTP message header
   - [ ] Examples show full HTTP message body
-- [ ] The web server makes the following request types to an external API
+- The web server makes the following request types to an external API
   - [ ] Get a resource
   - [ ] Create a resource
   - [ ] Update a resource
@@ -119,9 +114,16 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 ## Stretch
 
 - [ ] Web server is written using _only the core Node.js modules_ (instead of Express, use the built-in [HTTP module][node-http])
+- The web server makes use of the following request headers
+  - [ ] `Origin`
+  - [ ] `Authorization`
+- The web server makes use of the following response headers
+  - [ ] `Location`
+  - [ ] `Access-Control-Allow-Origin`
+  - [ ] `Content-Length`
 - [ ] Web server uses OAuth to authenticate with the external API
 - [ ] OAuth routes are listed and linked to in the README
-- [ ] The web server exposes a JSON API at `/api`
+- The web server exposes a JSON API at `/api`
   - [ ] API supports all CRUD actions for a resource (Create, Read, Update, Delete)
   - [ ] API follows a the RESTful design convention
   - [ ] API doesn't use database persistence (an in-memory store is fine)
