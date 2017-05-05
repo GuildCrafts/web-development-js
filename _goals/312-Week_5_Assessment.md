@@ -1,5 +1,6 @@
 ---
 authors:
+- "deadlyicon"
 - "tannerwelsh"
 team_size: 1
 goal_id: 312
