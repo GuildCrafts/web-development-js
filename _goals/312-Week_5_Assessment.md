@@ -9,7 +9,7 @@ created_at: '2017-05-01T11:00:00Z'
 labels:
 - assessment
 published: true
-level: '1'
+level: '0'
 base_xp: 90
 redirect_from: "/goals/312"
 ---
