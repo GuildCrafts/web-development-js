@@ -33,6 +33,8 @@ Follow [this link][starter-code-zip] to the hosted zip file, then click the Down
 
 When you start out, you will encounter errors. You'll have to fix these errors to get the server running.
 
+You will also need to **create a "contacts" database** and load it with the schema file (`schema.sql`). You can use the insert statements in the `contacts.sql` to load some "dummy" data into the database. When you're ready, you can use the `contacts_full.sql` file to load more compelte data.
+
 ### Tools Used
 
 The application uses [Express](https://expressjs.com/) for the web server and [PostgreSQL](https://www.postgresql.org/) for the database. In addition, it uses [EJS templates](http://www.embeddedjs.com/) for view rendering and [nodemon](https://nodemon.io/) to run & automatically restart your development server.
@@ -100,6 +102,9 @@ Update the database schema so that your app can store all the necessary informat
 - [ ] Database table `contacts` has fields for contact name, email address, phone number, home address (separate fields for: street, city, state, country, and zip code), birthday, and personal website.
 - [ ] Columns in database table use appropriate data types.
 - [ ] Your app uses `pg`, `pg-promise` or `knex` to communicate with a postgres server.
+- There are scripts defined to import contact data and load the schema:
+  - [ ] `$ npm run schema` loads the schema (`schema.sql`) into the database
+  - [ ] `$ npm run import` imports the data in `contacts_full.sql` into the database
 
 #### User Stories
 
@@ -131,9 +136,19 @@ The user interface matches the designs in the [mockups](#mockups).
 - [ ] The site header has a link to the homepage.
 - [ ] The site header has a link to the new contact page (`/contacts/new`).
 - [ ] The site header has a a text input that lets you fuzzy search for contacts.
-- [ ] The color of the header, link text, etc are exactly the same as the. colors in the mockup images
+- [ ] The color of the header, link text, etc. are exactly the same as the colors in the mockups.
+  - Background: `#50E3C2` (teal)
+  - Header, button: `#4990E2` (blue)
+  - Default text: `#4A4A4A` (dark grey)
+  - Secondary text: `#9B9B9B` (light grey)
+  - Link text: `#002653` (dark blue)
+  - Delete links: `#D0011B` (red)
 - [ ] The font across the whole site is monospace.
 - [ ] The base font-size of the site is 16px.
+- [ ] The List View (/) looks the same as in the mockup (except with different contact data).
+- [ ] The Detail View (/contacts/:id) looks the same as in the mockup (except with different contact data).
+- [ ] The New Contact View (/contacts/new) looks the same as in the mockup (except with different contact data).
+- [ ] The Search View (/search) looks the same as in the mockup (except with different contact data).
 
 #### Templating and Includes
 
