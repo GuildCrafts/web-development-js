@@ -19,15 +19,25 @@ redirect_from: "/goals/312"
 
 Build a contacts manager web application with Express and PostgreSQL.
 
-Part of the application has already been built for you. Your job is to take it to completion.
+Part of the application has already been built for you. Your job is to take it to completion. Use the [mockups](#mockups) to guide your design.
 
 If you haven't used a contacts manager like the Contacts app or [Google Contacts](https://www.google.com/contacts/), the idea is simple: it is a place to store your contacts (people you know) along with basic information about them: name, email, phone number, address, job title, etc.
 
 Complete as many of the specs that you can. They are broken down into different sections, but you don't have to complete these sections in the sequence given.
 
-When you are done building your application, make a 10-15 minute screencast explaining your code. See the [Screencast](#screencast) section of the specs for more detail.
+### Getting Started
 
-TODO: link to scaffold
+Download the starter code zip file and unpack it. You'll need to create your own repo on GitHub to store your project code. Use the repository you create as your artifact.
+
+Follow [this link][starter-code-zip] to the hosted zip file, then click the Download (down arrow) button in the top right to download the file.
+
+When you start out, you will encounter errors. You'll have to fix these errors to get the server running.
+
+### Tools Used
+
+The application uses [Express](https://expressjs.com/) for the web server and [PostgreSQL](https://www.postgresql.org/) for the database. In addition, it uses [EJS templates](http://www.embeddedjs.com/) for view rendering and [nodemon](https://nodemon.io/) to run & automatically restart your development server.
+
+You are free to use additional npm packages if you see fit. If you choose to use a package, however, be expected to know and explain how it works.
 
 ## Context
 
@@ -37,7 +47,9 @@ Write the best code you can. Write all of the code that you submit. You will be 
 
 This doesn't mean that you can't get help: use as much support as you need. It just means that you will be expected to explain your code, so if you write code that you don't understand you may have a hard time passing that part of the assessment.
 
-### Skill Areas Covered
+For more information about how to prepare for the assessment, see the [Assessment](#assessment) section.
+
+#### Skill Areas Covered
 
 This goal is designed to exercise and assess many of the "Priority 1" skills from the matrix:
 
@@ -57,9 +69,11 @@ This goal is designed to exercise and assess many of the "Priority 1" skills fro
 
 ## Specifications
 
+Complete as many of the specs (checkboxes) as you can.
+
 #### General: Code Quality, Git Flow, Etc.
 
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Variables, functions, files, CSS classes, etc. have appropriate and meaningful names.
     <br>Avoid generic, vague or too-short names (e.g. `string`, `stuff`, `x`)
 - [ ] HTML, CSS, and JS files are well formatted with consistent spacing and indentation.
     <br>At the very least: tags in HTML and brackets in JavaScript are opened/closed on the same indent level; there are line breaks between style definitions in CSS and between function declarations in JavaScript.
@@ -67,7 +81,7 @@ This goal is designed to exercise and assess many of the "Priority 1" skills fro
     <br>Commit messages should summarize what changes are being introduced.
 - [ ] There are at least two commits per day but ideally a lot more.
     <br>It's OK to commit incomplete/draft code. The important thing is to keep a good pace of development and show how your code evolved toward your solution.
-- [ ] Your artifact (final project) uses the [starter code](TODO: link).
+- [ ] Your artifact (final project) uses the [starter code][starter-code-zip].
 - [ ] Your artifact is published to a GitHub repository.
 
 #### Pages and Routes
@@ -85,7 +99,7 @@ Update the database schema so that your app can store all the necessary informat
 
 - [ ] Database table `contacts` has fields for contact name, email address, phone number, home address (separate fields for: street, city, state, country, and zip code), birthday, and personal website.
 - [ ] Columns in database table use appropriate data types.
-- [ ] Your app uses `pg`, `pg-promise` or `knex` to communicate with a postgres server
+- [ ] Your app uses `pg`, `pg-promise` or `knex` to communicate with a postgres server.
 
 #### User Stories
 
@@ -111,36 +125,51 @@ Users of the app have the ability to take the following actions.
 
 #### User Interface
 
-The user interface matches the designs in the mockups.
+The user interface matches the designs in the [mockups](#mockups).
 
-- [ ] The entire page content should be constrained by a centered page column
-- [ ] The site header has a link to the homepage
-- [ ] The site header has a link to the new contact page (`/contacts/new`)
-- [ ] The site header has a a text input that lets you fuzzy search for contacts
-- [ ] The color of the header, link text, etc are exactly the same as the colors in the mockup images
-- [ ] The font across the whole site is monospace
-- [ ] The base font-size of the site is 16px
-
-TODO: add mockups and add specs for colors, spacing, typography, etc.
+- [ ] The entire page content should be constrained by a centered page column.
+- [ ] The site header has a link to the homepage.
+- [ ] The site header has a link to the new contact page (`/contacts/new`).
+- [ ] The site header has a a text input that lets you fuzzy search for contacts.
+- [ ] The color of the header, link text, etc are exactly the same as the. colors in the mockup images
+- [ ] The font across the whole site is monospace.
+- [ ] The base font-size of the site is 16px.
 
 #### Templating and Includes
 
 Use HTML templating to build your web pages and embed dynamic data.
 
 - [ ] The server uses the [EJS templating language][ejs] to build HTML.
-- [ ] Each route that renders html, uses its own ejs template
+- [ ] Each route that renders HTML uses its own EJS template.
 - [ ] Each page template shares the same layout.
-  <br/>The means the `<head>` is consistent across all paged and is not duplicated
-- [ ] Each page template shared the same nav bar
-  <br/>I.E. each page has the same nav bar but the code is not duplicated
-  <br/>I.E. each page template uses the same page header ejs template (eg: `header.ejs`)
+  <br/>The means the `<head>` is consistent across all paged and is not duplicated.
+- [ ] Each page template shared the same nav bar.
+  <br/>Each page has the same nav bar but the code is not duplicated and each page template uses the same page header ejs template (eg: `header.ejs`).
 
 #### Browser Interactivity
 
-- [ ] when clicking a link that will delete a contact, a confirmation prompt displays confirming the user wants to delete the contact
-- [ ] when a user attempts to submit the new contact form without a value in the first name field, the form is not submitted and a form validation error is displayed at the top of the page in red
-- [ ] all CSS classnames have clear and specific names
+- [ ] When clicking a link that will delete a contact, a confirmation prompt displays confirming the user wants to delete the contact. Contacts are only deleted if the user "confirms".
+- [ ] When a user attempts to submit the new contact form without a value in the name field, the form is not submitted and a form validation error is displayed at the top of the page in red.
 
+### Mockups
+
+#### List View (/)
+
+<img alt="list" src="https://cloud.githubusercontent.com/assets/709100/25752462/3b4bcbc6-316d-11e7-8131-cacfaf950bec.png" width="800" />
+
+#### Detail View (/contacts/:id)
+
+<img alt="detail" src="https://cloud.githubusercontent.com/assets/709100/25752461/3b442ac4-316d-11e7-8ee9-23afbd37c2f0.png" width="800" />
+
+#### New Contact View (/contacts/new)
+
+<img alt="new" src="https://cloud.githubusercontent.com/assets/709100/25752463/3b4c4c22-316d-11e7-9c34-babe191b86ab.png" width="800" />
+
+#### Search View (/search)
+
+<img alt="search" src="https://cloud.githubusercontent.com/assets/709100/25752465/3c9414ac-316d-11e7-8133-ee918f771a8b.png" width="800" />
+
+---
 
 ## Assessment
 
@@ -168,3 +197,4 @@ To prepare for this assessment, consider the following questions. These may or m
 
 [mit-license]: https://opensource.org/licenses/MIT
 [ejs]: http://www.embeddedjs.com/
+[starter-code-zip]: https://drive.google.com/file/d/0B77MaJi8kPm1Zi1sNzhRb2poZ28/view
