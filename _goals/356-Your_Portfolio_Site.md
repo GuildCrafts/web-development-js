@@ -31,17 +31,19 @@ Create a good lookin' portfolio / resume site to help you get a job! Highlight y
 - [ ] Site is hosted (I recommend Heroku or gh-pages)
 - [ ] Site prominently features link to your GitHub
 - [ ] Site uses a CSS framework
-- [ ] Site includes blurbs / screenshots / links (both to GitHub and live site) to your most impressive projects (at least 2)
+- [ ] Site includes blurb / screenshots / links (both to GitHub and live site) to one of your most impressive projects
+- [ ] Site includes blurb / screenshots / links (both to GitHub and live site) to another of your most impressive projects
 - [ ] Site includes blurbs / links to your open source contributions
 - [ ] Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)
-- [ ] Site includes an about page / section with a headshot and bio
+- [ ] Site includes an about page / section with a headshot
+- [ ] Site includes an about page / section with a bio
 - [ ] Your GitHub profile page is cleaned up with clear, descriptive READMEs for the projects you are highlighting
 
 ### Optional / Nice to haves
 
-- [ ] Site includes Twitter integration (tweets show up on site)
-- [ ] Site includes a blog or a link to your blog
-- [ ] Uses a custom domain (I recommend using [Google Domains](https://domains.google/)) - this will cost you a little $$
+- Site includes Twitter integration (tweets show up on site)
+- Site includes a blog or a link to your blog
+- Uses a custom domain (I recommend using [Google Domains](https://domains.google/)) - this will cost you a little $$
 
 ## Resources
 
