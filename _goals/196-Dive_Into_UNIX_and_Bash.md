@@ -46,7 +46,7 @@ The *nix family of operating systems (that is, anything in the UNIX or Linux fam
 
 Then you have the [shell][wiki-shell]. [Bash][wiki-bash] is a common one that ships with all Apple computers, but there are others: [zsh][zsh], [csh][csh], and [fish][fish] (yes, it's called `fish`). While this goal only focuses on bash, you may be inspired to try out other shells.
 
-As you work through the books and exercises, you'll may encounter questions like the following:
+As you work through the books and exercises, you may encounter questions like the following:
 
 - What is the difference between the user and the system?
 - What happens when an executable script is invoked?
