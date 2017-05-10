@@ -91,41 +91,57 @@ This particular snapshot (not the stretch specs though) roughly mimics the work 
 
 ## Specifications
 
-- [ ] Users can comment on cards
-- [ ] Cards have an activity feed
-- [ ] Comments are rendered in the activity feed
-- [ ] The activity feed includes items for each of the following types of events:
-  - [ ] Card is created
-  - [ ] Card is archived
-  - [ ] Card is unarchived
-  - [ ] Card is moved from one list to another
-- [ ] Activity feed items are rendered in reverse sequential order (most recent item on top)
-- [ ] Users can edit comments
-- [ ] Users can delete comments
-- [ ] Tests exist for each of the above specs
-- [ ] UI looks the same as in the mockups
-- [ ] The artifact produced is a fork of the [Trossello][trossello] repository
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+#### Basic comments on card
+- [ ] [4] Users can comment on cards
+- [ ] [2] Cards have an activity feed
+- [ ] [2] Comments are rendered in the activity feed
+
+#### Card events in activity feed
+The activity feed includes items for each of the following types of events:
+- [ ] [2] Card is created
+- [ ] [2] Card is archived
+- [ ] [2] Card is unarchived
+- [ ] [2] Card is moved from one list to another
+
+#### Activity feed order
+- [ ] [1] Activity feed items are rendered in reverse sequential order (most recent item on top)
+
+#### Comment editing/deleting
+- [ ] [2] Users can edit comments
+- [ ] [2] Users can delete comments
+
+#### General requirements
+- [ ] [4] UI looks the same as in the mockups
+- [ ] [8] Tests exist for each new feature
+- [ ] [1] The artifact produced is a fork of the [Trossello][trossello] repository
+- [ ] [1] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] [1] Code uses a linter and there are no linting errors.
+- [ ] [1] Variables, functions, files, etc. have appropriate and meaningful names.
 
 ### Stretch
 
-- [ ] Activity feed items show when they were created
-  - [ ] If they were created less than 24 hours previously, shows creation time as `X minutes/hours ago`, e.g. `18 minutes ago` or `8 hours ago`
-  - [ ] If they were created less than 24 hours previously, shows creation time as `<month> <day> at <time>`, e.g. `Jan 28 at 4:32pm`
-- [ ] Edited comments show that they have been edited with an `(edited)` text appearing next to their creation time
-- [ ] The activity feed includes items for each of the following types of events:
-  - [ ] Card title is changed
-  - [ ] Card description is changed
-  - [ ] Label is added to card
-  - [ ] Label is removed from card
-  - [ ] Due date is added
-  - [ ] Due date is changed
-  - [ ] Due date is removed
-- [ ] Users can toggle between a "detailed" activity feed (all events) and a "comments only" activity feed (only comments)
-- [ ] Users can use Markdown syntax in card comments
-- [ ] Card comments written with Markdown syntax are rendered correctly in the activity feed
+#### Timestamps for activity feed
+Activity feed items show when they were created
+- [ ] [+2] If they were created less than 24 hours previously, shows creation time as `X minutes/hours ago`, e.g. `18 minutes ago` or `8 hours ago`
+- [ ] [+2] If they were created less than 24 hours previously, shows creation time as `<month> <day> at <time>`, e.g. `Jan 28 at 4:32pm`
+- [ ] [+1] Edited comments show that they have been edited with an `(edited)` text appearing next to their creation time
+
+#### More events in activity feed
+The activity feed includes items for each of the following types of events:
+- [ ] [+2] Card title is changed
+- [ ] [+2] Card description is changed
+- [ ] [+2] Label is added to card
+- [ ] [+2] Label is removed from card
+- [ ] [+2] Due date is added
+- [ ] [+2] Due date is changed
+- [ ] [+2] Due date is removed
+
+#### Toggle detailed and basic activity feed
+- [ ] [+4] Users can toggle between a "detailed" activity feed (all events) and a "comments only" activity feed (only comments)
+
+#### Markdown in comments
+- [ ] [+2] Users can use Markdown syntax in card comments
+- [ ] [+2] Card comments written with Markdown syntax are rendered correctly in the activity feed
 
 ## Resources
 
