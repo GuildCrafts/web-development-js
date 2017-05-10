@@ -54,23 +54,22 @@ Write tests using the `assert` module in Node.js or whatever testing library you
 
 ## Specifications
 
+#### Exercises
+
+Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
+
+- [ ] 1. Scrab-Bag
+- [ ] 2. String Indices
+- [ ] 3. Fibonacci Bases
+- [ ] 4. The Disemvowling
+- [ ] 5. Where in the JSON?
+- [ ] 6. Who Wants A Date?
+- [ ] 7. Play it again, JavaScript!
+- [ ] 8. Parens-B-Gone
+
+#### General
+
 - [ ] Artifact produced is a fork of the [coding-exercises-js][coding-exercises-js] repo.
-- [ ] Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
-  - [ ] 1. Guess The Number
-  - [ ] 2. Scrab-Bag
-  - [ ] 3. String Indices
-  - [ ] 4. Fibonacci Bases
-  - [ ] 5. The Disemvowling
-  - [ ] 6. Where in the JSON?
-  - [ ] 7. Who Wants A Date?
-  - [ ] 8. Play it again, JavaScript!
-  - [ ] 9. Parens-B-Gone
-  - [ ] 10. Resolving Symlinks
-  - [ ] 11. Lairotcaf
-  - [ ] 12. String Me Along
-  - [ ] 13. Braille
-  - [ ] 14. String Permutations
-  - [ ] 15. Finite State Gate
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
 - [ ] Repository includes a README file with basic installation and setup instructions.
@@ -80,6 +79,19 @@ Write tests using the `assert` module in Node.js or whatever testing library you
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Stretch
+
+Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
+
+- [ ] 1. Resolving Symlinks
+- [ ] 2. Lairotcaf
+- [ ] 3. String Me Along
+- [ ] 4. Braille
+- [ ] 5. String Permutations
+- [ ] 6. Guess The Number
+- [ ] 7. Finite State Gate
+
 
 [mit-license]: https://opensource.org/licenses/MIT
 [coding-exercises-js]: https://github.com/GuildCrafts/coding-exercises-js
