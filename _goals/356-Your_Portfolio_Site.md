@@ -41,7 +41,7 @@ Make your site simple! Make the content that employers will want to see front an
 - [ ] __10:__ Site includes an about page / section with a bio
 - [ ] __10:__ Your GitHub profile page is cleaned up with clear, descriptive READMEs for the projects you are highlighting
 
-### Stretch
+### Optional / Nice to have
 
 - Site includes Twitter integration (tweets show up on site)
 - Site includes a blog or a link to your blog
