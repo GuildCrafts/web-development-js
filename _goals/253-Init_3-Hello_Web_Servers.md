@@ -116,16 +116,17 @@ These are the basic specs for "Hello, Web Servers", broken into 5 stages. If you
 Setup the repo and file structure, install and configure [Express][], and get a basic server running.
 
 - [ ] Repo (your artifact) is created on GitHub
-- [ ] Repo follows a conventional file structure for an Express.js app:
-  - [ ] `package.json`: standard for any Node.js app; includes package info and lists dependencies
-  - [ ] `app.js`: your Express server, with all routes defined
-  - [ ] `views/`: for storing your Pug HTML templates
-  - [ ] `public/`: for storing static files like CSS and images
-  - [ ] `README.md`: includes overview of your repo
 - [ ] Express server can be started with `$ node app.js`
 - [ ] Server renders a page at the root route (`/`) that looks like the [mockup](#mockups) but does not have any functionality - it is just a static page
 - [ ] All package dependencies are defined in `package.json`
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
+
+Repo follows a conventional file structure for an Express.js app:
+- [ ] `package.json`: standard for any Node.js app; includes package info and lists dependencies
+- [ ] `app.js`: your Express server, with all routes defined
+- [ ] `views/`: for storing your Pug HTML templates
+- [ ] `public/`: for storing static files like CSS and images
+- [ ] `README.md`: includes overview of your repo
 
 #### Stage 2
 
@@ -134,13 +135,14 @@ Build out the template structure with [Pug][] for a single-file editor. Don't wo
 - [ ] Pug is installed and set up for HTML templating
 - [ ] View template files are created in the `/views` subdirectory
 - [ ] Main view file is called `index`
-- [ ] Includes are created for the different "components" of the main view:
-  - [ ] Sidebar (shows list of files)
-  - [ ] Header (shows current filename, word count, and save button)
-  - [ ] Editor (shows markdown editor pane)
-  - [ ] Preview (shows rendered markdown)
 - [ ] CSS is organized into one or more files in the `public/` directory
 - [ ] CSS declarations are well-named and formatted (consider using this [small guide](http://tinystride.com/articles/organized-css-a-small-guide/))
+
+Includes are created for the different "components" of the main view:
+- [ ] There is an include for the Sidebar (shows list of files)
+- [ ] There is an include for the Header (shows current filename, word count, and save button)
+- [ ] There is an include for the Editor (shows markdown editor pane)
+- [ ] There is an include for the Preview (shows rendered markdown)
 
 #### Stage 3
 
@@ -187,9 +189,8 @@ Try to mimic the following mockup as closely as you can. Note that some of the f
 
 If you complete all of the specs listed above (the checkboxes), there's no reason to stop there! Try building more advanced features with these stretch specs.
 
-- [ ] Clicking the trash can icon...
-  - [ ] Deletes the file from the `data/` folder
-  - [ ] Shows the sidebar updated without the deleted file
+- [ ] Clicking the trash can icon deletes the file from the `data/` folder
+- [ ] Clicking the trash can icon shows the sidebar updated without the deleted file
 - [ ] "Word count" section in the header displays the word count for the currently open file
 
 And if you get through those, try turning [Bossggle][bossggle-word-game] into an Express app.

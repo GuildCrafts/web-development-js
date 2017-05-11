@@ -62,35 +62,44 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
+#### General
+
 - [ ] Artifact produced is a GitHub repo.
+- [ ] The best resources you find for learning testing are added to a file `resources.md`.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### App Basics
+
 - [ ] Repo contains a full-stack web application using Node.js.
-  - [ ] Application uses a database.
-  - [ ] Application provides a HTML UI.
-- [ ] Application has working commands to:
-  - [ ] Install dependencies (example: `$ npm install`)
-  - [ ] Start the server (example: `$ npm start`)
-  - [ ] Run tests (example: `$ npm test`)
+- [ ] Application uses a database (at least one).
+- [ ] Application provides a HTML UI.
+- [ ] Application has a test suite.
+- [ ] There is a command to install dependencies (example: `$ npm install`)
+- [ ] There is a command to start the server (example: `$ npm start`)
+- [ ] There is a command to run tests (example: `$ npm test`)
+- [ ] There is a command to deploy to production (example: `$ npm run deploy`)
 - [ ] README includes basic "Getting Started" instructions (install, set up database, etc.).
+
+#### Tests
+
 - [ ] All tests are passing.
 - [ ] Code makes use of unit tests.
 - [ ] Examples of unit tests are listed and linked to in the README.
 - [ ] Code makes use of integration tests.
 - [ ] Examples of integration tests are listed and linked to in the README.
-- [ ] Code makes use of functional / end-to-end tests.
-- [ ] Examples of functional / end-to-end tests are listed and linked to in the README.
 - [ ] Multiple types of ["test paths"](http://www.nishantverma.com/2010/03/test-case-paths-happy-sad-bad.html) are demonstrated in test suite:
-  - [ ] Happy path (tests for expected inputs)
-  - [ ] Sad path (tests for common mistakes)
-  - [ ] Bad path (tests for edge cases)
+  - Happy path (tests for expected inputs)
+  - Sad path (tests for common mistakes)
+  - Bad path (tests for edge cases)
 - [ ] Examples of each type of "test path" are listed and linked to in the README.
 - [ ] Test-Driven Development (TDD) process is used to develop new features for the app.
-  - [ ] Commit history shows examples of TDD cycle, with sequential commit messages starting with the words `RED:`, `GREEN:`, and `REFACTOR:`.
+- [ ] Commit history shows examples of TDD cycle, with sequential commit messages starting with the words `RED:`, `GREEN:`, and `REFACTOR:`.
 - [ ] Test coverage tool is installed and instructions for use are added to README.
-- [ ] The best resources you find for learning testing are added to a file `resources.md`.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Stretch
 
+- [ ] Code makes use of functional / end-to-end tests.
+- [ ] Examples of functional / end-to-end tests are listed and linked to in the README.
 - [ ] Code makes use of performance tests.
 - [ ] Examples of performance tests are listed and linked to in the README.
 - [ ] Code makes use of system tests.

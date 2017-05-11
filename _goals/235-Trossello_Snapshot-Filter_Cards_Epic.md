@@ -101,15 +101,15 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 
 ## Specifications
 
+#### Filtering
 - [ ] Users can access the filter cards pane from the board menu
-- [ ] Users can filter cards on a board by:
-  - [ ] One or more labels
-  - [ ] One or more members
-  - [ ] Due in the next day
-  - [ ] Due in the next week
-  - [ ] Due in the next month
-  - [ ] Overdue
-  - [ ] Has no due date
+- [ ] Users can filter cards on a board by one or more labels
+- [ ] Users can filter cards on a board by one or more members
+- [ ] Users can filter cards on a board by due in the next day
+- [ ] Users can filter cards on a board by due in the next week
+- [ ] Users can filter cards on a board by due in the next month
+- [ ] Users can filter cards on a board by overdue
+- [ ] Users can filter cards on a board by has no due date
 - [ ] When viewing a "filtered" version of a board, board shows a "Filtering is on" badge
 - [ ] Users can turn off filtering by clicking the "X" in a "Filtering is on" badge
 - [ ] Users can turn off filtering by clicking "Clear Filter" in the filter cards pane
@@ -117,6 +117,8 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 - [ ] Users can set filter to "Match all labels and all members"
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+
+#### General
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.

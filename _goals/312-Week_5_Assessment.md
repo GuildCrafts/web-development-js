@@ -103,9 +103,10 @@ Update the database schema so that your app can store all the necessary informat
 - [ ] Database table `contacts` has fields for contact name, email address, phone number, home address (separate fields for: street, city, state, country, and zip code), birthday, and personal website.
 - [ ] Columns in database table use appropriate data types.
 - [ ] Your app uses `pg`, `pg-promise` or `knex` to communicate with a postgres server.
-- There are scripts defined to import contact data and load the schema:
-  - [ ] `$ npm run schema` loads the schema (`schema.sql`) into the database
-  - [ ] `$ npm run import` imports the data in `contacts_full.sql` into the database
+
+There are scripts defined to import contact data and load the schema:
+- [ ] `$ npm run schema` loads the schema (`schema.sql`) into the database
+- [ ] `$ npm run import` imports the data in `contacts_full.sql` into the database
 
 #### User Stories
 

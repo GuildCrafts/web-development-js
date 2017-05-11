@@ -71,44 +71,59 @@ Being fluent in different paradigms will help you to think about and understand 
 
 ## Specifications
 
+#### General
+
 - [ ] Artifact produced is a fork of the [multiple-paradigms][multiple-paradigms] repo.
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
-- [ ] Can parse Markdown syntax ([reference](https://help.github.com/articles/basic-writing-and-formatting-syntax/)) and render correct HTML for...
-  - [ ] Paragraphs
-  - [ ] Headings
-  - [ ] Italicized text
-  - [ ] Bold text
-  - [ ] Links
-  - [ ] Images
-  - [ ] Unordered lists
-  - [ ] Ordered lists
-  - [ ] Blockquotes
-  - [ ] Horizontal rules
-  - [ ] Inline codes
-  - [ ] Code blocks
-- [ ] Object-oriented implementation employs key characteristics of the object-oriented style
-  - [ ] Encapsulation
-  - [ ] Message passing with objects
-  - [ ] Composition, inheritance, and delegation
-  - [ ] Polymorphism
-- [ ] Functional implementation employs key characteristics of the functional style
-  - [ ] Higher-order functions
-  - [ ] Pure functions
-  - [ ] Recursion
-  - [ ] Referential transparency
-- [ ] Imperative implementation employs key characteristics of the imperative style
-  - [ ] Subroutines
-  - [ ] Linear control flow
-  - [ ] Sequential state modifications
-  - [ ] Looping and branching statements
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### Markdown Parsing
+
+Can parse Markdown syntax ([reference](https://help.github.com/articles/basic-writing-and-formatting-syntax/)) and render correct HTML for...
+- [ ] Paragraphs
+- [ ] Headings
+- [ ] Italicized text
+- [ ] Bold text
+- [ ] Links
+- [ ] Images
+- [ ] Unordered lists
+- [ ] Ordered lists
+- [ ] Blockquotes
+- [ ] Horizontal rules
+- [ ] Inline codes
+- [ ] Code blocks
+
+#### OOP Implementation
+
+Object-oriented implementation employs key characteristics of the object-oriented style:
+
+- [ ] Encapsulation
+- [ ] Message passing with objects
+- [ ] Composition, inheritance, and delegation
+- [ ] Polymorphism
+
+#### Functional Implementation
+
+Functional implementation employs key characteristics of the functional style:
+
+- [ ] Higher-order functions
+- [ ] Pure functions
+- [ ] Recursion
+- [ ] Referential transparency
+
+#### Imperative Implementation
+
+Imperative implementation employs key characteristics of the imperative style:
+- [ ] Subroutines
+- [ ] Linear control flow
+- [ ] Sequential state modifications
+- [ ] Looping and branching statements
 
 ### Stretch
 

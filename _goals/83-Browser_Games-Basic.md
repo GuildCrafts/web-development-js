@@ -69,10 +69,11 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] Tic-Tac-Toe has a player-vs-computer version
 - [ ] Tic-Tac-Toe AI will always win or tie
 - [ ] Simon plays sounds
-- Implement Connect Four game
-  - [ ] Connect Four game can be found at `public/connectFour.html`
-  - [ ] Connect Four game is playable by two people (human v human)
-  - [ ] Connect Four game page is linked from `public/index.html`
+
+Implement Connect Four game
+- [ ] Connect Four game can be found at `public/connectFour.html`
+- [ ] Connect Four game is playable by two people (human v human)
+- [ ] Connect Four game page is linked from `public/index.html`
 
 ## Resources
 

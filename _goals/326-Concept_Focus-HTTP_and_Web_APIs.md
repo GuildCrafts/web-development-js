@@ -61,72 +61,88 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
+#### General
+
 - [ ] Artifact produced is a GitHub repo.
+- [ ] The best resources you find for learning testing are added to a file `resources.md`.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### Server
 - [ ] GitHub repo contains a web server.
 - [ ] Can run the command `npm start` to start the web server at port 3000.
 - [ ] The web server source code is written using the [Express][express] library.
-- The web server handles routes for the following HTTP verbs
-  - [ ] `GET`
-  - [ ] `POST`
-  - [ ] `PUT/PATCH`
-  - [ ] `DELETE`
+
+#### Request Types
+- [ ] The web server handles routes for `GET` requests
+- [ ] The web server handles routes for `POST` requests
+- [ ] The web server handles routes for `PUT/PATCH` requests
+- [ ] The web server handles routes for `DELETE` requests
 - [ ] Examples of each HTTP verb usage are listed and linked to in the README
-- The web server makes use of the following response status codes
-  - [ ] `200` (OK)
-  - [ ] `201` (Created)
-  - [ ] `400` (Bad Request)
-  - [ ] `301` (Moved Permanently)
-  - [ ] `403` (Forbidden)
-  - [ ] `404` (Not Found)
-  - [ ] `500` (Internal Server Error)
+
+#### Status Codes
+The web server makes use of the following response status codes
+- [ ] `200` (OK)
+- [ ] `201` (Created)
+- [ ] `400` (Bad Request)
+- [ ] `301` (Moved Permanently)
+- [ ] `403` (Forbidden)
+- [ ] `404` (Not Found)
+- [ ] `500` (Internal Server Error)
 - [ ] Examples of each status code usage are listed and linked to in the README
-- The web server uses URL components in routing and responding
-  - [ ] Different paths trigger different routes
-  - [ ] Values from the URL query string are used in a route
+
+#### URL Components
+The web server uses URL components in routing and responding
+- [ ] Different paths trigger different routes
+- [ ] Values from the URL query string are used in a route
 - [ ] Examples of routing and query string usage are listed and linked to in the README
-- The web server makes use of the following request headers
-  - [ ] `Accept`
-  - [ ] `Content Type`
-  - [ ] `Cookie`
+
+#### Headers
+The web server makes use of the following request headers
+- [ ] `Accept`
+- [ ] `Content Type`
+- [ ] `Cookie`
 - [ ] Examples of each request header usage are listed and linked to in the README
-- The web server makes use of the following response headers
-  - [ ] `Set-Cookie`
-  - [ ] `Refresh`
+
+The web server makes use of the following response headers
+- [ ] `Set-Cookie`
+- [ ] `Refresh`
 - [ ] Examples of each response header usage are listed and linked to in the README
-- The web server serves different types of resources
-  - [ ] Asset files (CSS, images)
-  - [ ] Static HTML
-  - [ ] Static JSON
-  - [ ] Dynamic resources (content of response changes based on query params, request headers, and/or application state)
+
+#### Resources
+The web server serves different types of resources
+- [ ] Asset files (CSS, images)
+- [ ] Static HTML
+- [ ] Static JSON
+- [ ] Dynamic resources (content of response changes based on query params, request headers, and/or application state)
 - [ ] Examples of each response type are listed and linked to in the README
-- Example of a raw HTTP request and the server's raw HTTP response are included in the README
-  - [ ] Examples show full HTTP message header
-  - [ ] Examples show full HTTP message body
-- The web server makes the following request types to an external API
-  - [ ] Get a resource
-  - [ ] Create a resource
-  - [ ] Update a resource
-  - [ ] Delete a resource
+
+#### Example Requests
+Example of a raw HTTP request and the server's raw HTTP response are included in the README
+- [ ] Examples show full HTTP message header
+- [ ] Examples show full HTTP message body
+
+#### External API
+The web server makes the following request types to an external API
+- [ ] Get a resource
+- [ ] Create a resource
+- [ ] Update a resource
+- [ ] Delete a resource
 - [ ] Examples of each request type to the external API are listed and linked to in the README
-- [ ] The best resources you find for learning testing are added to a file `resources.md`
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
 ## Stretch
 
 - [ ] Web server is written using _only the core Node.js modules_ (instead of Express, use the built-in [HTTP module][node-http])
-- The web server makes use of the following request headers
-  - [ ] `Origin`
-  - [ ] `Authorization`
-- The web server makes use of the following response headers
-  - [ ] `Location`
-  - [ ] `Access-Control-Allow-Origin`
-  - [ ] `Content-Length`
+- [ ] The web server makes use of the `Origin` request header
+- [ ] The web server makes use of the `Authorization` request header
+- [ ] The web server makes use of the `Location` response header
+- [ ] The web server makes use of the `Access-Control-Allow-Origin` response header
+- [ ] The web server makes use of the `Content-Length` response header
 - [ ] Web server uses OAuth to authenticate with the external API
 - [ ] OAuth routes are listed and linked to in the README
-- The web server exposes a JSON API at `/api`
-  - [ ] API supports all CRUD actions for a resource (Create, Read, Update, Delete)
-  - [ ] API follows a the RESTful design convention
-  - [ ] API doesn't use database persistence (an in-memory store is fine)
+- [ ] The web server exposes a JSON API at `/api`
+- [ ] API supports all CRUD actions for a resource (Create, Read, Update, Delete)
+- [ ] API follows a the RESTful design convention
+- [ ] API doesn't use database persistence (an in-memory store is fine)
 - [ ] Basic documentation for the API and each route is included in the README
 
 ## Resources
