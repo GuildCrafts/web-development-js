@@ -61,22 +61,28 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
+#### General
+
 - [ ] Artifact produced is a GitHub repo.
-- [ ] Repo contains subdirectories for 2 products.
-- [ ] Each product contains a `design/` subdirectory and an `implementation/` subdirectory.
-- [ ] Design subdirectory for each product includes:
-  - [ ] A product overview in a `README.md` file.
-  - [ ] A list of user stories in a `stories.md` file.
-  - [ ] A set of wireframe files in a `wireframes/` subdirectory.
-  - [ ] A set of mockup files in a `mockups/` subdirectory.
-  - [ ] A style guide specifying colors, typography, and guidelines for key components.
-- [ ] Implementation subdirectory for each product includes:
-  - [ ] A static web site (front-end only) with views matching the design mockups.
-  - [ ] Static design assets (images and fonts).
-  - [ ] "Proof-of-concept" behavior (i.e. core UX features are there, but don't need to be fully functional).
-- [ ] All code added to implementation is added through pull requests that reference the user stories and/or mockups it implements.
 - [ ] The best resources you find for learning testing are added to a file `resources.md`.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### Design & Implementation
+- [ ] Repo contains subdirectories for 2 products.
+- [ ] Each product contains a `design/` subdirectory and an `implementation/` subdirectory.
+- [ ] All code added to implementation is added through pull requests that reference the user stories and/or mockups it implements.
+
+Design subdirectory for each product includes:
+- [ ] A product overview in a `README.md` file.
+- [ ] A list of user stories in a `stories.md` file.
+- [ ] A set of wireframe files in a `wireframes/` subdirectory.
+- [ ] A set of mockup files in a `mockups/` subdirectory.
+- [ ] A style guide specifying colors, typography, and guidelines for key components.
+
+Implementation subdirectory for each product includes:
+- [ ] A static web site (front-end only) with views matching the design mockups.
+- [ ] Static design assets (images and fonts).
+- [ ] "Proof-of-concept" behavior (i.e. core UX features are there, but don't need to be fully functional).
 
 ## Stretch
 

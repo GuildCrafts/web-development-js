@@ -43,44 +43,60 @@ Promises provide a simpler alternative for executing, composing, and managing as
 
 ## Specifications
 
+Start by forking the [promises-exercises][promises-exercises] repo. Save your work to this repo.
+
 ### Day 1 & 2
-- [ ] Complete these sections (including the exercises) of the [Rethinking Asynchronous JavaScript][fem-async-js] on Frontend Masters:
-  - [ ] Parallel vs. Async
-  - [ ] Callback
-  - [ ] Thunks
-  - [ ] Promises
-- [ ] Complete the [Understanding Promises in JavaScript][treehouse-workshop-promises] workshop (22m)
-- [ ] Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post
-- [ ] Read [this](https://scotch.io/tutorials/javascript-promises-for-dummies) blog post
+
+Complete these sections (including the exercises) of the [Rethinking Asynchronous JavaScript][fem-async-js] on Frontend Masters:
+- Parallel vs. Async
+- Callback
+- Thunks
+- Promises
+
+Complete the [Understanding Promises in JavaScript][treehouse-workshop-promises] workshop (22m).
+
+Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post and [this](https://scotch.io/tutorials/javascript-promises-for-dummies) blog post.
+
+Make sure to save the exercises from the Frontend Masters course:
+
+- [ ] Parallel vs. Async exercises are completed and saved to a file in your repo.
+- [ ] Callback exercises are completed and saved to a file in your repo.
+- [ ] Thunks exercises are completed and saved to a file in your repo.
+- [ ] Promises exercises are completed and saved to a file in your repo.
 
 If you complete the above with time to spare, fill any gaps in your understanding by skimming through the [Promises Course][promises-course] on Udacity.
 
 ### Day 3
-- [ ] Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository
-- [ ] Exercises 1-7 in the [pg promise exercises][pg-promise-exercises] are complete
-  - [ ] Exercise 1
-  - [ ] Exercise 2
-  - [ ] Exercise 3
-  - [ ] Exercise 4
-  - [ ] Exercise 5
-  - [ ] Exercise 6
-  - [ ] Exercise 7
+
+Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository.
+
+Complete exercises 1-7 in the [pg promise exercises][pg-promise-exercises].
+
+- [ ] Exercise 1 is complete.
+- [ ] Exercise 2 is complete.
+- [ ] Exercise 3 is complete.
+- [ ] Exercise 4 is complete.
+- [ ] Exercise 5 is complete.
+- [ ] Exercise 6 is complete.
+- [ ] Exercise 7 is complete.
 
 ### Day 4 & 5
-- [ ] Exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions] are complete and written to the appropriate file:
-  - [ ] `src/01-warmup.js`
-  - [ ] `src/02-fullfill-a-promise.js`
-  - [ ] `src/03-reject-a-promise.js`
-  - [ ] `src/04-to-reject-or-not-to-reject.js`
-  - [ ] `src/05-always-asynchronous.js`
-  - [ ] `src/06-shortcuts.js`
-  - [ ] `src/07-promise-after-promise.js`
-  - [ ] `src/08-values-and-promises.js`
-  - [ ] `src/09-throw-an-error.js` \* see note below
-  - [ ] `src/10-an-important-file.js` \* see note below
-  - [ ] `src/11-multiple-promises.js`
-  - [ ] `src/12-fetch-json.js`
-  - [ ] `src/13-do-some-work.js`
+
+Complete exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions].
+
+- [ ] `src/01-warmup.js` is complete and written to the appropriate file.
+- [ ] `src/02-fullfill-a-promise.js` is complete and written to the appropriate file.
+- [ ] `src/03-reject-a-promise.js` is complete and written to the appropriate file.
+- [ ] `src/04-to-reject-or-not-to-reject.js` is complete and written to the appropriate file.
+- [ ] `src/05-always-asynchronous.js` is complete and written to the appropriate file.
+- [ ] `src/06-shortcuts.js` is complete and written to the appropriate file.
+- [ ] `src/07-promise-after-promise.js` is complete and written to the appropriate file.
+- [ ] `src/08-values-and-promises.js` is complete and written to the appropriate file.
+- [ ] `src/09-throw-an-error.js` is complete and written to the appropriate file. _\*see note below_
+- [ ] `src/10-an-important-file.js` is complete and written to the appropriate file. _\*see note below_
+- [ ] `src/11-multiple-promises.js` is complete and written to the appropriate file.
+- [ ] `src/12-fetch-json.js` is complete and written to the appropriate file.
+- [ ] `src/13-do-some-work.js` is complete and written to the appropriate file.
 
 \*Note: `promise-it-wont-hurt` has a bug which checks the full path of the files, instead of the relative paths. This causes exercise 9 & 10's verify command to fail even though the solution is correct. If the file path is the only error that you are seeing, it means that your code is correct.
 

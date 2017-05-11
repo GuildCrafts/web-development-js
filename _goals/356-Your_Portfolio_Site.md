@@ -30,19 +30,19 @@ Create a good lookin' portfolio / resume site to help you get a job! Highlight y
 
 - [ ] __10:__ Site is hosted (I recommend Heroku or gh-pages)
 - [ ] __5:__ A link to your GitHub is large and visible on the homepage above the fold
-- For your most impressive projects (at least 2):
-  - [ ] __20:__ Site includes screenshots, text desciptions, and links to both to the GitHub repo and the live site
-  - [ ] __5:__ Site includes text desciptions and links to any open source contributions you might have
-  - [ ] __10:__ Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)
 - [ ] __10:__ Site includes an about page or section with a headshot and text bio
 - [ ] __5:__ Your GitHub profile page has your best projects pinned under the "Pinned repositories" section
 - [ ] __10:__ Site includes Twitter integration (tweets show up on site)
 - [ ] __10:__ Site includes a blog or a link to your blog
 
+For your most impressive projects (at least 2):
+- [ ] __20:__ Site includes screenshots, text desciptions, and links to both to the GitHub repo and the live site
+- [ ] __5:__ Site includes text desciptions and links to any open source contributions you might have
+- [ ] __10:__ Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)
+
 ## Stretch
 
-- Point a custom domain to your new site
-  - I recommend buying a domain from [Google Domains](https://domains.google/)
+- Point a custom domain to your new site (I recommend buying a domain from [Google Domains](https://domains.google/))
 
 ## Resources
 

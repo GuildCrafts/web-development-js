@@ -67,43 +67,56 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
+#### General
+
 - [ ] Artifact produced is a GitHub repo.
-- [ ] Repo contains a full-stack web application using Node.js.
-  - [ ] Application uses a database (at least one).
-  - [ ] Application provides a HTML UI.
-  - [ ] Application has a test suite.
-- [ ] Application has working commands to:
-  - [ ] Install dependencies (example: `$ npm install`)
-  - [ ] Start the server (example: `$ npm start`)
-  - [ ] Run tests (example: `$ npm test`)
-  - [ ] Deploy to production (example: `$ npm run deploy`)
-- [ ] README includes basic "Getting Started" instructions (install, set up database, etc.).
-- [ ] Application is deployed to Heroku.
-  - [ ] Link to deployed application on Heroku is included in README.
-  - [ ] Deployed application on Heroku uses at least one hosted database.
-  - [ ] Deployed application on Heroku uses at least one worker process.
-- [ ] README includes "How to Deploy" instructions (setting environment variables, configuring databases, etc.)
-- [ ] Continuous integration is configured.
-  - [ ] CI status badge is added to the README (example: [Circle CI docs on status badge](https://circleci.com/docs/1.0/status-badges/)).
-  - [ ] CI is integrated with GitHub to run tests with each new pull request.
-- [ ] Application uses a monitoring service like [New Relic](https://newrelic.com/) or [Keymetrics](https://keymetrics.io/).
-  - [ ] Link to monitoring service is included in README.
-- [ ] Production logging service like [PaperTrail](https://papertrailapp.com/) is used.
-  - [ ] Production app logs at least 3 key events to logging service.
-  - [ ] Link to logging service is included in README.
-- [ ] Production error tracking service like [Sentry](https://sentry.io/welcome/) is used.
-  - [ ] Link to error tracking service is included in README.
-- [ ] Application uses a deploy hook ([Heroku's built in Deploy Hooks](https://elements.heroku.com/addons/deployhooks) is a good option) to send email or Slack message with each new deploy.
-- [ ] Application uses email and/or SMS messaging to alert users (for example: send welcome email on sign up).
 - [ ] The best resources you find for learning testing are added to a file `resources.md`.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### App Basics
+
+- [ ] Repo contains a full-stack web application using Node.js.
+- [ ] Application uses a database (at least one).
+- [ ] Application provides a HTML UI.
+- [ ] Application has a test suite.
+- [ ] There is a command to install dependencies (example: `$ npm install`)
+- [ ] There is a command to start the server (example: `$ npm start`)
+- [ ] There is a command to run tests (example: `$ npm test`)
+- [ ] There is a command to deploy to production (example: `$ npm run deploy`)
+- [ ] README includes basic "Getting Started" instructions (install, set up database, etc.).
+
+#### Deployment
+
+- [ ] Application is deployed to Heroku.
+- [ ] Link to deployed application on Heroku is included in README.
+- [ ] Deployed application on Heroku uses at least one hosted database.
+- [ ] Deployed application on Heroku uses at least one worker process.
+- [ ] README includes "How to Deploy" instructions (setting environment variables, configuring databases, etc.)
+
+#### CI
+
+- [ ] Continuous integration is configured.
+- [ ] CI status badge is added to the README (example: [Circle CI docs on status badge](https://circleci.com/docs/1.0/status-badges/)).
+- [ ] CI is integrated with GitHub to run tests with each new pull request.
+- [ ] Application uses a monitoring service like [New Relic](https://newrelic.com/) or [Keymetrics](https://keymetrics.io/).
+
+#### Other Services
+
+- [ ] Link to monitoring service is included in README.
+- [ ] Production logging service like [PaperTrail](https://papertrailapp.com/) is used.
+- [ ] Production app logs at least 3 key events to logging service.
+- [ ] Link to logging service is included in README.
+- [ ] Production error tracking service like [Sentry](https://sentry.io/welcome/) is used.
+- [ ] Link to error tracking service is included in README.
+- [ ] Application uses a deploy hook ([Heroku's built in Deploy Hooks](https://elements.heroku.com/addons/deployhooks) is a good option) to send email or Slack message with each new deploy.
+- [ ] Application uses email and/or SMS messaging to alert users (for example: send welcome email on sign up).
 
 ## Stretch
 
 - [ ] Application is deployed using another host besides Heroku (examples: [Digital Ocean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/)).
-  - [ ] Link to alternate deploy is added to README.
+- [ ] Link to alternate deploy is added to README.
 - [ ] Application provides indexed search with ElasticSearch.
-  - [ ] Application UI has search feature.
+- [ ] Application UI has search feature.
 
 ## Resources
 

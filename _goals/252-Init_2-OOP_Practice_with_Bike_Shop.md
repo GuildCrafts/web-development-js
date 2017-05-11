@@ -124,39 +124,51 @@ These are the basic specs for OOP Practice, broken into 5 stages. If you complet
 To get started, each team member needs to fork the [oop-practice][] repo. Then, create a [gist](https://gist.github.com/) and add links to each fork to a file in the gist. This is your `artifact`.
 
 - [ ] Artifact is set to a gist with links to each of your teammate's forks.
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Objects" tutorial on JavaScript.info](http://javascript.info/object):
-  - [ ] [Hello, object](http://javascript.info/object#hello-object)
-  - [ ] [Multiply numeric properties by 2](http://javascript.info/object#multiply-numeric-properties-by-2)
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Object methods, 'this'" tutorial on JavaScript.info](http://javascript.info/object-methods):
-  - [ ] [Create a calculator](http://javascript.info/object-methods#create-a-calculator)
-  - [ ] [Chaining](http://javascript.info/object-methods#chaining)
+
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Objects" tutorial on JavaScript.info](http://javascript.info/object):
+- [ ] [Hello, object](http://javascript.info/object#hello-object)
+- [ ] [Multiply numeric properties by 2](http://javascript.info/object#multiply-numeric-properties-by-2)
+
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Object methods, 'this'" tutorial on JavaScript.info](http://javascript.info/object-methods):
+- [ ] [Create a calculator](http://javascript.info/object-methods#create-a-calculator)
+- [ ] [Chaining](http://javascript.info/object-methods#chaining)
+
+Work on `bike-shop` to pass the tests
 - [ ] All stage 1 tests in the `bike-shop` are passing with source code written in `bike-shop/src/stage1-literals.js`.
 
 #### Stage 2
 
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Constructor, operator 'new'" tutorial on JavaScript.info](http://javascript.info/constructor-new):
-  - [ ] [Create new Calculator](http://javascript.info/constructor-new#create-new-calculator)
-  - [ ] [Create new Accumulator](http://javascript.info/constructor-new#create-new-accumulator)
-  - [ ] [Create an extendable calculator](http://javascript.info/constructor-new#create-an-extendable-calculator)
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Constructor, operator 'new'" tutorial on JavaScript.info](http://javascript.info/constructor-new):
+- [ ] [Create new Calculator](http://javascript.info/constructor-new#create-new-calculator)
+- [ ] [Create new Accumulator](http://javascript.info/constructor-new#create-new-accumulator)
+- [ ] [Create an extendable calculator](http://javascript.info/constructor-new#create-an-extendable-calculator)
+
+Work on `bike-shop` to pass the tests
 - [ ] All stage 2 tests in the `bike-shop` are passing with source code written in `bike-shop/src/stage2-constructors.js`.
 
 #### Stage 3
 
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Prototypal inheritance" tutorial on JavaScript.info](http://javascript.info/prototype-inheritance):
-  - [ ] [Searching algorithm](http://javascript.info/prototype-inheritance#searching-algorithm)
-  - [ ] [Why two hamsters are full?](http://javascript.info/prototype-inheritance#why-two-hamsters-are-full)
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Class patterns" tutorial on JavaScript.info](http://javascript.info/class-patterns):
-  - [ ] [An error in the inheritance](http://javascript.info/class-patterns#an-error-in-the-inheritance)
-  - [ ] [Rewrite to prototypes](http://javascript.info/class-patterns#rewrite-to-prototypes)
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Prototypal inheritance" tutorial on JavaScript.info](http://javascript.info/prototype-inheritance):
+- [ ] [Searching algorithm](http://javascript.info/prototype-inheritance#searching-algorithm)
+- [ ] [Why two hamsters are full?](http://javascript.info/prototype-inheritance#why-two-hamsters-are-full)
+
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Class patterns" tutorial on JavaScript.info](http://javascript.info/class-patterns):
+- [ ] [An error in the inheritance](http://javascript.info/class-patterns#an-error-in-the-inheritance)
+- [ ] [Rewrite to prototypes](http://javascript.info/class-patterns#rewrite-to-prototypes)
+
+Work on `bike-shop` to pass the tests
 - [ ] All stage 3 tests in the `bike-shop` are passing with source code written in `bike-shop/src/stage3-methods.js`.
 
 #### Stage 4
 
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Classes" tutorial on JavaScript.info](http://javascript.info/class):
-  - [ ] [Rewrite to class](http://javascript.info/class#rewrite-to-class)
-- [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Class inheritance, super" tutorial on JavaScript.info](http://javascript.info/class-inheritance):
-  - [ ] [Error creating an instance](http://javascript.info/class-inheritance#error-creating-an-instance)
-  - [ ] [Extended clock](http://javascript.info/class-inheritance#extended-clock)
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Classes" tutorial on JavaScript.info](http://javascript.info/class):
+- [ ] [Rewrite to class](http://javascript.info/class#rewrite-to-class)
+
+Solutions exist in the `jsinfo/` folder for the following exercises from the ["Class inheritance, super" tutorial on JavaScript.info](http://javascript.info/class-inheritance):
+- [ ] [Error creating an instance](http://javascript.info/class-inheritance#error-creating-an-instance)
+- [ ] [Extended clock](http://javascript.info/class-inheritance#extended-clock)
+
+Work on `bike-shop` to pass the tests
 - [ ] All stage 4 tests in the `bike-shop` are passing with source code written in `bike-shop/src/stage4-inheritance.js`.
 
 #### Stage 5
@@ -164,13 +176,13 @@ To get started, each team member needs to fork the [oop-practice][] repo. Then, 
 Design a basic **object model** for a music player like Spotify or iTunes.
 
 - [ ] `Song` class is defined in `music-player/song.js`.
-  - [ ] Has properties and methods that you would expect a "song" object to have, at minimum: `.title`, `.length`, `.album`, `.artist`, `.track_no`, `.play()`, `.pause()`.
+- [ ] `Song` class has properties and methods that you would expect a "song" object to have, at minimum: `.title`, `.length`, `.album`, `.artist`, `.track_no`, `.play()`, `.pause()`.
 - [ ] `Album` class is defined in `music-player/album.js`.
-  - [ ] Has properties and methods that you would expect an "album" object to have, at minimum: `.title`, `.songCount`, `.artist`.
+- [ ] `Album` class has properties and methods that you would expect an "album" object to have, at minimum: `.title`, `.songCount`, `.artist`.
 - [ ] `Artist` class is defined in `music-player/artist.js`.
-  - [ ] Has properties and methods that you would expect an "artist" object to have, at minimum: `.name`, `.bandMembers`, `.genre`.
+- [ ] `Artist` class has properties and methods that you would expect an "artist" object to have, at minimum: `.name`, `.bandMembers`, `.genre`.
 - [ ] `Playlist` class is defined in `music-player/playlist.js`.
-  - [ ] Has properties and methods that you would expect a "playlist" object to have, at minimum: `.name`, `.songs`, `.addSong(<Song>)`, `.removeSong(<Song>)`, `.play()`, `.pause()`.
+- [ ] `Playlist` class has properties and methods that you would expect a "playlist" object to have, at minimum: `.name`, `.songs`, `.addSong(<Song>)`, `.removeSong(<Song>)`, `.play()`, `.pause()`.
 
 ### Stretch
 

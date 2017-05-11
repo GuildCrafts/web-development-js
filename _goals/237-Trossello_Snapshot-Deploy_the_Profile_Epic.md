@@ -110,43 +110,49 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 
 ## Specifications
 
+#### Profile
 - [ ] Users can click the user avatar / name in menu bar to opens the user menu
-- [ ] User menu includes links to:
-  - [ ] Profile => opens user page with profile tab open
-  - [ ] Cards => opens user page with cards tab open
-  - [ ] Sign Out => signs user out
+- [ ] User menu includes link to Profile => opens user page with profile tab open
+- [ ] User menu includes link to Cards => opens user page with cards tab open
+- [ ] User menu includes link to Sign Out => signs user out
 - [ ] Default view of user page is profile tab
 - [ ] Clicking "Edit profile" button on user page opens edit form
-- [ ] Users can edit their:
-  - [ ] Full Name
-  - [ ] Username
-  - [ ] Initials
-  - [ ] Bio
+- [ ] Users can edit their full name
+- [ ] Users can edit their username
+- [ ] Users can edit their initials
+- [ ] Users can edit their bio
 - [ ] Profile tab of user page shows activity stream for user
-- [ ] Activity stream for user displays items for the following events _when they are taken by the signed-in user_:
-  - [ ] User creates board
-  - [ ] User adds list to board
-  - [ ] User removes list from board
-  - [ ] User adds card to list
-  - [ ] User moves card between lists
-  - [ ] User archives card
-  - [ ] User deletes card
-  - [ ] User adds member to board
-  - [ ] User removes member from board
-  - [ ] User adds member to card
-  - [ ] User removes member from card
+
+Activity stream for user displays items for the following events _when they are taken by the signed-in user_:
+- [ ] User creates board
+- [ ] User adds list to board
+- [ ] User removes list from board
+- [ ] User adds card to list
+- [ ] User moves card between lists
+- [ ] User archives card
+- [ ] User deletes card
+- [ ] User adds member to board
+- [ ] User removes member from board
+- [ ] User adds member to card
+- [ ] User removes member from card
+
+Others
 - [ ] Cards tab displays all cards that user is a member of
 - [ ] Cards tab sorts cards by board by default
 - [ ] User can switch cards tab to sort by due date (soonest first)
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
-- [ ] The artifact produced is a fork of the [Trossello][trossello] repository
+
+#### Deployment
 - [ ] App is deployed to Heroku
 - [ ] Deployed app works the same as in developemnt (no broken features)
 - [ ] README includes link to the deployed app
 - [ ] App is configured to use CircleCI continuous integration
 - [ ] CirlceCI badge is added to the README
 - [ ] Latest build is passing on CircleCI
+
+#### General
+- [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
@@ -155,15 +161,15 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 
 Update user activity feed to also include events that _are not_ directly triggered by a user.
 
-- [ ] Activity stream for user displays items for the following events:
-  - [ ] User is added to a board
-  - [ ] User is removed from a board
-  - [ ] User is added to a card
-  - [ ] User is removed from a card
-  - [ ] New list is created on board that user is a member of
-  - [ ] New card is created on board that user is a member of
-  - [ ] Card that user is a member of is moved between lists
-  - [ ] New member is added to card that user is a member of
+Activity stream for user displays items for the following events:
+- [ ] User is added to a board
+- [ ] User is removed from a board
+- [ ] User is added to a card
+- [ ] User is removed from a card
+- [ ] New list is created on board that user is a member of
+- [ ] New card is created on board that user is a member of
+- [ ] Card that user is a member of is moved between lists
+- [ ] New member is added to card that user is a member of
 
 ## Resources
 
