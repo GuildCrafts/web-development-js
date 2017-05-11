@@ -50,3 +50,5 @@ For the goal, you will start with this scaffolded template. Fork to get started.
 ## Stretch
 
 - Create another version of your front-end using a front-end framework such as React or Angular.
+
+***If the mutably data gets too crazy from people adding / deleting things, you can reset the data to the seed data [here](http://mutably.herokuapp.com/)***
