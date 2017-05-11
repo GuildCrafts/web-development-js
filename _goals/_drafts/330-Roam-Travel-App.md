@@ -1,7 +1,7 @@
 ---
 authors:
 - 'jlopker'
-team_size: 2-4
+team_size: 2
 goal_id: 330
 title: 'Roam'
 created_at: '2017-04-20T10:38:28Z'
@@ -27,19 +27,17 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-You have been commissioned to build a travel community, code-named Roam for now, for users to share tips (AKA posts) about their favorite locations around the world.
+You have been commissioned to build a travel community, code-named Roam for now, for users to share tips about their favorite locations around the world.
 
 The client has provided basic wireframes and user stories (broken into sprints). In some cases, these requirements may be vague or incomplete.
 
 ### Recommended Pace
 
-The client contract consists of three core sprints and four bonus sprints. Each sprint contains a set of user stories. You may not complete all of the sprints within the time period, and that's ok. **The goal is to gain experience working on a development project in a group while navigating a client's feature list.**
+The client contract consists of three core sprints and four bonus sprints. Each sprint contains a set of user stories. **The goal is to gain experience working on a development project in a group while navigating a client's feature list.**
 
-**IMPORTANT:** You may not begin a new sprint or start on a bonus without client approval.
+You will work in a group of 2, and we expect you to **pair program** for the majority of the time you're writing code.
 
-You will work in a group of 2-4, and we expect you to **pair program** for the majority of the time you're writing code.
-
-During morning standups and in smaller check-ins throughout the day, clearly communicate your current status and next steps to your teammates. Consider using a kanban-style scrum board such as **Trello** to organize tasks.
+During morning standups and in smaller check-ins throughout the day, clearly communicate your current status and next steps to your teammates. Consider using a kanban-style scrum board such as **GitHub Projects** or **Trello** to organize tasks.
 
 Commit changes at least once for each user story. Consider creating **automated tests** or even implementing TDD for any complex application behavior.
 
@@ -80,7 +78,7 @@ After each sprint, **deploy to heroku** to get practice getting the app online. 
 - [ ] Click on the title of one of their posts and be redirected to a "show" page for that post.
 - [ ] View post "show" pages with title, author, and content.
 
-##### Bonuses
+##### Stretch
 
 **A user should be able to:**
 
@@ -89,25 +87,26 @@ After each sprint, **deploy to heroku** to get practice getting the app online. 
 - [ ] See their profile photo next to their posts.
 - [ ] Receive a welcome email after creating an account.
 
-#### Sprint 2: CRUD
+#### Sprint 2: Travel Tip CRUD
 
 **A user should be able to:**
 
-- [ ] View the "San Francisco" page (at "/cities/1") including:
+- [ ] Put at least 2 cities data in your database (make sure to include Oakland!)
+- [ ] View the "Oakland" page (at "/cities/1") including:
   - [ ] The site-wide header.
   - [ ] The name of the city.
   - [ ] An iconic photo of the city.
-- [ ] View a list of posts on the San Francisco page:
+- [ ] View a list of posts on the Oakland page:
   - [ ] Sorted by newest first.
   - [ ] With the post titles linked to the individual post "show" pages.
-- [ ] Use an "Add New Post" button on the San Francisco city page to pull up the new post form.
-- [ ] Create a new post for San Francisco
+- [ ] Use an "Add New Post" button on the Oakland city page to pull up the new post form.
+- [ ] Create a new post for Oakland
 - [ ] Click "Edit" on ANY individual post, and be redirected to the edit form.
 - [ ] Click "delete" on ANY individual post, then:
   - [ ] See a pop-up that says: "Are you sure you want to delete {{title}}?"
   - [ ] If the user confirms, delete the post.
 
-##### Bonuses
+##### Stretch
 
 **A user should be able to:**
 
@@ -135,7 +134,7 @@ A user is authorized to perform certain actions on the site, according to the fo
 - [ ] A user MUST be logged in to create/update/destroy resources.
 - [ ] A user may only edit their own profile and edit/delete their own posts.
 
-###### Bonuses
+###### Stretch
 
 **A user should be able to:**
 
@@ -152,7 +151,7 @@ A user is authorized to perform certain actions on the site, according to the fo
 
 #### Sprint 4: Commenting
 
-##### Bonuses
+##### Stretch
 
 **A user should be able to:**
 
