@@ -31,20 +31,21 @@ Make your site simple! Make the content that employers will want to see front an
 ## Specifications
 
 - [ ] __10:__ Site is hosted (I recommend Heroku or gh-pages)
-- [ ] __5:__ A link to your GitHub is large and visible on the homepage above the fold
-- For your most impressive projects (at least 2):
-  - [ ] __20:__ Site includes screenshots, text desciptions, and links to both to the GitHub repo and the live site
-  - [ ] __5:__ Site includes text desciptions and links to any open source contributions you might have
-  - [ ] __10:__ Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)
-- [ ] __10:__ Site includes an about page or section with a headshot and text bio
-- [ ] __5:__ Your GitHub profile page has your best projects pinned under the "Pinned repositories" section
-- [ ] __10:__ Site includes Twitter integration (tweets show up on site)
-- [ ] __10:__ Site includes a blog or a link to your blog
+- [ ] __5:__ Site prominently features link to your GitHub
+- [ ] __10:__ Site uses a CSS framework
+- [ ] __10:__ Site includes blurb / screenshots / links (both to GitHub and live site) to one of your most impressive projects
+- [ ] __10:__ Site includes blurb / screenshots / links (both to GitHub and live site) to another of your most impressive projects
+- [ ] __10:__ Site includes blurbs / links to your open source contributions
+- [ ] __10:__ Site includes social links (like LinkedIn, Twitter, and other places to find you on the internet)
+- [ ] __10:__ Site includes an about page / section with a headshot
+- [ ] __10:__ Site includes an about page / section with a bio
+- [ ] __10:__ Your GitHub profile page is cleaned up with clear, descriptive READMEs for the projects you are highlighting
 
-## Stretch
+### Optional / Nice to have
 
-- Point a custom domain to your new site
-  - I recommend buying a domain from [Google Domains](https://domains.google/)
+- Site includes Twitter integration (tweets show up on site)
+- Site includes a blog or a link to your blog
+- Uses a custom domain (I recommend using [Google Domains](https://domains.google/)) - this will cost you a little $$
 
 ## Resources
 
