@@ -29,20 +29,29 @@ This goal will likely be within your ZPD if you...
 
 ![endpoints_docs](https://cloud.githubusercontent.com/assets/3010270/25961688/ffb6e8f8-362f-11e7-9dd3-6d6954a7e2a8.jpg)
 
-Your goal is to build a front-end that consumes the Mutably API. You can choose any one of the 3 resources. Your front-end needs to allow for all of the CRUD (Create, Read, Update, Delete) functions.
+Your goal is to build a front-end that consumes the Mutably API. You can choose any one of the 3 resources. You front-end needs to complete all of the CRUD (Create, Read, Update, Delete) functions.
 
-For the goal, start with the [scaffolded template][mutably-starter]. Fork it to get started. Use jQuery to complete this goal.
+For the goal, you will start with [this scaffolded template](https://github.com/GuildCrafts/mutably-starter). Fork to get started.
+You will use jQuery to complete this goal.
 
 ## Specifications
 
-- [ ] __10:__ Your repo is a fork of [mutably-starter][mutably-starter].
-- [ ] __10:__ Your repo has a README with instructions for how to run your project.
-- [ ] __10:__ Your app is SPA (single page app). All CRUD actions take place on the same page, preferably the root (`/`) route.
-- [ ] __10:__ All interaction with the API happens with jQuery's AJAX function -- don't submit data via forms.
-- [ ] __10:__ A user can read and display all the data for a resource
-- [ ] __10:__ A user can create a new item. There should be a create button that when clicked, a form appears (no page refresh) where the user can create a new item.
+- [ ] __5:__ Your repo is a fork of [mutably-starter](https://github.com/GuildCrafts/mutably-starter).
+- [ ] __5:__ Your repo has a README with instructions for how to run your project.
+- [ ] __15:__ Your app is SPA (single page app). All CRUD actions take place on the same page, preferably the root (`/`) route.
+- [ ] __10:__ All interaction with the API happens with jQuery's AJAX function -- don't submit data via forms. You can use `form` html tags, but do all your form submission in your `js`. Make use of jQuery's `event.preventDefault()`.
+- [ ] __15:__ A user can read and display all the data for a resource.
+- [ ] __10:__ A user can create a new item via a create form. When the user creates a new item, that item should either get appended to the page or all the items should get re-retrieved in the `js`. No full page refresh.
 - [ ] __10:__ A user can update an existing item. Updating happens inline. This means that there is an edit button next to each item that, when clicked, the item text gets replaced with an pre-populated editable, input field. And the edit button becomes a save button. Once the save button is clicked and success message comes back from the server, then then input gets replaced with the updated text. No page refresh.
-- [ ] __10:__ A user can delete an existing item. No page refresh.
+  For example, this: <br>
+  <img width="229" alt="screen shot 2017-05-11 at 3 26 09 pm" src="https://cloud.githubusercontent.com/assets/3010270/25974508/4ac57980-365e-11e7-8b1f-6cf9eefaac22.png">
+  <br>
+  becomes:
+  <br>
+  <img width="253" alt="screen shot 2017-05-11 at 3 26 18 pm" src="https://cloud.githubusercontent.com/assets/3010270/25974512/5024433e-365e-11e7-802f-c60afacddecd.png">
+  <br>
+  When the user clickes the edit button.
+- [ ] __10:__ A user can delete an existing item via a delete button next to each item. No page refresh.
 - [ ] __10:__ Use a UI library to make your site look nice.
 - [ ] __5:__ The artifact produced is properly licensed, preferably with the MIT license.
 - [ ] __5:__ App is deployed on Heroku.
@@ -52,5 +61,3 @@ For the goal, start with the [scaffolded template][mutably-starter]. Fork it to 
 - Create another version of your front-end using a front-end framework such as React or Angular.
 
 ***If the mutably data gets too crazy from people adding / deleting things, you can reset the data to the seed data [here](http://mutably.herokuapp.com/)***
-
-[mutably-starter]: https://github.com/GuildCrafts/mutably-starter
