@@ -31,9 +31,15 @@ You have been commissioned to build a travel community, code-named Roam for now,
 
 The client has provided basic wireframes and user stories (broken into sprints). In some cases, these requirements may be vague or incomplete.
 
+## Context
+
+This goal will give you experience building an app from a set of client needs. **The goal is to gain experience working on a development project in a group while navigating a client's feature list.**
+
+Choose this goal if you’ve already build full-stack JavaScript apps are are interested in leveling-up your skills. Roam requires that you implement authentication- not a trivial task! This will be an immersive, intensive, and highly structured study.
+
 ### Recommended Pace
 
-The client contract consists of three core sprints and four bonus sprints. Each sprint contains a set of user stories. **The goal is to gain experience working on a development project in a group while navigating a client's feature list.**
+The client contract consists of three core sprints and four bonus sprints. Each sprint contains a set of user stories.
 
 You will work in a group of 2, and we expect you to **pair program** for the majority of the time you're writing code.
 
@@ -58,6 +64,9 @@ After each sprint, **deploy to heroku** to get practice getting the app online. 
 
 #### Wireframes
 ![wireframes](https://cloud.githubusercontent.com/assets/3010270/25254113/c2660cca-25d8-11e7-9a1b-22c254e9b75f.png)
+
+
+## Specifications
 
 #### Sprint 1: Basic Auth & Profiles
 
