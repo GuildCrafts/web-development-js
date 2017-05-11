@@ -22,9 +22,9 @@ redirect_from: '/goals/253'
 This goal will likely be within your ZPD if you...
 
 - Can write object-oriented JavaScript and execute it on both the browser and with Node.js
-- Have completed the first two initiation goals: [1][bossggle-word-game] and [2][bike-shop-oop] (or something similar)
+- Have completed the first two initiation goals: [1][bossggle-word-game] and [2][developer-tools] (or something similar)
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
-- Are familiar with the Node.js programming environment and with npm
+- Are interested in learning the Node.js programming environment
 - Are interested in building full-stack web apps with Node.js
 - Are interested in using the popular [Express.js][express] framework
 
@@ -95,15 +95,15 @@ Use the [Resources](#resources) where applicable, but don't limit yourself to th
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
-In [Bossggle][bossggle-word-game], you wrote JavaScript to run in a browser (a _client_), but it didn't need a _server_ (until you published to GitHub Pages, in which case GitHub became the server). In [OOP Practice][bike-shop-oop], you wrote JavaScript to run in the _Node.js_ environment.
+In [Bossggle][bossggle-word-game], you wrote JavaScript to run in a browser (a _client_), but it didn't need a _server_ (until you published to GitHub Pages, in which case GitHub became the server).
 
 This goal will help you learn to tie these two pieces together: to create a "full-stack" web app that runs code on _both_ the client and the server.
 
@@ -235,11 +235,11 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [express]: https://expressjs.com/
 [express-guide]: https://expressjs.com/en/guide/routing.html

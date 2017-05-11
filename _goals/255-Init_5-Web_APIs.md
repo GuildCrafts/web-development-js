@@ -23,7 +23,7 @@ This goal will likely be within your ZPD if you...
 
 - Can use the [Express.js][express] framework to build a web app
 - Can design and build relational databases with SQL
-- Have completed the first 4 initiation goals: [1][bossggle-word-game], [2][bike-shop-oop], [3][hello-web-servers], and [4][relational-databases]
+- Have completed the first 4 initiation goals: [1][bossggle-word-game], [2][developer-tools], [3][hello-web-servers], and [4][relational-databases]
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
 - Are comfortable with the Node.js programming environment and with npm
 - Are interested in how to connect a database to a Node.js application
@@ -31,7 +31,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Build a database-backed web API for the music player app that you started working on in [Init 2: OOP Practice with Bike Shop][bike-shop-oop] and [Init 4: Relational Databases][relational-databases].
+Build a web API for the music player database that you started working on in [Init 4: Relational Databases][relational-databases].
 
 In this goal, you'll be putting all of the skills you've learned so far together to create a RESTful web API: JavaScript, Node.js, web servers with Express, and databases.
 
@@ -77,11 +77,11 @@ Each day, pay attention to the **terms & concepts** highlighed in **bold**. By t
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 If you can complete this goal, then you will be ready to take on [Simple Book Store][simple-book-store]. That goal expands upon the things you'll work on here, and adds the final layer of a truly "full-stack" web application.
 
@@ -223,11 +223,11 @@ Pick another resource to build an API around. For example: a store with products
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [mit-license]: https://opensource.org/licenses/MIT
 

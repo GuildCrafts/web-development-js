@@ -21,7 +21,7 @@ redirect_from: '/goals/254'
 
 This goal will likely be within your ZPD if you...
 
-- Have completed the first three initiation goals: [1][bossggle-word-game], [2][bike-shop-oop], and [3][hello-web-servers]
+- Have completed the first three initiation goals: [1][bossggle-word-game], [2][developer-tools], and [3][hello-web-servers]
 - Have used a spreadsheet application like Excel
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
 - Have used a command line shell
@@ -129,11 +129,11 @@ There are no new concepts for today: this day is all about practicing the skills
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
@@ -179,7 +179,7 @@ Complete another Khan Academy project, use the SQL Designer tool, and install th
 Create schemas and mock data for the "Bike Shop" and "Music Player" apps from the Init 2 goal. Then run queries against them. Read the [Generating Mock Data](#generating-mock-data) section to learn how to generate fake data.
 
 - [ ] Folder `bike-shop/` exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Bike Shop from [Init 2: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `bike-shop/schema.sql`.
+- [ ] Database schema SQL (using PostgreSQL syntax) for the Bike Shop from [Init 6: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `bike-shop/schema.sql`.
 - [ ] Bike Shop schema matches the specifications in [Table Schema for Bike Shop](#table-schema-for-bike-shop).
 - [ ] Folder `music-player/` exists in your repo.
 - [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from [Init 2: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `music-player/schema.sql`.
@@ -374,11 +374,11 @@ It isn't too hard. Just follow these steps:
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [ka-sql-course]: https://www.khanacademy.org/computing/computer-programming/sql
 [sql-basics]: https://www.khanacademy.org/computing/computer-programming/sql#sql-basics

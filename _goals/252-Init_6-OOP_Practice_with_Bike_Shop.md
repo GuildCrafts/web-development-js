@@ -3,7 +3,7 @@ authors:
 - 'tannerwelsh'
 team_size: 2
 goal_id: 252
-title: 'Init 2: OOP Practice with Bike Shop'
+title: 'Init 6: OOP Practice with Bike Shop'
 created_at: '2017-04-04T10:00:00Z'
 labels:
 - practice
@@ -15,19 +15,7 @@ bonus_xp: 25
 redirect_from: '/goals/252'
 ---
 
-# Init 2: OOP Practice with Bike Shop
-
-## Introduction
-
-Welcome to the second in the series of the initiation goals!
-
-You know the ropes by now, but here's a quick refesher of what this goal contains and how to use it:
-
-- Review [Challenge Rating](#challenge-rating) to determine if this goal is appropriately challenging given your current skill level.
-- Read the [Description](#description) to learn what the output of this goal will be.
-- Look to the [Context](#context) for useful background information on why this goal is useful.
-- Use the [Specifications](#specifications) to know what is needed to complete the goal.
-- Explore the [Resources](#resources) such as articles, tutorials, and tools.
+# Init 6: OOP Practice with Bike Shop
 
 ## Challenge Rating
 
@@ -99,15 +87,17 @@ A big part of object-oriented programming is taking the specs for a product and 
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
-This is the second goal. It is designed to introduce you to objects and [object-oriented programming][wiki-oop] in JavaScript (...and also to the [Node.js][nodejs] programming environment, indirectly).
+This is the final goal in the series! Congratulations! You've made it through quite a lot. Once you've finished this goal, you'll have built a solid foundation of essential skills that you'll build upon as you continue learning JavaScript web development.
+
+This goal is designed to introduce you to objects and [object-oriented programming][wiki-oop] in JavaScript (...and also to the [Node.js][nodejs] programming environment, indirectly).
 
 By the time you're done with this goal, you will have:
 
@@ -240,11 +230,11 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [nodejs]: https://nodejs.org/en/
 [wiki-oop]: https://en.wikipedia.org/wiki/Object-oriented_programming

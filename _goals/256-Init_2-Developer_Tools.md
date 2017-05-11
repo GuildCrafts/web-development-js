@@ -3,7 +3,7 @@ authors:
 - 'tannerwelsh'
 team_size: 2
 goal_id: 256
-title: 'Init 6: Developer Tools'
+title: 'Init 2: Developer Tools'
 created_at: '2017-04-18T10:38:28Z'
 labels:
 - practice
@@ -15,13 +15,25 @@ bonus_xp: 10
 redirect_from: '/goals/256'
 ---
 
-# Init 6: Developer Tools
+# Init 2: Developer Tools
+
+## Introduction
+
+Welcome to the second in the series of the initiation goals!
+
+You know the ropes by now, but here's a quick refesher of what this goal contains and how to use it:
+
+- Review [Challenge Rating](#challenge-rating) to determine if this goal is appropriately challenging given your current skill level.
+- Read the [Description](#description) to learn what the output of this goal will be.
+- Look to the [Context](#context) for useful background information on why this goal is useful.
+- Use the [Specifications](#specifications) to know what is needed to complete the goal.
+- Explore the [Resources](#resources) such as articles, tutorials, and tools.
 
 ## Challenge Rating
 
 This goal will likely be within your ZPD if you...
 
-- Have completed several goals
+- Have worked on a goal
 - Have used git and GitHub to do basic version control and project management tasks
 - Can read and write JavaScript
 - Are interested in becoming more effective with your developer tools and environment
@@ -50,15 +62,13 @@ Pay attention to the **terms & concepts** highlighed in **bold**. By the end of 
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
-This is the final goal in the series! Congratulations! You've made it through quite a lot. Once you've finished this goal, you'll have built a solid foundation of essential skills that you'll build upon as you continue learning JavaScript web development.
-
-In this goal, you'll be working on building fluency with your tools and your working environment. As a web developer, your computer is primary workspace. The tools you use every day (editors, shell programs, packages, etc.) make up your development environment, shaping how you work and what you are able to do.
+This is the second goal in the series. In this goal, you'll be working on building fluency with your tools and your working environment. As a web developer, your computer is primary workspace. The tools you use every day (editors, shell programs, packages, etc.) make up your development environment, shaping how you work and what you are able to do.
 
 It is important to know how to configure this environment and use these tools and continuously modify and upgrade it so that your workspace works _for_ you. Just like carpenters have to keep their shop clean and their tools organized in order to work most effectively, web developers must do the same with their space and tools.
 
@@ -91,7 +101,7 @@ Starting with the [Debugging Resources](#debugging), learn as much as you can ab
 
 ### Get Good at Git and GitHub
 
-Pick one of your repositories that has a decent amout of code and git history already and create a copy of it to use as a "sandbox" environment for learning about git and GitHub. To create a "sandbox" copy of your repository, follow these steps:
+Pick one of your repositories and create a copy of it to use as a "sandbox" environment for learning about git and GitHub. To create a "sandbox" copy of your repository, follow these steps:
 
 1. Create a new repository on GitHub to put the copy into (we'll use the placeholder `SANDBOX_REPO` here)
 2. Clone the original repository and move into it
@@ -236,11 +246,11 @@ If you don't have an idea for a package that you'd like to build, you could find
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [mit-license]: https://opensource.org/licenses/MIT
 
