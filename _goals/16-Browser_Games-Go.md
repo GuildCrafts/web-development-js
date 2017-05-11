@@ -47,35 +47,35 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 
 #### General
 
-- [ ] Artifact produced is a fork of the [browser-games][browser-games] repo.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-- [ ] There is a clear separation of game logic code from view/rendering code.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Every pull request has been reviewed by at least one other person.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [ ] __1:__ Artifact produced is a fork of the [browser-games][browser-games] repo.
+- [ ] __1:__ Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] __1:__ HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [ ] __2:__ There is a clear separation of game logic code from view/rendering code.
+- [ ] __1:__ All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] __1:__ Every pull request has been reviewed by at least one other person.
+- [ ] __1:__ The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 #### Go Game
 
-- [ ] [User stories](http://searchsoftwarequality.techtarget.com/definition/user-story) and features for the game are added as issues to your repo with the label `feature` or `user-story`
+- [ ] __1:__ [User stories](http://searchsoftwarequality.techtarget.com/definition/user-story) and features for the game are added as issues to your repo with the label `feature` or `user-story`
   <br>_You'll have to define these yourself by looking at the rules of the game and coming up with the right user stories & features_
-- [ ] jQuery is used for DOM manipulation code
-- [ ] Go game can be found at `public/go.html`
-- [ ] Go game is playable by two people
-- [ ] Players can decide between 9x9, 13x13 or 17x17 board size
-- [ ] The game state is persisted (so reloading the page resumes where you left off)
-- [ ] The board can scale to the window size
-- [ ] Game page is linked from `public/index.html`
+- [ ] __1:__ jQuery is used for DOM manipulation code
+- [ ] __1:__ Go game can be found at `public/go.html`
+- [ ] __16:__ Go game is playable by two people
+- [ ] __2:__ Players can decide between 9x9, 13x13 or 17x17 board size
+- [ ] __4:__ The game state is persisted (so reloading the page resumes where you left off)
+- [ ] __1:__ The board can scale to the window size
+- [ ] __1:__ Game page is linked from `public/index.html`
 
 ### Stretch
 
-- [ ] Game can be played against a computer AI (i.e. human v. computer)
+- [ ] __16:__ Game can be played against a computer AI (i.e. human v. computer)
 
 Implement Othello (Reversi) game
 
-- [ ] Othello game can be found at `public/othello.html`
-- [ ] Othello game is playable by two people (i.e. human v. human)
-- [ ] Othello game page is linked from `public/index.html`
+- [ ] __1:__ Othello game can be found at `public/othello.html`
+- [ ] __16:__ Othello game is playable by two people (i.e. human v. human)
+- [ ] __1:__ Othello game page is linked from `public/index.html`
 
 ## Resources
 
