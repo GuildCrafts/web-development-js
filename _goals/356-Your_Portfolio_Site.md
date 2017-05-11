@@ -26,6 +26,8 @@ This goal will likely be within your ZPD if you...
 
 Create a good lookin' portfolio / resume site to help you get a job! Highlight your most impressive projects. To complete this goal, you'll need to have links to at least 2 live projects so part of your week might be spent cleaning up old projects and putting them on the internet.
 
+Make your site simple! Make the content that employers will want to see front and center. Don’t make it hard to access important information. No excessive animations, especially if the animations are obscuring important content. No busy background images. When in doubt, take cues from other sites. Don’t invent metaphors: use metaphors that already exist and are widely used on the internet. Think clean, clean, clean. 
+
 ## Specifications
 
 - [ ] __10:__ Site is hosted (I recommend Heroku or gh-pages)
@@ -48,6 +50,8 @@ Create a good lookin' portfolio / resume site to help you get a job! Highlight y
 
 #### Nice Portfolios
 
+- [norrishung](http://www.norrishung.com/)
+- [andrewhoyer](http://andrew.wang-hoyer.com/)
 - [danklammer](http://danklammer.com/)
 - [alex](https://alex.dytry.ch/)
 - [ianwharton](http://www.ianwharton.com/)
