@@ -1,7 +1,7 @@
 ---
 authors:
 - "jlopker"
-team_size: 2-4
+team_size: 2
 goal_id: 383
 title: CRUD Mutably
 created_at: '2017-05-11T11:00:00Z'
@@ -29,13 +29,13 @@ This goal will likely be within your ZPD if you...
 
 ![endpoints_docs](https://cloud.githubusercontent.com/assets/3010270/25961688/ffb6e8f8-362f-11e7-9dd3-6d6954a7e2a8.jpg)
 
-Your goal is to build a front-end that consumes the Mutably API. You can choose any one of the 3 resources. You front-end needs to complete all of the CRUD (Create, Read, Update, Delete) functions.
+Your goal is to build a front-end that consumes the Mutably API. You can choose any one of the 3 resources. Your front-end needs to allow for all of the CRUD (Create, Read, Update, Delete) functions.
 
-For the goal, you will start with this scaffolded template. Fork to get started. You will use jQuery to complete this goal.
+For the goal, start with the [scaffolded template][mutably-starter]. Fork it to get started. Use jQuery to complete this goal.
 
 ## Specifications
 
-- [ ] __10:__ Your repo is a fork of [mutably-starter](https://github.com/GuildCrafts/mutably-starter).
+- [ ] __10:__ Your repo is a fork of [mutably-starter][mutably-starter].
 - [ ] __10:__ Your repo has a README with instructions for how to run your project.
 - [ ] __10:__ Your app is SPA (single page app). All CRUD actions take place on the same page, preferably the root (`/`) route.
 - [ ] __10:__ All interaction with the API happens with jQuery's AJAX function -- don't submit data via forms.
@@ -52,3 +52,5 @@ For the goal, you will start with this scaffolded template. Fork to get started.
 - Create another version of your front-end using a front-end framework such as React or Angular.
 
 ***If the mutably data gets too crazy from people adding / deleting things, you can reset the data to the seed data [here](http://mutably.herokuapp.com/)***
+
+[mutably-starter]: https://github.com/GuildCrafts/mutably-starter
