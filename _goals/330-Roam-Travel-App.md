@@ -7,7 +7,7 @@ title: 'Roam'
 created_at: '2017-04-20T10:38:28Z'
 labels:
 - production
-published: false
+published: true
 level: '2'
 redirect_from: '/goals/330'
 ---
