@@ -46,6 +46,7 @@ This goal has no "project" output associated with it. Instead, the specs are gro
 
 As you work through the specs, you'll be improving your skills in areas like:
 
+- Shell
 - Debugging
 - Git
 - GitHub
@@ -80,7 +81,28 @@ You don't have to complete these specs in any particular order.
 
 ### General
 
-- [ ] Artifact produced is a gist with a Markdown file containing links and text
+- [ ] Artifact produced is a [gist](https://gist.github.com/) with a Markdown file containing links and text
+
+### Use the Shell Like a Pro
+
+As a developer, you'll be spending a lot of time inside of the _shell_: the command-line interface that you use to access operating system services.
+
+On a Mac, you can open a "shell session" by using the Terminal app. By default, it will use the [Bash shell][wiki-bash-shell].
+
+You'll use the shell to do things like navigate your filesystem, create files and directories, use `git` to do version control, and manage programs.
+
+At the least, you should be able to:
+
+- Change **directories**
+- Show the **contents** of a directory
+- **Rename**, **copy**, **move**, and **delete** files and folders
+- **Create** directories and files
+- Get **help** and open the **manual** for a **command**
+- **Read** and **write to** a file
+
+Use the [Shell Resources](#shell) to learn as much as you can about working with the UNIX shell.
+
+- [ ] Artifact contains a list of 5-10 of the commands you find most useful.
 
 ### Level Up your Debugging
 
@@ -207,6 +229,15 @@ If you don't have an idea for a package that you'd like to build, you could find
 
 ## Resources
 
+##### Shell
+
+- Michael Hartl's book ["Learn Enough Command Line to be Dangerous"](https://www.learnenough.com/command-line-tutorial)
+- Ryan Chadwick's Tutorial on [Linux](http://ryanstutorials.net/linuxtutorial/)
+- Codecademy's [Command Line course](https://www.codecademy.com/learn/learn-the-command-line)
+- [jlevy](https://github.com/jlevy/)'s [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
+- Unix Commands Tutorial for Beginners: [1](https://www.youtube.com/watch?v=hbzRWQjA6kI) and [2](https://www.youtube.com/watch?v=fu_f0yiljj0)
+- [Unix Tutorial for Beginners](https://www.youtube.com/watch?v=NX44RQVw0s0)
+
 ##### Debugging
 
 - Guide: [Mastering The Developer Tools Console](http://blog.teamtreehouse.com/mastering-developer-tools-console) #debugging #js
@@ -216,11 +247,14 @@ If you don't have an idea for a package that you'd like to build, you could find
 
 ##### Git & GitHub
 
+- [Try Git](https://try.github.io/) #git
+- [Learn Git Branching](http://learngitbranching.js.org/) #git
 - Treehouse: [GitHub Basics (2h)](https://teamtreehouse.com/library/github-basics) #github #git #projmgmt
 - Treehouse: [Git Basics (4h)](https://teamtreehouse.com/library/git-basics) #git #vc
 - Treehouse: [Get Together with Git (20m)](https://teamtreehouse.com/library/get-together-with-git) #git #vc
 - Lynda: [Git Essential Training (6h 25m)](https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html) #git
 - [Hub](https://hub.github.com/) git tool #devtools #git
+- Michael Hartl's book [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
 
 ##### Pair Programming
 
@@ -229,13 +263,14 @@ If you don't have an idea for a package that you'd like to build, you could find
 - ThoughtWorks Blog: [Effective Navigation in Pair Programming](https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming) #pairing
 - Blog: [Remote Pair Programming](http://remotepairprogramming.com/) #pairing
 
-##### Editor Extensions and Plugins
+##### Code Editor
 
 - Official site for [Atom Packages][atom-packages]
 - [Vim Awesome][vim-awesome] aggregates the best packages for Vim
 - [Package Control][packagecontrol] is the best package manager for Sublime
 - [Awesome Emacs][awesome-emacs] is a "community driven list of useful Emacs packages, libraries and others"
 - [Tutorial on building an Atom package][tutorial-atom-plugin]
+- Michael Hartl's book [Learn Enough Text Editor to Be Dangerous](https://www.learnenough.com/text-editor-tutorial)
 
 ##### Dotfiles & Environment Management
 
@@ -269,3 +304,5 @@ If you don't have an idea for a package that you'd like to build, you could find
 
 [homebrew]: https://brew.sh/
 [homebrew-bundle]: https://github.com/Homebrew/homebrew-bundle
+
+[wiki-bash-shell]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
