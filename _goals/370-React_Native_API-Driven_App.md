@@ -26,6 +26,8 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
+#### We are building a React Native Search App that utilizes a third party API to fetch data and uses components to render the data. This goal introduces you to the fundamentals of mobile development utilizing a language you have familiarity with. There is no need to adopt Swift or Objective C!
+
 **Step 1** - [Refer to this scafflod repo](https://github.com/pllearns/react-native-starter-code)
 
 Then create your own repo and follow the `readme` instructions on the repo.
@@ -57,6 +59,6 @@ You want to build an app with a simple UI. Stay away from too many form fields, 
 ## Resources
 
 - [Tutorial - Build a React Native App from Scratch](https://www.youtube.com/watch?v=r5OPRhelEIU&t=41s)
-- [Tutorial - Build a React Native chat app in 30 minutes](https://www.youtube.com/watch?v=VTnFDc3IFag&t=6s)
 - [React Native Documentation](https://facebook.github.io/react-native/)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+- [Create a React Native Search App](https://medium.com/lorenzo-codes/creating-a-react-native-search-app-88b8530da697)
