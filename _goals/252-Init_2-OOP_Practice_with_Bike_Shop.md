@@ -119,11 +119,16 @@ By the time you're done with this goal, you will have:
 
 These are the basic specs for OOP Practice, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
+__FEEDBACK:__ this is one of the hardest goals to check. A lot of reading of external resources. Its not very easy to see if the solutons work since I cannot just execute them. The bike-shop part is great but grading the music-player and bike-shop is hard.
+
 #### Stage 1
 
 To get started, each team member needs to fork the [oop-practice][] repo. Then, create a [gist](https://gist.github.com/) and add links to each fork to a file in the gist. This is your `artifact`.
 
 - [ ] Artifact is set to a gist with links to each of your teammate's forks.
+
+__FEEDBACK:__ I'm not sure how to calculate completeness here. There are 3 repos. Some of these specs are met in some reports and not in others. What the intention here?
+
 - [ ] Solutions exist in the `jsinfo/` folder for the following exercises from the ["Objects" tutorial on JavaScript.info](http://javascript.info/object):
   - [ ] [Hello, object](http://javascript.info/object#hello-object)
   - [ ] [Multiply numeric properties by 2](http://javascript.info/object#multiply-numeric-properties-by-2)
