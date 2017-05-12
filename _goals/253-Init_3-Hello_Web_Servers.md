@@ -30,7 +30,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Build a [markdown][] editor app using Node.js and the popular Express.js framework. The final product will be similar to (but a lot simpler than) this app: http://dillinger.io/.
+Create a
 
 When people talk about "full-stack web development", usually what they mean is the process of building applications that run on both a _server_ and a _client_.
 
@@ -57,8 +57,9 @@ With your team, complete the specs in [Stage 1](#stage-1) to set up your initial
 
 #### Day 2
 
-With your team, complete the specs in [Stage 2](#stage-2) to organize your view files with the [Pug][] templating engine. You'll be learning and practicing:
+With your team, complete the specs in [Stage 2](#stage-2) to organize your view files with the [EJS][] templating engine. You'll be learning and practicing:
 
+- what **routes** are and how to use them in Express.js
 - what an **HTML template** is and how it works
 - how to split HTML templates into smaller components using **includes**
 - how templating is similar to **string interpolation**
@@ -68,20 +69,12 @@ With your team, complete the specs in [Stage 2](#stage-2) to organize your view 
 
 With your team, complete the specs in [Stage 3](#stage-3) to implement the "MVP" (Minimum Viable Product) feature: being able to write and render markdown text. You'll be learning and practicing:
 
-- how to install a JavaScript **package** for use in the browser
-- what **markdown** is and how it is used
-- what it means to **render** markdown text to HTML
-- how to listen for **key press events** in the browser
-- how to **send data** from a browser to the server
-- how to use Node.js to **read and write to a file**
+- how to use **iteration** in your HTML templates
 
 #### Day 4
 
 With your team, complete the specs in [Stage 4](#stage-4) to add the more advanced feature of the product: managing multiple files. You'll be learning and practicing:
 
-- what **routes** are and how to use them in Express.js
-- how to **create new files** programmatically with Node.js
-- how to use **iteration** in your HTML templates
 - what **cookies** are and how to use them in Express.js
 
 #### Day 5
@@ -105,7 +98,7 @@ By the time you are finished with these initiation goals, you should be skilled 
 
 In [Bossggle][bossggle-word-game], you wrote JavaScript to run in a browser (a _client_), but it didn't need a _server_ (until you published to GitHub Pages, in which case GitHub became the server).
 
-This goal will help you learn to tie these two pieces together: to create a "full-stack" web app that runs code on _both_ the client and the server.
+This goal will help you learn to go beyond just "static" web apps that only run in the _client_ and build out a real "full-stack" web app with _server-side_ code.
 
 ## Specifications
 
@@ -116,25 +109,40 @@ These are the basic specs for "Hello, Web Servers", broken into 5 stages. If you
 Setup the repo and file structure, install and configure [Express][], and get a basic server running.
 
 - [ ] Repo (your artifact) is created on GitHub
-- [ ] Express server can be started with `$ node app.js`
-- [ ] Server renders a page at the root route (`/`) that looks like the [mockup](#mockups) but does not have any functionality - it is just a static page
+- [ ] Repo follows a conventional file structure for an Express.js app:
+  - [ ] `package.json`: standard for any Node.js app; includes package info and lists dependencies
+  - [ ] `server.js`: your Express server, with all routes defined
+  - [ ] `views/`: for storing your EJS HTML templates
+  - [ ] `public/`: for storing static files like CSS and images
+  - [ ] `README.md`: includes overview of your repo
+- [ ] Express server can be started with `$ node server.js`
+- [ ] Server renders a page at the root route (`/`)
 - [ ] All package dependencies are defined in `package.json`
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
-Repo follows a conventional file structure for an Express.js app:
-- [ ] `package.json`: standard for any Node.js app; includes package info and lists dependencies
-- [ ] `app.js`: your Express server, with all routes defined
-- [ ] `views/`: for storing your Pug HTML templates
-- [ ] `public/`: for storing static files like CSS and images
-- [ ] `README.md`: includes overview of your repo
-
 #### Stage 2
 
-Build out the template structure with [Pug][] for a single-file editor. Don't worry about multiple files for now, or implementing the markdown rendering.
+Build out the routes and views for each page using the [EJS][] templating language. Add basic styles so that they follow the layouts defined in the [wireframes](#wireframes). Add any additional styles you like to make it look nice :).
 
-- [ ] Pug is installed and set up for HTML templating
+At this point, you don't need to actually _show_ any real data, just render HTML with placeholder text. You'll render real data in stage 3.
+
+- [ ] EJS is installed and set up for HTML templating
 - [ ] View template files are created in the `/views` subdirectory
-- [ ] Main view file is called `index`
+- [ ] Main view file is called `views/index.ejs`
+- [ ] Main view is rendered at route `/`
+- [ ] Main view shows a list of all artists (see [wireframe](#wireframes))
+- [ ] Albums view file is called `views/albums.ejs`
+- [ ] Albums view is rendered at route `/albums`
+- [ ] Albums view shows a list of all albums (see [wireframe](#wireframes))
+- [ ] Songs view file is called `views/songs.ejs`
+- [ ] Songs view is rendered at route `/songs`
+- [ ] Songs view shows a list of all songs (see [wireframe](#wireframes))
+- [ ] Individual artist view file is called `views/artist.ejs`
+- [ ] Individual artist view is rendered at route `/artist/:artist_id`
+- [ ] Individual artist view shows a list of the artist's songs (see [wireframe](#wireframes))
+- [ ] Individual album view file is called `views/album.ejs`
+- [ ] Individual album view is rendered at route `/album/:album_id`
+- [ ] Individual album view shows a list of the album's songs (see [wireframe](#wireframes))
 - [ ] CSS is organized into one or more files in the `public/` directory
 - [ ] CSS declarations are well-named and formatted (consider using this [small guide](http://tinystride.com/articles/organized-css-a-small-guide/))
 
@@ -146,73 +154,68 @@ Includes are created for the different "components" of the main view:
 
 #### Stage 3
 
-Setup real markdown rendering so that writing in the left panel updates the right panel, and make the "Save" button work.
 
-- [ ] Marked is installed
-- [ ] Markdown text written in the "Editor" pane is rendered in the "Preview" pane automatically
-- [ ] Preview is updated every time text in the editor changes
-- [ ] Clicking the "Save" button saves the markdown text in the editor to a file in a subdirectory of the server `data/`
-- [ ] The markdown file in `data/` is loaded and used as the starter text in the editor (in other words, the last saved text is loaded by default)
 
 #### Stage 4
 
-Build out multiple-file functionality, and use cookies to remember the last opened file.
-
-- [ ] Users can create more than one markdown file
-- [ ] Each file has its own URL, named after its filename (for example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos`)
-- [ ] Markdown files are listed in the sidebar
-- [ ] Clicking on the "New File" button in the sidebar lets users create a new file and prompts for the file name using `prompt()`
-- [ ] Clicking on a file in the sidebar will navigate to the page, load the file contents into the editor, and render them in the preview
-- [ ] Markdown content can still be saved to files in `data/`, with one file in `data/` for each file in the sidebar
-- [ ] Most recently edited file is tracked using a cookie
-- [ ] When visiting the root route (`/`), users are redirected to the file they last edited
 
 #### Stage 5
 
 No stage 5! Move into stretch specs, or use the time to polish up your code.
 
-### Mockups
+### Wireframes
 
-Try to mimic the following mockup as closely as you can. Note that some of the features in the mockup are part of the [stretch specs](#stretch) - you don't have to build those yet.
+Use the wireframes as a guide for how you design the layout and structure of your HTML.
 
-<img alt="mmmarkdown-mockup" width="800" src="https://cloud.githubusercontent.com/assets/709100/24804622/01ad8ffe-1b7d-11e7-91f4-a60303a79ff8.png">
+##### Home: All Artists (route: /)
+<img width="800" alt="home: all artists" src="https://cloud.githubusercontent.com/assets/709100/26007688/99706606-370f-11e7-98d6-98e5d3cfc121.png">
 
-##### with comments
+##### Albums (route: /albums)
+<img width="800" alt="albums" src="https://cloud.githubusercontent.com/assets/709100/26007684/996802ea-370f-11e7-996c-7bc04e21ac47.png">
 
-<img alt="mmmarkdown-mockup-with-comments" width="800" src="https://cloud.githubusercontent.com/assets/709100/24805262/2824fd32-1b7f-11e7-9690-5576477151c6.png">
+##### Songs (route: /songs)
+<img width="800" alt="songs" src="https://cloud.githubusercontent.com/assets/709100/26007685/996d3814-370f-11e7-9893-69a6a28cfeba.png">
 
-#### New File
+##### Single Artist (route: /artists/:artist_id)
+<img width="800" alt="single artist" src="https://cloud.githubusercontent.com/assets/709100/26007686/996e2558-370f-11e7-9105-7edcb4284aca.png">
 
-<img alt="mmmarkdown-mockup-new-file" width="800" src="https://cloud.githubusercontent.com/assets/709100/24805253/23e24c84-1b7f-11e7-8820-5f5e022da97b.png">
+##### Single Album (route: /albums/:album_id)
+<img width="800" alt="single album" src="https://cloud.githubusercontent.com/assets/709100/26007687/996e7512-370f-11e7-932e-804b3c946cbd.png">
 
 ### Stretch
 
 If you complete all of the specs listed above (the checkboxes), there's no reason to stop there! Try building more advanced features with these stretch specs.
 
-- [ ] Clicking the trash can icon deletes the file from the `data/` folder
-- [ ] Clicking the trash can icon shows the sidebar updated without the deleted file
+- [ ] Use EJS includes for the different "components" of the views (header, footer, etc.)
+
+
+- [ ] Clicking the trash can icon...
+  - [ ] Deletes the file from the `data/` folder
+  - [ ] Shows the sidebar updated without the deleted file
 - [ ] "Word count" section in the header displays the word count for the currently open file
 
 And if you get through those, try turning [Bossggle][bossggle-word-game] into an Express app.
 
 - [ ] New repo `bossggle-server` is created
-- [ ] Bossggle works the same as in the serverless version, but is built with [Express][] and [Pug][]
+- [ ] Bossggle works the same as in the serverless version, but is built with [Express][] and [EJS][]
 - [ ] Score and word history is saved using [localStorage][mdn-localstorage]
 
 ## Resources
 
 Use these resources to fill in the gaps in your skills and knowledge as you find them. There is more here than you can do in a week, so focus on the areas that are in your zone of proximal development (ZPD).
 
+##### Fake Data
+
+Don't worry about making your own data for your app. Use the artist, album, and song data included in [these JSON files][mock-json-data].
+
 ##### Tools
 
 - [Express.js][express]: "Fast, unopinionated, minimalist web framework for Node.js"
-- [Pug][]: "robust, elegant, feature rich template engine for Node.js"
-- [Marked][]: "A full-featured markdown parser and compiler, written in JavaScript. Built for speed."
+- [EJS][]: "robust, elegant, feature rich template engine for Node.js"
 
 ##### Guides
 
 - The official [Express.js Guide][express-guide] #express #nodejs
-- The official [Pug Getting Started][pug-getting-started] #pug #html
 - MDN: [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) #html #dom #js
 - MDN: [Guide to Event Handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) #dom #js
 
@@ -230,7 +233,7 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 ##### Tutorials
 
 - [JavaScript.info](https://javascript.info/) #js
-
+- [Templating Node and Express Apps with EJS][blog-ejs-express]
 
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
@@ -243,11 +246,10 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 
 [express]: https://expressjs.com/
 [express-guide]: https://expressjs.com/en/guide/routing.html
-[pug]: https://pugjs.org/
-[pug-getting-started]: https://pugjs.org/api/getting-started.html
-[marked]: https://www.npmjs.com/package/marked
+[ejs]: http://ejs.co/
+[blog-ejs-express]: https://coligo.io/templating-node-and-express-apps-with-ejs/
 
-[markdown]: https://daringfireball.net/projects/markdown/syntax
+[mock-json-data]: https://gist.github.com/learnersguild-dev/b90f65bba83d589e788b5a2b4ccfc1cb
 
 [mdn-localstorage]: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
