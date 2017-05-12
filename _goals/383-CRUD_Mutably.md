@@ -8,6 +8,7 @@ created_at: '2017-05-11T11:00:00Z'
 labels:
 - practice
 level: '1'
+base_xp: 150
 published: true
 redirect_from: '/goals/383'
 ---
@@ -25,14 +26,22 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-[Mutably](http://mutably.herokuapp.com/) is a mutable, RESTful, CRUD API. This means that it has endpoints that you can interact with RESTfully via a front-end. Here is information about the resources available and how to interact with them:
+[Mutably](http://mutably.herokuapp.com/) is a mutable, RESTful, CRUD API. This means that it has endpoints that you can interact with RESTfully via a front-end.
 
-![endpoints_docs](https://cloud.githubusercontent.com/assets/3010270/25961688/ffb6e8f8-362f-11e7-9dd3-6d6954a7e2a8.jpg)
+Visit the repo page for information about the resources available and how to interact with them: [https://github.com/GuildCrafts/mutably](https://github.com/GuildCrafts/mutably)
 
 Your goal is to build a front-end that consumes the Mutably API. You can choose any one of the 3 resources. You front-end needs to complete all of the CRUD (Create, Read, Update, Delete) functions.
 
 For the goal, you will start with [this scaffolded template](https://github.com/GuildCrafts/mutably-starter). Fork to get started.
 You will use jQuery to complete this goal.
+
+## Context
+
+Interacting with a third-party API is a key skill for any developer. Most APIs have extensive documentation and require a fair amount of "overhead" just to get started working with them.
+
+Not Mutably. This API is _way_ simpler, with just a few _endpoints_ handling a few different _resources_.
+
+This goal is designed as an introduction to working with third-party APIs so that you can familiarize yourself with the core ideas before moving on to work with bigger, more complex APIs (like GitHub or Twitter).
 
 ## Specifications
 
@@ -56,9 +65,11 @@ You will use jQuery to complete this goal.
 - [ ] __5:__ The artifact produced is properly licensed, preferably with the MIT license.
 - [ ] __5:__ App is deployed on Heroku.
 
-## Stretch
+### Stretch
 
-- Create another version of your front-end using a front-end framework such as React or Angular.
+- [ ] Create another version of your front-end using a front-end framework such as React or Angular.
+
+---
 
 ***If the mutably data gets too crazy from people adding / deleting things, you can reset the data to the seed data [here](http://mutably.herokuapp.com/).***
 
