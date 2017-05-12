@@ -1278,11 +1278,11 @@
         "practice"
       ],
       "level": "1",
+      "base_xp": 150,
       "published": true,
       "redirect_from": "/goals/383",
       "url": "http://jsdev.learnersguild.org/goals/383-CRUD_Mutably.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
+      "bonus_xp": 22.5,
       "dynamic": false
     },
     {
