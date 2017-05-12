@@ -1268,6 +1268,25 @@
     },
     {
       "authors": [
+        "FrankieFabuloso"
+      ],
+      "team_size": 2,
+      "goal_id": 378,
+      "title": "Socket.io: Party Chat",
+      "created_at": "2017-05-12T14:38:28Z",
+      "labels": [
+        "practice"
+      ],
+      "level": "2",
+      "published": true,
+      "redirect_from": "/goals/378",
+      "url": "http://jsdev.learnersguild.org/goals/378-Socket-Party_Chat.html",
+      "base_xp": 200,
+      "bonus_xp": 30.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "jlopker"
       ],
       "team_size": 2,
