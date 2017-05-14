@@ -73,12 +73,12 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 ## Specifications
 
 - [ ] Tests and correct implementations exist for **32** (not all) utility functions from the Lodash library.
-- [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
-- [ ] All code is written with ES2015.
+- [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang"). [This spec is unclear. FILES cannot have the same names as GROUPS. If files are to be grouped into subdirectories, that can be stated. If subdirectories are to be named “Array” etc., that can be stated. If files are to be named “_.chunk” etc., that can be stated.]
+- [ ] All code is written with ES2015. [This is misinterpreted by some coaches as requiring more than ES2015 compatibility, for example as requiring ONLY arrow syntax in function definitions or as requiring NEVER using “var”. A learner would not know this from this spec. If more than ES2015 compliance is required, the additional requirements can be stated.]
 - [ ] Includes a README listing each method written and which file it is in.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Code is well tested and all tests are passing.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All dependencies are properly declared in `package.json`. [This is interpreted by at least 1 coach as requiring a license specification within the package.json file, and not only a LICENSE file or a license section in a README file. If a particular method of license declaration is required, that can be stated.]
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
