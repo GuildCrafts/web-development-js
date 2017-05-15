@@ -7,7 +7,7 @@ title: Work on the Map
 created_at: '2017-05-01T10:38:28Z'
 labels:
 - prototype
-published: true
+published: false
 level: '3'
 dynamic: true
 redirect_from: "/goals/367"
