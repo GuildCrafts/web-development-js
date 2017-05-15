@@ -72,7 +72,70 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ## Specifications
 
-- [ ] Tests and correct implementations exist for **32** (not all) utility functions from the Lodash library.
+- [ ] Source code for Function 1 implemented
+- [ ] Test(s) for Function 1 implemented
+- [ ] Source code for Function 2 implemented
+- [ ] Test(s) for Function 2 implemented
+- [ ] Source code for Function 3 implemented
+- [ ] Test(s) for Function 3 implemented
+- [ ] Source code for Function 4 implemented
+- [ ] Test(s) for Function 4 implemented
+- [ ] Source code for Function 5 implemented
+- [ ] Test(s) for Function 5 implemented
+- [ ] Source code for Function 6 implemented
+- [ ] Test(s) for Function 6 implemented
+- [ ] Source code for Function 7 implemented
+- [ ] Test(s) for Function 7 implemented
+- [ ] Source code for Function 8 implemented
+- [ ] Test(s) for Function 8 implemented
+- [ ] Source code for Function 9 implemented
+- [ ] Test(s) for Function 9 implemented
+- [ ] Source code for Function 10 implemented
+- [ ] Test(s) for Function 10 implemented
+- [ ] Source code for Function 11 implemented
+- [ ] Test(s) for Function 11 implemented
+- [ ] Source code for Function 12 implemented
+- [ ] Test(s) for Function 12 implemented
+- [ ] Source code for Function 13 implemented
+- [ ] Test(s) for Function 13 implemented
+- [ ] Source code for Function 14 implemented
+- [ ] Test(s) for Function 14 implemented
+- [ ] Source code for Function 15 implemented
+- [ ] Test(s) for Function 15 implemented
+- [ ] Source code for Function 16 implemented
+- [ ] Test(s) for Function 16 implemented
+- [ ] Source code for Function 17 implemented
+- [ ] Test(s) for Function 17 implemented
+- [ ] Source code for Function 18 implemented
+- [ ] Test(s) for Function 18 implemented
+- [ ] Source code for Function 19 implemented
+- [ ] Test(s) for Function 19 implemented
+- [ ] Source code for Function 20 implemented
+- [ ] Test(s) for Function 20 implemented
+- [ ] Source code for Function 21 implemented
+- [ ] Test(s) for Function 21 implemented
+- [ ] Source code for Function 22 implemented
+- [ ] Test(s) for Function 22 implemented
+- [ ] Source code for Function 23 implemented
+- [ ] Test(s) for Function 23 implemented
+- [ ] Source code for Function 24 implemented
+- [ ] Test(s) for Function 24 implemented
+- [ ] Source code for Function 25 implemented
+- [ ] Test(s) for Function 25 implemented
+- [ ] Source code for Function 26 implemented
+- [ ] Test(s) for Function 26 implemented
+- [ ] Source code for Function 27 implemented
+- [ ] Test(s) for Function 27 implemented
+- [ ] Source code for Function 28 implemented
+- [ ] Test(s) for Function 28 implemented
+- [ ] Source code for Function 29 implemented
+- [ ] Test(s) for Function 29 implemented
+- [ ] Source code for Function 30 implemented
+- [ ] Test(s) for Function 30 implemented
+- [ ] Source code for Function 31 implemented
+- [ ] Test(s) for Function 31 implemented
+- [ ] Source code for Function 32 implemented
+- [ ] Test(s) for Function 32 implemented
 - [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
 - [ ] All code is written with ES2015.
 - [ ] Includes a README listing each method written and which file it is in.
