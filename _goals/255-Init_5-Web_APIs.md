@@ -110,10 +110,10 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
 - [ ] Artifact is a repo on GitHub
 - [ ] Repo includes an Express.js app
 - [ ] App provide a command to start the web server
-- [ ] README includes "Getting Started" instructions, which covers (at least):
-  - [ ] How to install
-  - [ ] How to set up and configure the database
-  - [ ] How to start the server
+- [ ] README includes "Getting Started" instructions
+- [ ] "Getting Started" instructs how to install
+- [ ] "Getting Started" instructs how to set up and configure the database
+- [ ] "Getting Started" instructs how to start the server
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
 #### Database
@@ -131,34 +131,35 @@ These are the basic specs for "Web APIs". If you complete these specs, try takin
 
 - [ ] API employs a RESTful design
 - [ ] API returns JSON-formatted data
-- [ ] Users of the API can...
-  - [ ] Get all artists
-  - [ ] Get an artist by id
-  - [ ] Get an artist by name
-  - [ ] Add a new artist
-  - [ ] Edit an artist
-  - [ ] Delete an artist
-  - [ ] Get all albums
-  - [ ] Get an album by id
-  - [ ] Get an album by title
-  - [ ] Add a new album
-  - [ ] Edit an album
-  - [ ] Delete an album
-  - [ ] Get all songs
-  - [ ] Get a song by id
-  - [ ] Get all songs in an album
-  - [ ] Get all songs by an artist
-  - [ ] Add a new song
-  - [ ] Edit a song
-  - [ ] Delete a song
-  - [ ] Get all playlists
-  - [ ] Get a playlist by id
-  - [ ] Get all songs in a playlist
-  - [ ] Add a song to a playlist
-  - [ ] Create a playlist
-  - [ ] Edit a playlist
-  - [ ] Delete a playlist
 - [ ] API accepts POST and PUT/PATCH requests with JSON-formatted bodies
+
+Users of the API can...
+- [ ] Get all artists
+- [ ] Get an artist by id
+- [ ] Get an artist by name
+- [ ] Add a new artist
+- [ ] Edit an artist
+- [ ] Delete an artist
+- [ ] Get all albums
+- [ ] Get an album by id
+- [ ] Get an album by title
+- [ ] Add a new album
+- [ ] Edit an album
+- [ ] Delete an album
+- [ ] Get all songs
+- [ ] Get a song by id
+- [ ] Get all songs in an album
+- [ ] Get all songs by an artist
+- [ ] Add a new song
+- [ ] Edit a song
+- [ ] Delete a song
+- [ ] Get all playlists
+- [ ] Get a playlist by id
+- [ ] Get all songs in a playlist
+- [ ] Add a song to a playlist
+- [ ] Create a playlist
+- [ ] Edit a playlist
+- [ ] Delete a playlist
 
 #### Deployment
 
@@ -182,11 +183,10 @@ If you complete all of the specs listed above (the checkboxes), there's no reaso
 
 - [ ] App provides a single-page web UI.
 - [ ] UI uses JavaScript to fetch and send data from/to the API.
-- [ ] UI provides ways for users to view, create, edit, and delete:
-  - [ ] Artists
-  - [ ] Albums
-  - [ ] Songs
-  - [ ] Playlists
+- [ ] UI provides ways for users to view, create, edit, and delete Artists
+- [ ] UI provides ways for users to view, create, edit, and delete Albums
+- [ ] UI provides ways for users to view, create, edit, and delete Songs
+- [ ] UI provides ways for users to view, create, edit, and delete Playlists
 
 **Your Choice API**
 

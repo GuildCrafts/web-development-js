@@ -110,21 +110,22 @@ Pick one of your repositories that has a decent amout of code and git history al
   ```
 
 - [ ] Sandbox **GitHub repository** is created and linked to in the artifact
-- [ ] Artifact contains the **git commands** you used to...
-  - [ ] **clone** a remote repository
-  - [ ] **stage** and unstage files for commit
-  - [ ] create a **commit** with a **commit message**
-  - [ ] **amend** the most recent commit message
-  - [ ] create and delete **branches**
-  - [ ] **push** to a remote repository
-  - [ ] **pull** a **feature branch** from a remote repository
-  - [ ] push a **local branch** to a specific remote branch
-  - [ ] **revert** files back to a specific commit
-  - [ ] **rebase** a branch onto master
-  - [ ] interactively rebase using the `--interactive` flag to squash, rename, and reorder commits
-  - [ ] move specific commits between different branches with the `cherry-pick` command
 - [ ] Sandbox repo includes a `.gitignore` file with at least a few patterns included
 - [ ] Sandbox repo has at least one **pull request**
+
+Artifact contains the **git commands** you used to...
+- [ ] **clone** a remote repository
+- [ ] **stage** and unstage files for commit
+- [ ] create a **commit** with a **commit message**
+- [ ] **amend** the most recent commit message
+- [ ] create and delete **branches**
+- [ ] **push** to a remote repository
+- [ ] **pull** a **feature branch** from a remote repository
+- [ ] push a **local branch** to a specific remote branch
+- [ ] **revert** files back to a specific commit
+- [ ] **rebase** a branch onto master
+- [ ] interactively rebase using the `--interactive` flag to squash, rename, and reorder commits
+- [ ] move specific commits between different branches with the `cherry-pick` command
 
 ### Type Faster and Better
 

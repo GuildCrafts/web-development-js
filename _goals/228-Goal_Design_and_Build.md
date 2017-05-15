@@ -57,30 +57,28 @@ As you design your goal, you'll have to consider questions such as:
 
 ## Specifications
 
+#### Goal
 - [ ] Goal idea has been added as an issue to the [goal library project][goal-lib-project] (unless you are using an existing [goal idea][goal-ideas])
-- [ ] Work is tracked through the [goal library project][goal-lib-project]
-  - [ ] You are assigned to the issue
-  - [ ] Issue is moved from backlog to completed
 - [ ] New goal is submitted to [goal library][goal-library] thorugh a pull request with new file in `_goals/` directory
-- [ ] Description in pull request includes...
-  - [ ] Brief overview of why this goal is useful
-  - [ ] Link to example project for goal
-  - [ ] List of skill areas from the [matrix][matrix] that this goal address
-- [ ] Goal submitted in pull request...
-  - [ ] Has a good title
-  - [ ] Has all front matter / metadata (e.g. `team_size`, `level`, `authors`)
-  - [ ] Includes complete challenge rating, description, context, and specifications
-  - [ ] Includes some useful resources
-  - [ ] Is relevant (focused closely on work similar to that of a professional JS web developer)
-- [ ] Example project for goal shows "proof of concept":
-  - [ ] 80%+ of core specifications have been completed
-  - [ ] Project is functional (the code doesn't break with basic usage)
+- [ ] Description in pull request includes a brief overview of why this goal is useful
+- [ ] Description in pull request includes a link to example project for goal
+- [ ] Description in pull request includes a list of skill areas from the [matrix][matrix] that this goal address
+- [ ] Goal has a good title
+- [ ] Goal has all front matter / metadata (e.g. `team_size`, `level`, `authors`)
+- [ ] Goal includes complete challenge rating, description, context, and specifications
+- [ ] Goal includes some useful resources
+- [ ] Goal is relevant (focused closely on work similar to that of a professional JS web developer)
 - [ ] Goal has been reviewed by the goal librarian
 - [ ] Goal is approved for publishing and merged into library
 
+#### Example Project
+Example project for goal shows "proof of concept".
+- [ ] 80%+ of core specifications have been completed
+- [ ] Project is functional (the code doesn't break with basic usage)
+
 ## Resources
 
-- [CONTRIBUTING][] file in goal library - includes lengthy section on "Authoring a Goal"
+- [CONTRIBUTING][contributing] file in goal library - includes lengthy section on "Authoring a Goal"
 - Wiki entry: [Anatomy of a Good Learning Goal][anatomy-good-goal]
 - Some good goals to use for inspiration:
   - [Pizza Restaurant (#98)][pizza-restaurant]

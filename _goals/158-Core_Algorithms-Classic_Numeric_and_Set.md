@@ -67,9 +67,8 @@ Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/b
 Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Python, C, Java...) and write tests & implementations for each.
 
 - [ ] Can run all non-JavaScript tests with a single command.
-- [ ] For each algorithm identified above, there exists:
-  - [ ] a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
-  - [ ] an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
+- [ ] For each algorithm identified above, there is a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
+- [ ] For each algorithm identified above, there is an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
 
 
 [core-algos]: {{ site.url }}{% link _goals/123-Core_Algorithms.md %}

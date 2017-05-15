@@ -64,12 +64,13 @@ By this point, you should have a decent sense of what you are capable of, and wh
 
 - [ ] Artifact produced is a gist.
 - [ ] 4+ questions per team member are chosen and added to the artifact.
-- [ ] For each question, there exists...
-  - [ ] A link to or citation of the question's source.
-  - [ ] Links or notes with resources pertaining to the question.
 - [ ] In-depth answers to at least 1 question per team member have been shared with the community in the form of a blog post, presentation (with slideshow), or screencast.
 - [ ] All questions are submitted to the [Interview App][interview-app] (unless they are already in there).
 - [ ] Links to in-depth answers are added to the gist.
+
+For each question, there exists...
+- [ ] A link to or citation of the question's source.
+- [ ] Links or notes with resources pertaining to the question.
 
 ### Stretch
 

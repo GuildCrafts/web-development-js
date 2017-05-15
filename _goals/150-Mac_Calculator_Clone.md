@@ -26,7 +26,7 @@ This goal will likely be within your ZPD if you...
 
 Replicate the builtin Mac calculator as a web app.
 
-This goal has 3 linear stages. You must complete the specs of each stage before progressing onto the next. 
+This goal has 3 linear stages. You must complete the specs of each stage before progressing onto the next.
 
 Fork the the [mac-calculator-clone repository][mac-calculator-clone] and use the fork as your project artifact.
 
@@ -140,28 +140,30 @@ In stage 2 you will be adding `JavaScript` to make the calculator work.
 - [ ] The state of the calculator is not be stored in the `DOM`
 - [ ] The mathematical operations for your calculator are each their own function, and are defined outside of any DOM event handler
 - [ ] When the length of the number displayed exceeds the width available, the font-size deterministically drops
-- [ ] Calculator functionality and behavior is consistent with [Mac calculator rules](#calculator-rules-and-examples)
-  - [ ] pressing `AC` displays `0`
-  - [ ] pressing `AC` `8` `+/-` displays `-8`
-  - [ ] pressing `AC` `-5` `+/-` displays `5`
-  - [ ] pressing `AC` `99` `%` displays `0.99`
-  - [ ] pressing `AC` `9` `+` `9` `-` `3` `=` displays `15`
-  - [ ] pressing `AC` `6` `+` `=` displays `12`
-  - [ ] pressing `AC` `4` `x` `4` `=` displays `16`
-  - [ ] pressing `AC` `64` `+` `=` displays `128`
-  - [ ] pressing `AC` `9` `+` displays `9`
-  - [ ] pressing `AC` `8` `-` `5` `-` displays `3`
-  - [ ] pressing `AC` `9` `-` `5` `+` displays `4`
-  - [ ] pressing `AC` `9` `+` `9` `+` `+` `+` displays `18`
-  - [ ] pressing `AC` `5` `+` `3` `x` `6` `+` displays `23`
-  - [ ] pressing `AC` `9` `x` displays `9`
-  - [ ] pressing `AC` `3` `x` `5` `x` displays `15`
-  - [ ] pressing `AC` `6` `/` `3` displays `2`
-  - [ ] pressing `AC` `3` `x` `4` `x` `x` `x` displays `12`
-  - [ ] pressing `AC` `4` `+` `3` `x` `6` `x` displays `18`
-  - [ ] pressing `AC` `3` `+` `5` `x` displays `5`
-  - [ ] pressing `AC` `3` `+` `5` `x` `6` `x` displays `30`
-  - [ ] pressing `AC` `3` `+` `5` `x` `6` `x` `2` `+` displays `63`
+
+Calculator functionality and behavior is consistent with [Mac calculator rules](#calculator-rules-and-examples):
+
+- [ ] pressing `AC` displays `0`
+- [ ] pressing `AC` `8` `+/-` displays `-8`
+- [ ] pressing `AC` `-5` `+/-` displays `5`
+- [ ] pressing `AC` `99` `%` displays `0.99`
+- [ ] pressing `AC` `9` `+` `9` `-` `3` `=` displays `15`
+- [ ] pressing `AC` `6` `+` `=` displays `12`
+- [ ] pressing `AC` `4` `x` `4` `=` displays `16`
+- [ ] pressing `AC` `64` `+` `=` displays `128`
+- [ ] pressing `AC` `9` `+` displays `9`
+- [ ] pressing `AC` `8` `-` `5` `-` displays `3`
+- [ ] pressing `AC` `9` `-` `5` `+` displays `4`
+- [ ] pressing `AC` `9` `+` `9` `+` `+` `+` displays `18`
+- [ ] pressing `AC` `5` `+` `3` `x` `6` `+` displays `23`
+- [ ] pressing `AC` `9` `x` displays `9`
+- [ ] pressing `AC` `3` `x` `5` `x` displays `15`
+- [ ] pressing `AC` `6` `/` `3` displays `2`
+- [ ] pressing `AC` `3` `x` `4` `x` `x` `x` displays `12`
+- [ ] pressing `AC` `4` `+` `3` `x` `6` `x` displays `18`
+- [ ] pressing `AC` `3` `+` `5` `x` displays `5`
+- [ ] pressing `AC` `3` `+` `5` `x` `6` `x` displays `30`
+- [ ] pressing `AC` `3` `+` `5` `x` `6` `x` `2` `+` displays `63`
 
 ### Stage 3
 

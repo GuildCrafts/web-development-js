@@ -90,29 +90,31 @@ Expose the following commands (and more, if you need) using the `scripts` proper
 
 Create models with interfaces to satisfy the following user stories, assuming the "user" in this case is a programmer consuming your web API.
 
-- [ ] As a user of the API, I can...
-  - [ ] use `HTTP GET` requests...
-    - [ ] to receive a list of all trains.
-    - [ ] to receive a list of all stations.
-    - [ ] to receive a list of all passengers.
-    - [ ] to find trains by number or their next station.
-    - [ ] to find stations by location or ID.
-    - [ ] to find passengers by name, train, or current location.
-  - [ ] use `HTTP POST` requests...
-    - [ ] to create a new train.
-    - [ ] to create a new station.
-    - [ ] to create a new passenger.
-  - [ ] use `HTTP PUT` or `HTTP PATCH` requests...
-    - [ ] to update a train.
-    - [ ] to update a station.
-    - [ ] to update a passenger.
-  - [ ] use `HTTP DELETE` requests...
-    - [ ] to delete a train.
-    - [ ] to delete a station.
-    - [ ] to delete a passenger.
-  - [ ] receive appropriate and descriptive error messages.
-  - [ ] run unit tests that exercise the specs for every route defined.
-  - [ ] run behavior (or end-to-end) tests that exercise use cases in their entirety.
+##### GET Requests
+- [ ] As a user of the API, I can receive a list of all trains with a `HTTP GET` request.
+- [ ] As a user of the API, I can receive a list of all stations with a `HTTP GET` request.
+- [ ] As a user of the API, I can receive a list of all passengers with a `HTTP GET` request.
+- [ ] As a user of the API, I can find trains by number or their next station with a `HTTP GET` request.
+- [ ] As a user of the API, I can find stations by location or ID with a `HTTP GET` request.
+- [ ] As a user of the API, I can find passengers by name, train, or current location with a `HTTP GET` request.
+
+##### POST Requests
+- [ ] As a user of the API, I can create a new train with a `HTTP POST` request.
+- [ ] As a user of the API, I can create a new station with a `HTTP POST` request.
+- [ ] As a user of the API, I can create a new passenger with a `HTTP POST` request.
+
+##### PUT/PATCH Requests
+- [ ] As a user of the API, I can update a train with a `HTTP PUT` or `PATCH` request.
+- [ ] As a user of the API, I can update a station with a `HTTP PUT` or `PATCH` request.
+- [ ] As a user of the API, I can update a passenger with a `HTTP PUT` or `PATCH` request.
+
+##### DELETE Requests
+- [ ] As a user of the API, I can delete a train with a `HTTP DELETE` request.
+- [ ] As a user of the API, I can delete a station with a `HTTP DELETE` request.
+- [ ] As a user of the API, I can delete a passenger with a `HTTP DELETE` request.
+
+##### Errors
+- [ ] As a user of the API, I receive appropriate and descriptive error messages.
 
 #### Design & Architecture
 
@@ -131,7 +133,8 @@ Create models with interfaces to satisfy the following user stories, assuming th
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
+- [ ] There are unit tests that exercise the specs for every route defined.
+- [ ] There are behavior (or end-to-end) tests that exercise use cases in their entirety.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch

@@ -51,10 +51,7 @@ As a result, the best way to prepare is to do "mock" interviews, with plenty of 
 
 - [ ] Artifact produced is a pull request to the [mock-interviews][mock-interviews] repo.
 - [ ] At least two completed mock interviews per team member, with all mock interview reflection/evaluation files added to `interviews/`.
-- [ ] Files for interviews are complete, including:
-  - [ ] Questions asked
-  - [ ] Interviewee reflections
-  - [ ] Interviewer evaluation
+- [ ] Files for interviews are complete, including: questions asked, interviewee reflections, interviewer evaluation
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 
 [mock-interviews]: https://github.com/GuildCrafts/mock-interviews

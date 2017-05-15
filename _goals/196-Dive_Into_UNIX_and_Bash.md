@@ -46,7 +46,7 @@ The *nix family of operating systems (that is, anything in the UNIX or Linux fam
 
 Then you have the [shell][wiki-shell]. [Bash][wiki-bash] is a common one that ships with all Apple computers, but there are others: [zsh][zsh], [csh][csh], and [fish][fish] (yes, it's called `fish`). While this goal only focuses on bash, you may be inspired to try out other shells.
 
-As you work through the books and exercises, you'll may encounter questions like the following:
+As you work through the books and exercises, you may encounter questions like the following:
 
 - What is the difference between the user and the system?
 - What happens when an executable script is invoked?
@@ -60,19 +60,24 @@ Indulge your curiousity and explore the questions that pique your interest.
 
 ## Specifications
 
+#### General
 - [ ] Artifact is a GitHub repo.
-- [ ] 20 exercises are completed from the ["Learn Enough Command Line to be Dangerous"][hartl-command-line] book.
-  - [ ] Solution code for each exercise is included in its own bash file (`*.sh`).
-  - [ ] Solution code for exercises are stored in a `command-line/` directory of your artifact repo.
-  - [ ] Solution code for each exercise includes a comment with the prompt text for the exercise.
-- [ ] 20 activities are completed from the [Bash Scripting][ryans-tutorial-bash-scripting] tutorials.
-  - [ ] Solution code for each activity is included in its own bash file (`*.sh`). **Tip**: for the bash-scripting tutorials, check your solutions by executing your bash (.sh) files (type their name in the terminal), instead of writing code directly in the terminal.
-  - [ ] Solution code for activities are stored in a `bash-scripting/` directory of your artifact repo.
-  - [ ] Solution code for each activity includes a comment with the prompt text for the activity.
 - [ ] Cheat sheet of your favorite useful commands and a brief explanation of what they do is included in the artifact as a `cheat-sheet.md` file.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+#### Command Line
+- [ ] 20 exercises are completed from the ["Learn Enough Command Line to be Dangerous"][hartl-command-line] book.
+- [ ] Solution code for each exercise is included in its own bash file (`*.sh`).
+- [ ] Solution code for exercises are stored in a `command-line/` directory of your artifact repo.
+- [ ] Solution code for each exercise includes a comment with the prompt text for the exercise.
+
+#### Bash Scripting
+- [ ] 20 activities are completed from the [Bash Scripting][ryans-tutorial-bash-scripting] tutorials.
+- [ ] Solution code for each activity is included in its own bash file (`*.sh`). **Tip**: for the bash-scripting tutorials, check your solutions by executing your bash (.sh) files (type their name in the terminal), instead of writing code directly in the terminal.
+- [ ] Solution code for activities are stored in a `bash-scripting/` directory of your artifact repo.
+- [ ] Solution code for each activity includes a comment with the prompt text for the activity.
 
 ### Stretch
 

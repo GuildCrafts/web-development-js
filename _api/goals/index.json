@@ -1077,6 +1077,26 @@
     },
     {
       "authors": [
+        "deadlyicon",
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 312,
+      "title": "Week 5 Assessment",
+      "created_at": "2017-05-01T11:00:00Z",
+      "labels": [
+        "assessment"
+      ],
+      "published": true,
+      "level": "0",
+      "base_xp": 90,
+      "redirect_from": "/goals/312",
+      "url": "http://jsdev.learnersguild.org/goals/312-Week_5_Assessment.html",
+      "bonus_xp": 6.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "tannerwelsh"
       ],
       "team_size": 2,
@@ -1090,6 +1110,25 @@
       "published": true,
       "redirect_from": "/goals/326",
       "url": "http://jsdev.learnersguild.org/goals/326-Concept_Focus-HTTP_and_Web_APIs.html",
+      "base_xp": 200,
+      "bonus_xp": 30.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "jlopker"
+      ],
+      "team_size": 2,
+      "goal_id": 330,
+      "title": "Roam",
+      "created_at": "2017-05-12T10:38:28Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "2",
+      "redirect_from": "/goals/330",
+      "url": "http://jsdev.learnersguild.org/goals/330-Roam-Travel-App.html",
       "base_xp": 200,
       "bonus_xp": 30.0,
       "dynamic": false
@@ -1149,25 +1188,6 @@
       "redirect_from": "/goals/363",
       "url": "http://jsdev.learnersguild.org/goals/363-Browser_Games-Platform.html",
       "bonus_xp": 6.0,
-      "dynamic": false
-    },
-    {
-      "authors": [
-        "tannerwelsh"
-      ],
-      "team_size": 2,
-      "goal_id": 364,
-      "title": "Medio (Medium Clone) Part 1",
-      "created_at": "2017-04-29T11:00:00Z",
-      "labels": [
-        "foundational"
-      ],
-      "published": true,
-      "level": "1",
-      "redirect_from": "/goals/364",
-      "url": "http://jsdev.learnersguild.org/goals/364-Medio-Medium_Clone-Part_1.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
@@ -1244,6 +1264,44 @@
       "url": "http://jsdev.learnersguild.org/goals/37-Common_JS_Utility_Functions-Lodash.html",
       "base_xp": 100,
       "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "FrankieFabuloso"
+      ],
+      "team_size": 2,
+      "goal_id": 378,
+      "title": "Socket.io: Party Chat",
+      "created_at": "2017-05-12T14:38:28Z",
+      "labels": [
+        "practice"
+      ],
+      "level": "2",
+      "published": true,
+      "redirect_from": "/goals/378",
+      "url": "http://jsdev.learnersguild.org/goals/378-Socket-Party_Chat.html",
+      "base_xp": 200,
+      "bonus_xp": 30.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "jlopker"
+      ],
+      "team_size": 2,
+      "goal_id": 383,
+      "title": "CRUD Mutably",
+      "created_at": "2017-05-11T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "level": "1",
+      "base_xp": 150,
+      "published": true,
+      "redirect_from": "/goals/383",
+      "url": "http://jsdev.learnersguild.org/goals/383-CRUD_Mutably.html",
+      "bonus_xp": 22.5,
       "dynamic": false
     },
     {

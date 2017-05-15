@@ -68,16 +68,12 @@ Being able to write SQL queries is an important skill, but being able to design 
 It is recommended that you complete these specs in order.
 
 **SQL Foundations**
-- [ ] [SQLBolt](https://sqlbolt.com/) exercises completed
-  - [ ] Solutions added to artifact repo
-- [ ] Exercises in "Tutorials: Learn SQL in stages" section on [SQLZOO](http://sqlzoo.net/) completed
-  - [ ] Solutions added to artifact repo
+- [ ] [SQLBolt](https://sqlbolt.com/) exercises completed and added to artifact repo
+- [ ] Exercises in "Tutorials: Learn SQL in stages" section on [SQLZOO](http://sqlzoo.net/) completed and added to artifact repo
 
 **Exercises to Reinforce Conceptual Knowledge**
-- [ ] 10 [Relational Algebra challenges](https://www.hackerrank.com/domains/databases/relational-algebra/difficulty/all/page/1) on HackerRank completed
-  - [ ] Solutions added to artifact repo
-- [ ] 5 [Database Normalization challenges](https://www.hackerrank.com/domains/databases/database-normalization/difficulty/all/page/1) on HackerRank completed
-  - [ ] Solutions added to artifact repo
+- [ ] 10 [Relational Algebra challenges](https://www.hackerrank.com/domains/databases/relational-algebra/difficulty/all/page/1) on HackerRank completed and added to artifact repo
+- [ ] 5 [Database Normalization challenges](https://www.hackerrank.com/domains/databases/database-normalization/difficulty/all/page/1) on HackerRank completed and added to artifact repo
 
 **Other**
 - [ ] SQL files are well formatted and readable.
@@ -86,15 +82,14 @@ It is recommended that you complete these specs in order.
 
 ### Stretch
 
-- [ ] Exercises under the "Assessments: More involved examples for confident users" subtopic on [SQLZOO](http://sqlzoo.net/) completed
-  - [ ] Solutions added to artifact repo
-- [ ] Actual database and web API created with PostgreSQL and Node.js
-  - [ ] Follow [this tutorial](http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/#.WAqKX5MrKRt) (thanks @nodatall!)
-  - [ ] `GET /api/puppies` Returns ALL puppies
-  - [ ] `GET /api/puppies/:id` Returns a SINGLE puppy
-  - [ ] `POST /api/puppies` Adds a puppy
-  - [ ] `PUT /api/puppies/:id` Updates a puppy
-  - [ ] `DELETE /api/puppies/:id` Deletes a puppy
+- [ ] Exercises under the "Assessments: More involved examples for confident users" subtopic on [SQLZOO](http://sqlzoo.net/) completed and added to artifact repo
+
+Actual database and web API created with PostgreSQL and Node.js. Follow [this tutorial](http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/#.WAqKX5MrKRt) (thanks @nodatall!).
+- [ ] `GET /api/puppies` Returns ALL puppies
+- [ ] `GET /api/puppies/:id` Returns a SINGLE puppy
+- [ ] `POST /api/puppies` Adds a puppy
+- [ ] `PUT /api/puppies/:id` Updates a puppy
+- [ ] `DELETE /api/puppies/:id` Deletes a puppy
 
 ## Resources
 

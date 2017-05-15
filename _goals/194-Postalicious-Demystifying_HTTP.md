@@ -89,22 +89,19 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 
 - [ ] The artifact produced is a GitHub repository.
 - [ ] Can run the command `npm start` to start the Postalicious app.
-- [ ] Main page has three main sections:
-  - [ ] Request builder HTML form
-  - [ ] Raw HTTP request
-  - [ ] Raw HTTP response
-- [ ] When a user fills out the HTML form and clicks a "Send" button...
-  - [ ] A raw HTTP request is generated and shown
-  - [ ] An HTTP request is sent using the form data provided, and the raw response message is shown
+- [ ] Main page has a section for request builder HTML form
+- [ ] Main page has a section for raw HTTP request
+- [ ] Main page has a section for raw HTTP response
+- [ ] When a user fills out the HTML form and clicks a "Send" button, a raw HTTP request is generated and shown
+- [ ] When a user fills out the HTML form and clicks a "Send" button, an HTTP request is sent using the form data provided, and the raw response message is shown
 - [ ] Users can fill out an HTML form to specify HTTP request details.
 - [ ] Submitting the form will send the request according to the specified details.
 - [ ] Requests are made from the server, not from the browser (this is to avoid [CORS issues](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)).
-- [ ] Using the HTML form, users can specify...
-  - [ ] host and path
-  - [ ] HTTP verb/method
-  - [ ] query parameter keys + values
-  - [ ] header keys + values
-  - [ ] request body
+- [ ] Using the HTML form, users can specify host and path
+- [ ] Using the HTML form, users can specify HTTP verb/method
+- [ ] Using the HTML form, users can specify query parameter keys + values
+- [ ] Using the HTML form, users can specify header keys + values
+- [ ] Using the HTML form, users can specify request body
 - [ ] Repository includes a README file with basic installation and setup instructions.
 - [ ] All dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
@@ -119,11 +116,13 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
 
 - [ ] Users of Postalicious can "save" their requests in a history panel
 - [ ] Clicking on a saved request will re-load it into the form
-- [ ] Using Postalicious, create some HTTP requests to various real-world APIs:
-  - [ ] Get all issues for a repo through the GitHub API
-  - [ ] Get all tweets with the hashtag `#javascript` with the Twitter API
-  - [ ] Any other API request(s) of your choice
-  - [ ] External HTTP requests are saved in files under a `example-requests/` directory (make sure to obscure any secure information before saving these files, like your password or authentication token)
+
+Using Postalicious, create some HTTP requests to various real-world APIs:
+
+- [ ] Get all issues for a repo through the GitHub API
+- [ ] Get all tweets with the hashtag `#javascript` with the Twitter API
+- [ ] Any other API request(s) of your choice
+- [ ] External HTTP requests are saved in files under a `example-requests/` directory (make sure to obscure any secure information before saving these files, like your password or authentication token)
 
 ## Resources
 
