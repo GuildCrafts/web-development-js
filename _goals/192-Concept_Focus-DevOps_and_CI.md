@@ -98,16 +98,16 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 - [ ] Continuous integration is configured.
 - [ ] CI status badge is added to the README (example: [Circle CI docs on status badge](https://circleci.com/docs/1.0/status-badges/)).
 - [ ] CI is integrated with GitHub to run tests with each new pull request.
-- [ ] Application uses a monitoring service like [New Relic](https://newrelic.com/) or [Keymetrics](https://keymetrics.io/).
 
 #### Other Services
 
-- [ ] Link to monitoring service is included in README.
+- [ ] Application uses a monitoring service like [New Relic](https://newrelic.com/) or [Keymetrics](https://keymetrics.io/).
+- [ ] Screenshot of the monitoring service dashboard is included in the `screenshots` folder.
 - [ ] Production logging service like [PaperTrail](https://papertrailapp.com/) is used.
 - [ ] Production app logs at least 3 key events to logging service.
-- [ ] Link to logging service is included in README.
+- [ ] Screenshot of the production logging service is included in the `screenshots` folder.
 - [ ] Production error tracking service like [Sentry](https://sentry.io/welcome/) is used.
-- [ ] Link to error tracking service is included in README.
+- [ ] Screenshot of the error tracking service is included in `screenshots` folder.
 - [ ] Application uses a deploy hook ([Heroku's built in Deploy Hooks](https://elements.heroku.com/addons/deployhooks) is a good option) to send email or Slack message with each new deploy.
 - [ ] Application uses email and/or SMS messaging to alert users (for example: send welcome email on sign up).
 
