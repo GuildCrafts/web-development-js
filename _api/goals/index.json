@@ -830,7 +830,7 @@
       ],
       "team_size": 2,
       "goal_id": 252,
-      "title": "Init 2: OOP Practice with Bike Shop",
+      "title": "Init 6: OOP Practice with Bike Shop",
       "created_at": "2017-04-04T10:00:00Z",
       "labels": [
         "practice",
@@ -841,7 +841,7 @@
       "base_xp": 60,
       "bonus_xp": 25,
       "redirect_from": "/goals/252",
-      "url": "http://jsdev.learnersguild.org/goals/252-Init_2-OOP_Practice_with_Bike_Shop.html",
+      "url": "http://jsdev.learnersguild.org/goals/252-Init_6-OOP_Practice_with_Bike_Shop.html",
       "dynamic": false
     },
     {
@@ -910,7 +910,7 @@
       ],
       "team_size": 2,
       "goal_id": 256,
-      "title": "Init 6: Developer Tools",
+      "title": "Init 2: Developer Tools",
       "created_at": "2017-04-18T10:38:28Z",
       "labels": [
         "practice",
@@ -921,7 +921,7 @@
       "base_xp": 80,
       "bonus_xp": 10,
       "redirect_from": "/goals/256",
-      "url": "http://jsdev.learnersguild.org/goals/256-Init_6-Developer_Tools.html",
+      "url": "http://jsdev.learnersguild.org/goals/256-Init_2-Developer_Tools.html",
       "dynamic": false
     },
     {
@@ -1201,7 +1201,7 @@
       "labels": [
         "prototype"
       ],
-      "published": true,
+      "published": false,
       "level": "3",
       "dynamic": true,
       "redirect_from": "/goals/367",
@@ -1302,6 +1302,25 @@
       "redirect_from": "/goals/383",
       "url": "http://jsdev.learnersguild.org/goals/383-CRUD_Mutably.html",
       "bonus_xp": 22.5,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 2,
+      "goal_id": 387,
+      "title": "Mmmarkdown",
+      "created_at": "2017-05-12T10:38:28Z",
+      "labels": [
+        "practice"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/387",
+      "url": "http://jsdev.learnersguild.org/goals/387-Mmmarkdown.html",
+      "base_xp": 100,
+      "bonus_xp": 15.0,
       "dynamic": false
     },
     {
