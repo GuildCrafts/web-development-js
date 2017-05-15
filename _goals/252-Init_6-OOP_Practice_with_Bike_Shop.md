@@ -36,8 +36,6 @@ In this goal, you'll work with your team on a series of JavaScript exercises in 
 
 This goal makes extensive use of the tutorials and exercises on [JavaScript.info](http://javascript.info/), especially those in the [Objects, classes, inheritance](http://javascript.info/object-oriented-programming) section. It is _highly recommended_ that you make use of this resource, even beyond what is explicitly stated in the specs.
 
-If this is your first time working with [Node.js][nodejs], you will have to install it. You may also want to take some time to go through the Node.js and npm courses on Treehouse (see links in [Resources > Courses](#courses)).
-
 ### Recommended Pace
 
 It is recommended (but not required) that you follow along with the day-by-day pace included here. These are designed to help you break down the problem into more manageable parts so that you can pace your work appropriately.
@@ -78,7 +76,7 @@ Depending on how much support you and your team need, balance solo and team time
 
 With your team, complete the specs in [Stage 5](#stage-5) to challenge and practice everything that you've learned so far.
 
-Take your object-oriented skills into a new domain to put them to the test. Instead of working against a set of clearly defined specs, you'll have to come up with your own **object model** for a new system: a music player.
+Take your object-oriented skills into a new domain to put them to the test. Instead of working against a set of clearly defined specs, you'll have to come up with your own **object model** for a system of your choice.
 
 A big part of object-oriented programming is taking the specs for a product and figuring out what kinds of **objects** will be needed to implement the desired behavior. Among other things, you'll need to design the classes, their instance methods and properties, and the relationships between objects.
 
@@ -163,16 +161,10 @@ Work on `bike-shop` to pass the tests
 
 #### Stage 5
 
-Design a basic **object model** for a music player like Spotify or iTunes.
+Design a basic **object model** for a system of your choice. For example: an ecommerce system, or a blog, or a CMS, or a class registry at a gym, or an inventory application for a warehouse...
 
-- [ ] `Song` class is defined in `music-player/song.js`.
-- [ ] `Song` class has properties and methods that you would expect a "song" object to have, at minimum: `.title`, `.length`, `.album`, `.artist`, `.track_no`, `.play()`, `.pause()`.
-- [ ] `Album` class is defined in `music-player/album.js`.
-- [ ] `Album` class has properties and methods that you would expect an "album" object to have, at minimum: `.title`, `.songCount`, `.artist`.
-- [ ] `Artist` class is defined in `music-player/artist.js`.
-- [ ] `Artist` class has properties and methods that you would expect an "artist" object to have, at minimum: `.name`, `.bandMembers`, `.genre`.
-- [ ] `Playlist` class is defined in `music-player/playlist.js`.
-- [ ] `Playlist` class has properties and methods that you would expect a "playlist" object to have, at minimum: `.name`, `.songs`, `.addSong(<Song>)`, `.removeSong(<Song>)`, `.play()`, `.pause()`.
+- [ ] A new folder is used to store all of your JS code for the chosen object model.
+- [ ] The system uses at least 3 classes, each with their own instance methods and properties.
 
 ### Stretch
 

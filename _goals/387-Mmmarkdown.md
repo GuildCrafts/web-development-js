@@ -178,6 +178,19 @@ If you complete all of the specs listed above (the checkboxes), there's no reaso
   - [ ] Shows the sidebar updated without the deleted file
 - [ ] "Word count" section in the header displays the word count for the currently open file
 
+##### Use a Database
+
+Instead of using files for persistence, set up a PostgreSQL database.
+
+- [ ] Database schema SQL (using PostgreSQL syntax) is included in the file `schema.sql`.
+- [ ] Database query functions are defined in the file `db.js`.
+- [ ] `db.js` includes a function to list all files
+- [ ] `db.js` includes a function to list all files ordered by their latest edit time (most recent first)
+- [ ] `db.js` includes a function to show file with particular name
+- [ ] `db.js` includes a function to get text content of file with particular name
+- [ ] `db.js` includes a function to list created date of all files
+- [ ] `db.js` includes a function to list every file name and its word count
+
 ## Resources
 
 Use these resources to fill in the gaps in your skills and knowledge as you find them. There is more here than you can do in a week, so focus on the areas that are in your zone of proximal development (ZPD).
