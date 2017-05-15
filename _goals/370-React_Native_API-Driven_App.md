@@ -26,11 +26,13 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-#### We are building a React Native Search App that utilizes a third party API to fetch data and uses components to render the data. This goal introduces you to the fundamentals of mobile development utilizing a language you have familiarity with. There is no need to adopt Swift or Objective C!
+Build a React Native Search App that utilizes a third party API to fetch data and uses components to render the data.
 
-**Step 1** - [Refer to this scafflod repo](https://github.com/pllearns/react-native-starter-code)
+This goal introduces you to the fundamentals of mobile development utilizing a language you have familiarity with. There is no need to adopt Swift or Objective C!
 
-Then create your own repo and follow the `readme` instructions on the repo.
+**Step 1** - [Refer to this scaffold repo](https://github.com/pllearns/react-native-starter-code)
+
+Then create your own repo and follow the `readme` instructions on the scaffold repo.
 
 **Step 2** - Find a third-party API to play with
 
@@ -41,11 +43,13 @@ Suggestions:
 
 ## Context
 
-You want to build an app with a simple UI. Stay away from too many form fields, and keep the components' state management minimal. This is a great project if you want to jump start your skills in mobile development. The resources listed below specifications will help you understand the benefits of using React Native to develop in the mobile space. 
+You want to build an app with a simple UI. Stay away from too many form fields, and keep the components' state management minimal.
+
+This is a great project if you want to jump start your skills in mobile development. The [resources](#resources) will help you understand the benefits of using React Native to develop in the mobile space. 
 
 ## Specifications
 
-- [ ] __10:__ You have an app component that feeds both android and iOS js files
+- [ ] __10:__ You have an app component that feeds both Android and iOS JS files
 - [ ] __10:__ You can start the app with both `react-native run-ios` and `react-native run-android`
 - [ ] __10:__ You have at least 3 tests written using `jest` 
 - [ ] __10:__ You have a home page that contains at least one touchable navigation button 
@@ -60,5 +64,5 @@ You want to build an app with a simple UI. Stay away from too many form fields, 
 
 - [Tutorial - Build a React Native App from Scratch](https://www.youtube.com/watch?v=r5OPRhelEIU&t=41s)
 - [React Native Documentation](https://facebook.github.io/react-native/)
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+- [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 - [Create a React Native Search App](https://medium.com/lorenzo-codes/creating-a-react-native-search-app-88b8530da697)
