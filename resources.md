@@ -116,6 +116,8 @@ Collection of resources referenced from goals. [Edit this page](https://github.c
 - Tuts+: [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670) #js #oop
 - Project Odin: [JavaScript Tutorials](https://github.com/TheOdinProject/curriculum/tree/master/javascript) #js #oop
 - Tutorial: [Debugging JavaScript with Chrome DevTools Breakpoints](https://scotch.io/tutorials/debugging-javascript-with-chrome-devtools-breakpoints) #debugging #js
+- [Learn Git Branching](http://learngitbranching.js.org/) #git
+- [Try Git](https://try.github.io/) #git
 
 ## Exercises
 

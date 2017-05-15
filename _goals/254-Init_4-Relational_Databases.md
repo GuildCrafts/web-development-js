@@ -21,7 +21,7 @@ redirect_from: '/goals/254'
 
 This goal will likely be within your ZPD if you...
 
-- Have completed the first three initiation goals: [1][bossggle-word-game], [2][bike-shop-oop], and [3][hello-web-servers]
+- Have completed the first three initiation goals: [1][bossggle-word-game], [2][developer-tools], and [3][hello-web-servers]
 - Have used a spreadsheet application like Excel
 - Have used git and GitHub to do basic tasks like forking, cloning, making commits, and pushing to a remote repository
 - Have used a command line shell
@@ -129,11 +129,11 @@ There are no new concepts for today: this day is all about practicing the skills
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
@@ -176,13 +176,12 @@ Complete another Khan Academy project, use the SQL Designer tool, and install th
 
 #### Stage 3
 
-Create schemas and mock data for the "Bike Shop" and "Music Player" apps from the Init 2 goal. Then run queries against them. Read the [Generating Mock Data](#generating-mock-data) section to learn how to generate fake data.
+Create schemas and mock data for the "Music Player" app from the Init 3 goal. Then run queries against them. Read the [Generating Mock Data](#generating-mock-data) section to learn how to generate fake data.
 
-- [ ] Folder `bike-shop/` exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Bike Shop from [Init 2: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `bike-shop/schema.sql`.
-- [ ] Bike Shop schema matches the specifications in [Table Schema for Bike Shop](#table-schema-for-bike-shop).
+##### Music Player
+
 - [ ] Folder `music-player/` exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from [Init 2: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `music-player/schema.sql`.
+- [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from [Init 3: Hello, Web Servers][hello-web-servers] is included in the file `music-player/schema.sql`.
 - [ ] Music Player schema includes table and appropriate columns for Artists
 - [ ] Music Player schema includes table and appropriate columns for Albums
 - [ ] Music Player schema includes table and appropriate columns for Songs
@@ -198,9 +197,17 @@ Create schemas and mock data for the "Bike Shop" and "Music Player" apps from th
 - [ ] Queries against the Music Player use the `IN` keyword (at least once)
 - [ ] Queries against the Music Player use the `JOIN` keyword (at least once)
 
+##### Bike Shop
+
+Create a database for a fictional bike shop. Use the [Table Schema for Bike Shop](#table-schema-for-bike-shop) provided.
+
+- [ ] Folder `bike-shop/` exists in your repo.
+- [ ] Database schema SQL (using PostgreSQL syntax) for the Bike Shop is included in the file `bike-shop/schema.sql`.
+- [ ] Bike Shop schema matches the specifications in [Table Schema for Bike Shop](#table-schema-for-bike-shop).
+
 #### Stage 4
 
-Complete the final Khan Academy project. Design and create schemas for the "Bossggle" and "Mmmarkdown" apps from the Init 1 and Init 3 goals.
+Complete the final Khan Academy project. Design and create schemas for the "Bossggle" app from the Init 1 goals.
 
 - [ ] Solution SQL for the Khan Academy project: [App impersonator][ka-proj-app-impersonator] is added to a file in your repo named `app_impersonator.sql`
 - [ ] SQL in `app_impersonator.sql` has consistent indentation.
@@ -215,18 +222,6 @@ Bossggle schema supports the following features (i.e. you _could_ write SQL to s
 - [ ] List all words guessed and their scores
 - [ ] Get sum of scores for all words guessed
 - [ ] Show 10 most recently guessed words
-
-Mmmarkdown
-- [ ] Folder `mmarkdown/` exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Mmmarkdown app from [Init 3: Hello Web Servers][hello-web-servers] is included in the file `mmarkdown/schema.sql`.
-
-Mmmarkdown schema supports the following features (i.e. you _could_ write SQL to show this data):
-- [ ] List all files
-- [ ] List all files ordered by their latest edit time (most recent first)
-- [ ] Show file with particular name
-- [ ] Get text content of file with particular name
-- [ ] List created date of all files
-- [ ] List every file name and its word count
 
 #### Stage 5
 
@@ -374,11 +369,11 @@ It isn't too hard. Just follow these steps:
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [ka-sql-course]: https://www.khanacademy.org/computing/computer-programming/sql
 [sql-basics]: https://www.khanacademy.org/computing/computer-programming/sql#sql-basics

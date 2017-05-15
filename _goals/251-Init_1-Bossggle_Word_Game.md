@@ -124,11 +124,11 @@ This is a shorter day because much of the day is dedicated to **reflection** and
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
@@ -328,11 +328,11 @@ Read the [section on Reviews in the Playbook][playbook-reviews] for more informa
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [runway]: https://playbook.learnersguild.org/Runway/
 [atom]: https://atom.io/

@@ -3,7 +3,7 @@ authors:
 - 'tannerwelsh'
 team_size: 2
 goal_id: 252
-title: 'Init 2: OOP Practice with Bike Shop'
+title: 'Init 6: OOP Practice with Bike Shop'
 created_at: '2017-04-04T10:00:00Z'
 labels:
 - practice
@@ -15,19 +15,7 @@ bonus_xp: 25
 redirect_from: '/goals/252'
 ---
 
-# Init 2: OOP Practice with Bike Shop
-
-## Introduction
-
-Welcome to the second in the series of the initiation goals!
-
-You know the ropes by now, but here's a quick refesher of what this goal contains and how to use it:
-
-- Review [Challenge Rating](#challenge-rating) to determine if this goal is appropriately challenging given your current skill level.
-- Read the [Description](#description) to learn what the output of this goal will be.
-- Look to the [Context](#context) for useful background information on why this goal is useful.
-- Use the [Specifications](#specifications) to know what is needed to complete the goal.
-- Explore the [Resources](#resources) such as articles, tutorials, and tools.
+# Init 6: OOP Practice with Bike Shop
 
 ## Challenge Rating
 
@@ -47,8 +35,6 @@ This goal will likely be within your ZPD if you...
 In this goal, you'll work with your team on a series of JavaScript exercises in the [oop-practice][] repo that focus on core OOP concepts, patterns, and principles.
 
 This goal makes extensive use of the tutorials and exercises on [JavaScript.info](http://javascript.info/), especially those in the [Objects, classes, inheritance](http://javascript.info/object-oriented-programming) section. It is _highly recommended_ that you make use of this resource, even beyond what is explicitly stated in the specs.
-
-If this is your first time working with [Node.js][nodejs], you will have to install it. You may also want to take some time to go through the Node.js and npm courses on Treehouse (see links in [Resources > Courses](#courses)).
 
 ### Recommended Pace
 
@@ -90,7 +76,7 @@ Depending on how much support you and your team need, balance solo and team time
 
 With your team, complete the specs in [Stage 5](#stage-5) to challenge and practice everything that you've learned so far.
 
-Take your object-oriented skills into a new domain to put them to the test. Instead of working against a set of clearly defined specs, you'll have to come up with your own **object model** for a new system: a music player.
+Take your object-oriented skills into a new domain to put them to the test. Instead of working against a set of clearly defined specs, you'll have to come up with your own **object model** for a system of your choice.
 
 A big part of object-oriented programming is taking the specs for a product and figuring out what kinds of **objects** will be needed to implement the desired behavior. Among other things, you'll need to design the classes, their instance methods and properties, and the relationships between objects.
 
@@ -99,15 +85,17 @@ A big part of object-oriented programming is taking the specs for a product and 
 The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
 
 1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: OOP Practice with Bike Shop][bike-shop-oop]
+1. [Init 2: Developer Tools][developer-tools]
 1. [Init 3: Hello Web Servers][hello-web-servers]
 1. [Init 4: Relational Databases][relational-databases]
 1. [Init 5: Web APIs][web-apis]
-1. [Init 6: Developer Tools][developer-tools]
+1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
 
 By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
 
-This is the second goal. It is designed to introduce you to objects and [object-oriented programming][wiki-oop] in JavaScript (...and also to the [Node.js][nodejs] programming environment, indirectly).
+This is the final goal in the series! Congratulations! You've made it through quite a lot. Once you've finished this goal, you'll have built a solid foundation of essential skills that you'll build upon as you continue learning JavaScript web development.
+
+This goal is designed to introduce you to objects and [object-oriented programming][wiki-oop] in JavaScript (...and also to the [Node.js][nodejs] programming environment, indirectly).
 
 By the time you're done with this goal, you will have:
 
@@ -173,16 +161,10 @@ Work on `bike-shop` to pass the tests
 
 #### Stage 5
 
-Design a basic **object model** for a music player like Spotify or iTunes.
+Design a basic **object model** for a system of your choice. For example: an ecommerce system, or a blog, or a CMS, or a class registry at a gym, or an inventory application for a warehouse...
 
-- [ ] `Song` class is defined in `music-player/song.js`.
-- [ ] `Song` class has properties and methods that you would expect a "song" object to have, at minimum: `.title`, `.length`, `.album`, `.artist`, `.track_no`, `.play()`, `.pause()`.
-- [ ] `Album` class is defined in `music-player/album.js`.
-- [ ] `Album` class has properties and methods that you would expect an "album" object to have, at minimum: `.title`, `.songCount`, `.artist`.
-- [ ] `Artist` class is defined in `music-player/artist.js`.
-- [ ] `Artist` class has properties and methods that you would expect an "artist" object to have, at minimum: `.name`, `.bandMembers`, `.genre`.
-- [ ] `Playlist` class is defined in `music-player/playlist.js`.
-- [ ] `Playlist` class has properties and methods that you would expect a "playlist" object to have, at minimum: `.name`, `.songs`, `.addSong(<Song>)`, `.removeSong(<Song>)`, `.play()`, `.pause()`.
+- [ ] A new folder is used to store all of your JS code for the chosen object model.
+- [ ] The system uses at least 3 classes, each with their own instance methods and properties.
 
 ### Stretch
 
@@ -240,11 +222,11 @@ Use these resources to fill in the gaps in your skills and knowledge as you find
 [simple-book-store]: {{ site.url }}{% link _goals/69-Simple_Book_Store.md %}
 
 [bossggle-word-game]: {{ site.url }}{% link _goals/251-Init_1-Bossggle_Word_Game.md %}
-[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_2-OOP_Practice_with_Bike_Shop.md %}
+[bike-shop-oop]: {{ site.url }}{% link _goals/252-Init_6-OOP_Practice_with_Bike_Shop.md %}
 [hello-web-servers]: {{ site.url }}{% link _goals/253-Init_3-Hello_Web_Servers.md %}
 [relational-databases]: {{ site.url }}{% link _goals/254-Init_4-Relational_Databases.md %}
 [web-apis]: {{ site.url }}{% link _goals/255-Init_5-Web_APIs.md %}
-[developer-tools]: {{ site.url }}{% link _goals/256-Init_6-Developer_Tools.md %}
+[developer-tools]: {{ site.url }}{% link _goals/256-Init_2-Developer_Tools.md %}
 
 [nodejs]: https://nodejs.org/en/
 [wiki-oop]: https://en.wikipedia.org/wiki/Object-oriented_programming
