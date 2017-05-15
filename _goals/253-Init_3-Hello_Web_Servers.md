@@ -30,13 +30,17 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Create a
+Create a music player application similar to (but a lot simpler than) Spotify or Soundcloud.
+
+Your application will be able to track artists, albums, and songs. Design the UI using the [wireframes](#wireframes) provided, and use the [fake data](#fake-data) to populate your views.
 
 When people talk about "full-stack web development", usually what they mean is the process of building applications that run on both a _server_ and a _client_.
 
-In this goal, you'll build a "full-stack" web app with code that runs in both environments.
+In this goal, you'll incorporate the _server_ part of the "full-stack" web app.
 
-If this is your first time working with [Express.js][express], you may want to take some time up front to get oriented. Review the [Resources](#resources) to get started.
+If this is your first time working with [Node.js][nodejs], you will have to install it. You may also want to take some time to go through the Node.js and npm courses on Treehouse (see links in [Resources > Courses](#courses)).
+
+If this is your first time working the [Express.js][express] framework, you may want to take some time up front to get oriented. Review the [Resources](#resources) to get started.
 
 ### Recommended Pace
 
@@ -61,27 +65,33 @@ With your team, complete the specs in [Stage 2](#stage-2) to organize your view 
 
 - what **routes** are and how to use them in Express.js
 - what an **HTML template** is and how it works
-- how to split HTML templates into smaller components using **includes**
+- how to **style** an HTML page with **CSS** to match the **layout** of a **wireframe**
 - how templating is similar to **string interpolation**
 - how to include and organize your **static files** like CSS
 
 #### Day 3
 
-With your team, complete the specs in [Stage 3](#stage-3) to implement the "MVP" (Minimum Viable Product) feature: being able to write and render markdown text. You'll be learning and practicing:
+With your team, complete the specs in [Stage 3](#stage-3) to incorporate data into your app using a fake database with mock data. You'll be learning and practicing:
 
+- how to **read** files using Node.js
+- how to **parse** JSON and convert it into an array of JavaScript **objects**
 - how to use **iteration** in your HTML templates
 
 #### Day 4
 
-With your team, complete the specs in [Stage 4](#stage-4) to add the more advanced feature of the product: managing multiple files. You'll be learning and practicing:
+With your team, complete the specs in [Stage 4](#stage-4) to further improve the views of your app with some _summary data_ and actual images for albums and artists. You'll be learning and practicing:
 
-- what **cookies** are and how to use them in Express.js
+- how to perform **aggregate functions** on a JSON data set to do things like get the number of songs in a specific album, for example
+- how to include actual **images** in your dynamically-rendred artist and album views
+- how to **format** time given in seconds as a string showing minutes and seconds
+- what a **CSS framework** is and how to integrate it into your app
 
 #### Day 5
 
-This day is open! There are a lot of new things to learn this week, so use this last day to revisit the areas you least understand.
+With your team, complete the specs in [Stage 5](#stage-5) to refactor and organize your code. You'll be learning and practicing:
 
-Use the [Resources](#resources) where applicable, but don't limit yourself to them! There are plenty of great resources online that you can use.
+- how to split HTML templates into smaller components using **includes**
+- how to combine **includes** with **iteration** to keep your app organized into well-defined, small files
 
 ## Context
 
@@ -124,7 +134,7 @@ Setup the repo and file structure, install and configure [Express][], and get a 
 
 Build out the routes and views for each page using the [EJS][] templating language. Add basic styles so that they follow the layouts defined in the [wireframes](#wireframes). Add any additional styles you like to make it look nice :).
 
-At this point, you don't need to actually _show_ any real data, just render HTML with placeholder text. You'll render real data in stage 3.
+At this point, you don't need to actually _show_ any real data, just render HTML with placeholder text and images. You'll render real data in stage 3.
 
 - [ ] EJS is installed and set up for HTML templating
 - [ ] View template files are created in the `/views` subdirectory
@@ -138,30 +148,75 @@ At this point, you don't need to actually _show_ any real data, just render HTML
 - [ ] Songs view is rendered at route `/songs`
 - [ ] Songs view shows a list of all songs (see [wireframe](#wireframes))
 - [ ] Individual artist view file is called `views/artist.ejs`
-- [ ] Individual artist view is rendered at route `/artist/:artist_id`
+- [ ] Individual artist view is rendered at route `/artists/:artist_id`
 - [ ] Individual artist view shows a list of the artist's songs (see [wireframe](#wireframes))
 - [ ] Individual album view file is called `views/album.ejs`
-- [ ] Individual album view is rendered at route `/album/:album_id`
+- [ ] Individual album view is rendered at route `/albums/:album_id`
 - [ ] Individual album view shows a list of the album's songs (see [wireframe](#wireframes))
 - [ ] CSS is organized into one or more files in the `public/` directory
 - [ ] CSS declarations are well-named and formatted (consider using this [small guide](http://tinystride.com/articles/organized-css-a-small-guide/))
 
-Includes are created for the different "components" of the main view:
-- [ ] There is an include for the Sidebar (shows list of files)
-- [ ] There is an include for the Header (shows current filename, word count, and save button)
-- [ ] There is an include for the Editor (shows markdown editor pane)
-- [ ] There is an include for the Preview (shows rendered markdown)
-
 #### Stage 3
 
+Integrate a "fake database" by rendering static data sets of artists, albums, and songs using server-side JS.
 
+Use the [fake data set](#fake-data) provided.
+
+- [ ] Main view (`/`) shows all artists from the [fake artists data](#fake-data).
+- [ ] Main view shows artist name and genre.
+- [ ] Artist name on main view links to the artist view (`/artists/:artist_id`).
+- [ ] Album list view (`/albums`) shows all albums from the [fake album data](#fake-data).
+- [ ] Album list view shows the name of the artist for each album.
+- [ ] Album name on album list view links to the album view (`/albums/:album_id`).
+- [ ] Artist name on album list view links to the artist view (`/artists/:artist_id`).
+- [ ] Song list view (`/songs`) shows all songs from the [fake song data](#fake-data).
+- [ ] Song list view shows song title, artist, album, and song length in seconds.
+- [ ] Artist view (`/artists/:artist_id`) shows all albums for the artists with id `:artist_id` from the [fake artist data](#fake-data).
+    **Hint:** you can [filter][array-filter] the albums by their `artist_id` property.
+- [ ] Artist view shows artist name and genre.
+- [ ] Artist view shows each album title and year released.
+- [ ] Album names on artist view links to the album view (`/albums/:album_id`).
+- [ ] Album view (`/albums/:album_id`) shows all albums from the [fake album data](#fake-data).
+    **Hint:** you can [filter][array-filter] the songs by their `album_id` property.
+- [ ] Album view shows album title, artist name, and year released.
+- [ ] Album view each song title, its track number, and length in seconds.
+- [ ] Artist name on album view links to the artist view (`/artists/:artist_id`).
 
 #### Stage 4
 
+Improve the views by adding _summary_ data (e.g. song count for album), parsing the song length into minutes and seconds, showing actual album artwork and artist profile images, and integrating a CSS framework to make it prettier.
+
+- [ ] Main view (`/`) shows an album count for each artist.
+- [ ] Album list view (`/albums`) shows a song count for each album.
+- [ ] Artist view (`/artists/:artist_id`) shows an album count for the artist.
+- [ ] Artist view (`/artists/:artist_id`) shows a song count for each album.
+- [ ] Album view (`/albums/:album_id`) shows a song count for the album.
+- [ ] On all views that show song length, the length is shown in `mm:ss` format.
+    For example, if the song has a length of 286 seconds, then it would be shown as `04:46` (286 seconds = 4 minutes, 46 seconds).
+- [ ] Actual album images are used instead of placeholders on albums list (`/albums`), artist (`/artists/:artist_id`), and album (`/albums/:album_id`) views.
+    **Hint:** once you find an image (Google image search is a good place for this), you can add the URL to the `albums.json` fake data file.
+- [ ] Actual artist profile images are used instead of placeholders on main view (`/`) and artist view (`/artists/:artist_id`).
+    **Hint:** once you find an image (Google image search is a good place for this), you can add the URL to the `artists.json` fake data file.
+- [ ] App uses a CSS framework like [Twitter bootstrap][bootstrap] or Yahoo's [Pure.css][pure-css].
 
 #### Stage 5
 
-No stage 5! Move into stretch specs, or use the time to polish up your code.
+Refactor and improve the organization of your code. Use EJS's "includes" feature to better organize the different components of your views.
+
+- [ ] All views use an include for the header nav (with links to "Artists", "Albums" and "Songs").
+- [ ] Header nav include is kept in the file `views/layout/header.ejs`.
+- [ ] Main view (`/`) uses an _artist list item_ include for each artist.
+- [ ] Artists list item include is kept in the file `views/artists/list_item.ejs`.
+- [ ] Albums list view (`/albums`) uses an _album list item_ include for each album.
+- [ ] Albums list item include is kept in the file `views/albums/list_item.ejs`.
+- [ ] Songs list view (`/songs`) uses a _song list item_ include for each song.
+- [ ] Songs list item include is kept in the file `views/songs/list_item.ejs`.
+- [ ] Artist view (`/artists/:artist_id`) uses an _artist album_ include for each album.
+- [ ] Artist album include is kept in the file `views/artists/album.ejs`.
+- [ ] Album view (`/albums/:album_id`) uses an _album song_ for each album.
+- [ ] Album song include is kept in the file `views/albums/song.ejs`.
+
+If you finish early, move into [stretch](#stretch) specs, or use the extra time to polish up your code.
 
 ### Wireframes
 
@@ -177,22 +232,38 @@ Use the wireframes as a guide for how you design the layout and structure of you
 <img width="800" alt="songs" src="https://cloud.githubusercontent.com/assets/709100/26007685/996d3814-370f-11e7-9893-69a6a28cfeba.png">
 
 ##### Single Artist (route: /artists/:artist_id)
-<img width="800" alt="single artist" src="https://cloud.githubusercontent.com/assets/709100/26007686/996e2558-370f-11e7-9105-7edcb4284aca.png">
+<img width="800" alt="single artist" src="https://cloud.githubusercontent.com/assets/709100/26062990/9ae061ec-395a-11e7-976e-378f592e2252.png">
 
 ##### Single Album (route: /albums/:album_id)
-<img width="800" alt="single album" src="https://cloud.githubusercontent.com/assets/709100/26007687/996e7512-370f-11e7-932e-804b3c946cbd.png">
+<img width="800" alt="single album" src="https://cloud.githubusercontent.com/assets/709100/26062991/9ae2bf50-395a-11e7-9312-94aed01e63a8.png">
 
 ### Stretch
 
 If you complete all of the specs listed above (the checkboxes), there's no reason to stop there! Try building more advanced features with these stretch specs.
 
-- [ ] Use EJS includes for the different "components" of the views (header, footer, etc.)
+##### Track Current Song being "Played"
 
+- [ ] Songs can be "played": there are "Play" buttons next to each song, and a persistent footer showing the current "playing" song.
+    **Note:** you don't actually have to play any sounds (that's a whole other ball game), just keep track of the current song.
+- [ ] Cookies are used to track which song is currently "playing".
 
-- [ ] Clicking the trash can icon...
-  - [ ] Deletes the file from the `data/` folder
-  - [ ] Shows the sidebar updated without the deleted file
-- [ ] "Word count" section in the header displays the word count for the currently open file
+##### Playlists
+
+- [ ] There is a "Playlists" view.
+- [ ] Users can see all playlists at `/playlists`.
+- [ ] Users can create playlists and give them a name.
+- [ ] Users can navigate to a playlist by its id using the route `/playlists/:playlist_id`.
+- [ ] Users can add songs to a playlist.
+- [ ] Users can delete songs from a playlist.
+- [ ] Playlist data is saved to a data file on the server with the format `data/playlists/:playlist_id.json`.
+
+##### Images from Last.fm API
+
+- [ ] App uses the [Last.fm API](https://www.last.fm/api/) (you'll need to create an account).
+- [ ] Artist images are sourced from the Last.fm API.
+- [ ] Album images are sourced from the Last.fm API.
+
+##### Bossggle in Express
 
 And if you get through those, try turning [Bossggle][bossggle-word-game] into an Express app.
 
@@ -212,15 +283,18 @@ Don't worry about making your own data for your app. Use the artist, album, and 
 
 - [Express.js][express]: "Fast, unopinionated, minimalist web framework for Node.js"
 - [EJS][]: "robust, elegant, feature rich template engine for Node.js"
+- [Twitter Bootstrap][bootstrap]: "the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web."
+- [Pure CSS][pure-css]: "A set of small, responsive CSS modules that you can use in every web project."
 
 ##### Guides
 
 - The official [Express.js Guide][express-guide] #express #nodejs
-- MDN: [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) #html #dom #js
-- MDN: [Guide to Event Handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) #dom #js
 
 ##### Courses
 
+- Treehouse: [Node.js Basics (2h)](https://teamtreehouse.com/library/nodejs-basics-2) #nodejs
+  - Only need to do the "Introduction to Node.js" section; the others are a bit superflous at this point
+- Treehouse: [npm Basics (76m)](https://teamtreehouse.com/library/npm-basics) #nodejs #npm
 - Treehouse: [Express Basics (3h)](https://teamtreehouse.com/library/express-basics) #express #nodejs
 - Treehouse: [Understanding Express Middleware (23m)](https://teamtreehouse.com/library/understanding-express-middleware-2) #express #middleware
 - Code School: [Building Blocks of Express.js (5h)](https://www.codeschool.com/courses/building-blocks-of-express-js) #express #js
@@ -248,6 +322,10 @@ Don't worry about making your own data for your app. Use the artist, album, and 
 [express-guide]: https://expressjs.com/en/guide/routing.html
 [ejs]: http://ejs.co/
 [blog-ejs-express]: https://coligo.io/templating-node-and-express-apps-with-ejs/
+[bootstrap]: http://getbootstrap.com/
+[pure-css]: https://purecss.io/
+
+[array-filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control
 
 [mock-json-data]: https://gist.github.com/learnersguild-dev/b90f65bba83d589e788b5a2b4ccfc1cb
 
