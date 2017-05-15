@@ -963,25 +963,6 @@
     },
     {
       "authors": [
-        "phoniks"
-      ],
-      "team_size": 1,
-      "goal_id": 268,
-      "title": "eCommerce Plugin for ConnextCMS",
-      "created_at": "2017-04-04T10:00:00Z",
-      "labels": [
-        "practice"
-      ],
-      "level": "2",
-      "published": true,
-      "redirect_from": "/goals/268",
-      "url": "http://jsdev.learnersguild.org/goals/268-eCommerce_Plugin_for_ConnextCMS.html",
-      "base_xp": 100,
-      "bonus_xp": 7.5,
-      "dynamic": false
-    },
-    {
-      "authors": [
         "tannerwelsh"
       ],
       "team_size": 2,
@@ -1264,6 +1245,25 @@
       "url": "http://jsdev.learnersguild.org/goals/37-Common_JS_Utility_Functions-Lodash.html",
       "base_xp": 100,
       "bonus_xp": 15.0,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "pllearns"
+      ],
+      "team_size": 1,
+      "goal_id": 370,
+      "title": "React Native API-Driven App",
+      "created_at": "2017-05-12T11:00:00Z",
+      "labels": [
+        "practice"
+      ],
+      "level": "3",
+      "published": true,
+      "redirect_from": "/goals/370",
+      "url": "http://jsdev.learnersguild.org/goals/370-React_Native_API-Driven_App.html",
+      "base_xp": 150,
+      "bonus_xp": 11.25,
       "dynamic": false
     },
     {
