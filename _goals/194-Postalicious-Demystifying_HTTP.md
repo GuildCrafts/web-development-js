@@ -103,7 +103,7 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 - [ ] Using the HTML form, users can specify header keys + values
 - [ ] Using the HTML form, users can specify request body
 - [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.

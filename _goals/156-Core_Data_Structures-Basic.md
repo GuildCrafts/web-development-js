@@ -55,7 +55,7 @@ Complete **ONLY** the [Basic Data Structures][list-basic-ds] from the list, not 
 - [ ] Unit tests exist for all methods of `Set`.
  structure.
 - [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.

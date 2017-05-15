@@ -43,7 +43,7 @@ Complete **ONLY** the [Advanced Data Structures][list-advanced-ds] from the list
 - [ ] A working implementation of the `Directed Graph` data structure is complete.
 - [ ] Unit tests exist for all methods of `Directed Graph`.
 - [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.

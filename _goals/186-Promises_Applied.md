@@ -101,7 +101,7 @@ Complete exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-
 \*Note: `promise-it-wont-hurt` has a bug which checks the full path of the files, instead of the relative paths. This causes exercise 9 & 10's verify command to fail even though the solution is correct. If the file path is the only error that you are seeing, it means that your code is correct.
 
 ### General
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.

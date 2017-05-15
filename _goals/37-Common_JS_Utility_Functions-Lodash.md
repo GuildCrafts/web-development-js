@@ -72,23 +72,23 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ## Specifications
 
-- [ ] Tests and correct implementations exist for **32** (not all) utility functions from the Lodash library.
-- [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
-- [ ] All code is written with ES2015.
-- [ ] Includes a README listing each method written and which file it is in.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Code is well tested and all tests are passing.
-- [ ] All dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Every pull request has been reviewed by at least one other person.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [ ] __32:__ Tests and correct implementations exist for **32** (not all) utility functions from the Lodash library.
+- [ ] __2:__ Functions are organized into files with the same names as the function groups from Lodash (e.g. `array.js` for the "Array" group of functions, `collection.js` for "Collection", `lang.js` for "Lang").
+- [ ] __4:__ Code uses ES2015 syntax and features (e.g. arrow functions, `const` and `let` instead of `var`).
+- [ ] __2:__ Includes a README listing each method written and which file it is in.
+- [ ] __2:__ Code uses a linter and there are no linting errors.
+- [ ] __8:__ Code is well tested and all tests are passing.
+- [ ] __2:__ All package dependencies are properly declared in `package.json`.
+- [ ] __2:__ All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] __1:__ Every pull request has been reviewed by at least one other person.
+- [ ] __1:__ The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
 
-- [ ] An additional **16** utility functions have tests and correct implementations.
-- [ ] Package is published to [NPM][npm].
-- [ ] All source code has inline documentation using [JSDoc][jsdoc] format.
-- [ ] Documentation is published a simple [GitHub Pages][github-pages] site (hint: use a builder like the [documentation package][npm-documentation]).
+- [ ] __16:__ An additional **16** utility functions have tests and correct implementations.
+- [ ] __2:__ Package is published to [NPM][npm].
+- [ ] __8:__ All source code has inline documentation using [JSDoc][jsdoc] format.
+- [ ] __8:__ Documentation is published a simple [GitHub Pages][github-pages] site (hint: use a builder like the [documentation package][npm-documentation]).
 
 ## Resources
 

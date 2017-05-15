@@ -67,7 +67,7 @@ If you haven't worked on many projects yet, or are new to the concept of "refact
 - [ ] None of the refactorings break any tests.
 - [ ] Each project has a configured ESLint file.
 - [ ] Code for each project meets formatting specs in ESLint file.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 
 ### Stretch

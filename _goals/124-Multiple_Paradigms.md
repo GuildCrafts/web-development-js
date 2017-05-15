@@ -77,7 +77,7 @@ Being fluent in different paradigms will help you to think about and understand 
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
 - [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All package dependencies are properly declared in `package.json`.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
