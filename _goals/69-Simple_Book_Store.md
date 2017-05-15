@@ -59,22 +59,7 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 
 ## Specifications
 
-- [ ] Books have a title, author, and genre
-- [ ] Users can...
-  - [ ] Add books into the bookstore system via an admin page (_create_)
-  - [ ] See a list of books on the home page (_read_)
-  - [ ] Edit a book's title, author, or genre (_update_)
-  - [ ] Delete a book from the bookstore (_delete_)
-  - [ ] Search for books by title OR by author OR by genre (_read_)
-  - [ ] View book details on a book detail page (_read_)
-- [ ] Lists of books are always paginated in groups of 10
-- [ ] Book detail view is linked to from the listing and search pages
-- [ ] Search results are presented in a new page
-- [ ] Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guidelines explained in [this article](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful))
-  - [ ] `GET` requests are only used for _read_ actions
-  - [ ] `POST` requests are only used for _create_ actions
-  - [ ] `PUT` or `PATCH` requests are only used for _update_ actions
-  - [ ] `DELETE` requests are only used for _delete_ actions
+#### General
 - [ ] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
 - [ ] Web server can be started with the command `npm start`
 - [ ] Test suite can be run with the command `npm test`
@@ -86,15 +71,34 @@ _Note: `PUT/PATCH` and `DELETE` requests can be a little difficult to work with,
 - [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
+#### Stories
+- [ ] Books have a title, author, and genre
+- [ ] Users can add books into the bookstore system via an admin page (_create_)
+- [ ] Users can see a list of books on the home page (_read_)
+- [ ] Users can edit a book's title, author, or genre (_update_)
+- [ ] Users can delete a book from the bookstore (_delete_)
+- [ ] Users can search for books by title OR by author OR by genre (_read_)
+- [ ] Users can view book details on a book detail page (_read_)
+- [ ] Lists of books are always paginated in groups of 10
+- [ ] Book detail view is linked to from the listing and search pages
+- [ ] Search results are presented in a new page
+
+#### HTTP Verbs
+Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guidelines explained in [this article](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful))
+- [ ] `GET` requests are only used for _read_ actions
+- [ ] `POST` requests are only used for _create_ actions
+- [ ] `PUT` or `PATCH` requests are only used for _update_ actions
+- [ ] `DELETE` requests are only used for _delete_ actions
+
 ### Stretch
 
 - [ ] App is deployed and live on the web (consider using Heroku)
 - [ ] All source code is written with ES6
 - [ ] Users have their own account and can sign up and sign in/out
 - [ ] Users have one of three roles: `admin`, `clerk`, `reader`
-  - [ ] Users with role `reader` can only view and search for books
-  - [ ] Users with role `clerk` can edit books in addition to viewing/searching
-  - [ ] Users with role `admin` can perform all actions (create, read, update, delete) with books
+- [ ] Users with role `reader` can only view and search for books
+- [ ] Users with role `clerk` can edit books in addition to viewing/searching
+- [ ] Users with role `admin` can perform all actions (create, read, update, delete) with books
 - [ ] Books have a price, cover image, publisher, and ISBN number
 
 ## Resources

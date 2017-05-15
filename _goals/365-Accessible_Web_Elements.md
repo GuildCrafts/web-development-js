@@ -63,42 +63,47 @@ Consider reading the [W3C standard on Web Accessiblity](https://www.w3.org/stand
 
 Create HTML and CSS for each of the following elements. Mimic the styles from the [A11Y Style Guide][a11y-style-guide]. Showcase them all on your `index.html` page.
 
-- Forms
-  - [ ] Checkboxes
-  - [ ] Radio Buttons
-  - [ ] Search
-  - [ ] Select Lists
-  - [ ] Text Inputs & Textarea
-- General
-  - [ ] Buttons
-  - [ ] Colors
-  - [ ] Link Focus
-  - [ ] Read More Links
-  - [ ] Skip Links
-  - [ ] Typography
-- Media
-  - [ ] Images
-  - [ ] Site Logo
-- Navigation
-  - [ ] Breadcrumbs
-  - [ ] Basic Navbar
-  - [ ] Pagination
-- Structure
-  - [ ] Headings
-  - [ ] Tables
+Forms
+- [ ] Checkboxes
+- [ ] Radio Buttons
+- [ ] Search
+- [ ] Select Lists
+- [ ] Text Inputs & Textarea
+
+General
+- [ ] Buttons
+- [ ] Colors
+- [ ] Link Focus
+- [ ] Read More Links
+- [ ] Skip Links
+- [ ] Typography
+
+Media
+- [ ] Images
+- [ ] Site Logo
+
+Navigation
+- [ ] Breadcrumbs
+- [ ] Basic Navbar
+- [ ] Pagination
+
+Structure
+- [ ] Headings
+- [ ] Tables
 
 ### Stretch
 
 - [ ] Demo page for stylized elements is published as a [GitHub Pages site](https://pages.github.com/)
 - [ ] Site includes instructions for how to include and use your framework
-- Additional elements are included in your style guide:
-  - [ ] Toggles
-  - [ ] Audio
-  - [ ] Image Gallery
-  - [ ] SVGs
-  - [ ] Videos
-  - [ ] Navbar Mobile Icon
 - [ ] Build a static web site (blog, porfolio choice, etc.) of your choice using your style guide
+
+Additional elements are included in your style guide:
+- [ ] Toggles
+- [ ] Audio
+- [ ] Image Gallery
+- [ ] SVGs
+- [ ] Videos
+- [ ] Navbar Mobile Icon
 
 ## Resources
 

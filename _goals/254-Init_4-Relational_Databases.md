@@ -183,22 +183,20 @@ Create schemas and mock data for the "Bike Shop" and "Music Player" apps from th
 - [ ] Bike Shop schema matches the specifications in [Table Schema for Bike Shop](#table-schema-for-bike-shop).
 - [ ] Folder `music-player/` exists in your repo.
 - [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from [Init 2: OOP Practice with Bike Shop][bike-shop-oop] is included in the file `music-player/schema.sql`.
-- [ ] Music Player schema includes tables and appropriate columns for:
-  - [ ] Artists
-  - [ ] Albums
-  - [ ] Songs
-  - [ ] Playlists
+- [ ] Music Player schema includes table and appropriate columns for Artists
+- [ ] Music Player schema includes table and appropriate columns for Albums
+- [ ] Music Player schema includes table and appropriate columns for Songs
+- [ ] Music Player schema includes table and appropriate columns for Playlists
 - [ ] Mock data is generated for the Music Player and added to the file `music-player/mock_data.sql`.
 - [ ] Sample queries against the Music Player database are added to the file `music-player/queries.sql`.
-- [ ] Queries against the Music Player include at least one instance of the following SQL keywords:
-  - [ ] `WHERE`
-  - [ ] `LIMIT`
-  - [ ] `ORDER BY`
-  - [ ] `LIKE`
-  - [ ] `AND/OR`
-  - [ ] `HAVING`
-  - [ ] `IN`
-  - [ ] `JOIN`
+- [ ] Queries against the Music Player use the `WHERE` keyword (at least once)
+- [ ] Queries against the Music Player use the `LIMIT` keyword (at least once)
+- [ ] Queries against the Music Player use the `ORDER BY` keyword (at least once)
+- [ ] Queries against the Music Player use the `LIKE` keyword (at least once)
+- [ ] Queries against the Music Player use the `AND/OR` keyword (at least once)
+- [ ] Queries against the Music Player use the `HAVING` keyword (at least once)
+- [ ] Queries against the Music Player use the `IN` keyword (at least once)
+- [ ] Queries against the Music Player use the `JOIN` keyword (at least once)
 
 #### Stage 4
 
@@ -209,40 +207,44 @@ Complete the final Khan Academy project. Design and create schemas for the "Boss
 - [ ] All the SQL keywords in `app_impersonator.sql` are written in ALL CAPS.
 - [ ] Folder `bossggle/` exists in your repo.
 - [ ] Database schema SQL (using PostgreSQL syntax) for the Bossggle game from [Init 1: Bossggle Word Game][bossggle-word-game] is included in the file `bossggle/schema.sql`.
-- [ ] Bossggle schema supports the following features (i.e. you _could_ write SQL to show this data):
-  - [ ] List all words guessed
-  - [ ] Count all correct words guessed
-  - [ ] Count all incorrect words guessed
-  - [ ] List all words guessed and their scores
-  - [ ] Get sum of scores for all words guessed
-  - [ ] Show 10 most recently guessed words
+
+Bossggle schema supports the following features (i.e. you _could_ write SQL to show this data):
+- [ ] List all words guessed
+- [ ] Count all correct words guessed
+- [ ] Count all incorrect words guessed
+- [ ] List all words guessed and their scores
+- [ ] Get sum of scores for all words guessed
+- [ ] Show 10 most recently guessed words
+
+Mmmarkdown
 - [ ] Folder `mmarkdown/` exists in your repo.
 - [ ] Database schema SQL (using PostgreSQL syntax) for the Mmmarkdown app from [Init 3: Hello Web Servers][hello-web-servers] is included in the file `mmarkdown/schema.sql`.
-- [ ] Mmmarkdown schema supports the following features (i.e. you _could_ write SQL to show this data):
-  - [ ] List all files
-  - [ ] List all files ordered by their latest edit time (most recent first)
-  - [ ] Show file with particular name
-  - [ ] Get text content of file with particular name
-  - [ ] List created date of all files
-  - [ ] List every file name and its word count
+
+Mmmarkdown schema supports the following features (i.e. you _could_ write SQL to show this data):
+- [ ] List all files
+- [ ] List all files ordered by their latest edit time (most recent first)
+- [ ] Show file with particular name
+- [ ] Get text content of file with particular name
+- [ ] List created date of all files
+- [ ] List every file name and its word count
 
 #### Stage 5
 
 Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) and design a sample database schema for each of them. Then generate some mock data and run queries against them. Your schemas don't have to be _exactly_ what these apps would use, but they should roughly approximate the basic features.
 
 - [ ] 2 or 3 real-world apps are chosen and folders are created for each of them.
-- [ ] For each real-world app chosen there exists:
-  - [ ] A SQL schema in the file `<app name>/schema.sql`.
-  - [ ] A set of mock data `INSERT` statements in the file `<app name>/mock_data.sql`.
-  - [ ] A set of example queries in the file `<app name>/queries.sql`.
-- [ ] Queries against the real-world apps include at least one instance of the following SQL keywords:
-  - [ ] `INSERT`
-  - [ ] `UPDATE`
-  - [ ] `DELETE`
-  - [ ] `WHERE`
-  - [ ] `LIMIT`
-  - [ ] `ORDER BY`
-  - [ ] `JOIN`
+
+For each real-world app chosen there exists:
+- [ ] A SQL schema in the file `<app name>/schema.sql`.
+- [ ] A set of mock data `INSERT` statements in the file `<app name>/mock_data.sql`.
+- [ ] A set of example queries in the file `<app name>/queries.sql`.
+- [ ] Queries against the real-world apps use the `INSERT` keyword (at least once)
+- [ ] Queries against the real-world apps use the `UPDATE` keyword (at least once)
+- [ ] Queries against the real-world apps use the `DELETE` keyword (at least once)
+- [ ] Queries against the real-world apps use the `WHERE` keyword (at least once)
+- [ ] Queries against the real-world apps use the `LIMIT` keyword (at least once)
+- [ ] Queries against the real-world apps use the `ORDER BY` keyword (at least once)
+- [ ] Queries against the real-world apps use the `JOIN` keyword (at least once)
 - [ ] SQL in all real-world app SQL files have consistent indentation.
 - [ ] All the SQL keywords all real-world app SQL files are written in ALL CAPS.
 
@@ -306,11 +308,11 @@ If you complete all of the specs listed above (the checkboxes), there's no reaso
 
 Choose an additional 3 real-world apps to reverse-engineer the databases for.
 
-- [ ] For each real-world app chosen there exists:
-  - [ ] A folder in your repo `<app name>/`
-  - [ ] A SQL schema in the file `<app name>/schema.sql`.
-  - [ ] A set of mock data `INSERT` statements in the file `<app name>/mock_data.sql`.
-  - [ ] A set of example queries in the file `<app name>/queries.sql`.
+For each real-world app chosen there exists:
+- [ ] A folder in your repo `<app name>/`
+- [ ] A SQL schema in the file `<app name>/schema.sql`.
+- [ ] A set of mock data `INSERT` statements in the file `<app name>/mock_data.sql`.
+- [ ] A set of example queries in the file `<app name>/queries.sql`.
 
 Find a couple of large datasets online, create databases for them, and practice querying against them. Some good places to look are at [data.gov](https://www.data.gov/) and this list of [public datasets](https://github.com/caesar0301/awesome-public-datasets).
 

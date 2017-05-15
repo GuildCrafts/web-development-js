@@ -101,25 +101,31 @@ _If you've never done a snapshot goal before_, this one may not be the best plac
 
 ## Specifications
 
+#### Hotkeys & Autocompletion
 _Note: most of these specs are pulled directly from Trello's [shortcuts page][shortcuts]._
 
 - [ ] Users have a username (required for autocomplete features later)
 - [ ] Users can press the `?` key in a board view to bring up the list of keyboard shortcuts
-- [ ] Users can use the following hotkeys to interact with boards:
-  - [ ] `←↓↑→` = Navigate Cards: Pressing the arrow keys will select adjacent cards on a board.
-  - [ ] `B` = Open Header Boards Menu: open the boards menu in the header. Users can search for boards and navigate boards with the up and down arrows. Pressing enter with a board selected will open it.
-  - [ ] `/` = Focus Search Box: Pressing “/” puts the cursor in the search box in the header.
-  - [ ] `C` = Archive Card: Pressing “c” will archive a card.
-  - [ ] `E` = Quick Edit Mode: If hovering over a card, pressing “e” will open quick edit mode, which lets users quickly edit the title and other card attributes.
-  - [ ] `L` = Label: Pressing “l” opens a pop-over of the available labels. Clicking a label will add or remove it from the card.
-  - [ ] `M` = Add / Remove Members: Pressing “m” opens the add / remove members menu. Clicking a member’s avatar will assign or unassign that person.
-  - [ ] `N` = Insert New Card: Pressing “n” opens a pop-over that allows users to add a card after the currently selected card.
-  - [ ] `W` = Toggle Board Menu: Pressing “w” will collapse or expand the board menu, the sidebar on the right.
-- [ ] When adding new cards, the following keys will open autocomplete menus:
-  - [ ] `@` = Autocomplete Members: When adding a new card, users can use the same method to assign members to cards before submitting them.
-  - [ ] `#` = Autocomplete Labels: When adding a new card, users can type “#” plus the label’s color or title and get a list of matching labels. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will add the label to the composed card. The labels will be added to the card when users submit.
+
+Users can use the following hotkeys to interact with boards:
+- [ ] `←↓↑→` = Navigate Cards: Pressing the arrow keys will select adjacent cards on a board.
+- [ ] `B` = Open Header Boards Menu: open the boards menu in the header. Users can search for boards and navigate boards with the up and down arrows. Pressing enter with a board selected will open it.
+- [ ] `/` = Focus Search Box: Pressing “/” puts the cursor in the search box in the header.
+- [ ] `C` = Archive Card: Pressing “c” will archive a card.
+- [ ] `E` = Quick Edit Mode: If hovering over a card, pressing “e” will open quick edit mode, which lets users quickly edit the title and other card attributes.
+- [ ] `L` = Label: Pressing “l” opens a pop-over of the available labels. Clicking a label will add or remove it from the card.
+- [ ] `M` = Add / Remove Members: Pressing “m” opens the add / remove members menu. Clicking a member’s avatar will assign or unassign that person.
+- [ ] `N` = Insert New Card: Pressing “n” opens a pop-over that allows users to add a card after the currently selected card.
+- [ ] `W` = Toggle Board Menu: Pressing “w” will collapse or expand the board menu, the sidebar on the right.
+
+When adding new cards, the following keys will open autocomplete menus:
+- [ ] `@` = Autocomplete Members: When adding a new card, users can use the same method to assign members to cards before submitting them.
+- [ ] `#` = Autocomplete Labels: When adding a new card, users can type “#” plus the label’s color or title and get a list of matching labels. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will add the label to the composed card. The labels will be added to the card when users submit.
+
 - [ ] Tests exist for each of the above specs
 - [ ] UI looks the same as in the mockups
+
+#### General
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
@@ -127,13 +133,15 @@ _Note: most of these specs are pulled directly from Trello's [shortcuts page][sh
 
 ### Stretch
 
-- [ ] Users can use the following hotkeys to interact with boards:
-  - [ ] `esc` = Close Menu / Cancel Editing: Pressing “esc” will close an open dialog window or pop-over or cancel edits and comments users are composing.
-  - [ ] `enter` = Open Card: Pressing “enter” will open the currently selected card. Pressing “shift + enter” while submitting a card will open it immediately after creating it.
-  - [ ] `<>` = Move Card to Adjacent List: Pressing the left or right angle brackets (< and >) will move a card to the adjacent left or right list.
-  - [ ] `space` = Assign Self: Pressing “space” will assign (or unassign) yourself to a card.
-- [ ] When adding new cards, the following keys will open autocomplete menus:
-  - [ ] `^` = Autocomplete Position: When adding a new card, users can type “^” plus a list name or position in a list. Users can also type “top” or “bottom” to add to the top or bottom of the current list. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will automatically change the position of the composed card.
+Users can use the following hotkeys to interact with boards:
+- [ ] `esc` = Close Menu / Cancel Editing: Pressing “esc” will close an open dialog window or pop-over or cancel edits and comments users are composing.
+- [ ] `enter` = Open Card: Pressing “enter” will open the currently selected card. Pressing “shift + enter” while submitting a card will open it immediately after creating it.
+- [ ] `<>` = Move Card to Adjacent List: Pressing the left or right angle brackets (< and >) will move a card to the adjacent left or right list.
+- [ ] `space` = Assign Self: Pressing “space” will assign (or unassign) yourself to a card.
+
+When adding new cards, the following keys will open autocomplete menus:
+- [ ] `^` = Autocomplete Position: When adding a new card, users can type “^” plus a list name or position in a list. Users can also type “top” or “bottom” to add to the top or bottom of the current list. Users can use the up and down arrows to navigate the resulting list. Pressing enter or tab will automatically change the position of the composed card.
+
 - [ ] When writing a comment, users can type “@” plus a member’s name, username, or initials and get a list of matching members. Users can navigate that list with the up and down arrows. Pressing enter or tab with a member selected will mention that user in the comment. The mentioned user will get a notification once submitted.
 
 ## Resources

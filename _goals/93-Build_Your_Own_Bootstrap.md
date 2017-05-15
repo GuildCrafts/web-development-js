@@ -64,35 +64,39 @@ Read and reference good resources on the web to build your conceptual understand
 
 ### Stage 1: Reverse Engineer Bootstrap Components
 
-- [ ] Styles include replicas of Bootstrap's typography:
-  - [ ] [Headings](http://getbootstrap.com/css/#type-headings)
-  - [ ] [Body copy](http://getbootstrap.com/css/#type-body-copy)
-  - [ ] [Addresses](http://getbootstrap.com/css/#type-addresses)
-  - [ ] [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
-- [ ] Styles include replicas of Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
-- [ ] Components include replicas of Bootstrap's:
-  - [ ] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
-  - [ ] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
-  - [ ] [Pagination](http://getbootstrap.com/components/#pagination)
-  - [ ] [Labels](http://getbootstrap.com/components/#labels)
-  - [ ] [Badges](http://getbootstrap.com/components/#badges)
-  - [ ] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
-  - [ ] [Page Header](http://getbootstrap.com/components/#page-header)
-  - [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
-  - [ ] [Alerts](http://getbootstrap.com/components/#alerts)
-  - [ ] [List Group](http://getbootstrap.com/components/#list-group)
-  - [ ] [Panels](http://getbootstrap.com/components/#panels)
-  - [ ] [Wells](http://getbootstrap.com/components/#wells)
+#### Typography
+- [ ] Styles replicate Bootstrap's [Headings](http://getbootstrap.com/css/#type-headings)
+- [ ] Styles replicate Bootstrap's [Body copy](http://getbootstrap.com/css/#type-body-copy)
+- [ ] Styles replicate Bootstrap's [Addresses](http://getbootstrap.com/css/#type-addresses)
+- [ ] Styles replicate Bootstrap's [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
+
+#### Components
 - [ ] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
+- [ ] Styles replicate Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
+
+Components include replicas of Bootstrap's:
+- [ ] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
+- [ ] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
+- [ ] [Pagination](http://getbootstrap.com/components/#pagination)
+- [ ] [Labels](http://getbootstrap.com/components/#labels)
+- [ ] [Badges](http://getbootstrap.com/components/#badges)
+- [ ] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
+- [ ] [Page Header](http://getbootstrap.com/components/#page-header)
+- [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+- [ ] [Alerts](http://getbootstrap.com/components/#alerts)
+- [ ] [List Group](http://getbootstrap.com/components/#list-group)
+- [ ] [Panels](http://getbootstrap.com/components/#panels)
+- [ ] [Wells](http://getbootstrap.com/components/#wells)
 
 ### Stage 2: Modify the Styles
 
 Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) to apply your own styles to the design.
 
-- [ ] Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
-  - [ ] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
-  - [ ] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
-- [ ] Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
+Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
+- [ ] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
+- [ ] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
+
+Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
 
 ### Stretch
 

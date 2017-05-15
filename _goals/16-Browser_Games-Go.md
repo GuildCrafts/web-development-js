@@ -70,10 +70,12 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 ### Stretch
 
 - [ ] Game can be played against a computer AI (i.e. human v. computer)
-- Implement Othello (Reversi) game
-  - [ ] Othello game can be found at `public/othello.html`
-  - [ ] Othello game is playable by two people (i.e. human v. human)
-  - [ ] Othello game page is linked from `public/index.html`
+
+Implement Othello (Reversi) game
+
+- [ ] Othello game can be found at `public/othello.html`
+- [ ] Othello game is playable by two people (i.e. human v. human)
+- [ ] Othello game page is linked from `public/index.html`
 
 ## Resources
 

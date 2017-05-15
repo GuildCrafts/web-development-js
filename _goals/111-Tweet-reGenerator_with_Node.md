@@ -55,9 +55,8 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 ### Stretch
 
 - [ ] After retrieving the first fifty tweets, users can retrieve and view the next fifty of their most recent tweets from Twitter. (The API allows developers to get up to 50 tweets at a time.)
-- [ ] Users can re-tweet saved tweets at a specified time interval:
-  - [ ] Immediately
-  - [ ] At a specific time in the future
+- [ ] Users can re-tweet saved tweets immediately
+- [ ] Users can re-tweet saved tweets at a specific time in the future
 - [ ] Users can view which saved tweets have been re-tweeted and when.
 - [ ] Users can edit saved tweets.
 - [ ] Users can delete saved tweets.

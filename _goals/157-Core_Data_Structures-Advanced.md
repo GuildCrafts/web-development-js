@@ -55,9 +55,9 @@ Complete **ONLY** the [Advanced Data Structures][list-advanced-ds] from the list
 Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Python, C, Java...) and write tests & implementations for each.
 
 - [ ] Can run all non-JavaScript tests with a single command.
-- [ ] For each data structure identified above, there exists:
-  - [ ] a test file with unit tests for each method and property _in a language other than JavaScript_.
-  - [ ] an implementation file with a correct implementation of the data structure _in a language other than JavaScript_.
+- [ ] For each data structure identified above, there is a test file with unit tests for each method and property _in a language other than JavaScript_.
+- [ ] For each data structure identified above, there is an implementation file with a correct implementation of the data structure _in a language other than JavaScript_.
+
 
 
 [core-ds]: {{ site.url }}{% link _goals/128-Core_Data_Structures.md %}

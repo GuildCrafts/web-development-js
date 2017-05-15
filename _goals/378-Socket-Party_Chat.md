@@ -54,9 +54,8 @@ If you choose this goal, you will have to consider questions such as:
 
 ### General Specs
 
-- [ ] App has two main user interfaces:
-  - [ ] A **landing page** (on route `/`) where a user can either **log in** of **sign up**.
-  - [ ] A **home page** (on route `/home`) where the user can see a list of chatrooms they have subscribed to along with a feed of all the conversation for currently selected room.
+- [ ] App has a **landing page** (on route `/`) where a user can either **log in** of **sign up**.
+- [ ] App has a **home page** (on route `/home`) where the user can see a list of chatrooms they have subscribed to along with a feed of all the conversation for currently selected room.
 - [ ] Uses Socket.io to make a socket.
 - [ ] Uses ajax/fetch calls to communicate with API endpoints.
 - [ ] Backend view rendering ( via pug or HTML ) is separated from API and socket actions.
@@ -83,9 +82,9 @@ If you choose this goal, you will have to consider questions such as:
 - [ ] On **either form** clicking a `cancel` button removes the form from view, and we again get a view with the two buttons.
 - [ ] On `log-in form`, clicking submit will check to see if the user exists and authenticate the entered password with the user's stored password.
 - [ ] On `sign-up form`, clicking submit adds them to the database and logs them in.
-- [ ] On log-in, after the user is authenticated, a session is set:
-  - [ ] Closing the page and reopening it, will redirect user to `/home`
-  - [ ] Session persists until `logout` or after 30 minutes pass.
+- [ ] On log-in, after the user is authenticated, a session is set.
+- [ ] Closing the page and reopening it will redirect user to `/home`
+- [ ] Session persists until `logout` or after 30 minutes pass.
 
 ### User chatroom story
 

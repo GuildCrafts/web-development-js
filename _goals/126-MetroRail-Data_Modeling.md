@@ -101,6 +101,15 @@ As you build this project, you'll likely encounter questions such as:
 
 ## Specifications
 
+#### General
+
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
 #### Commands
 
 Expose the following commands (and more, if you need) using the `scripts` property of your `package.json`.
@@ -118,66 +127,64 @@ Expose the following commands (and more, if you need) using the `scripts` proper
 
 Create models with interfaces to satisfy the following user stories, assuming the "user" in this case is a programmer using your data model.
 
-- [ ] As a user of the `Train` model, I can...
-  - [ ] get the number of a particular train.
-  - [ ] get the capacity for passengers of a particular train.
-  - [ ] get the passengers of a particular train.
-  - [ ] determine whether a particular train is full (at capacity) or not.
-  - [ ] determine the current station of a particular train.
-  - [ ] determine the next station of a particular train.
-  - [ ] determine which train is arriving next at a particular station.
-  - [ ] move a train to its next station.
-  - [ ] offboard passengers whose destination is a train's current station.
-  - [ ] onboard passengers of a train at the current station.
-  - [ ] find a train by its number.
-  - [ ] create a new train.
-  - [ ] save new trains to the database.
-  - [ ] update existing trains in the database.
-  - [ ] delete a train from the database.
+##### Train Model
+
+- [ ] As a user of the `Train` model, I can get the number of a particular train.
+- [ ] As a user of the `Train` model, I can get the capacity for passengers of a particular train.
+- [ ] As a user of the `Train` model, I can get the passengers of a particular train.
+- [ ] As a user of the `Train` model, I can determine whether a particular train is full (at capacity) or not.
+- [ ] As a user of the `Train` model, I can determine the current station of a particular train.
+- [ ] As a user of the `Train` model, I can determine the next station of a particular train.
+- [ ] As a user of the `Train` model, I can determine which train is arriving next at a particular station.
+- [ ] As a user of the `Train` model, I can move a train to its next station.
+- [ ] As a user of the `Train` model, I can offboard passengers whose destination is a train's current station.
+- [ ] As a user of the `Train` model, I can onboard passengers of a train at the current station.
+- [ ] As a user of the `Train` model, I can find a train by its number.
+- [ ] As a user of the `Train` model, I can create a new train.
+- [ ] As a user of the `Train` model, I can save new trains to the database.
+- [ ] As a user of the `Train` model, I can update existing trains in the database.
+- [ ] As a user of the `Train` model, I can delete a train from the database.
 - [ ] As a user of the `Train` model, I receive appropriate and descriptive errors.
+
+##### Station Model
+
 - [ ] As a user of the `Station` model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
-- [ ] As a user of the `Station` model, I can...
-  - [ ] get the ID of a particular station.
-  - [ ] get the location of a particular station.
-  - [ ] get the passengers waiting for a train at a particular station.
-  - [ ] get the passengers who have tickets at a particular station.
-  - [ ] get the previous station on the line for a particular station.
-  - [ ] get the next station on the line for a particular station.
-  - [ ] determine which is the next train arriving at a particular station.
-  - [ ] find a station by its ID.
-  - [ ] find a station by its location.
-  - [ ] create a new station.
-  - [ ] save new stations to the database.
-  - [ ] update existing stations in the database.
-  - [ ] delete a station from the database.
+- [ ] As a user of the `Station` model, I can get the ID of a particular station.
+- [ ] As a user of the `Station` model, I can get the location of a particular station.
+- [ ] As a user of the `Station` model, I can get the passengers waiting for a train at a particular station.
+- [ ] As a user of the `Station` model, I can get the passengers who have tickets at a particular station.
+- [ ] As a user of the `Station` model, I can get the previous station on the line for a particular station.
+- [ ] As a user of the `Station` model, I can get the next station on the line for a particular station.
+- [ ] As a user of the `Station` model, I can determine which is the next train arriving at a particular station.
+- [ ] As a user of the `Station` model, I can find a station by its ID.
+- [ ] As a user of the `Station` model, I can find a station by its location.
+- [ ] As a user of the `Station` model, I can create a new station.
+- [ ] As a user of the `Station` model, I can save new stations to the database.
+- [ ] As a user of the `Station` model, I can update existing stations in the database.
+- [ ] As a user of the `Station` model, I can delete a station from the database.
 - [ ] As a user of the `Station` model, I receive appropriate and descriptive errors.
 - [ ] As a user of the `Station` model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
-- [ ] As a user of the `Passenger` model, I can...
-  - [ ] get the ID of a particular passenger.
-  - [ ] get the name of a particular passenger.
-  - [ ] get a particular passenger's ticket.
-  - [ ] set the current station of a particular passenger.
-  - [ ] buy a ticket for a particular passenger from their current station to another specified station.
-  - [ ] use a ticket for a particular passenger.
-  - [ ] determine the current train for a particular passenger.
-  - [ ] determine the current station for a particular passenger.
-  - [ ] find a passenger by their ID.
-  - [ ] find a passenger by their name.
-  - [ ] find all passengers at a station.
-  - [ ] find all passengers on a train.
-  - [ ] create a new passenger.
-  - [ ] save new passengers to the database.
-  - [ ] update existing passengers in the database.
-  - [ ] delete a passenger from the database.
+
+##### Passenger Model
+
+- [ ] As a user of the `Passenger` model, I can get the ID of a particular passenger.
+- [ ] As a user of the `Passenger` model, I can get the name of a particular passenger.
+- [ ] As a user of the `Passenger` model, I can get a particular passenger's ticket.
+- [ ] As a user of the `Passenger` model, I can set the current station of a particular passenger.
+- [ ] As a user of the `Passenger` model, I can buy a ticket for a particular passenger from their current station to another specified station.
+- [ ] As a user of the `Passenger` model, I can use a ticket for a particular passenger.
+- [ ] As a user of the `Passenger` model, I can determine the current train for a particular passenger.
+- [ ] As a user of the `Passenger` model, I can determine the current station for a particular passenger.
+- [ ] As a user of the `Passenger` model, I can find a passenger by their ID.
+- [ ] As a user of the `Passenger` model, I can find a passenger by their name.
+- [ ] As a user of the `Passenger` model, I can find all passengers at a station.
+- [ ] As a user of the `Passenger` model, I can find all passengers on a train.
+- [ ] As a user of the `Passenger` model, I can create a new passenger.
+- [ ] As a user of the `Passenger` model, I can save new passengers to the database.
+- [ ] As a user of the `Passenger` model, I can update existing passengers in the database.
+- [ ] As a user of the `Passenger` model, I can delete a passenger from the database.
 - [ ] As a user of the `Passenger` model, I receive appropriate and descriptive errors.
 - [ ] As a user of the `Station` model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
-- [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
 
