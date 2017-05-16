@@ -59,10 +59,9 @@ Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post and [
 
 Make sure to save the exercises from the Frontend Masters course:
 
-- [ ] Parallel vs. Async exercises are completed and saved to a file in your repo.
-- [ ] Callback exercises are completed and saved to a file in your repo.
-- [ ] Thunks exercises are completed and saved to a file in your repo.
-- [ ] Promises exercises are completed and saved to a file in your repo.
+- [ ] Callback exercise 1 is completed and saved to a file in your repo.
+- [ ] Thunks exercise 2 is completed and saved to a file in your repo.
+- [ ] Promises exercises 3-6 are completed and saved to a file in your repo.
 
 If you complete the above with time to spare, fill any gaps in your understanding by skimming through the [Promises Course][promises-course] on Udacity.
 
