@@ -9,6 +9,7 @@ labels:
 - career search
 level: '4'
 published: true
+dynamic: true
 redirect_from: '/goals/368'
 ---
 

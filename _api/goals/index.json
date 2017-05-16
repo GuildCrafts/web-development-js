@@ -1222,11 +1222,11 @@
       ],
       "level": "4",
       "published": true,
+      "dynamic": true,
       "redirect_from": "/goals/368",
       "url": "http://jsdev.learnersguild.org/goals/368-Get_Hired.html",
       "base_xp": 200,
-      "bonus_xp": 15.0,
-      "dynamic": false
+      "bonus_xp": 15.0
     },
     {
       "authors": [
@@ -1322,6 +1322,25 @@
       "base_xp": 100,
       "bonus_xp": 15.0,
       "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 394,
+      "title": "Work on Ripple",
+      "created_at": "2017-05-16T14:25:06Z",
+      "labels": [
+        "production"
+      ],
+      "published": true,
+      "level": "4",
+      "dynamic": true,
+      "redirect_from": "/goals/394",
+      "url": "http://jsdev.learnersguild.org/goals/394-Work_on_Ripple.html",
+      "base_xp": 200,
+      "bonus_xp": 15.0
     },
     {
       "authors": [
