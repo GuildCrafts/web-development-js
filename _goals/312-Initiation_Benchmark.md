@@ -4,9 +4,10 @@ authors:
 - "tannerwelsh"
 team_size: 1
 goal_id: 312
-title: 'Week 5 Assessment'
+title: 'Initiation Benchmark'
 created_at: '2017-05-01T11:00:00Z'
 labels:
+- benchmark
 - assessment
 published: true
 level: '0'
@@ -14,7 +15,7 @@ base_xp: 90
 redirect_from: "/goals/312"
 ---
 
-# Week 5 Assessment
+# Initiation Benchmark
 
 ## Description
 
