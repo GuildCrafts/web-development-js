@@ -1344,6 +1344,27 @@
     },
     {
       "authors": [
+        "tannerwelsh",
+        "breyana"
+      ],
+      "team_size": 1,
+      "goal_id": 395,
+      "title": "Refresher: Bossggle Word Game",
+      "created_at": "2017-03-30T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "redirect_from": "/goals/395",
+      "url": "http://jsdev.learnersguild.org/goals/395-Bossggle_Refresher.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "phoniks",
         "DianaVashti",
         "tannerwelsh"
