@@ -53,21 +53,23 @@ To prepare for this assessment, consider the following questions. These may or m
 
 ## Specifications
 
-- [ ] Benchmark complete: `git-and-github-basic`
-- [ ] Benchmark complete: `git-and-github-intermediate`
+The benchmarks can be completed in any order. The order provided here is just a suggestion.
+
 - [ ] Benchmark complete: `html-and-css-basic`
-- [ ] Benchmark complete: `html-and-css-intermediate`
-- [ ] Benchmark complete: `http-servers-basic`
-- [ ] Benchmark complete: `http-servers-intermediate`
-- [ ] Benchmark complete: `javascript-in-the-browser-basic`
-- [ ] Benchmark complete: `javascript-in-the-browser-intermediate`
 - [ ] Benchmark complete: `javascript-programming-basic`
-- [ ] Benchmark complete: `javascript-programming-intermediate`
+- [ ] Benchmark complete: `javascript-in-the-browser-basic`
+- [ ] Benchmark complete: `git-and-github-basic`
 - [ ] Benchmark complete: `node-basic`
-- [ ] Benchmark complete: `node-intermediate`
 - [ ] Benchmark complete: `sql-basic`
-- [ ] Benchmark complete: `sql-intermediate`
+- [ ] Benchmark complete: `http-servers-basic`
 - [ ] Benchmark complete: `testing-basic`
+- [ ] Benchmark complete: `html-and-css-intermediate`
+- [ ] Benchmark complete: `javascript-in-the-browser-intermediate`
+- [ ] Benchmark complete: `http-servers-intermediate`
+- [ ] Benchmark complete: `javascript-programming-intermediate`
+- [ ] Benchmark complete: `sql-intermediate`
 - [ ] Benchmark complete: `testing-intermediate`
+- [ ] Benchmark complete: `git-and-github-intermediate`
+- [ ] Benchmark complete: `node-intermediate`
 
 [topic-benchmarks-repo]: https://github.com/GuildCrafts/topic-benchmarks
