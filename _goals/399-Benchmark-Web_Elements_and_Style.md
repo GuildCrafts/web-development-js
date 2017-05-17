@@ -49,7 +49,7 @@ To prepare for this assessment, consider the following questions. These may or m
 - Why did you make this design decision?
 - What are the inputs and outputs?
 - How did you arrive at your solution? Walk through your commit history to show how your solution grew.
-- 
+-
 ## Specifications
 
 #### General
