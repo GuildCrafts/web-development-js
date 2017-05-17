@@ -45,7 +45,7 @@ You are free to use additional npm packages if you see fit. If you choose to use
 
 ## Context
 
-This is an assessment. It is not a normal goal. What you build will be used to asses how well you're learning at the Guild.
+This is an assessment. It is not a normal goal. What you build will be used to assess how well you're learning at the Guild.
 
 Write the best code you can. Write all of the code that you submit. You will be assessed on how well your code meets the specs as well as your comprehension of the code you wrote.
 
