@@ -65,21 +65,7 @@ Make sure to save the exercises from the Frontend Masters course:
 
 If you complete the above with time to spare, fill any gaps in your understanding by skimming through the [Promises Course][promises-course] on Udacity.
 
-### Day 3
-
-Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository.
-
-Complete exercises 1-7 in the [pg promise exercises][pg-promise-exercises].
-
-- [ ] Exercise 1 is complete.
-- [ ] Exercise 2 is complete.
-- [ ] Exercise 3 is complete.
-- [ ] Exercise 4 is complete.
-- [ ] Exercise 5 is complete.
-- [ ] Exercise 6 is complete.
-- [ ] Exercise 7 is complete.
-
-### Day 4 & 5
+### Day 3 & 4
 
 Complete exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-hurt-solutions].
 
@@ -98,6 +84,20 @@ Complete exercises 1-13 in the [promise-it-wont-hurt-solutions][promise-it-wont-
 - [ ] `src/13-do-some-work.js` is complete and written to the appropriate file.
 
 \*Note: `promise-it-wont-hurt` has a bug which checks the full path of the files, instead of the relative paths. This causes exercise 9 & 10's verify command to fail even though the solution is correct. If the file path is the only error that you are seeing, it means that your code is correct.
+
+### Day 5
+
+Look at the [documentation](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example) of the `pg-promise` repository.
+
+Complete exercises 1-7 in the [pg promise exercises][pg-promise-exercises].
+
+- [ ] Exercise 1 is complete.
+- [ ] Exercise 2 is complete.
+- [ ] Exercise 3 is complete.
+- [ ] Exercise 4 is complete.
+- [ ] Exercise 5 is complete.
+- [ ] Exercise 6 is complete.
+- [ ] Exercise 7 is complete.
 
 ### General
 - [ ] All package dependencies are properly declared in `package.json`.
