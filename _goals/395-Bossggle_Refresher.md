@@ -18,7 +18,7 @@ redirect_from: '/goals/395'
 
 ## Introduction
 
-This is for challenging yourself to see if you're able to complete the initiation goals solo. Feel free to choose this goal to refresh foundational skills or fill in any gaps you may be missing.
+This is for challenging yourself to see if you're able to complete the initiation goals solo. Choose this goal to refresh foundational skills or fill in any gaps you may be missing.
 
 ## Challenge Rating
 

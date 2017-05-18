@@ -1,21 +1,25 @@
 ---
 authors:
 - 'tannerwelsh'
-team_size: 2
-goal_id: 252
-title: 'Init 6: OOP Practice with Bike Shop'
-created_at: '2017-04-04T10:00:00Z'
+team_size: 1
+goal_id: 410
+title: 'Refresher: OOP Practice with Bike Shop'
+created_at: '2017-05-18T10:38:28Z'
 labels:
 - practice
 - foundational
 published: true
-level: '0'
+level: '1'
 base_xp: 60
 bonus_xp: 25
-redirect_from: '/goals/252'
+redirect_from: '/goals/410'
 ---
 
-# Init 6: OOP Practice with Bike Shop
+# Refresher: OOP Practice with Bike Shop
+
+## Introduction
+
+This is for challenging yourself to see if you're able to complete the initiation goals solo. Choose this goal to refresh foundational skills or fill in any gaps you may be missing.
 
 ## Challenge Rating
 
@@ -82,20 +86,7 @@ A big part of object-oriented programming is taking the specs for a product and 
 
 ## Context
 
-The series of initiation goals are designed for new members of Learners Guild to get oriented to the learning environment, build key foundational skills, and work on some fun projects.
-
-1. [Init 1: Bossggle Word Game][bossggle-word-game]
-1. [Init 2: Developer Tools][developer-tools]
-1. [Init 3: Hello Web Servers][hello-web-servers]
-1. [Init 4: Relational Databases][relational-databases]
-1. [Init 5: Web APIs][web-apis]
-1. [Init 6: OOP Practice with Bike Shop][bike-shop-oop]
-
-By the time you are finished with these initiation goals, you should be skilled enough to complete the [Simple Book Store][simple-book-store] goal: it is a good target for you to aim for in your first 6 weeks.
-
-This is the final goal in the series! Congratulations! You've made it through quite a lot. Once you've finished this goal, you'll have built a solid foundation of essential skills that you'll build upon as you continue learning JavaScript web development.
-
-This goal is designed to introduce you to objects and [object-oriented programming][wiki-oop] in JavaScript (...and also to the [Node.js][nodejs] programming environment, indirectly).
+The series of refresher goals are designed for members of Learners Guild to challenge themselves to see what they can accomplish on their own.
 
 By the time you're done with this goal, you will have:
 

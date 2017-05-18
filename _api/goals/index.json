@@ -1365,6 +1365,86 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 405,
+      "title": "Refresher: Hello, Web Servers",
+      "created_at": "2017-05-18T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 70,
+      "bonus_xp": 20,
+      "redirect_from": "/goals/405",
+      "url": "http://jsdev.learnersguild.org/goals/405-Web_Servers_Refresher.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 409,
+      "title": "Refresher: Web APIs",
+      "created_at": "2017-05-17T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 90,
+      "bonus_xp": 20,
+      "redirect_from": "/goals/409",
+      "url": "http://jsdev.learnersguild.org/goals/409-Web_APIs_Refresher.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 410,
+      "title": "Refresher: OOP Practice with Bike Shop",
+      "created_at": "2017-05-18T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 60,
+      "bonus_xp": 25,
+      "redirect_from": "/goals/410",
+      "url": "http://jsdev.learnersguild.org/goals/410-OOP_Refresher.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 411,
+      "title": "Refresher: Developer Tools",
+      "created_at": "2017-05-18T10:38:28Z",
+      "labels": [
+        "practice",
+        "foundational"
+      ],
+      "published": true,
+      "level": "1",
+      "base_xp": 80,
+      "bonus_xp": 10,
+      "redirect_from": "/goals/411",
+      "url": "http://jsdev.learnersguild.org/goals/411-Developer_Tools_Refresher.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
         "phoniks",
         "DianaVashti",
         "tannerwelsh"
