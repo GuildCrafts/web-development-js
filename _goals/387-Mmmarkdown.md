@@ -143,9 +143,8 @@ Setup real markdown rendering so that writing in the left panel updates the righ
 Build out multiple-file functionality, and use cookies to remember the last opened file.
 
 - [ ] Users can create more than one markdown file
-- [ ] Each file has its own URL, named after its filename (for example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos`)
 - [ ] Markdown files are listed in the sidebar
-- [ ] Clicking on the "New File" button in the sidebar lets users create a new file and prompts for the file name using `prompt()`
+- [ ] Clicking on the "New File" button in the sidebar lets users create a new file and prompts for the file name either using the archaic built in `prompt()` method OR better yet, building it into the UI in another beautiful way.
 - [ ] Clicking on a file in the sidebar will navigate to the page, load the file contents into the editor, and render them in the preview
 - [ ] Markdown content can still be saved to files in `data/`, with one file in `data/` for each file in the sidebar
 - [ ] Most recently edited file is tracked using a cookie
@@ -177,6 +176,7 @@ If you complete all of the specs listed above (the checkboxes), there's no reaso
   - [ ] Deletes the file from the `data/` folder
   - [ ] Shows the sidebar updated without the deleted file
 - [ ] "Word count" section in the header displays the word count for the currently open file
+- [ ] Use a route with a variable route name so that each file has its own URL, named after its filename (for example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos` so that you can view the file in a full window on it's own using the built in browser tools.)
 
 ##### Use a Database
 
