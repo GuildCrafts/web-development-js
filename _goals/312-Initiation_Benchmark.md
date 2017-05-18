@@ -49,7 +49,7 @@ This is an integration benchmark goal and will be used for assessment to determi
 
 Write the best code you can. Write all of the code that you submit. You will be assessed on how well your code meets the specs as well as your comprehension of the code you wrote.
 
-This doesn’t mean that you can't get help. If you get stuck, ask for support. But because this is an assessment, you should not expect the same level of in-depth support that you get on non-assessment projects.
+This doesn’t mean that you can’t get help. If you get stuck, ask for support. But because this is an assessment, you should not expect the same level of in-depth support that you get on non-assessment projects.
 
 ### Assessment
 
