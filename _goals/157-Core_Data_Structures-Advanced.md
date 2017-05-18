@@ -35,7 +35,8 @@ Complete **ONLY** the [Advanced Data Structures][list-advanced-ds] from the list
 - [ ] Artifact produced is a fork of the [core-data-structures][core-data-structures] repo.
 - [ ] Can run all tests with `npm test`.
 - [ ] All tests are passing.
-- [ ] Unit tests exist for all methods of `Hash Table`.
+- [ ] A working implementation of the `Hash Table` data structure is complete.
+- [ ] Unit tests exist for all methods of `Hash Table`. 
 - [ ] A working implementation of the `Binary (Search) Tree` data structure is complete.
 - [ ] Unit tests exist for all methods of `Binary (Search) Tree`.
 - [ ] A working implementation of the `Tree Node` data structure is complete.
