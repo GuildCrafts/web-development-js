@@ -7,6 +7,9 @@ url: "http://jsdev.learnersguild.org"
 baseurl: ""
 github_org: GuildCrafts
 github_repo: web-development-js
+webrick:
+  headers:
+    Access-Control-Allow-Origin: '*'
 
 gems:
   - jekyll-redirect-from
