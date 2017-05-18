@@ -55,12 +55,7 @@ Complete these sections (including the exercises) of the [Rethinking Asynchronou
 
 Complete the [Understanding Promises in JavaScript][treehouse-workshop-promises] workshop (22m).
 
-Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post and [this](https://scotch.io/tutorials/javascript-promises-for-dummies) blog post.
-
-<!--
-The scotch tutorial link above seems to be broken.
-Here is a similar blog post from scotch: https://scotch.io/tutorials/understanding-javascript-promises-pt-i-background-basics
--->
+Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post and [this](https://scotch.io/tutorials/understanding-javascript-promises-pt-i-background-basics) blog post.
 
 Make sure to save the exercises from the Frontend Masters course:
 
