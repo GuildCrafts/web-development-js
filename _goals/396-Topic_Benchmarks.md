@@ -42,7 +42,7 @@ During your assessment, the assessor will evaluate both your _code_ as well as y
 
 They will likely ask you to walk through your each file in your code and explain how it works.
 
-To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be able to provide a good answer to any of them.
+To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be prepared to answer any of them.
 
 - How are the project files organized? What does each file do?
 - What is the role of this function or subroutine?

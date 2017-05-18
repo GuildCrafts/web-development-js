@@ -53,11 +53,11 @@ This doesn’t mean that you can't get help. If you get stuck, ask for support. 
 
 ### Assessment
 
-After you finish building your application, you'll do a walk of your code (probably via a video call / screen share) with an assessor.
+After you finish building your application, you'll do a walk through of your code (probably via a video call / screen share) with an assessor.
 
 They will likely ask you to walk through your project starting with the user interface, and then to go through each file in your code and explain how it works.
 
-To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be able to provide a good answer to any of them.
+To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be prepared to answer any of them.
 
 - How can a user take the actions specified in the [user stories](#user-stories)?
 - How are the project files organized? What does each file do?
