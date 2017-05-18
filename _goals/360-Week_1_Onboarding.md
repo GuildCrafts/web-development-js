@@ -57,7 +57,7 @@ Lastly, if time, complete this fun [command-line mystery!](https://github.com/ve
 
 #### Day 4
 
-kyrel control flow
+???
 
 #### Day 5
 
