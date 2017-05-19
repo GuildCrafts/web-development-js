@@ -149,7 +149,7 @@ At this point, you don't need to actually _show_ any real data, just render HTML
 - [ ] Songs view shows a list of all songs (see [wireframe](#wireframes))
 - [ ] Individual artist view file is called `views/artist.ejs`
 - [ ] Individual artist view is rendered at route `/artists/:artist_id`
-- [ ] Individual artist view shows a list of the artist's songs (see [wireframe](#wireframes))
+- [ ] Individual artist view shows a list of the artist's albums (see [wireframe](#wireframes))
 - [ ] Individual album view file is called `views/album.ejs`
 - [ ] Individual album view is rendered at route `/albums/:album_id`
 - [ ] Individual album view shows a list of the album's songs (see [wireframe](#wireframes))
