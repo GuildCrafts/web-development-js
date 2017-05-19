@@ -144,11 +144,19 @@ Build out multiple-file functionality, and use cookies to remember the last open
 
 - [ ] Users can create more than one markdown file
 - [ ] Markdown files are listed in the sidebar
+- [ ] Clicking on a file name in the sidebar will open the file in the "Editor" and render it in the "Preview", replacing the current file.
+    You can accomplish this using _either_ server-side rendering + custom routes for each file _or_ with JavaScript by making AJAX calls to retreive data from the server and update the DOM. See the "Multiple vs. Single Page" below for more context.
 - [ ] Clicking on the "New File" button in the sidebar lets users create a new file and prompts for the file name either using the archaic built in `prompt()` method OR better yet, building it into the UI in another beautiful way.
 - [ ] Clicking on a file in the sidebar will navigate to the page, load the file contents into the editor, and render them in the preview
 - [ ] Markdown content can still be saved to files in `data/`, with one file in `data/` for each file in the sidebar
 - [ ] Most recently edited file is tracked using a cookie
 - [ ] When visiting the root route (`/`), users are redirected to the file they last edited
+
+**Multiple vs. Single Page**
+
+One option for showing multiple files is to have a separate URL for each file, and let the server render the view (also called **server-side rendering**). This way, each file would have its own URL, named after its filename. For example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos`. Then, you could add links to your HTML pointing to this URL.
+
+Alternatively, you could use AJAX calls to do **client-side rendering** by requesting the file contents with JavaScript and using them to update the page without needing to navigate to a new page with a separate URL. 
 
 #### Stage 5
 
@@ -176,7 +184,6 @@ If you complete all of the specs listed above (the checkboxes), there's no reaso
   - [ ] Deletes the file from the `data/` folder
   - [ ] Shows the sidebar updated without the deleted file
 - [ ] "Word count" section in the header displays the word count for the currently open file
-- [ ] Use a route with a variable route name so that each file has its own URL, named after its filename (for example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos` so that you can view the file in a full window on it's own using the built in browser tools.)
 
 ##### Use a Database
 
