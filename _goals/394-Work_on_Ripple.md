@@ -15,7 +15,7 @@ redirect_from: "/goals/394"
 
 # Work on Ripple
 
-<strong style="color:red;">BEFORE YOU VOTE ON THIS GOAL, CHECK IN WITH @tannerwelsh.</strong>
+<strong style="color:red;">THIS IS AN EXTERNAL, OPEN-SOURCE PROJECT. NO COACHING WILL BE AVAILBLE FOR THIS PROJECT. BEFORE YOU VOTE ON THIS GOAL, CHECK IN WITH @tannerwelsh.</strong>
 
 ## Challenge Rating
 
