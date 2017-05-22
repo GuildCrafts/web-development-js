@@ -45,26 +45,7 @@ You are free to use additional npm packages if you see fit. If you choose to use
 
 ## Context
 
-This is an integration benchmark goal and will be used for assessment to determine your level. In this way, this is not a normal goal.
-
-Write the best code you can. Write all of the code that you submit. You will be assessed on how well your code meets the specs as well as your comprehension of the code you wrote.
-
-This doesn’t mean that you can’t get help. If you get stuck, ask for support. But because this is an assessment, you should not expect the same level of in-depth support that you get on non-assessment projects.
-
-### Assessment
-
-After you finish building your application, you'll do a walk through of your code (probably via a video call / screen share) with an assessor.
-
-They will likely ask you to walk through your project starting with the user interface, and then to go through each file in your code and explain how it works.
-
-To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be prepared to answer any of them.
-
-- How can a user take the actions specified in the [user stories](#user-stories)?
-- How are the project files organized? What does each file do?
-- What are the different routes and which views do they relate to?
-- Where is data read from and written to the database?
-- How do you start the server?
-- What were the stages of your development? Walk through your commit history to show how your project grew.
+This is an integration benchmark goal and will be used for assessment to determine your level. For more information, read the [Benchmark Goals](https://playbook.learnersguild.org/Learning_Guide/Goals/Benchmark_Goals.html) section of the Playbook.
 
 #### Skill Areas Covered
 

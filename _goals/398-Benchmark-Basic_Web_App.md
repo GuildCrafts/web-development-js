@@ -35,26 +35,7 @@ Also, don't spend too much time coming up with book data if you need some seed d
 
 ## Context
 
-This is an integration benchmark goal and will be used for assessment to determine your level. In this way, this is not a normal goal.
-
-Write the best code you can. Write all of the code that you submit. You will be assessed on how well your code meets the specs as well as your comprehension of the code you wrote.
-
-This doesn’t mean that you can’t get help. If you get stuck, ask for support. But because this is an assessment, you should not expect the same level of in-depth support that you get on non-assessment projects.
-
-### Assessment
-
-After you finish building your application, you'll do a walk through of your code (probably via a video call / screen share) with an assessor.
-
-They will likely ask you to walk through your project starting with the user interface, and then to go through each file in your code and explain how it works.
-
-To prepare for this assessment, consider the following questions. These may or may not be things the assessor will ask about. You should be prepared to answer any of them.
-
-- How are the project files organized? What does each file do?
-- What is the role of this function or subroutine?
-- How will the computer read this code?
-- Why did you make this design decision?
-- What are the inputs and outputs?
-- How did you arrive at your solution? Walk through your commit history to show how your solution grew.
+This is an integration benchmark goal and will be used for assessment to determine your level. For more information, read the [Benchmark Goals](https://playbook.learnersguild.org/Learning_Guide/Goals/Benchmark_Goals.html) section of the Playbook.
 
 ## Specifications
 
