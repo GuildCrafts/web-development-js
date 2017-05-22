@@ -96,7 +96,7 @@ At the least, you should be able to:
 - Log backtraces with `console.trace()`
 - Use a **debugger** to set **break points**
 - Use a debugger to step up and down the **call stack**
-- Use a debugger to **evaluate code** at a specific points
+- Use a debugger to **evaluate code** at specific points
 
 Starting with the [Debugging Resources](#debugging), learn as much as you can about debugging tools for JavaScript and practice on your own code.
 
