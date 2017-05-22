@@ -107,13 +107,6 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
 
-### Stretch
-
-Implement the "filter search" feature from Trello.
-
-- [ ] Users can search filter options in the filter cards pane
-- [ ] Results of search in filter cards pane show all matching labels and members for query
-
 ## Resources
 
 **Tools**

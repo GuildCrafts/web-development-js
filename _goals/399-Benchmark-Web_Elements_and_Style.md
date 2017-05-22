@@ -76,20 +76,6 @@ Structure
 - [ ] Headings
 - [ ] Tables
 
-### Stretch
-
-- [ ] Demo page for stylized elements is published as a [GitHub Pages site](https://pages.github.com/)
-- [ ] Site includes instructions for how to include and use your framework
-- [ ] Build a static web site (blog, porfolio choice, etc.) of your choice using your style guide
-
-Additional elements are included in your style guide:
-- [ ] Toggles
-- [ ] Audio
-- [ ] Image Gallery
-- [ ] SVGs
-- [ ] Videos
-- [ ] Navbar Mobile Icon
-
 ## Resources
 
 Courses & tutorials

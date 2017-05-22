@@ -51,15 +51,6 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] Click on the title of one of their posts and be redirected to a "show" page for that post.
 - [ ] View post "show" pages with title, author, and content.
 
-##### Stretch
-
-**A user should be able to:**
-
-- [ ] See a "default" profile photo on their profile page before adding their own photo.
-- [ ] Update their profile photo (consider using Uploadcare).
-- [ ] See their profile photo next to their posts.
-- [ ] Receive a welcome email after creating an account.
-
 #### Sprint 2: Travel Tip CRUD
 
 **A user should be able to:**
@@ -79,15 +70,6 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] See a pop-up that says: "Are you sure you want to delete {{title}}?" when clicking "delete"
 - [ ] Have the post deleted when confirming the pop-up.
 
-##### Stretch
-
-**A user should be able to:**
-
-- [ ] Visit city pages via pretty urls, like "/cities/san-francisco".
-- [ ] Visit user profile pages via pretty urls, like "/users/james".
-- [ ] See post content truncated to 1000 characters max, with a link to view more on a city's page.
-- [ ] See a relative published date, e.g. "2 days ago" on a city's page.
-
 #### Sprint 3: Validations & Authorization
 
 **A user should be able to:**
@@ -105,33 +87,6 @@ A user is authorized to perform certain actions on the site, according to the fo
 
 - [ ] A user MUST be logged in to create/update/destroy resources.
 - [ ] A user may only edit their own profile and edit/delete their own posts.
-
-###### Stretch
-
-**A user should be able to:**
-
-- [ ] View an error message when form validations fail, for the following validations:
-  - Title must be between 1 and 200 characters.
-  - Content must not be empty.
-- [ ] View only the 10 most recent posts on a city page (pagination).
-- [ ] View a link/button to the "Next" 10 on the city page (pagination).
-- [ ] View a link/button to the "Previous" 10 on the city page (pagination).
-- [ ] See a list of the city pages they've contributed to, on their public profile
-- [ ] See the number of posts they've written for each city, next to the city's name in their profile.
-- [ ] View all vagabond cities as markers/pins on a map on the site's homepage.
-- [ ] Click on a pin on the homepage map and be redirected to the corresponding city page.
-
-#### Sprint 4: Commenting
-
-##### Stretch
-
-**A user should be able to:**
-
-- [ ] Comment on individual posts.
-- [ ] See the number of comments a post has on the post's "show" page.
-- [ ] See the number of comments they've left, on their public profile.
-- [ ] Only add a comment when logged in.
-- [ ] Only edit/delete their own comments.
 
 ## Resources
 

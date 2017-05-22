@@ -33,8 +33,6 @@ In the Trello app, boards can have "members". Board members are other Trello use
 
 Assigning a member to a card "subscribes" them to that card, meaning that they will see activity for things like comments on the card, due date changes, and when the card moves.
 
-Finally, as part of the "stretch" specs in this goal, you may choose to implement the "teams" feature of Trello. In Trello, teams of members can be created, and teams can own boards.
-
 Use the real Trello app and the mockups below to guide your design and development process.
 
 ### Setting Up Your Snapshot
@@ -122,17 +120,6 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] The artifact produced is a fork of the [Trossello][trossello] repository
-
-### Stretch
-
-Implement the "teams" feature from Trello.
-
-- [ ] Users can create teams
-- [ ] Users can add members to their team
-- [ ] Team members can create team boards
-- [ ] Team members can remove team boards
-- [ ] Team boards automatically include all team members
-- [ ] Team boards work like regular boards in all other ways
 
 ## Resources
 

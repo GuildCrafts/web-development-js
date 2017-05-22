@@ -70,17 +70,6 @@ Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guid
 - [ ] `PUT` or `PATCH` requests are only used for _update_ actions
 - [ ] `DELETE` requests are only used for _delete_ actions
 
-### Stretch
-
-- [ ] App is deployed and live on the web (consider using Heroku)
-- [ ] All source code is written with ES6
-- [ ] Users have their own account and can sign up and sign in/out
-- [ ] Users have one of three roles: `admin`, `clerk`, `reader`
-- [ ] Users with role `reader` can only view and search for books
-- [ ] Users with role `clerk` can edit books in addition to viewing/searching
-- [ ] Users with role `admin` can perform all actions (create, read, update, delete) with books
-- [ ] Books have a price, cover image, publisher, and ISBN number
-
 ## Resources
 
 Guides and tutorials

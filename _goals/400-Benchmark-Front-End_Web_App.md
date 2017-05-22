@@ -31,14 +31,12 @@ This is an integration benchmark goal and will be used for assessment to determi
 
 ## Specifications
 
-The specs are broken down in the following 3 stages, plus two "stretch" stages. Make sure to complete all the items in each stages's `Specs` section.
+The specs are broken down in the following 3 stages. Make sure to complete all the items in each stages's `Specs` section.
 
 - [Stage 1](#stage-1)
 - [Stage 2](#stage-2)
 - [Stage 3](#stage-3)
 - [General](#general) (applies to the whole project)
-- [Stretch Stage 1](#stretch-stage-1)
-- [Stretch Stage 2](#stretch-stage-2)
 
 **IMPORTANT:** When you complete a stage, before moving onto the next stage, tag the commit that completes stage N as `stage-N-complete` using [`git tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging). *Don't forget to push with `--tags`*.
 
@@ -181,68 +179,6 @@ In stage 3 you are going to add a second calculator to the page. Both calculator
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-### Stretch
-
-#### Stretch Stage 1
-
-In this stage you are going to move the work of your calculator to the server. This might seem silly but its a good way to practice moving logic from the browser to the server without the logic itself being too complex.
-
-##### In this stage you will be using at least the following skills:
-
-- Setting up a simple Node express server
-- XHR / AJAX requests
-- Sending conventional HTTP status codes
-- Using conventional HTTP verbs
-- Setting common HTTP headers
-- rendering JSON from express
-- Following the RESTful routes convention
-
-##### During this phase you should…
-
-- initialize a node `package.json`
-- use `express`
-- use a JSON body parser
-- NOT use any other node packages
-
-##### Specs
-
-- [ ] Each mathematical operation should have it's own API endpoint
-- [ ] Each mathematical operation is done on the server
-- [ ] Each request for a mathematical operation is a `post` request
-- [ ] Each operation request responds with `JSON`
-- [ ] When the calculator is waiting for an operation request response, it ignores all input
-
-#### Stretch Stage 2
-
-In this stage you are going to add persistence to your express server. We're going to be persisting the history of the users calculations. We're also going back to just having one calculator on the page.
-
-![calculator-with-history](https://cloud.githubusercontent.com/assets/8385/22572149/9be3c83e-e957-11e6-9431-9b9742b6b4af.png)
-
-##### In this stage you will be using at least the following skills:
-
-- SQL schema design
-- writing SQL queries
-
-##### During this phase you should…
-
-- use the `pg`, `pg-promise`, and/or `knex` packages
-- NOT use any other node packages
-- create a `visitors` table
-- create a `calculations` table
-- persist each mathematical operations
-
-##### Specs
-
-- [ ] there is only one calculator on the page
-- [ ] the calculator displays a scrolling history of calculations
-- [ ] the most recent calculation result is at the bottom
-- [ ] the scroll-back history is always scrolled to the bottom when a new operation result is added
-- [ ] the calculator history is stored per visitor (browser)
-- [ ] the express app uses a cookie to track individual visitors
-- [ ] reloading the page restores the calculator history
-- [ ] the server stores up to 100 calculation results
-- [ ] all mathematical operations have their own function, defined outside of any express router handlers.
 
 ## Resources
 
