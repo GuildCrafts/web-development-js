@@ -46,6 +46,10 @@ Choose this goal if you've wondered how objects work in JavaScript and are looki
 
 ## Specifications
 
+<!--
+  This goal has nested specs making it difficult to give a completeness score.  There are specs in this file and in the [core-oojs] repo.  I suggest that the specs be sqashed into one place or it be made very clear which specs should be counted for completeness.
+-->
+
 - [ ] Artifact produced is a fork of the [core-oojs][core-oojs] repo.
 - [ ] All readings and videos in the `README` are completed and checked off.
 - [ ] All exercises and lessons in the `README` are completed and checked off.
