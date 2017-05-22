@@ -1107,11 +1107,11 @@
         "practice"
       ],
       "published": true,
-      "level": "2",
+      "level": "3",
       "redirect_from": "/goals/330",
       "url": "http://jsdev.learnersguild.org/goals/330-Roam-Travel-App.html",
-      "base_xp": 200,
-      "bonus_xp": 30.0,
+      "base_xp": 300,
+      "bonus_xp": 45.0,
       "dynamic": false
     },
     {
