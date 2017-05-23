@@ -10,6 +10,7 @@ labels:
 - assessment
 published: true
 level: '3'
+base_xp: 300
 redirect_from: "/goals/403"
 ---
 
@@ -20,8 +21,6 @@ This is an **advanced** integration benchmark goal.
 ## Description
 
 Starting at commit [`55301b0`][starting-commit], implement **card filtering** in the [Trossello][trossello] app.
-
-If you are **new to snapshot goals or to the Trossello app**, you may want to try a slightly easier one first, like the [Labels Epic][labels-epic]. Read the [Context](#context) section to learn whether this project will be right for you.
 
 To complete this goal, you'll be mimicking features of the real Trello app. To do this, you'll need to use good reverse-engineering skills:
 

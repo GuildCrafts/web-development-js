@@ -10,6 +10,7 @@ labels:
 - assessment
 published: true
 level: '2'
+base_xp: 200
 redirect_from: '/goals/401'
 ---
 
