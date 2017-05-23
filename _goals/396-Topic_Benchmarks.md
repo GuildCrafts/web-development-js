@@ -24,8 +24,6 @@ The benchmarks are organized into topic directories. Each one should take you ro
 
 This goal is meant to be repeated. You will not be able to complete _all_ of the topic benchmarks in one week. With each attempt at this goal, aim to complete 4-5 benchmarks.
 
-Once you complete enough benchmarks to level up, request an assessment.
-
 ## Context
 
 This is a benchmark goal and will be used for assessment to determine your level. For more information, read the [Benchmark Goals](https://playbook.learnersguild.org/Learning_Guide/Goals/Benchmark_Goals.html) section of the Playbook.
