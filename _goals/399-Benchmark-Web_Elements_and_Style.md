@@ -19,11 +19,9 @@ This is a **beginner** integration benchmark goal.
 
 ## Description
 
-Build your own [style guide][wiki-style-guide] with good [accessibility][wiki-web-accessibility] features based on the guidlines established by the [A11Y Style Guide](http://a11y-style-guide.com/).
+Build a CSS framework and showcase it as a [style guide][wiki-style-guide] with good [accessibility][wiki-web-accessibility] features based on the guidlines established by the [A11Y Style Guide](http://a11y-style-guide.com/).
 
-To complete this project, you'll be writing HTML and CSS to create a style guide similar to the example A11Y style guide: http://a11y-style-guide.com/style-guide/.
-
-You can either choose to mimic the default styles provided by A11Y or modify it to suit your own design ideas.
+To complete this project, you'll be writing HTML and CSS for your own CSS framework (like [Bootstrap][], but a lot smaller) and showcase it in style guide similar to the example A11Y style guide: http://a11y-style-guide.com/style-guide/.
 
 <img src="https://cloud.githubusercontent.com/assets/709100/25558362/f040e72a-2cd9-11e7-98fc-393b2776ae45.png" width="800" />
 
@@ -41,40 +39,57 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] No external CSS libraries/modules are used. Everything is written from scratch.
 - [ ] HTML & CSS files are well formatted with proper spacing and indentation.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
-#### Style Guide
+#### Elements
 
-Create HTML and CSS for each of the following elements. Mimic the styles from the [A11Y Style Guide][a11y-style-guide]. Showcase them all on your `index.html` page.
+Write HTML and CSS for each of the following elements. Mimic the styles from the [A11Y Style Guide][a11y-style-guide]. Showcase them all on your `index.html` page.
 
 Forms
-- [ ] Checkboxes
-- [ ] Radio Buttons
-- [ ] Search
-- [ ] Select Lists
-- [ ] Text Inputs & Textarea
+- [ ] CSS includes class(es) for styling **Checkboxes**
+- [ ] Style guide showcases the **Checkboxes**
+- [ ] CSS includes class(es) for styling **Radio Buttons**
+- [ ] Style guide showcases the **Radio Buttons**
+- [ ] CSS includes class(es) for styling **Search**
+- [ ] Style guide showcases the **Search**
+- [ ] CSS includes class(es) for styling **Select Lists**
+- [ ] Style guide showcases the **Select Lists**
+- [ ] CSS includes class(es) for styling **Text Inputs & Textarea**
+- [ ] Style guide showcases the **Text Inputs & Textarea**
 
 General
-- [ ] Buttons
-- [ ] Colors
-- [ ] Link Focus
-- [ ] Read More Links
-- [ ] Skip Links
-- [ ] Typography
+- [ ] CSS includes class(es) for styling **Buttons**
+- [ ] Style guide showcases the **Buttons**
+- [ ] CSS includes class(es) for styling **Colors**
+- [ ] Style guide showcases the **Colors**
+- [ ] CSS includes class(es) for styling **Link Focus**
+- [ ] Style guide showcases the **Link Focus**
+- [ ] CSS includes class(es) for styling **Read More Links**
+- [ ] Style guide showcases the **Read More Links**
+- [ ] CSS includes class(es) for styling **Skip Links**
+- [ ] Style guide showcases the **Skip Links**
+- [ ] CSS includes class(es) for styling **Typography**
+- [ ] Style guide showcases the **Typography**
 
 Media
-- [ ] Images
-- [ ] Site Logo
+- [ ] CSS includes class(es) for styling **Images**
+- [ ] Style guide showcases the **Images**
+- [ ] CSS includes class(es) for styling **Site Logo**
+- [ ] Style guide showcases the **Site Logo**
 
 Navigation
-- [ ] Breadcrumbs
-- [ ] Basic Navbar
-- [ ] Pagination
+- [ ] CSS includes class(es) for styling **Breadcrumbs**
+- [ ] Style guide showcases the **Breadcrumbs**
+- [ ] CSS includes class(es) for styling **Basic Navbar**
+- [ ] Style guide showcases the **Basic Navbar**
+- [ ] CSS includes class(es) for styling **Pagination**
+- [ ] Style guide showcases the **Pagination**
 
 Structure
-- [ ] Headings
-- [ ] Tables
+- [ ] CSS includes class(es) for styling **Headings**
+- [ ] Style guide showcases the **Headings**
+- [ ] CSS includes class(es) for styling **Tables**
+- [ ] Style guide showcases the **Tables**
 
 ## Resources
 
