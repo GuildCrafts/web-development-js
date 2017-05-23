@@ -3,7 +3,7 @@ authors:
 - "jrob8577"
 team_size: 1
 goal_id: 398
-title: "Benchmark: Basic Web App"
+title: "Benchmark: Basic CRUD Web App"
 created_at: '2017-05-17T10:00:00Z'
 labels:
 - benchmark
@@ -13,15 +13,15 @@ level: '1'
 redirect_from: "/goals/398"
 ---
 
-# Benchmark: Basic Web App
+# Benchmark: Basic CRUD Web App
 
 This is a **beginner** integration benchmark goal.
 
 ## Description
 
-You've been tasked with building a web app for a local bookstore to help them manage their inventory.
+You've been tasked with building a web app for a local grocery store to help them manage their inventory.
 
-Create a simple content management system that allows users to view, add, delete, and update books. Books entered in the system can be viewed in a list, as a single entry on its own page, or searched for using basic searches (by title, author, or genre).
+Create a simple content management system that allows users to view, add, delete, and update inventory items. Foods entered in the system can be viewed in a list, as a single entry on its own page, or searched for using basic searches (by name, price, or section).
 
 To implement this system, you'll need to use (among other things)...
 
@@ -31,7 +31,7 @@ To implement this system, you'll need to use (among other things)...
 
 Don't sweat the UI design too much. If you want to add some quick and easy styles so that it doesn't look _too_ terrible, use a library like [Bootstrap][] or [Pure.css][pure-css].
 
-Also, don't spend too much time coming up with book data if you need some seed data to work with. Use a fake data generator like [Faker](https://github.com/marak/Faker.js/) or just borrow a list from a data store like [this CSV](https://gist.github.com/jaidevd/23aef12e9bf56c618c41).
+Also, don't spend too much time coming up with inventory data if you need some seed data to work with. Import [this CSV](https://gist.github.com/lg-bot/5b76b9910eaef705226dbcd876d35de2) or use a fake data generator like [Faker](https://github.com/marak/Faker.js/).
 
 ## Context
 
@@ -45,24 +45,22 @@ This is an integration benchmark goal and will be used for assessment to determi
 - [ ] All views are rendered on the server using server-side templates written with [EJS][]
 - [ ] Web server can be started with the command `npm start`
 - [ ] Test suite can be run with the command `npm test`
-- [ ] All features are added as pull requests
-- [ ] All pull requests are approved by at least one other member of the team using GitHub's [pull request review feature](https://help.github.com/articles/about-pull-request-reviews/) (so that your teammate's approval is of the PR is documented)
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose
+- [ ] Functions are small and serve a single purpose.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 #### Stories
-- [ ] Books have a title, author, and genre
-- [ ] Users can add books into the bookstore system via an admin page (_create_)
-- [ ] Users can see a list of books on the home page (_read_)
-- [ ] Users can edit a book's title, author, or genre (_update_)
-- [ ] Users can delete a book from the bookstore (_delete_)
-- [ ] Users can search for books by title OR by author OR by genre (_read_)
-- [ ] Users can view book details on a book detail page (_read_)
-- [ ] Lists of books are always paginated in groups of 10
-- [ ] Book detail view is linked to from the listing and search pages
+- [ ] Food inventory items have a name, price, and section
+- [ ] Users can add items into the system via an admin page (_create_)
+- [ ] Users can see a list of items on the home page (_read_)
+- [ ] Users can edit a item's name, price, or section (_update_)
+- [ ] Users can delete a item from the inventory (_delete_)
+- [ ] Users can search for items by name OR by price OR by section (_read_)
+- [ ] Users can view item details on a item detail page (_read_)
+- [ ] Lists of items are always paginated in groups of 10
+- [ ] Item detail view is linked to from the listing and search pages
 - [ ] Search results are presented in a new page
 
 #### HTTP Verbs
