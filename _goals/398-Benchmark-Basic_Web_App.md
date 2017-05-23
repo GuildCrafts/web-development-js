@@ -25,9 +25,9 @@ Create a simple content management system that allows users to view, add, delete
 
 To implement this system, you'll need to use (among other things)...
 
-- a _web application framework_ (we recommend [Express][])
-- a _database_ (we recommend [PostgreSQL][])
-- a tool for server-side _HTML templating_ (we recommend [Pug][])
+- a _web application framework_ ([Express][])
+- a _database_ ([PostgreSQL][])
+- a tool for server-side _HTML templating_ ([EJS][])
 
 Don't sweat the UI design too much. If you want to add some quick and easy styles so that it doesn't look _too_ terrible, use a library like [Bootstrap][] or [Pure.css][pure-css].
 
@@ -40,7 +40,9 @@ This is an integration benchmark goal and will be used for assessment to determi
 ## Specifications
 
 #### General
-- [ ] All views are rendered on the server using server-side templates written with [Pug][] or [EJS][]
+- [ ] [Express][express] is used in the server
+- [ ] [PostgreSQL][postgresql] is used for persistence
+- [ ] All views are rendered on the server using server-side templates written with [EJS][]
 - [ ] Web server can be started with the command `npm start`
 - [ ] Test suite can be run with the command `npm test`
 - [ ] All features are added as pull requests
