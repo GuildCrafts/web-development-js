@@ -173,16 +173,18 @@ A user is authorized to perform certain actions on the site, according to the fo
 
 Use these resources to fill in the gaps in your skills and knowledge as you find them. There is more here than you can do in a week, so focus on the areas that are in your zone of proximal development (ZPD).
 
+##### Passport Example apps
+- [Passport Express Example](https://github.com/passport/express-4.x-local-example): Note that there is no real DB here, data lives only on the server
+- [Passport Express, Twitter login](https://github.com/passport/express-4.x-twitter-example)
+
 ##### Tools
 
 - [Express.js][express]: "Fast, unopinionated, minimalist web framework for Node.js"
-- [Pug](https://pugjs.org/api/getting-started.html): "robust, elegant, feature rich template engine for Node.js"
 - [Passport](http://passportjs.org/): "Simple, unobtrusive authentication for Node.js"
 
 ##### Guides
 
 - The official [Express.js Guide][express-guide] #express #nodejs
-- The official [Pug Getting Started][pug-getting-started] #pug #html
 - MDN: [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) #html #dom #js
 - MDN: [Guide to Event Handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) #dom #js
 
