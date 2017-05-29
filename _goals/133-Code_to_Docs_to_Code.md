@@ -122,7 +122,7 @@ This goal is intrinsically attractive to me, but I am pessimistic about (1) gett
 
 1. The goal recommends choosing a library that has a well-developed test suite, but leaves me wondering what that means and how it makes a difference. Lodash, for example, claims to perform hundreds of tests on every release, but I have found no more than a list of the test labels; I see no test directory in its github repository, so I can’t figure out what tests are really being performed. It isn’t clear to me whether we would run the library’s tests on our reimplementation, and, if so, how.
 
-1. Documentation is written not only by those who ask for software, but also by those who develop it and those who test it. Yet the goal seems to consider only the first of these.
+1. Documentation is written not only by those who ask for software, but also by those who develop it and those who test it. Yet the goal seems to consider only the first of these except in the stretch section.
 
 1. The ramp-up seems likely to be prolonged by the need to choose a library, in comparison with goals like Lodash and Underscore, where the team can begin promptly studying the specified library.
 
@@ -138,9 +138,9 @@ A compelling level-1 goal focused on documentation would, it seems to me, includ
 
 * References to examples of good documentation, with an explanation of why it is considered good.
 
-* A joint focus on API, implementation, and test documentation (and maybe even on crafting tutorials). (Other goals include implementation documentation (e.g., JSDoc) as a stretch item.)
+* A joint focus on API, implementation, and test documentation (and maybe even on crafting tutorials). (The goal includes implementation documentation (e.g., JSDoc), but only as a stretch item.)
 
-* A requirement to somehow address the relationship among these three classes of documentation.
+* A requirement to somehow address the relationship among these three classes of documentation, in the core of the goal.
 
 * An official team-size classification of 2.
 
