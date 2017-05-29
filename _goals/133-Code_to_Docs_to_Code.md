@@ -130,7 +130,7 @@ This goal is intrinsically attractive to me, but I am pessimistic about (1) gett
 
 1. This is a level-1 goal.
 
-None of the above issues alone would make me pessimistic about this goal, but the combination does. It makes me imagine that the first 2 days would be consumed by consultations with the coach and research to clarify what is unclear, and completion would be unlikely.
+None of the above issues alone would make me pessimistic about this goal, but the combination does. It makes me imagine that the first 2 days would be consumed by consultations with the coach and research to clarify what is unclear and to choose libraries, and completion would be unlikely.
 
 A compelling level-1 goal focused on documentation would, it seems to me, include:
 
