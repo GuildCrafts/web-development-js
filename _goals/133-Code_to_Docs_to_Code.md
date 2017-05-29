@@ -105,3 +105,45 @@ Have fun!
 [mit-license]: https://opensource.org/licenses/MIT
 [jsdoc]: http://usejsdoc.org/
 [npm-documentation]: https://www.npmjs.com/package/documentation
+
+## Comments on above goal specification
+
+This goal is intrinsically attractive to me, but I am pessimistic about (1) getting others to vote for it and (2) having a satisfying experience working on it, for the following reasons:
+
+1. It was introduced 4.5 months ago and apparently has not yet been performed by any team since then.
+
+1. It seems that documentation itself is regarded as a secondary or inferior subject by some at the Guild.
+
+1. The team size is ambiguous: This is classified as a 4-person goal, but the description says it can be performed by 2–4 persons. Thus, it is unclear whether it would be assigned to anybody if fewer than 4 voted for it.
+
+1. It advertises Lodash as an example of excellent documentation, although Lodash’s specifications leave more out than they include. They say almost nothing about argument validity or charitable assumptions to be made or not made when arguments are illogical (e.g., negative indexes). The examples don’t help with that, because they are few and show only expected cases. This leaves me wondering what counts as good documentation. The goal description doesn’t recommend any treatises that could answer that question.
+
+1. The relationship between the library’s existing documentation and the team’s own documentation is not clear. If the chosen library, by design, has good documentation, then how is the team expected to “write” new documentation? It would seem reasonable to ask a team to write good documentation for a POORLY documented library, but the given task puzzles me.
+
+1. The goal recommends choosing a library that has a well-developed test suite, but leaves me wondering what that means and how it makes a difference. Lodash, for example, claims to perform hundreds of tests on every release, but I have found no more than a list of the test labels; I see no test directory in its github repository, so I can’t figure out what tests are really being performed. It isn’t clear to me whether we would run the library’s tests on our reimplementation, and, if so, how.
+
+1. Documentation is written not only by those who ask for software, but also by those who develop it and those who test it. Yet the goal seems to consider only the first of these.
+
+1. The ramp-up seems likely to be prolonged by the need to choose a library, in comparison with goals like Lodash and Underscore, where the team can begin promptly studying the specified library.
+
+1. One of the recommended libraries, minimist, seems to have only 1 method, contrary to the goal’s specification of 20–40 as the desired range.
+
+1. This is a level-1 goal.
+
+None of the above issues alone would make me pessimistic about this goal, but the combination does. It makes me imagine that the first 2 days would be consumed by consultations with the coach and research to clarify what is unclear, and completion would be unlikely.
+
+A compelling level-1 goal focused on documentation would, it seems to me, include:
+
+* Directed reading on documentation theory and best practices, and on controversies within the industry about documentation.
+
+* References to examples of good documentation, with an explanation of why it is considered good.
+
+* A joint focus on API, implementation, and test documentation (and maybe even on crafting tutorials). (Other goals include implementation documentation (e.g., JSDoc) as a stretch item.)
+
+* A requirement to somehow address the relationship among these three classes of documentation.
+
+* An official team-size classification of 2.
+
+* An emphasis on quality and comprehensiveness rather than quantity, thus 3–6 items rather than 10–20.
+
+* A specified or recommended library whose documentation suffers, so the Learners are motivated by the reality of the contributions they are attempting to make.
