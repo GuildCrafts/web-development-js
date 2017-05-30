@@ -29,7 +29,7 @@ Do what you gotta do to get hired. Set your own objectives for the week, crush t
 
 Create a plan for what you need to work on including specific objectives. As you go through the week and discover useful resources, add them to this goal.
 
-Some example objectives (borrow and/or create yoru own):
+Some example objectives (borrow and/or create your own):
 
 - Finalize my resumé and get feedback from at least 2 people.
 - Complete my personal site with a portfolio of my work.
