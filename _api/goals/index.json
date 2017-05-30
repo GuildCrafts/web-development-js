@@ -1259,7 +1259,7 @@
         "practice"
       ],
       "level": "3",
-      "published": true,
+      "published": false,
       "redirect_from": "/goals/370",
       "url": "http://jsdev.learnersguild.org/goals/370-React_Native_API-Driven_App.html",
       "base_xp": 150,
