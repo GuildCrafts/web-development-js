@@ -7,7 +7,7 @@ title: Work on Ripple
 created_at: '2017-05-16T14:25:06Z'
 labels:
 - production
-published: true
+published: false
 level: '4'
 dynamic: true
 redirect_from: "/goals/394"

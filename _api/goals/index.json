@@ -272,7 +272,7 @@
       ],
       "goal_id": 144,
       "team_size": 1,
-      "title": "15 Coding Exercises",
+      "title": "Coding Exercises",
       "created_at": "2017-01-29T19:23:24Z",
       "labels": [
         "foundational"
@@ -280,7 +280,7 @@
       "published": true,
       "level": "1",
       "redirect_from": "/goals/144",
-      "url": "http://jsdev.learnersguild.org/goals/144-15_Coding_Exercises.html",
+      "url": "http://jsdev.learnersguild.org/goals/144-Coding_Exercises.html",
       "base_xp": 50,
       "bonus_xp": 3.75,
       "dynamic": false
@@ -1334,7 +1334,7 @@
       "labels": [
         "production"
       ],
-      "published": true,
+      "published": false,
       "level": "4",
       "dynamic": true,
       "redirect_from": "/goals/394",

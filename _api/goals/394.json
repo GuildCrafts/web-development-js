@@ -9,7 +9,7 @@
   "labels": [
     "production"
   ],
-  "published": true,
+  "published": false,
   "level": "4",
   "dynamic": true,
   "redirect_from": "/goals/394",
