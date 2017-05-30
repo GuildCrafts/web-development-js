@@ -32,7 +32,7 @@ A day-by-day structured deep dive into object-oriented JavaScript. Read articles
 
 This goal makes heavy use of external resources: the [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015) course on [Udacity](https://www.udacity.com/), books like [Eloquent JavaScript](http://eloquentjavascript.net), and various [video tutorials](https://www.youtube.com/watch?v=O8wwnhdkPE4).
 
-Fork the the [core-object-oriented-javascript repository][core-oojs] and use the fork as your project artifact.
+Fork the [core-object-oriented-javascript repository][core-oojs] and use the fork as your project artifact.
 
 In the [README.md][core-oojs-readme] you'll find that this goal is broken down into daily objectives and tasks in order to support you in pacing yourself. There are a ton of stretch goals at the end, so make sure to go with the recommended pace, or faster to get the most out of it.
 
