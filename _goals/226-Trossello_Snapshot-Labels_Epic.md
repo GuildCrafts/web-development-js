@@ -40,6 +40,9 @@ When you are done with this goal, your app should behave similar to this walk-th
 
 1. Fork & clone the [Trossello repo][trossello]
 1. Create and checkout a new branch for this goal, something like `labels-epic`
+FEEDBACK: I think it would be better if these instruction said to reset hard and push force origin master to the old sha and then cut the labels epic branch from master so when you do pull requests they merge cleanly. 
+
+
   ```
   $ git checkout -b labels-epic
   ```
