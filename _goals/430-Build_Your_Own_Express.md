@@ -68,6 +68,7 @@ res.status(200).send('Hello, World!')
 - [ ] HTTP headers can be set with `res.set` (see [this](https://expressjs.com/en/4x/api.html#res.set))
 - [ ] An HTML file can be sent with `res.sendFile(pathToFile)`
 - [ ] Middleware for serving static files is available at `express.static(dirPath)` (see [this](https://expressjs.com/en/4x/api.html#express.static))
+- [ ] `app`'s `get`, `post`, `put`, and `delete` functions can take a regular expression as first argument to match endpoints
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Resources
