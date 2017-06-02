@@ -67,6 +67,7 @@ res.status(200).send('Hello, World!')
 - [ ] HTTP `Content-Type` header can be set with `res.type` (see [this](https://expressjs.com/en/4x/api.html#res.type))
 - [ ] HTTP headers can be set with `res.set` (see [this](https://expressjs.com/en/4x/api.html#res.set))
 - [ ] An HTML file can be sent with `res.sendFile(pathToFile)`
+- [ ] Middleware for serving static files is available at `express.static(dirPath)` (see [this](https://expressjs.com/en/4x/api.html#express.static))
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Resources
