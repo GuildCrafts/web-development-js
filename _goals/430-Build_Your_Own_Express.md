@@ -53,7 +53,7 @@ app.use(function (req, res, next) {
 - [ ] Query strings are parsed and available at `req.query` (see [this](https://expressjs.com/en/4x/api.html#req.query))
 - [ ] The path is available at `req.path` (see [this](https://expressjs.com/en/4x/api.html#req.path))
 - [ ] Route parameters can be defined with a colon by the developer in the `PATH` of `app.METHOD` functions like this `/users/:userId/books/:bookId`. Parameters are available at `req.params`. See [this](https://expressjs.com/en/guide/routing.html#route-parameters)
-- [ ] `res.send` can send plain text, html, or json
+- [ ] `res.send` can send plain text, html, or json (see [this](https://expressjs.com/en/4x/api.html#res.send))
 - [ ] Response status can be set like this (see [this](https://expressjs.com/en/4x/api.html#res.status))
 ```
 res.status(200)
