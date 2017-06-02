@@ -53,6 +53,20 @@ app.use(function (req, res, next) {
 - [ ] Query strings are parsed and available at `req.query` (see [this](https://expressjs.com/en/4x/api.html#req.query))
 - [ ] The path is available at `req.path` (see [this](https://expressjs.com/en/4x/api.html#req.path))
 - [ ] Route parameters can be defined with a colon by the developer in the `PATH` of `app.METHOD` functions like this `/users/:userId/books/:bookId`. Parameters are available at `req.params`. See [this](https://expressjs.com/en/guide/routing.html#route-parameters)
+- [ ] A plain text response can be sent with `res.send`
+- [ ] Response status can be set like this (see [this](https://expressjs.com/en/4x/api.html#res.status))
+```
+res.status(200)
+res.send('Hello, World!')
+```
+or this
+```
+res.status(200).send('Hello, World!')
+```
+- [ ] A json response can be sent with `res.json` (see [this](https://expressjs.com/en/4x/api.html#res.json))
+- [ ] HTTP `Content-Type` header can be set with `res.type` (see [this](https://expressjs.com/en/4x/api.html#res.type))
+- [ ] HTTP headers can be set with `res.set` (see [this](https://expressjs.com/en/4x/api.html#res.set))
+- [ ] An HTML file can be sent with `res.sendFile(pathToFile)`
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Resources
