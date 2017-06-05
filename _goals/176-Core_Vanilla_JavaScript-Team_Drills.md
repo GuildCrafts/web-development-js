@@ -10,6 +10,7 @@ labels:
 - practice
 published: false
 level: '1'
+base_xp: 150
 redirect_from: "/goals/176"
 ---
 
