@@ -279,10 +279,10 @@
       ],
       "published": true,
       "level": "1",
+      "base_xp": 75,
       "redirect_from": "/goals/144",
       "url": "http://jsdev.learnersguild.org/goals/144-Coding_Exercises.html",
-      "base_xp": 50,
-      "bonus_xp": 3.75,
+      "bonus_xp": 5.625,
       "dynamic": false
     },
     {
@@ -298,10 +298,10 @@
       ],
       "published": true,
       "level": "2",
+      "base_xp": 150,
+      "bonus_xp": 10,
       "redirect_from": "/goals/150",
       "url": "http://jsdev.learnersguild.org/goals/150-Mac_Calculator_Clone.html",
-      "base_xp": 100,
-      "bonus_xp": 7.5,
       "dynamic": false
     },
     {
@@ -435,10 +435,10 @@
       ],
       "published": true,
       "level": "1",
+      "base_xp": 60,
+      "bonus_xp": 5,
       "redirect_from": "/goals/174",
       "url": "http://jsdev.learnersguild.org/goals/174-Core_Vanilla_JavaScript-Solo.html",
-      "base_xp": 50,
-      "bonus_xp": 3.75,
       "dynamic": false
     },
     {
@@ -455,10 +455,10 @@
       ],
       "published": false,
       "level": "1",
+      "base_xp": 150,
       "redirect_from": "/goals/176",
       "url": "http://jsdev.learnersguild.org/goals/176-Core_Vanilla_JavaScript-Team_Drills.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
+      "bonus_xp": 22.5,
       "dynamic": false
     },
     {
