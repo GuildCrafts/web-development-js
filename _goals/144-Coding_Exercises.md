@@ -9,6 +9,7 @@ labels:
 - foundational
 published: true
 level: '1'
+base_xp: 75
 redirect_from: "/goals/144"
 ---
 

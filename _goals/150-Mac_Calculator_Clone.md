@@ -9,6 +9,8 @@ labels:
 - practice
 published: true
 level: '2'
+base_xp: 150
+bonus_xp: 10
 redirect_from: "/goals/150"
 ---
 
