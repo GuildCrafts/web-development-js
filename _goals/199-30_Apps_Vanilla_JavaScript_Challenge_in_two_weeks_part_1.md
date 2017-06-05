@@ -1,12 +1,12 @@
 authors: "thisisrai"
- team_size: 1-4
+ team_size: 1
  goal_id: 199
- title: "Technical Freedom - Structureless Learning"
+ title: "30 Apps Vanilla JavaScript Challenge in two weeks part 1"
  created_at: '2017-06-0511:57:29Z'
  labels: LABELS
  level: '1'
  published: false
- redirect_from: '/goals/434'
+ redirect_from: '/goals/199'
 
 # 30 Apps Vanilla JavaScript Challenge in two weeks part 1
 
@@ -20,7 +20,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Create 15 Applications Using Vanilla Javascript. 
+Create 15 small and simple applications Using Vanilla Javascript, an example would is a simple clock. 
 
 
 ## Context
@@ -31,14 +31,14 @@ This goal will challenge your ability to build simple applications without the u
 
 #### General
 
-- [ ] Artifact produced.
+- [ ] Artifact produced; readme file has completed specs, and each application is its own file.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Every pull request has been reviewed by at least one other person.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
-#### 12 Applications
+#### 15 Applications
 
 Set up: 
     - Go to https://javascript30.com/ and sign up for a free account. 
@@ -75,7 +75,7 @@ Day 5
 
 ### Stretch
 
-Write some thoughts on what you've learned. 
+- [ ] Make sure that all code is written in ES6.
 
 ## Resources
 
