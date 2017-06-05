@@ -34,7 +34,7 @@ Create 15 Applications Using Vanilla Javascript. You will be taking a deep dive 
 
 This goal makes heavy use of [JavaScript30][javascript30].
 
-Create your own repository and use that repository as your artifact.
+Fork the repository located here: [JavaScript 30 REPO][javascript30 REPO].
 
 ## Context
 
@@ -63,3 +63,4 @@ This goal will challenge your ability to build simple applications without the u
 
 [javascript30]: https://javascript30.com
 [mit-license]: https://opensource.org/licenses/MIT
+[javascript30 REPO]: https://github.com/yogimasterson/JavaScript30
