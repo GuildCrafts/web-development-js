@@ -32,7 +32,7 @@ This goal will likely be within your ZPD if you...
 
 Create 15 Applications Using Vanilla Javascript. You will be taking a deep dive into Vanilla JavaScript. Follow along with videos and create functioning real world applications with Vanilla Javascript. 
 
-This goal makes heavy use of [JavaScript30][javascript30]
+This goal makes heavy use of [JavaScript30][javascript30].
 
 Create your own repository and use that repository as your artifact.
 
@@ -46,6 +46,7 @@ This goal will challenge your ability to build simple applications without the u
 
 - [ ] Artifact produced.
 - [ ] Each "day" is located within its own file.
+- [ ] You have completed days 16-30.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
 - [ ] All major features are added via pull requests with a clear description and concise commit messages.
