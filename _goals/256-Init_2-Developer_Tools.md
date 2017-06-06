@@ -15,7 +15,7 @@ bonus_xp: 10
 redirect_from: '/goals/256'
 ---
 
-# Init 2: Developer Tools
+# Init 0: Developer Tools
 
 ## Introduction
 
@@ -228,6 +228,12 @@ If you don't have an idea for a package that you'd like to build, you could find
 - [ ] Artifact includes link to Atom package repo
 
 ## Resources
+
+##### Guild Specific info
+
+- TODO: Write a guide on voting process with links
+- TODO: Write a guide on Frontend Masters account [licenses](https://docs.google.com/spreadsheets/d/1arLAX1AaCqMadN8BTGcr6t5xmTcTV3UtPJl8IVEiURc/edit#gid=0)
+- TODO: Write Guide to Matrix and [Phil's Heatmap](https://docs.google.com/spreadsheets/d/1Xpg0s397Ewmgp-hLmqyFl4q32ZVwx-K87Fn1k1uLUi4/edit#gid=202686024)
 
 ##### Shell
 
