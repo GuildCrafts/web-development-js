@@ -20,7 +20,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Create 15 small and simple applications Using Vanilla Javascript, an example would is a simple clock. 
+Create 15 small, simple, client-side only applications Using Vanilla Javascript, an example would be a simple clock. 
 
 
 ## Context
@@ -31,11 +31,9 @@ This goal will challenge your ability to build simple applications without the u
 
 #### General
 
-- [ ] Artifact produced; readme file has completed specs, and each application is its own file.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Every pull request has been reviewed by at least one other person.
+- [ ] Artifact produced as a repo.
+- [ ] Readme file has completed specs.
+- [ ] Each application is its own file.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 #### 15 Applications
