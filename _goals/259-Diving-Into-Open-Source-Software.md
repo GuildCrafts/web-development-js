@@ -69,6 +69,10 @@ Common libraries issue list
 - https://github.com/npm/npm/issues
 - https://github.com/freeCodeCamp/freeCodeCamp/issues
 
+Helpful articles
+
+- https://medium.freecodecamp.com/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba
+
 Open Source beginner projects
 
 - http://up-for-grabs.net/#/tags/javascript
