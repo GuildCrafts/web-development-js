@@ -120,7 +120,7 @@ These are the basic specs for Bossggle, broken into 5 stages. If you complete th
 
 #### Stage 1
 - [ ] Repo is created on GitHub.
-- [ ] The site looks the same as in the [mockups](#mockups) (except without the same words/letters/points - those are just placeholders).
+- [ ] The site looks exactly the same (or do you mean similar) as in the [mockups](#mockups) (except without the same words/letters/points - those are just placeholders).
 - [ ] Your repo includes the files: `index.html`, `main.css`, and `bossggle.js`.
 
 #### Stage 2
