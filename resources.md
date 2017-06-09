@@ -58,7 +58,7 @@ Collection of resources referenced from goals. [Edit this page](https://github.c
 - ThoughtWorks Blog: [Effective Navigation in Pair Programming](https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming) #pairing
 - Blog: [Remote Pair Programming](http://remotepairprogramming.com/) #pairing
 - [jQuery Learning Center](https://learn.jquery.com/) #jquery
-
+- [React Search Engine Optimization](http://andrewhfarmer.com/react-seo/)
 ## Courses
 
 - Treehouse: [Front-End Web Development Track](https://teamtreehouse.com/tracks/front-end-web-development) #js #html #css
