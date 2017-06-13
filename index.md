@@ -2,23 +2,14 @@
 layout: page
 ---
 
-# Goal Library for Learners Guild
+# Phase 3 Goals
 
-Browse the goals in the menu, organized by their level.
-
----
-
-## Recently Created
-
-{% assign most_recent_goals = site.goals | sort: 'created_at' | reverse %}
+{% assign phase_3_goals = site.goals | where:"phase",3 %}
 
 <div class="mdl-grid">
-{% for goal in most_recent_goals limit:24 %}
+{% for goal in phase_3_goals %}
 
   <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__menu">
-      {% include goal_badges.html goal=goal %}
-    </div>
     <div class="mdl-card__title mdl-card--expand">
       <h2 class="mdl-card__title-text">{{ goal.title }}</h2>
     </div>
