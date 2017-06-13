@@ -10,7 +10,6 @@ labels:
 - foundational
 published: true
 level: '1'
-phase: 3
 base_xp: 60
 bonus_xp: 25
 redirect_from: '/goals/410'

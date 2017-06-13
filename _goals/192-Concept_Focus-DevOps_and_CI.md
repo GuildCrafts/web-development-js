@@ -9,7 +9,6 @@ labels:
 - concept-focus
 level: '4'
 published: true
-phase: 3
 redirect_from: '/goals/192'
 ---
 
