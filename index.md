@@ -4,7 +4,7 @@ layout: page
 
 # Phase 3 Goals
 
-{% assign phase_3_goals = site.goals | where:"phase",3 %}
+{% assign phase_3_goals = site.goals | where:"phase",3 | sort: "title" %}
 
 <div class="mdl-grid">
 {% for goal in phase_3_goals %}
