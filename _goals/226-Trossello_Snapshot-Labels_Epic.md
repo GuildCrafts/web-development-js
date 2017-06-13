@@ -9,6 +9,7 @@ labels:
 - snapshot
 published: true
 level: '2'
+phase: 3
 redirect_from: "/goals/226"
 base_xp: 250
 bonus_xp: 37
