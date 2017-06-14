@@ -10,7 +10,6 @@ labels:
 - practice
 published: true
 level: '1'
-phase: 3
 base_xp: 150
 redirect_from: "/goals/16"
 ---
