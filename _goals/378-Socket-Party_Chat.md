@@ -8,7 +8,6 @@ created_at: '2017-05-12T14:38:28Z'
 labels:
 - practice
 level: '2'
-phase: 3
 published: true
 redirect_from: '/goals/378'
 ---

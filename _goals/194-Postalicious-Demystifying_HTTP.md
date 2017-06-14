@@ -10,7 +10,6 @@ labels:
 - foundational
 published: true
 level: '1'
-phase: 3
 redirect_from: "/goals/194"
 ---
 

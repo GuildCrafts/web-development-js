@@ -9,7 +9,6 @@ labels:
 - snapshot
 published: true
 level: '2'
-phase: 3
 redirect_from: "/goals/182"
 ---
 
