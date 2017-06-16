@@ -17,23 +17,8 @@ layout: default
       </span>
     {% endfor %}
     &nbsp;
-
-    {% include goal_badges.html goal=page %}
   </div>
 
-  <div class="mdl-card__actions mdl-card--border">
-    {% include goal_xp.html goal=page %}
-
-    <div class="mdl-layout-spacer"></div>
-
-    {% for author in page.authors %}
-      <span id="author-{{author}}" class="mdl-chip mdl-chip--contact">
-        <img class="mdl-chip__contact" src="https://avatars.githubusercontent.com/{{ author }}?size=32">
-        <span class="mdl-chip__text">{{ author }}</span>
-      </span>
-      <div class="mdl-tooltip" data-mdl-for="author-{{raw_handle}}">Goal Author</div>
-    {% endfor %}
-  </div>
   <div class="custom-content custom-hide-h1 mdl-card__supporting-text mdl-card--border">
 
     {{ content | replace: '<li>[ ]',

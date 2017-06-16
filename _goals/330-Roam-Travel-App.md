@@ -9,6 +9,7 @@ labels:
 - practice
 published: true
 level: '3'
+phase: 3
 redirect_from: '/goals/330'
 ---
 

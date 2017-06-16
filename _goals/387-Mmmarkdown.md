@@ -9,6 +9,7 @@ labels:
 - practice
 published: true
 level: '1'
+phase: 3
 redirect_from: '/goals/387'
 ---
 
@@ -156,7 +157,7 @@ Build out multiple-file functionality, and use cookies to remember the last open
 
 One option for showing multiple files is to have a separate URL for each file, and let the server render the view (also called **server-side rendering**). This way, each file would have its own URL, named after its filename. For example, if the markdown file is called `Todos.md`, its URL would be `http://localhost:3000/todos`. Then, you could add links to your HTML pointing to this URL.
 
-Alternatively, you could use AJAX calls to do **client-side rendering** by requesting the file contents with JavaScript and using them to update the page without needing to navigate to a new page with a separate URL. 
+Alternatively, you could use AJAX calls to do **client-side rendering** by requesting the file contents with JavaScript and using them to update the page without needing to navigate to a new page with a separate URL.
 
 #### Stage 5
 

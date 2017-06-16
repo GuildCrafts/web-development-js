@@ -8,6 +8,7 @@ created_at: '2017-05-11T11:00:00Z'
 labels:
 - practice
 level: '1'
+phase: 3
 base_xp: 150
 published: true
 redirect_from: '/goals/383'

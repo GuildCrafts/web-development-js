@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "tannerwelsh"
+  ],
+  "team_size": 1,
+  "goal_id": 416,
+  "title": "Phase 2 Interview",
+  "created_at": "2017-06-13T10:38:28Z",
+  "labels": [
+    "phase"
+  ],
+  "published": false,
+  "level": "1",
+  "redirect_from": "/goals/416",
+  "url": "http://jsdev.learnersguild.org/goals/416-Phase_2_Interview.html",
+  "base_xp": 50,
+  "bonus_xp": 3.75,
+  "dynamic": false,
+  "content": "# Phase 2 Interview\n\nPlaceholder goal to allow for tracking of learners in phase 2 interview.\n\nFor more details, see [https://guide.learnersguild.org/Phases/Interviews/](https://guide.learnersguild.org/Phases/Interviews/)."
+}
