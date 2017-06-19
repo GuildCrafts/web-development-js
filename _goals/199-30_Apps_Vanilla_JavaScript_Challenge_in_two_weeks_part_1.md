@@ -1,12 +1,15 @@
-authors: "thisisrai"
- team_size: 1
- goal_id: 199
- title: "30 Apps Vanilla JavaScript Challenge in two weeks part 1"
- created_at: '2017-06-0511:57:29Z'
- labels: LABELS
- level: '1'
- published: false
- redirect_from: '/goals/199'
+---
+authors:
+- "thisisrai"
+team_size: 1
+goal_id: 199
+title: "30 Apps Vanilla JavaScript Challenge in two weeks part 1"
+created_at: '2017-06-0511:57:29Z'
+labels: LABELS
+level: '1'
+published: false
+redirect_from: '/goals/199'
+---
 
 # 30 Apps Vanilla JavaScript Challenge in two weeks part 1
 
@@ -20,12 +23,12 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-Create 15 small, simple, client-side only applications Using Vanilla Javascript, an example would be a simple clock. 
+Create 15 small, simple, client-side only applications Using Vanilla Javascript, an example would be a simple clock.
 
 
 ## Context
 
-This goal will challenge your ability to build simple applications without the use of external libraries. 
+This goal will challenge your ability to build simple applications without the use of external libraries.
 
 ## Specifications
 
@@ -38,12 +41,12 @@ This goal will challenge your ability to build simple applications without the u
 
 #### 15 Applications
 
-Set up: 
-    - Go to https://javascript30.com/ and sign up for a free account. 
+Set up:
+    - Go to https://javascript30.com/ and sign up for a free account.
 
-For each Application, make sure to download the correct starter file from https://github.com/wesbos/JavaScript30 and watch correct video.  
+For each Application, make sure to download the correct starter file from https://github.com/wesbos/JavaScript30 and watch correct video.
 
-Applications that you should complete each day. 
+Applications that you should complete each day.
 
 Day 1
 - [ ] JavaScript Drum Kit
@@ -56,7 +59,7 @@ Day 2
 - [ ] Type Ahead
 
 Day 3
-- [ ] Array Cardio Day 2	
+- [ ] Array Cardio Day 2
 - [ ] Fun with HTML5 Canvas
 - [ ] Dev Tools Domination
 
@@ -77,4 +80,4 @@ Day 5
 
 ## Resources
 
-https://javascript30.com/ 
+https://javascript30.com/
