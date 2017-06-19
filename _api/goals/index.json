@@ -493,6 +493,7 @@
       ],
       "published": true,
       "level": "2",
+      "phase": 3,
       "redirect_from": "/goals/181",
       "url": "http://jsdev.learnersguild.org/goals/181-Timeoff_Snapshot-Approver_Epic.html",
       "base_xp": 200,
@@ -635,6 +636,23 @@
     },
     {
       "authors": [
+        "thisisrai"
+      ],
+      "team_size": 1,
+      "goal_id": 199,
+      "title": "30 Apps Vanilla JavaScript Challenge in two weeks part 1",
+      "created_at": "2017-06-0511:57:29Z",
+      "labels": "LABELS",
+      "level": "1",
+      "published": false,
+      "redirect_from": "/goals/199",
+      "url": "http://jsdev.learnersguild.org/goals/199-30_Apps_Vanilla_JavaScript_Challenge_in_two_weeks_part_1.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "Jusdev89"
       ],
       "team_size": 2,
@@ -722,6 +740,7 @@
       ],
       "published": true,
       "level": "2",
+      "phase": 3,
       "redirect_from": "/goals/232",
       "base_xp": 250,
       "bonus_xp": 37,
@@ -1108,6 +1127,7 @@
       ],
       "published": true,
       "level": "3",
+      "phase": 3,
       "redirect_from": "/goals/330",
       "url": "http://jsdev.learnersguild.org/goals/330-Roam-Travel-App.html",
       "base_xp": 300,
@@ -1126,6 +1146,7 @@
         "practice"
       ],
       "level": "2",
+      "phase": 3,
       "published": true,
       "redirect_from": "/goals/356",
       "url": "http://jsdev.learnersguild.org/goals/356-Your_Portfolio_Site.html",
@@ -1297,6 +1318,7 @@
         "practice"
       ],
       "level": "1",
+      "phase": 3,
       "base_xp": 150,
       "published": true,
       "redirect_from": "/goals/383",
@@ -1317,6 +1339,7 @@
       ],
       "published": true,
       "level": "1",
+      "phase": 3,
       "redirect_from": "/goals/387",
       "url": "http://jsdev.learnersguild.org/goals/387-Mmmarkdown.html",
       "base_xp": 100,
@@ -1445,6 +1468,139 @@
     },
     {
       "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 412,
+      "title": "Phase 1",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/412",
+      "url": "http://jsdev.learnersguild.org/goals/412-Phase_1.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 413,
+      "title": "Phase 2",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/413",
+      "url": "http://jsdev.learnersguild.org/goals/413-Phase_2.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 414,
+      "title": "Phase 4",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/414",
+      "url": "http://jsdev.learnersguild.org/goals/414-Phase_4.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 415,
+      "title": "Phase 5",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/415",
+      "url": "http://jsdev.learnersguild.org/goals/415-Phase_5.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 416,
+      "title": "Phase 2 Interview",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/416",
+      "url": "http://jsdev.learnersguild.org/goals/416-Phase_2_Interview.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 417,
+      "title": "Phase 3 Interview",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/417",
+      "url": "http://jsdev.learnersguild.org/goals/417-Phase_3_Interview.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "tannerwelsh"
+      ],
+      "team_size": 1,
+      "goal_id": 418,
+      "title": "Phase 4 Interview",
+      "created_at": "2017-06-13T10:38:28Z",
+      "labels": [
+        "phase"
+      ],
+      "published": false,
+      "level": "1",
+      "redirect_from": "/goals/418",
+      "url": "http://jsdev.learnersguild.org/goals/418-Phase_4_Interview.html",
+      "base_xp": 50,
+      "bonus_xp": 3.75,
+      "dynamic": false
+    },
+    {
+      "authors": [
         "phoniks",
         "DianaVashti",
         "tannerwelsh"
@@ -1469,7 +1625,7 @@
         "rachel-ftw",
         "mantinone"
       ],
-      "team_size": 2,
+      "team_size": 1,
       "goal_id": 64,
       "title": "To Do List App",
       "created_at": "2016-08-06T00:52:33Z",
@@ -1478,10 +1634,11 @@
       ],
       "published": true,
       "level": "1",
+      "phase": 3,
       "redirect_from": "/goals/64",
       "url": "http://jsdev.learnersguild.org/goals/64-To_Do_List_App.html",
-      "base_xp": 100,
-      "bonus_xp": 15.0,
+      "base_xp": 50,
+      "bonus_xp": 3.75,
       "dynamic": false
     },
     {
@@ -1519,6 +1676,7 @@
       ],
       "published": true,
       "level": "1",
+      "phase": 3,
       "redirect_from": "/goals/69",
       "url": "http://jsdev.learnersguild.org/goals/69-Simple_Book_Store.html",
       "base_xp": 100,
@@ -1596,6 +1754,7 @@
       ],
       "published": true,
       "level": "1",
+      "phase": 3,
       "redirect_from": "/goals/98",
       "url": "http://jsdev.learnersguild.org/goals/98-Pizza_Restaurant-RDB_Schema_with_CRUD_API.html",
       "base_xp": 100,

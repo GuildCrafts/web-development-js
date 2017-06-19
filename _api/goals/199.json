@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "thisisrai"
+  ],
+  "team_size": 1,
+  "goal_id": 199,
+  "title": "30 Apps Vanilla JavaScript Challenge in two weeks part 1",
+  "created_at": "2017-06-0511:57:29Z",
+  "labels": "LABELS",
+  "level": "1",
+  "published": false,
+  "redirect_from": "/goals/199",
+  "url": "http://jsdev.learnersguild.org/goals/199-30_Apps_Vanilla_JavaScript_Challenge_in_two_weeks_part_1.html",
+  "base_xp": 50,
+  "bonus_xp": 3.75,
+  "dynamic": false,
+  "content": "# 30 Apps Vanilla JavaScript Challenge in two weeks part 1\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build basic web sites with HTML & CSS\n- Can add behavior to a web site with JavaScript\n- Are interested in only using vanilla JavaScript\n\n## Description\n\nCreate 15 small, simple, client-side only applications Using Vanilla Javascript, an example would be a simple clock.\n\n\n## Context\n\nThis goal will challenge your ability to build simple applications without the use of external libraries.\n\n## Specifications\n\n#### General\n\n- [ ] Artifact produced as a repo.\n- [ ] Readme file has completed specs.\n- [ ] Each application is its own file.\n- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].\n\n#### 15 Applications\n\nSet up:\n    - Go to https://javascript30.com/ and sign up for a free account.\n\nFor each Application, make sure to download the correct starter file from https://github.com/wesbos/JavaScript30 and watch correct video.\n\nApplications that you should complete each day.\n\nDay 1\n- [ ] JavaScript Drum Kit\n- [ ] JS and CSS Clock\n- [ ] CSS Variables\n\nDay 2\n- [ ] Array Cardio Day\n- [ ] Flex Panel Gallery\n- [ ] Type Ahead\n\nDay 3\n- [ ] Array Cardio Day 2\n- [ ] Fun with HTML5 Canvas\n- [ ] Dev Tools Domination\n\nDay 4\n- [ ] Hold Shift and Check Checkboxes\n- [ ] Custom Video Player\n- [ ] Key Sequence Detection\n\nDay 5\n- [ ] Slide in on Scroll\n- [ ] JavaScript References VS Copying\n- [ ] LocalStorage\n\n\n### Stretch\n\n- [ ] Make sure that all code is written in ES6.\n\n## Resources\n\nhttps://javascript30.com/"
+}
