@@ -3,7 +3,7 @@ email: info@learnersguild.org
 description: >
   Useful information and guidance for learning the craft
   of web development with JavaScript.
-url: "http://jsdev.learnersguild.org"
+url: "https://jsdev.learnersguild.org"
 baseurl: ""
 github_org: GuildCrafts
 github_repo: web-development-js
