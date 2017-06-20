@@ -12,7 +12,7 @@
   "published": true,
   "level": "1",
   "redirect_from": "/goals/123",
-  "url": "http://jsdev.learnersguild.org/goals/123-Core_Algorithms.html",
+  "url": "https://jsdev.learnersguild.org/goals/123-Core_Algorithms.html",
   "base_xp": 100,
   "bonus_xp": 15.0,
   "dynamic": false,
