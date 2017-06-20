@@ -9,6 +9,7 @@ labels:
 - phase
 published: false
 level: '1'
+phase: 2
 redirect_from: '/goals/413'
 ---
 
