@@ -60,7 +60,7 @@ If you choose this goal, you will have to consider questions such as:
 - [ ] Uses ajax/fetch calls to communicate with API endpoints.
 - [ ] Backend view rendering ( via pug or HTML ) is separated from API and socket actions.
 - [ ] Uses Javascript and/or jQuery for dymanic DOM mode creation and manipulation.
-- [ ] Repo includes a README.md with [spec list](http://jsdev.learnersguild.org/) and it is checked off with completed specs.
+- [ ] Repo includes a README.md with spec list and it is checked off with completed specs.
 - [ ] All dependancies are properly declared in a `package.json`
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
