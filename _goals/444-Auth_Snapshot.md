@@ -30,7 +30,7 @@ You will start by cloning a started app the has full CRUD functionality. From he
 
 ### Setting Up Your Snapshot
 
-1. Fork & clone the [Auth starter repo][trossello]
+1. Fork & clone the [Auth starter repo][https://github.com/GuildCrafts/auth-snapshot-starter]
 1. Create and checkout a new branch for this goal, something like `auth`
   ```
   $ git checkout -b auth
@@ -49,5 +49,5 @@ You will start by cloning a started app the has full CRUD functionality. From he
 - [ ] Redirect users who are not logged in to the login page (Make sure not logged in users can't see any of the pages or data other than the login and signup pages)
 - [ ] Create a user table in the database
 - [ ] When a user signs up, a new user row is created in the user table
-- [ ] When a user logs in, their username and password are validated in the user table. If the username/password combo doesn't exist or is invalid, the user receives an error. 
+- [ ] When a user logs in, their username and password are validated in the user table. If the username/password combo doesn't exist or is invalid, the user receives an error.
 - [ ] Passwords are encrypted with `bcrypt`
