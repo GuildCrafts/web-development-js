@@ -26,7 +26,7 @@ This goal will likely be within your ZPD if you...
 
 ## Description
 
-You will start by cloning a started app the has full CRUD functionality. From here, you will implementing auth using `express-session`, `bcrypt`, and `cookie-parser`.
+You will start by cloning a starter app the has full CRUD functionality. From here, you will implementing auth using `express-session`, `bcrypt`, and `cookie-parser`.
 
 ### Setting Up Your Snapshot
 
