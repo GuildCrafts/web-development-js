@@ -51,3 +51,5 @@ You will start by cloning a starter app the has full CRUD functionality. From he
 - [ ] When a user signs up, a new user row is created in the user table
 - [ ] When a user logs in, their username and password are validated in the user table. If the username/password combo doesn't exist or is invalid, the user receives an error.
 - [ ] Passwords are encrypted with `bcrypt`
+- [ ] `express-session` is used to store sessions on the server
+- [ ] `cookie-parser` is used to store cookies in the browser  
