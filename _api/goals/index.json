@@ -1608,6 +1608,46 @@
     },
     {
       "authors": [
+        "jlopker"
+      ],
+      "goal_id": 444,
+      "team_size": 1,
+      "title": "Auth Snapshot",
+      "created_at": "2017-06-28T11:10:48Z",
+      "labels": [
+        "snapshot"
+      ],
+      "published": true,
+      "level": "2",
+      "phase": 3,
+      "redirect_from": "/goals/444",
+      "base_xp": 250,
+      "bonus_xp": 37,
+      "url": "https://jsdev.learnersguild.org/goals/444-Auth_Snapshot.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
+        "jlopker"
+      ],
+      "goal_id": 446,
+      "team_size": 1,
+      "title": "Testing Snapshot",
+      "created_at": "2017-06-28T11:10:48Z",
+      "labels": [
+        "snapshot"
+      ],
+      "published": true,
+      "level": "2",
+      "phase": 3,
+      "redirect_from": "/goals/446",
+      "base_xp": 250,
+      "bonus_xp": 37,
+      "url": "https://jsdev.learnersguild.org/goals/446-Testing_Snapshot.html",
+      "dynamic": false
+    },
+    {
+      "authors": [
         "phoniks",
         "DianaVashti",
         "tannerwelsh"

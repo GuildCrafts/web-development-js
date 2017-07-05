@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "jlopker"
+  ],
+  "goal_id": 446,
+  "team_size": 1,
+  "title": "Testing Snapshot",
+  "created_at": "2017-06-28T11:10:48Z",
+  "labels": [
+    "snapshot"
+  ],
+  "published": true,
+  "level": "2",
+  "phase": 3,
+  "redirect_from": "/goals/446",
+  "base_xp": 250,
+  "bonus_xp": 37,
+  "url": "https://jsdev.learnersguild.org/goals/446-Testing_Snapshot.html",
+  "dynamic": false,
+  "content": "# Testing Snapshot\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build CRUD apps from scratch with Node.js and PostgreSQL\n- Are interested in implementing tests in an existing project\n\n## Description\n\nYou will start by cloning a starter app the has full CRUD functionality. From here, you will write tests using `chai-http`.\n\n### Setting Up Your Snapshot\n\n1. Fork & clone the [Contacts starter repo][https://github.com/GuildCrafts/contacts-snapshot-starter]\n1. Create and checkout a new branch for this goal, something like `testing`\n    ```\n    $ git checkout -b testing\n    ```\n1. Push your branch to the remote repo on GitHub\n    ```\n    $ git push -u origin testing\n    ```\n1. Follow the install instructions in the README of the starter repo\n1. Get started on the specs!\n\n## Specifications\n\n- [ ] You have `chai-http` installed\n- [ ] A test for the `/` GET route to make sure that the correct page is getting rendered and all the contacts are being received from the database\n- [ ] A test for the `/contacts/new` GET route that checks that the correct page is rendered\n- [ ] A test for the `/contacts` POST route that saves contact data to the database\n- [ ] A test for the `/contacts/:contactId` GET route that makes sure the correct data is returned\n- [ ] A test for the `/contacts/:contactId/delete` GET route that makes sure the correct data is deleted\n- [ ] A test for the `/search` GET route that checks that the search is returning the correct data and rendering the correct page"
+}

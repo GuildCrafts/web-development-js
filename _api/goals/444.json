@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "jlopker"
+  ],
+  "goal_id": 444,
+  "team_size": 1,
+  "title": "Auth Snapshot",
+  "created_at": "2017-06-28T11:10:48Z",
+  "labels": [
+    "snapshot"
+  ],
+  "published": true,
+  "level": "2",
+  "phase": 3,
+  "redirect_from": "/goals/444",
+  "base_xp": 250,
+  "bonus_xp": 37,
+  "url": "https://jsdev.learnersguild.org/goals/444-Auth_Snapshot.html",
+  "dynamic": false,
+  "content": "# Auth Snapshot\n\n## Challenge Rating\n\nThis goal will likely be within your ZPD if you...\n\n- Can build CRUD apps from scratch with Node.js and PostgreSQL\n- Are interested in implementing auth in an existing project\n\n## Description\n\nYou will start by cloning a starter app the has full CRUD functionality. From here, you will implementing auth using `express-session`, `bcrypt`, and `cookie-parser`.\n\n### Setting Up Your Snapshot\n\n1. Fork & clone the [Contacts starter repo][https://github.com/GuildCrafts/contacts-snapshot-starter]\n1. Create and checkout a new branch for this goal, something like `auth`\n    ```\n    $ git checkout -b auth\n    ```\n1. Push your branch to the remote repo on GitHub\n    ```\n    $ git push -u origin auth\n    ```\n1. Follow the install instructions in the README of the starter repo\n1. Get started on the specs!\n\n## Specifications\n\n- [ ] Create a signup page with a form (links to the login page)\n- [ ] Create a login page with a form (links to the signup page)\n- [ ] Redirect users who are not logged in to the login page (Make sure not logged in users can't see any of the pages or data other than the login and signup pages)\n- [ ] Create a user table in the database\n- [ ] When a user signs up, a new user row is created in the user table\n- [ ] When a user logs in, their username and password are validated in the user table. If the username/password combo doesn't exist or is invalid, the user receives an error.\n- [ ] Passwords are encrypted with `bcrypt`\n- [ ] `express-session` is used to store sessions on the server\n- [ ] `cookie-parser` is used to store cookies in the browser  "
+}
