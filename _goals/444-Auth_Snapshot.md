@@ -30,7 +30,7 @@ You will start by cloning a starter app the has full CRUD functionality. From he
 
 ### Setting Up Your Snapshot
 
-1. Fork & clone the [Contacts starter repo][https://github.com/GuildCrafts/contacts-snapshot-starter]
+1. Fork & clone the [Contacts starter repo](https://github.com/GuildCrafts/contacts-snapshot-starter)
 1. Create and checkout a new branch for this goal, something like `auth`
     ```
     $ git checkout -b auth
