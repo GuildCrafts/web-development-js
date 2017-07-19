@@ -15,6 +15,12 @@ bonus_xp: 15
 redirect_from: '/goals/254'
 ---
 
+<!--
+  Here is a copy/paste of some feedback from a learner:
+  
+  #HEY COACH READ THIS! I think this is actually a really good goal. I'm learning a lot but I think it should be switched up to two goals, part 1 and part 2. When you're new to querying and building databases, it reminds me of learning angular. It's sooo easy to pick up , up until the point where you actually have to do more than the most rudimentary things, you know .. the stuff that actually gets used in the real world away form the world of tutorials. My takeaway from this, because i didn't finish the goal is that as soona s I started thinking i was on a roll and getting a hang of this, there . would be a new surprise to discover, try and wrap what you know about stuff up to this point , digesting it and then beinb able to process and employ it. I'm hoping that in the future the language of the instructions could make it crystal clear a bout whether you wanted just the diagram or actual schema coded. I coded everything, or I tried to with what i was comprehending , i'm continuing to work on it even after the retro because i'm trying to get a head start on learning routing and the back end and I . think its an excellent way to get it done. Im' using the speudo EHR schema as the inspiration for trying to build it out. Cheers!
+-->
+
 # Init 4: Relational Databases
 
 ## Challenge Rating
