@@ -54,6 +54,10 @@ Complete these sections (including the exercises) of the [Rethinking Asynchronou
 - Promises
 
 Complete the [Understanding Promises in JavaScript][treehouse-workshop-promises] workshop (22m).
+<!--
+  There are exercises in the above workshop which I can't give credit for because there are no checkboxes.
+  Consider adding checkboxes.
+-->
 
 Read [this](https://coligo.io/javascript-promises-plain-simple/) blog post and [this](https://scotch.io/tutorials/understanding-javascript-promises-pt-i-background-basics) blog post.
 
