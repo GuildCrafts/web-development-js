@@ -1,0 +1,66 @@
+---
+authors:
+- "Michael Masterson"
+team_size: 1
+goal_id: 200
+title: '30 Apps Vanilla JavaScript in two weeks Part 2'
+created_at: '2017-06-05T12:55:44Z'
+labels:
+- core
+- foundational
+- practice
+published: false
+level: '1'
+base_xp: 60
+bonus_xp: 5
+redirect_from: "/goals/200"
+---
+
+# 30 Apps Vanilla JavaScript in two weeks Part 2
+
+## Challenge Rating
+
+This goal will likely be within your ZPD if you...
+
+- Can build basic web sites with HTML & CSS
+- Can add behavior to a web site with JavaScript
+- Are interested in only using vanilla JavaScript
+- Are interested in strengthening your knowledge of and fluency with JavaScript
+- You have completed 30 Apps Vanilla Javascript in two weeks Part 1
+
+## Description
+
+Create 15 Applications Using Vanilla Javascript. You will be taking a deep dive into Vanilla JavaScript. Follow along with videos and create functioning real world applications with Vanilla Javascript. 
+
+This goal makes heavy use of [JavaScript30][javascript30].
+
+Fork the repository located here: [JavaScript 30 REPO][javascript30 REPO].
+
+## Context
+
+This goal will challenge your ability to build simple applications without the use of external libraries. 
+
+## Specifications
+
+### General
+
+- [ ] Artifact produced.
+- [ ] Each "day" is located within its own file.
+- [ ] You have completed days 16-30.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Every pull request has been reviewed by at least one other person.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Stretch
+
+- [ ] Take what you have learned and see if you can build your own app.
+
+## Resources
+
+[JavaScript30][javascript30]
+
+[javascript30]: https://javascript30.com
+[mit-license]: https://opensource.org/licenses/MIT
+[javascript30 REPO]: https://github.com/yogimasterson/JavaScript30
