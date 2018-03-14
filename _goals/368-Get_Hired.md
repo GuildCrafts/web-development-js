@@ -50,4 +50,6 @@ If you're in the final stretch at the guild, use this goal to focus on the thing
 
 ## Resources
 
-_Resource list goes here_
+- [Angel List](https://angel.co) is a site built to connect programmers with startups.  Sign up, get your profile, and click through a big ol' list of companies who are looking to hire.
+
+- [Canva](https://www.canva.com/) is an excellent graphic design editor that will let you throw together an attractive resume.
